@@ -98,7 +98,6 @@ namespace _46_50_ToanLop3
             }
         }
         #endregion
-
         #region Chay menu khi chon BatDau
         private void bntBatDau_Click_1(object sender, EventArgs e)
         {

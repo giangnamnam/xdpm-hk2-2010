@@ -28,22 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem41 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chương I",
             "abc"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem42 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chương II",
             "def"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem43 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
             "Chương III",
             "ghi"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem44 = new System.Windows.Forms.ListViewItem("Chương IV");
-            System.Windows.Forms.ListViewItem listViewItem45 = new System.Windows.Forms.ListViewItem("Chương V");
-            System.Windows.Forms.ListViewItem listViewItem46 = new System.Windows.Forms.ListViewItem("Chương VI");
-            System.Windows.Forms.ListViewItem listViewItem47 = new System.Windows.Forms.ListViewItem("Chương VII");
-            System.Windows.Forms.ListViewItem listViewItem48 = new System.Windows.Forms.ListViewItem("Chương VIII");
-            System.Windows.Forms.ListViewItem listViewItem49 = new System.Windows.Forms.ListViewItem("Chương IX");
-            System.Windows.Forms.ListViewItem listViewItem50 = new System.Windows.Forms.ListViewItem("Bài Tập Thêm");
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem("Chương IV");
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem("Chương V");
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem("Chương VI");
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem("Chương VII");
+            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem("Chương VIII");
+            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem("Chương IX");
+            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem("Bài Tập Thêm");
             this.label1 = new System.Windows.Forms.Label();
             this.ListView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
@@ -73,10 +73,13 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(382, 66);
+            this.label1.Location = new System.Drawing.Point(425, 54);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(387, 25);
             this.label1.TabIndex = 19;
@@ -84,54 +87,55 @@
             // 
             // ListView1
             // 
+            this.ListView1.BackgroundImage = global::_46_50_ToanLop3.Properties.Resources.flower10;
             this.ListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
-            this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            listViewItem41.Checked = true;
-            listViewItem41.StateImageIndex = 1;
-            listViewItem41.Tag = "chuong1";
-            listViewItem42.Checked = true;
-            listViewItem42.StateImageIndex = 1;
-            listViewItem42.Tag = "chuong2";
-            listViewItem43.Checked = true;
-            listViewItem43.StateImageIndex = 1;
-            listViewItem43.Tag = "chuong3";
-            listViewItem44.Checked = true;
-            listViewItem44.StateImageIndex = 1;
-            listViewItem44.Tag = "chuong4";
-            listViewItem45.Checked = true;
-            listViewItem45.StateImageIndex = 1;
-            listViewItem45.Tag = "chuong5";
-            listViewItem46.Checked = true;
-            listViewItem46.StateImageIndex = 1;
-            listViewItem46.Tag = "chuong6";
-            listViewItem47.Checked = true;
-            listViewItem47.StateImageIndex = 1;
-            listViewItem47.Tag = "chuong7";
-            listViewItem48.Checked = true;
-            listViewItem48.StateImageIndex = 1;
-            listViewItem48.Tag = "chuong8";
-            listViewItem49.Checked = true;
-            listViewItem49.StateImageIndex = 1;
-            listViewItem49.Tag = "chuong9";
-            listViewItem50.Checked = true;
-            listViewItem50.StateImageIndex = 1;
-            listViewItem50.Tag = "baiTapThem";
+            this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            listViewItem21.Checked = true;
+            listViewItem21.StateImageIndex = 1;
+            listViewItem21.Tag = "chuong1";
+            listViewItem22.Checked = true;
+            listViewItem22.StateImageIndex = 1;
+            listViewItem22.Tag = "chuong2";
+            listViewItem23.Checked = true;
+            listViewItem23.StateImageIndex = 1;
+            listViewItem23.Tag = "chuong3";
+            listViewItem24.Checked = true;
+            listViewItem24.StateImageIndex = 1;
+            listViewItem24.Tag = "chuong4";
+            listViewItem25.Checked = true;
+            listViewItem25.StateImageIndex = 1;
+            listViewItem25.Tag = "chuong5";
+            listViewItem26.Checked = true;
+            listViewItem26.StateImageIndex = 1;
+            listViewItem26.Tag = "chuong6";
+            listViewItem27.Checked = true;
+            listViewItem27.StateImageIndex = 1;
+            listViewItem27.Tag = "chuong7";
+            listViewItem28.Checked = true;
+            listViewItem28.StateImageIndex = 1;
+            listViewItem28.Tag = "chuong8";
+            listViewItem29.Checked = true;
+            listViewItem29.StateImageIndex = 1;
+            listViewItem29.Tag = "chuong9";
+            listViewItem30.Checked = true;
+            listViewItem30.StateImageIndex = 1;
+            listViewItem30.Tag = "baiTapThem";
             this.ListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem41,
-            listViewItem42,
-            listViewItem43,
-            listViewItem44,
-            listViewItem45,
-            listViewItem46,
-            listViewItem47,
-            listViewItem48,
-            listViewItem49,
-            listViewItem50});
+            listViewItem21,
+            listViewItem22,
+            listViewItem23,
+            listViewItem24,
+            listViewItem25,
+            listViewItem26,
+            listViewItem27,
+            listViewItem28,
+            listViewItem29,
+            listViewItem30});
             this.ListView1.Location = new System.Drawing.Point(23, 37);
             this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(343, 376);
+            this.ListView1.Size = new System.Drawing.Size(374, 376);
             this.ListView1.TabIndex = 17;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
@@ -140,13 +144,13 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "Chương";
-            this.columnHeader1.Width = 153;
+            this.columnHeader1.Width = 166;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tựa đề";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 168;
+            this.columnHeader2.Width = 196;
             // 
             // btnThoat
             // 
@@ -218,70 +222,70 @@
             // chươngIToolStripMenuItem
             // 
             this.chươngIToolStripMenuItem.Name = "chươngIToolStripMenuItem";
-            this.chươngIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngIToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngIToolStripMenuItem.Text = "Chương I";
             this.chươngIToolStripMenuItem.Click += new System.EventHandler(this.chươngIToolStripMenuItem_Click);
             // 
             // chươngIIToolStripMenuItem
             // 
             this.chươngIIToolStripMenuItem.Name = "chươngIIToolStripMenuItem";
-            this.chươngIIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngIIToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngIIToolStripMenuItem.Text = "Chương II";
             this.chươngIIToolStripMenuItem.Click += new System.EventHandler(this.chươngIIToolStripMenuItem_Click);
             // 
             // chươngIIIToolStripMenuItem
             // 
             this.chươngIIIToolStripMenuItem.Name = "chươngIIIToolStripMenuItem";
-            this.chươngIIIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngIIIToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngIIIToolStripMenuItem.Text = "Chương III";
             this.chươngIIIToolStripMenuItem.Click += new System.EventHandler(this.chươngIIIToolStripMenuItem_Click);
             // 
             // chươngIVToolStripMenuItem
             // 
             this.chươngIVToolStripMenuItem.Name = "chươngIVToolStripMenuItem";
-            this.chươngIVToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngIVToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngIVToolStripMenuItem.Text = "Chương IV";
             this.chươngIVToolStripMenuItem.Click += new System.EventHandler(this.chươngIVToolStripMenuItem_Click);
             // 
             // chươngVToolStripMenuItem
             // 
             this.chươngVToolStripMenuItem.Name = "chươngVToolStripMenuItem";
-            this.chươngVToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngVToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngVToolStripMenuItem.Text = "Chương V";
             this.chươngVToolStripMenuItem.Click += new System.EventHandler(this.chươngVToolStripMenuItem_Click);
             // 
             // chươngVIToolStripMenuItem
             // 
             this.chươngVIToolStripMenuItem.Name = "chươngVIToolStripMenuItem";
-            this.chươngVIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngVIToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngVIToolStripMenuItem.Text = "Chương VI";
             this.chươngVIToolStripMenuItem.Click += new System.EventHandler(this.chươngVIToolStripMenuItem_Click);
             // 
             // chươngVIIToolStripMenuItem
             // 
             this.chươngVIIToolStripMenuItem.Name = "chươngVIIToolStripMenuItem";
-            this.chươngVIIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngVIIToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngVIIToolStripMenuItem.Text = "Chương VII";
             this.chươngVIIToolStripMenuItem.Click += new System.EventHandler(this.chươngVIIToolStripMenuItem_Click);
             // 
             // chươngVIIIToolStripMenuItem
             // 
             this.chươngVIIIToolStripMenuItem.Name = "chươngVIIIToolStripMenuItem";
-            this.chươngVIIIToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chươngVIIIToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
             this.chươngVIIIToolStripMenuItem.Text = "Chương VIII";
             this.chươngVIIIToolStripMenuItem.Click += new System.EventHandler(this.chươngVIIIToolStripMenuItem_Click);
             // 
             // chươngIVToolStripMenuItem1
             // 
             this.chươngIVToolStripMenuItem1.Name = "chươngIVToolStripMenuItem1";
-            this.chươngIVToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.chươngIVToolStripMenuItem1.Size = new System.Drawing.Size(147, 22);
             this.chươngIVToolStripMenuItem1.Text = "Chương IV";
             this.chươngIVToolStripMenuItem1.Click += new System.EventHandler(this.chươngIVToolStripMenuItem1_Click);
             // 
             // BaitapThem
             // 
             this.BaitapThem.Name = "BaitapThem";
-            this.BaitapThem.Size = new System.Drawing.Size(152, 22);
+            this.BaitapThem.Size = new System.Drawing.Size(147, 22);
             this.BaitapThem.Text = "Bai Tap Them";
             this.BaitapThem.Click += new System.EventHandler(this.BaitapThem_Click);
             // 
@@ -304,13 +308,13 @@
             // đốVuiToolStripMenuItem
             // 
             this.đốVuiToolStripMenuItem.Name = "đốVuiToolStripMenuItem";
-            this.đốVuiToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.đốVuiToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.đốVuiToolStripMenuItem.Text = "Đố Vui ";
             // 
             // chơiGameToolStripMenuItem
             // 
             this.chơiGameToolStripMenuItem.Name = "chơiGameToolStripMenuItem";
-            this.chơiGameToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.chơiGameToolStripMenuItem.Size = new System.Drawing.Size(112, 22);
             this.chơiGameToolStripMenuItem.Text = "Game";
             // 
             // MucLuc

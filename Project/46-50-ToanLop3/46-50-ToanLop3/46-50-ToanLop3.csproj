@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7B35E5AA-AAA0-4D16-9BA4-A392ECBB2E43}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -48,6 +48,66 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaiTapThem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaiTapThem.Designer.cs">
+      <DependentUpon>BaiTapThem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong1.Designer.cs">
+      <DependentUpon>Chuong1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong2.Designer.cs">
+      <DependentUpon>Chuong2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong3.Designer.cs">
+      <DependentUpon>Chuong3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong4.Designer.cs">
+      <DependentUpon>Chuong4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong5.Designer.cs">
+      <DependentUpon>Chuong5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong6.Designer.cs">
+      <DependentUpon>Chuong6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong7.Designer.cs">
+      <DependentUpon>Chuong7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong8.Designer.cs">
+      <DependentUpon>Chuong8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Chuong9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chuong9.Designer.cs">
+      <DependentUpon>Chuong9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +137,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -87,6 +148,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\flower10.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

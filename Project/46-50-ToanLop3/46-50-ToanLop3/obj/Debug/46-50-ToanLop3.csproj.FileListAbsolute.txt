@@ -25,3 +25,12 @@ C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_Toan
 C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
 C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
 C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Form1.resources
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache

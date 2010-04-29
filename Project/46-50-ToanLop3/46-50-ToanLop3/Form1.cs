@@ -23,7 +23,7 @@ namespace _46_50_ToanLop3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (this.textBox1.Text == "")
+            if (this.textBox1.Text.Trim()=="")
             {
                 MessageBox.Show("Vui lòng nhập tên");
                 this.textBox1.Focus();

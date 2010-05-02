@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<project default="includeUserguide">
+	<property name="rootDir" value="" readonly="false"/>
+	<target name="clean">
+		<delete file="${rootDir}\Release\DTO.dll"/>
+		<delete file="${rootDir}\Release\DAO.dll"/>
+		<delete file="${rootDir}\Release\BUS.dll"/>
+		<delete file="${rootDir}\Release\Presentation.exe"/>
+		<delete file="${rootDir}\Release\LibraryManagement.mdb"/>
+		<delete file="${rootDir}\Release\UserGuide.docx"/>
+	</target>
+
+	<target name="buildSolution" depends="clean">
+		<solution
+			solutionfile="${rootDir}\Coding\QLThuVien\QLThuVien.sln"
+			configuration="release"
+			outputdir="${rootDir}\Release\" />
+	</target>
+
+	<target name="deleteDirtyFiles" depends="buildSolution">
+		<delete file="${rootDir}\Release\DTO.pdb"/>
+		<delete file="${rootDir}\Release\DAO.pdb"/>
+		<delete file="${rootDir}\Release\BUS.pdb"/>
+		<delete file="${rootDir}\Release\Presentation.pdb"/>
+	</target>
+
+	<target name="renameFileExe" depends="deleteDirtyFiles">
+		<copy file="${rootDir}\Release\Presentation.exe" tofile="${rootDir}\Release\LibraryManagement.exe"/>
+		<delete file="${rootDir}\Release\Presentation.exe"/>
+	</target>
+
+	<target name="includeDatabase" depends="renameFileExe">
+		<copy todir="${rootDir}\Release">
+			<fileset basedir="${rootDir}\Database">
+				<include name="LibraryManagement.mdb"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="includeUserguide" depends="includeDatabase">
+		<copy todir="${rootDir}\Release\">
+			<fileset basedir="${rootDir}\Manual Document\">
+				<include name="UserGuide.docx"/>
+			</fileset>
+		</copy>		
+	</target>
+</project>

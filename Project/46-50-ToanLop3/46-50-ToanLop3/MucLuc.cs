@@ -71,26 +71,7 @@ namespace _46_50_ToanLop3
                 Phan5 frm = new Phan5();
                 frm.Show();
             }
-            if (pathName == "chuong6")
-            {
-                Chuong6 frm = new Chuong6();
-                frm.Show();
-            }
-            if (pathName == "chuong7")
-            {
-                Chuong7 frm = new Chuong7();
-                frm.Show();
-            }
-            if (pathName == "chuong8")
-            {
-                Chuong8 frm = new Chuong8();
-                frm.Show();
-            }
-            if (pathName == "chuong9")
-            {
-                Chuong9 frm = new Chuong9();
-                frm.Show();
-            }
+           
             if (pathName == "baiTapThem")
             {
                 BaiTapThem frm = new BaiTapThem();
@@ -127,26 +108,7 @@ namespace _46_50_ToanLop3
                     Phan5 frm = new Phan5();
                     frm.Show();
                 }
-                if (pathName == "chuong6")
-                {
-                    Chuong6 frm = new Chuong6();
-                    frm.Show();
-                }
-                if (pathName == "chuong7")
-                {
-                    Chuong7 frm = new Chuong7();
-                    frm.Show();
-                }
-                if (pathName == "chuong8")
-                {
-                    Chuong8 frm = new Chuong8();
-                    frm.Show();
-                }
-                if (pathName == "chuong9")
-                {
-                    Chuong9 frm = new Chuong9();
-                    frm.Show();
-                }
+                
                 if (pathName == "baiTapThem")
                 {
                     BaiTapThem frm = new BaiTapThem();
@@ -185,29 +147,7 @@ namespace _46_50_ToanLop3
             frm.ShowDialog();
         }
 
-        private void chươngVIToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Chuong6 frm = new Chuong6();
-            frm.ShowDialog();
-        }
-
-        private void chươngVIIToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Chuong7 frm = new Chuong7();
-            frm.ShowDialog();
-        }
-
-        private void chươngVIIIToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Chuong8 frm = new Chuong8();
-            frm.ShowDialog();
-        }
-
-        private void chươngIVToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            Chuong9 frm = new Chuong9();
-            frm.ShowDialog();
-        }
+        
 
         private void BaitapThem_Click(object sender, EventArgs e)
         {
@@ -221,9 +161,9 @@ namespace _46_50_ToanLop3
         }    
         #endregion
 
-        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnThoat_Click_1(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
     }

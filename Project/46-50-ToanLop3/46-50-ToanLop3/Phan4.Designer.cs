@@ -1,6 +1,6 @@
 ﻿namespace _46_50_ToanLop3
 {
-    partial class Chuong1
+    partial class Phan4
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Chuong1";
+            this.Text = "Phan4";
         }
 
         #endregion

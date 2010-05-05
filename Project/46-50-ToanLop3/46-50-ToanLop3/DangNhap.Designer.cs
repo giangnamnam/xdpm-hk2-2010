@@ -1,6 +1,6 @@
 ﻿namespace _46_50_ToanLop3
 {
-    partial class Form1
+    partial class DangNhap
     {
         /// <summary>
         /// Required designer variable.
@@ -37,9 +37,9 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(216, 78);
+            this.textBox1.Location = new System.Drawing.Point(154, 78);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(170, 20);
+            this.textBox1.Size = new System.Drawing.Size(232, 20);
             this.textBox1.TabIndex = 0;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -84,7 +84,7 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Nhập tên";
             // 
-            // Form1
+            // DangNhap
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -96,7 +96,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.ForeColor = System.Drawing.Color.Black;
-            this.Name = "Form1";
+            this.Name = "DangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Màn hình chính";
             this.ResumeLayout(false);

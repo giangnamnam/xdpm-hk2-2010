@@ -28,22 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Chương I",
-            "abc"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Chương II",
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "PHẦN I"),
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "abc", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "PHẦN II",
             "def"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Chương III",
-            "ghi"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem("Chương IV");
-            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem("Chương V");
-            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem("Chương VI");
-            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem("Chương VII");
-            System.Windows.Forms.ListViewItem listViewItem28 = new System.Windows.Forms.ListViewItem("Chương VIII");
-            System.Windows.Forms.ListViewItem listViewItem29 = new System.Windows.Forms.ListViewItem("Chương IX");
-            System.Windows.Forms.ListViewItem listViewItem30 = new System.Windows.Forms.ListViewItem("Bài Tập Thêm");
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "PHẦN III"),
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "CÁC SỐ ĐẾN 10000", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem("PHẦN IV");
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem("PHẦN V");
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem("Bài Tập Thêm");
             this.label1 = new System.Windows.Forms.Label();
             this.ListView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
@@ -79,7 +75,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(425, 54);
+            this.label1.Location = new System.Drawing.Point(223, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(387, 25);
             this.label1.TabIndex = 19;
@@ -92,53 +88,38 @@
             this.columnHeader1,
             this.columnHeader2});
             this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            listViewItem21.Checked = true;
-            listViewItem21.StateImageIndex = 1;
-            listViewItem21.Tag = "chuong1";
-            listViewItem22.Checked = true;
-            listViewItem22.StateImageIndex = 1;
-            listViewItem22.Tag = "chuong2";
-            listViewItem23.Checked = true;
-            listViewItem23.StateImageIndex = 1;
-            listViewItem23.Tag = "chuong3";
-            listViewItem24.Checked = true;
-            listViewItem24.StateImageIndex = 1;
-            listViewItem24.Tag = "chuong4";
-            listViewItem25.Checked = true;
-            listViewItem25.StateImageIndex = 1;
-            listViewItem25.Tag = "chuong5";
-            listViewItem26.Checked = true;
-            listViewItem26.StateImageIndex = 1;
-            listViewItem26.Tag = "chuong6";
-            listViewItem27.Checked = true;
-            listViewItem27.StateImageIndex = 1;
-            listViewItem27.Tag = "chuong7";
-            listViewItem28.Checked = true;
-            listViewItem28.StateImageIndex = 1;
-            listViewItem28.Tag = "chuong8";
-            listViewItem29.Checked = true;
-            listViewItem29.StateImageIndex = 1;
-            listViewItem29.Tag = "chuong9";
-            listViewItem30.Checked = true;
-            listViewItem30.StateImageIndex = 1;
-            listViewItem30.Tag = "baiTapThem";
+            listViewItem1.Checked = true;
+            listViewItem1.StateImageIndex = 1;
+            listViewItem1.Tag = "phan1";
+            listViewItem2.Checked = true;
+            listViewItem2.StateImageIndex = 1;
+            listViewItem2.Tag = "phan2";
+            listViewItem3.Checked = true;
+            listViewItem3.StateImageIndex = 1;
+            listViewItem3.Tag = "phan3";
+            listViewItem4.Checked = true;
+            listViewItem4.StateImageIndex = 1;
+            listViewItem4.Tag = "phan4";
+            listViewItem5.Checked = true;
+            listViewItem5.StateImageIndex = 1;
+            listViewItem5.Tag = "phan5";
+            listViewItem6.Checked = true;
+            listViewItem6.StateImageIndex = 1;
+            listViewItem6.Tag = "baiTapThem";
             this.ListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem21,
-            listViewItem22,
-            listViewItem23,
-            listViewItem24,
-            listViewItem25,
-            listViewItem26,
-            listViewItem27,
-            listViewItem28,
-            listViewItem29,
-            listViewItem30});
-            this.ListView1.Location = new System.Drawing.Point(23, 37);
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6});
+            this.ListView1.Location = new System.Drawing.Point(143, 99);
             this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(374, 376);
+            this.ListView1.Size = new System.Drawing.Size(558, 244);
             this.ListView1.TabIndex = 17;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
+            this.ListView1.SelectedIndexChanged += new System.EventHandler(this.ListView1_SelectedIndexChanged);
             this.ListView1.DoubleClick += new System.EventHandler(this.ListView1_DoubleClick);
             // 
             // columnHeader1
@@ -150,12 +131,12 @@
             // 
             this.columnHeader2.Text = "Tựa đề";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 196;
+            this.columnHeader2.Width = 394;
             // 
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(476, 379);
+            this.btnThoat.Location = new System.Drawing.Point(449, 363);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(91, 34);
             this.btnThoat.TabIndex = 16;
@@ -166,7 +147,7 @@
             // 
             this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntBatDau.ForeColor = System.Drawing.Color.Black;
-            this.bntBatDau.Location = new System.Drawing.Point(387, 379);
+            this.bntBatDau.Location = new System.Drawing.Point(286, 363);
             this.bntBatDau.Name = "bntBatDau";
             this.bntBatDau.Size = new System.Drawing.Size(83, 34);
             this.bntBatDau.TabIndex = 15;

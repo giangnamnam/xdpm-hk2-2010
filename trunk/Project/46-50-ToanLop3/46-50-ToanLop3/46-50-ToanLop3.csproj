@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{7B35E5AA-AAA0-4D16-9BA4-A392ECBB2E43}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -54,65 +54,47 @@
     <Compile Include="BaiTapThem.Designer.cs">
       <DependentUpon>BaiTapThem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong1.cs">
+    <Compile Include="Phan1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong1.Designer.cs">
-      <DependentUpon>Chuong1.cs</DependentUpon>
+    <Compile Include="Phan1.Designer.cs">
+      <DependentUpon>Phan1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong2.cs">
+    <Compile Include="Phan2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong2.Designer.cs">
-      <DependentUpon>Chuong2.cs</DependentUpon>
+    <Compile Include="Phan2.Designer.cs">
+      <DependentUpon>Phan2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong3.cs">
+    <Compile Include="Phan3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong3.Designer.cs">
-      <DependentUpon>Chuong3.cs</DependentUpon>
+    <Compile Include="Phan3.Designer.cs">
+      <DependentUpon>Phan3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong4.cs">
+    <Compile Include="Images\Chuong4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong4.Designer.cs">
+    <Compile Include="Images\Chuong4.Designer.cs">
       <DependentUpon>Chuong4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong5.cs">
+    <Compile Include="Phan4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong5.Designer.cs">
-      <DependentUpon>Chuong5.cs</DependentUpon>
+    <Compile Include="Phan4.Designer.cs">
+      <DependentUpon>Phan4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong6.cs">
+    <Compile Include="Phan5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong6.Designer.cs">
-      <DependentUpon>Chuong6.cs</DependentUpon>
+    <Compile Include="Phan5.Designer.cs">
+      <DependentUpon>Phan5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Chuong7.cs">
+    <Compile Include="DangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chuong7.Designer.cs">
-      <DependentUpon>Chuong7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Chuong8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Chuong8.Designer.cs">
-      <DependentUpon>Chuong8.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Chuong9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Chuong9.Designer.cs">
-      <DependentUpon>Chuong9.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
     <Compile Include="MucLuc.cs">
       <SubType>Form</SubType>
@@ -122,11 +104,27 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Phan1.resx">
+      <DependentUpon>Phan1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2.resx">
+      <DependentUpon>Phan2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan3.resx">
+      <DependentUpon>Phan3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MucLuc.resx">
       <DependentUpon>MucLuc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5.resx">
+      <DependentUpon>Phan5.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

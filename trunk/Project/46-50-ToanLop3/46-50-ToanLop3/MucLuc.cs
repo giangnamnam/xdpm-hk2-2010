@@ -48,17 +48,17 @@ namespace _46_50_ToanLop3
             string pathName = ListView1.SelectedItems[0].Tag.ToString();
             if (pathName == "chuong1")
             {
-                Chuong1 frm = new Chuong1();
+                Phan1 frm = new Phan1();
                 frm.ShowDialog();
             }
             if (pathName == "chuong2")
             {
-                Chuong2 frm = new Chuong2();
+                Phan2 frm = new Phan2();
                 frm.ShowDialog();
             }
             if (pathName == "chuong3")
             {
-                Chuong3 frm = new Chuong3();
+                Phan3 frm = new Phan3();
                 frm.ShowDialog();
             }
             if (pathName == "chuong4")
@@ -68,7 +68,7 @@ namespace _46_50_ToanLop3
             }
             if (pathName == "chuong5")
             {
-                Chuong5 frm = new Chuong5();
+                Phan5 frm = new Phan5();
                 frm.Show();
             }
             if (pathName == "chuong6")
@@ -104,17 +104,17 @@ namespace _46_50_ToanLop3
             string pathName = ListView1.SelectedItems[0].Tag.ToString();
                 if (pathName == "chuong1")
                 {
-                    Chuong1 frm = new Chuong1();
+                    Phan1 frm = new Phan1();
                     frm.ShowDialog();
                 }
                 if (pathName == "chuong2")
                 {
-                    Chuong2 frm = new Chuong2();
+                    Phan2 frm = new Phan2();
                     frm.ShowDialog();
                 }
                 if (pathName == "chuong3")
                 {
-                    Chuong3 frm = new Chuong3();
+                    Phan3 frm = new Phan3();
                     frm.ShowDialog();
                 }
                 if (pathName == "chuong4")
@@ -124,7 +124,7 @@ namespace _46_50_ToanLop3
                 }
                 if (pathName == "chuong5")
                 {
-                    Chuong5 frm = new Chuong5();
+                    Phan5 frm = new Phan5();
                     frm.Show();
                 }
                 if (pathName == "chuong6")
@@ -157,19 +157,19 @@ namespace _46_50_ToanLop3
         #region CHon Bang menu ngang
               private void chươngIToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Chuong1 frm = new Chuong1();
+            Phan1 frm = new Phan1();
             frm.ShowDialog();
         }
 
         private void chươngIIToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Chuong2 frm = new Chuong2();
+            Phan2 frm = new Phan2();
             frm.ShowDialog();
         }
 
         private void chươngIIIToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Chuong3 frm = new Chuong3();
+            Phan3 frm = new Phan3();
             frm.ShowDialog();
         }
 
@@ -181,7 +181,7 @@ namespace _46_50_ToanLop3
 
         private void chươngVToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Chuong5 frm = new Chuong5();
+            Phan5 frm = new Phan5();
             frm.ShowDialog();
         }
 
@@ -220,6 +220,11 @@ namespace _46_50_ToanLop3
             Application.Exit();
         }    
         #endregion
+
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
 
     }
 }

@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _46_50_ToanLop3
 {
-    public partial class Chuong2 : Form
+    public partial class Phan4 : Form
     {
-        public Chuong2()
+        public Phan4()
         {
             InitializeComponent();
         }

@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "PHẦN I"),
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "PHẦN I", System.Drawing.Color.Yellow, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Ôn tập", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "PHẦN II",
-            "Các số phạm vi 1.000"}, -1);
+            "Các số phạm vi 1.000"}, -1, System.Drawing.Color.Yellow, System.Drawing.Color.Empty, null);
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "PHẦN III"),
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "PHẦN III", System.Drawing.Color.Yellow, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)))),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "CÁC SỐ ĐẾN 10000", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
             System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "PHẦN IV",
-            "Các số phạm vi 100.000"}, -1);
+            "Các số phạm vi 100.000"}, -1, System.Drawing.Color.Yellow, System.Drawing.Color.Empty, null);
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "PHẦN V",
-            "Ôn tập cuối năm"}, -1);
+            "Ôn tập cuối năm"}, -1, System.Drawing.Color.Yellow, System.Drawing.Color.Empty, null);
             System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài Tập Thêm",
-            "Luyện tập thêm"}, -1);
+            "Luyện tập thêm"}, -1, System.Drawing.Color.Yellow, System.Drawing.Color.Empty, null);
             this.label1 = new System.Windows.Forms.Label();
             this.ListView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
@@ -125,7 +125,6 @@
             this.ListView1.TabIndex = 17;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
-//            this.ListView1.SelectedIndexChanged += new System.EventHandler(this.ListView1_SelectedIndexChanged);
             this.ListView1.DoubleClick += new System.EventHandler(this.ListView1_DoubleClick);
             // 
             // columnHeader1

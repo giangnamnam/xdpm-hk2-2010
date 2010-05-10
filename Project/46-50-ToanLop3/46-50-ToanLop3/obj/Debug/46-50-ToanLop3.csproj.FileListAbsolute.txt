@@ -49,3 +49,16 @@ C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLo
 C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
 C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
 C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan1.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan2.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan3.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.DangNhap.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan5.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+E:\GIAI TRI\Downloads\Documents\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache

@@ -60,9 +60,44 @@ namespace _46_50_ToanLop3.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap _1260922749_sao_tho_3 {
+            get {
+                object obj = ResourceManager.GetObject("1260922749_sao-tho-3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap _17 {
+            get {
+                object obj = ResourceManager.GetObject("17", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap C9 {
+            get {
+                object obj = ResourceManager.GetObject("C9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap flower10 {
             get {
                 object obj = ResourceManager.GetObject("flower10", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Penguins {
+            get {
+                object obj = ResourceManager.GetObject("Penguins", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap silverlight_dusk1_wide_1600x1050 {
+            get {
+                object obj = ResourceManager.GetObject("silverlight_dusk1_wide_1600x1050", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

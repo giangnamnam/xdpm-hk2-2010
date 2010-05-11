@@ -15,5 +15,16 @@ namespace _46_50_ToanLop3
         {
             InitializeComponent();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
+        }
+
+        private void Phan1_Load(object sender, EventArgs e)
+        {
+            lvPhanMot.GridLines = true;
+
+        }
     }
 }

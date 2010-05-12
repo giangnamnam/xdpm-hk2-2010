@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.label1 = new System.Windows.Forms.Label();
@@ -48,6 +47,7 @@
             this.tbkq5 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.btOk = new System.Windows.Forms.Button();
+            this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.SuspendLayout();
             // 
             // shapeContainer1
@@ -62,15 +62,6 @@
             this.shapeContainer1.Size = new System.Drawing.Size(483, 354);
             this.shapeContainer1.TabIndex = 0;
             this.shapeContainer1.TabStop = false;
-            // 
-            // lineShape2
-            // 
-            this.lineShape2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 265;
-            this.lineShape2.X2 = 265;
-            this.lineShape2.Y1 = 38;
-            this.lineShape2.Y2 = 266;
             // 
             // lineShape1
             // 
@@ -225,14 +216,21 @@
             // 
             this.btOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btOk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btOk.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
-            this.btOk.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btOk.Location = new System.Drawing.Point(276, 280);
             this.btOk.Name = "btOk";
             this.btOk.Size = new System.Drawing.Size(85, 31);
             this.btOk.TabIndex = 16;
             this.btOk.Text = "&Làm xong";
             this.btOk.UseVisualStyleBackColor = true;
+            // 
+            // lineShape2
+            // 
+            this.lineShape2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
+            this.lineShape2.Name = "lineShape2";
+            this.lineShape2.X1 = 265;
+            this.lineShape2.X2 = 265;
+            this.lineShape2.Y1 = 38;
+            this.lineShape2.Y2 = 266;
             // 
             // BaiTap1
             // 

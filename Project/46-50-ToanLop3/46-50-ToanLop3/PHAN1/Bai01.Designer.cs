@@ -64,7 +64,8 @@
             // 
             this.btBT5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBT5.ForeColor = System.Drawing.Color.White;
-           this.btBT5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btBT5.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
+            this.btBT5.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btBT5.Location = new System.Drawing.Point(555, 77);
             this.btBT5.Name = "btBT5";
             this.btBT5.Size = new System.Drawing.Size(85, 31);
@@ -76,7 +77,8 @@
             // 
             this.btBT4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBT4.ForeColor = System.Drawing.Color.White;
-              this.btBT4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+            this.btBT4.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
+            this.btBT4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btBT4.Location = new System.Drawing.Point(464, 77);
             this.btBT4.Name = "btBT4";
             this.btBT4.Size = new System.Drawing.Size(85, 31);
@@ -88,7 +90,8 @@
             // 
             this.btBT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBT3.ForeColor = System.Drawing.Color.White;
-            this.btBT3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btBT3.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
+            this.btBT3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btBT3.Location = new System.Drawing.Point(373, 77);
             this.btBT3.Name = "btBT3";
             this.btBT3.Size = new System.Drawing.Size(85, 31);
@@ -100,7 +103,8 @@
             // 
             this.btBT2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBT2.ForeColor = System.Drawing.Color.White;
-            this.btBT2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btBT2.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
+            this.btBT2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btBT2.Location = new System.Drawing.Point(282, 77);
             this.btBT2.Name = "btBT2";
             this.btBT2.Size = new System.Drawing.Size(85, 31);
@@ -113,7 +117,8 @@
             // 
             this.btBT1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBT1.ForeColor = System.Drawing.Color.White;
-             this.btBT1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btBT1.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
+            this.btBT1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btBT1.Location = new System.Drawing.Point(191, 77);
             this.btBT1.Name = "btBT1";
             this.btBT1.Size = new System.Drawing.Size(85, 31);

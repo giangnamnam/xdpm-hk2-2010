@@ -216,7 +216,6 @@
             // 
             this.btOk.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btOk.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.btOk.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
             this.btOk.Location = new System.Drawing.Point(276, 280);
             this.btOk.Name = "btOk";
             this.btOk.Size = new System.Drawing.Size(85, 31);

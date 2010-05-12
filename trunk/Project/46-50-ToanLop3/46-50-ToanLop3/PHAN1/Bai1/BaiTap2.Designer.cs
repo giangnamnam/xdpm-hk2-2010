@@ -53,11 +53,26 @@
             this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbvl1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.tbvl2 = new System.Windows.Forms.TextBox();
+            this.tbvl3 = new System.Windows.Forms.TextBox();
+            this.tbvl4 = new System.Windows.Forms.TextBox();
+            this.tbvl5 = new System.Windows.Forms.TextBox();
+            this.tbvl6 = new System.Windows.Forms.TextBox();
+            this.tbvl7 = new System.Windows.Forms.TextBox();
+            this.tbvl8 = new System.Windows.Forms.TextBox();
+            this.btvl9 = new System.Windows.Forms.TextBox();
+            this.tbvl10 = new System.Windows.Forms.TextBox();
+            this.tbvl11 = new System.Windows.Forms.TextBox();
+            this.tbvl12 = new System.Windows.Forms.TextBox();
+            this.tbvl13 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -111,6 +126,7 @@
             // 
             // rectangleShape20
             // 
+            this.rectangleShape20.BackColor = System.Drawing.Color.White;
             this.rectangleShape20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape20.Location = new System.Drawing.Point(37, 105);
             this.rectangleShape20.Name = "rectangleShape20";
@@ -139,6 +155,7 @@
             // 
             // rectangleShape16
             // 
+            this.rectangleShape16.BackColor = System.Drawing.Color.White;
             this.rectangleShape16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape16.Location = new System.Drawing.Point(286, 105);
             this.rectangleShape16.Name = "rectangleShape16";
@@ -171,6 +188,7 @@
             // 
             // rectangleShape12
             // 
+            this.rectangleShape12.BackColor = System.Drawing.Color.White;
             this.rectangleShape12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape12.Location = new System.Drawing.Point(86, 105);
             this.rectangleShape12.Name = "rectangleShape12";
@@ -186,6 +204,7 @@
             // 
             // rectangleShape10
             // 
+            this.rectangleShape10.BackColor = System.Drawing.Color.White;
             this.rectangleShape10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape10.Location = new System.Drawing.Point(490, 49);
             this.rectangleShape10.Name = "rectangleShape10";
@@ -214,6 +233,7 @@
             // 
             // rectangleShape6
             // 
+            this.rectangleShape6.BackColor = System.Drawing.Color.White;
             this.rectangleShape6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape6.Location = new System.Drawing.Point(286, 49);
             this.rectangleShape6.Name = "rectangleShape6";
@@ -242,6 +262,7 @@
             // 
             // rectangleShape2
             // 
+            this.rectangleShape2.BackColor = System.Drawing.Color.White;
             this.rectangleShape2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape2.Location = new System.Drawing.Point(86, 49);
             this.rectangleShape2.Name = "rectangleShape2";
@@ -249,6 +270,7 @@
             // 
             // rectangleShape1
             // 
+            this.rectangleShape1.BackColor = System.Drawing.Color.White;
             this.rectangleShape1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.rectangleShape1.Location = new System.Drawing.Point(37, 49);
             this.rectangleShape1.Name = "rectangleShape1";
@@ -272,14 +294,14 @@
             this.label4.TabIndex = 4;
             this.label4.Text = "310";
             // 
-            // textBox1
+            // tbvl1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.Control;
-            this.textBox1.Location = new System.Drawing.Point(137, 50);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(49, 22);
-            this.textBox1.TabIndex = 5;
+            this.tbvl1.BackColor = System.Drawing.Color.White;
+            this.tbvl1.Location = new System.Drawing.Point(137, 50);
+            this.tbvl1.Multiline = true;
+            this.tbvl1.Name = "tbvl1";
+            this.tbvl1.Size = new System.Drawing.Size(49, 22);
+            this.tbvl1.TabIndex = 5;
             // 
             // label5
             // 
@@ -312,7 +334,6 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.button1.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.Location = new System.Drawing.Point(466, 151);
             this.button1.Name = "button1";
@@ -321,15 +342,153 @@
             this.button1.Text = "&Làm xong";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // tbvl2
+            // 
+            this.tbvl2.Location = new System.Drawing.Point(188, 50);
+            this.tbvl2.Multiline = true;
+            this.tbvl2.Name = "tbvl2";
+            this.tbvl2.Size = new System.Drawing.Size(49, 22);
+            this.tbvl2.TabIndex = 10;
+            // 
+            // tbvl3
+            // 
+            this.tbvl3.Location = new System.Drawing.Point(237, 50);
+            this.tbvl3.Multiline = true;
+            this.tbvl3.Name = "tbvl3";
+            this.tbvl3.Size = new System.Drawing.Size(49, 22);
+            this.tbvl3.TabIndex = 11;
+            // 
+            // tbvl4
+            // 
+            this.tbvl4.Location = new System.Drawing.Point(337, 50);
+            this.tbvl4.Multiline = true;
+            this.tbvl4.Name = "tbvl4";
+            this.tbvl4.Size = new System.Drawing.Size(49, 22);
+            this.tbvl4.TabIndex = 12;
+            // 
+            // tbvl5
+            // 
+            this.tbvl5.Location = new System.Drawing.Point(388, 50);
+            this.tbvl5.Multiline = true;
+            this.tbvl5.Name = "tbvl5";
+            this.tbvl5.Size = new System.Drawing.Size(49, 22);
+            this.tbvl5.TabIndex = 13;
+            // 
+            // tbvl6
+            // 
+            this.tbvl6.Location = new System.Drawing.Point(439, 50);
+            this.tbvl6.Multiline = true;
+            this.tbvl6.Name = "tbvl6";
+            this.tbvl6.Size = new System.Drawing.Size(49, 22);
+            this.tbvl6.TabIndex = 14;
+            // 
+            // tbvl7
+            // 
+            this.tbvl7.Location = new System.Drawing.Point(137, 106);
+            this.tbvl7.Multiline = true;
+            this.tbvl7.Name = "tbvl7";
+            this.tbvl7.Size = new System.Drawing.Size(49, 22);
+            this.tbvl7.TabIndex = 15;
+            // 
+            // tbvl8
+            // 
+            this.tbvl8.Location = new System.Drawing.Point(188, 106);
+            this.tbvl8.Multiline = true;
+            this.tbvl8.Name = "tbvl8";
+            this.tbvl8.Size = new System.Drawing.Size(49, 22);
+            this.tbvl8.TabIndex = 16;
+            // 
+            // btvl9
+            // 
+            this.btvl9.Location = new System.Drawing.Point(239, 106);
+            this.btvl9.Multiline = true;
+            this.btvl9.Name = "btvl9";
+            this.btvl9.Size = new System.Drawing.Size(49, 22);
+            this.btvl9.TabIndex = 17;
+            // 
+            // tbvl10
+            // 
+            this.tbvl10.Location = new System.Drawing.Point(337, 106);
+            this.tbvl10.Multiline = true;
+            this.tbvl10.Name = "tbvl10";
+            this.tbvl10.Size = new System.Drawing.Size(49, 22);
+            this.tbvl10.TabIndex = 18;
+            // 
+            // tbvl11
+            // 
+            this.tbvl11.Location = new System.Drawing.Point(388, 106);
+            this.tbvl11.Multiline = true;
+            this.tbvl11.Name = "tbvl11";
+            this.tbvl11.Size = new System.Drawing.Size(49, 22);
+            this.tbvl11.TabIndex = 19;
+            // 
+            // tbvl12
+            // 
+            this.tbvl12.Location = new System.Drawing.Point(441, 106);
+            this.tbvl12.Multiline = true;
+            this.tbvl12.Name = "tbvl12";
+            this.tbvl12.Size = new System.Drawing.Size(49, 22);
+            this.tbvl12.TabIndex = 20;
+            // 
+            // tbvl13
+            // 
+            this.tbvl13.Location = new System.Drawing.Point(490, 106);
+            this.tbvl13.Multiline = true;
+            this.tbvl13.Name = "tbvl13";
+            this.tbvl13.Size = new System.Drawing.Size(49, 22);
+            this.tbvl13.TabIndex = 21;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(51, 109);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(25, 13);
+            this.label8.TabIndex = 22;
+            this.label8.Text = "400";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(96, 109);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(25, 13);
+            this.label9.TabIndex = 23;
+            this.label9.Text = "399";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(293, 109);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(25, 13);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "395";
+            // 
             // BaiTap2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.tbvl13);
+            this.Controls.Add(this.tbvl12);
+            this.Controls.Add(this.tbvl11);
+            this.Controls.Add(this.tbvl10);
+            this.Controls.Add(this.btvl9);
+            this.Controls.Add(this.tbvl8);
+            this.Controls.Add(this.tbvl7);
+            this.Controls.Add(this.tbvl6);
+            this.Controls.Add(this.tbvl5);
+            this.Controls.Add(this.tbvl4);
+            this.Controls.Add(this.tbvl3);
+            this.Controls.Add(this.tbvl2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbvl1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -369,10 +528,25 @@
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbvl1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tbvl2;
+        private System.Windows.Forms.TextBox tbvl3;
+        private System.Windows.Forms.TextBox tbvl4;
+        private System.Windows.Forms.TextBox tbvl5;
+        private System.Windows.Forms.TextBox tbvl6;
+        private System.Windows.Forms.TextBox tbvl7;
+        private System.Windows.Forms.TextBox tbvl8;
+        private System.Windows.Forms.TextBox btvl9;
+        private System.Windows.Forms.TextBox tbvl10;
+        private System.Windows.Forms.TextBox tbvl11;
+        private System.Windows.Forms.TextBox tbvl12;
+        private System.Windows.Forms.TextBox tbvl13;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }

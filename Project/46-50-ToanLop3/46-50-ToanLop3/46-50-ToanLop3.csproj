@@ -31,10 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Design" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
@@ -59,6 +62,120 @@
     </Compile>
     <Compile Include="Phan1.Designer.cs">
       <DependentUpon>Phan1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai01.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai02.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai02.Designer.cs">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai03.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai03.Designer.cs">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai04.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai04.Designer.cs">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai05.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai05.Designer.cs">
+      <DependentUpon>Bai05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai06.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai06.Designer.cs">
+      <DependentUpon>Bai06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai07.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai07.Designer.cs">
+      <DependentUpon>Bai07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai08.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai08.Designer.cs">
+      <DependentUpon>Bai08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai09.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai09.Designer.cs">
+      <DependentUpon>Bai09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai10.Designer.cs">
+      <DependentUpon>Bai10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai11.Designer.cs">
+      <DependentUpon>Bai11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai12.Designer.cs">
+      <DependentUpon>Bai12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai13.Designer.cs">
+      <DependentUpon>Bai13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai14.Designer.cs">
+      <DependentUpon>Bai14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai15.Designer.cs">
+      <DependentUpon>Bai15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai16.Designer.cs">
+      <DependentUpon>Bai16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap1.Designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap2.Designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\MucLuc1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\MucLuc1.Designer.cs">
+      <DependentUpon>MucLuc1.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2.cs">
       <SubType>Form</SubType>
@@ -108,6 +225,27 @@
       <DependentUpon>Phan1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai03.resx">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\MucLuc1.resx">
+      <DependentUpon>MucLuc1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan2.resx">
       <DependentUpon>Phan2.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -150,11 +288,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\flower10.jpg" />
+    <None Include="Resources\C91.jpg" />
+    <None Include="Resources\thien-nga1.jpg" />
     <None Include="Resources\C9.jpg" />
-    <None Include="Resources\Penguins.jpg" />
-    <None Include="Resources\1260922749_sao-tho-3.jpg" />
-    <None Include="Resources\silverlight_dusk1_wide_1600x1050.jpg" />
-    <None Include="Resources\17.jpg" />
+    <None Include="Resources\thien-nga.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

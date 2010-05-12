@@ -312,8 +312,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.button1.Image = global::_46_50_ToanLop3.Properties.Resources.thien_nga;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
+           this.button1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
             this.button1.Location = new System.Drawing.Point(466, 151);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 31);

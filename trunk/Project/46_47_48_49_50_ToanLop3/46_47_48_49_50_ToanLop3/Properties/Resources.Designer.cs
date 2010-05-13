@@ -88,9 +88,16 @@ namespace _46_47_48_49_50_ToanLop3.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap A_S_20Template_Children_v01_01 {
+        internal static System.Drawing.Bitmap C9 {
             get {
-                object obj = ResourceManager.GetObject("A_S%20Template_Children_v01_01", resourceCulture);
+                object obj = ResourceManager.GetObject("C9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap C91 {
+            get {
+                object obj = ResourceManager.GetObject("C91", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -112,6 +119,20 @@ namespace _46_47_48_49_50_ToanLop3.Properties {
         internal static System.Drawing.Bitmap khunghinh2 {
             get {
                 object obj = ResourceManager.GetObject("khunghinh2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap thien_nga {
+            get {
+                object obj = ResourceManager.GetObject("thien-nga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap thien_nga1 {
+            get {
+                object obj = ResourceManager.GetObject("thien-nga1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

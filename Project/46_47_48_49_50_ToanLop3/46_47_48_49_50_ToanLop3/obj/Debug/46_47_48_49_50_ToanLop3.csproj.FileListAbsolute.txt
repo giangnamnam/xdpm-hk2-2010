@@ -8,3 +8,33 @@ E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_
 E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb
 E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.MucLuc.resources
 E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN1.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\Debug\46_47_48_49_50_ToanLop3.exe
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\Debug\46_47_48_49_50_ToanLop3.pdb
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.DangNhap.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.MucLuc.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN1.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_LAMQUEN.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_MORONG.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_ONTAP.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_TINHTOAN.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Properties.Resources.resources
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.csproj.GenerateResource.Cache
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
+C:\Users\Vinh\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\Debug\46_47_48_49_50_ToanLop3.exe
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\Debug\46_47_48_49_50_ToanLop3.pdb
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.DangNhap.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.MucLuc.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN1.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_LAMQUEN.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_MORONG.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_ONTAP.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_TINHTOAN.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Properties.Resources.resources
+G:\software manage\soft build\XDPM_PROJ\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.csproj.GenerateResource.Cache

@@ -84,6 +84,30 @@
     <Compile Include="PHAN3.Designer.cs">
       <DependentUpon>PHAN3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_LAMQUEN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_LAMQUEN.Designer.cs">
+      <DependentUpon>PHAN3_LAMQUEN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_MORONG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_MORONG.designer.cs">
+      <DependentUpon>PHAN3_MORONG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_ONTAP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_ONTAP.designer.cs">
+      <DependentUpon>PHAN3_ONTAP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_TINHTOAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan3\Forms\PHAN3_TINHTOAN.designer.cs">
+      <DependentUpon>PHAN3_TINHTOAN.cs</DependentUpon>
+    </Compile>
     <Compile Include="PHAN4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +133,26 @@
       <DependentUpon>PHAN1.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PHAN3.resx">
+      <DependentUpon>PHAN3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan3\Forms\PHAN3_LAMQUEN.resx">
+      <DependentUpon>PHAN3_LAMQUEN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan3\Forms\PHAN3_MORONG.resx">
+      <DependentUpon>PHAN3_MORONG.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan3\Forms\PHAN3_ONTAP.resx">
+      <DependentUpon>PHAN3_ONTAP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan3\Forms\PHAN3_TINHTOAN.resx">
+      <DependentUpon>PHAN3_TINHTOAN.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -127,6 +171,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Phan3\AmThanh\" />
+    <Folder Include="Phan3\HinhAnh\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

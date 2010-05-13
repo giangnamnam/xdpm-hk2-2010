@@ -46,27 +46,27 @@ namespace _46_50_ToanLop3
         private void ListView1_DoubleClick(object sender, EventArgs e)
         {
             string pathName = ListView1.SelectedItems[0].Tag.ToString();
-            if (pathName == "chuong1")
+            if (pathName == "phan1")
             {
                 Phan1 frm = new Phan1();
                 frm.ShowDialog();
             }
-            if (pathName == "chuong2")
+            if (pathName == "phan2")
             {
-                Phan2 frm = new Phan2();
-                frm.ShowDialog();
+              phan2   frm = new phan2();
+                 frm.ShowDialog();
             }
-            if (pathName == "chuong3")
+            if (pathName == "phan3")
             {
                 Phan3 frm = new Phan3();
                 frm.ShowDialog();
             }
-            if (pathName == "chuong4")
+            if (pathName == "phan3")
             {
                 Chuong4 frm = new Chuong4();
                 frm.Show();
             }
-            if (pathName == "chuong5")
+            if (pathName == "phan4")
             {
                 Phan5 frm = new Phan5();
                 frm.Show();
@@ -83,27 +83,27 @@ namespace _46_50_ToanLop3
         private void bntBatDau_Click_1(object sender, EventArgs e)
         {
             string pathName = ListView1.SelectedItems[0].Tag.ToString();
-                if (pathName == "chuong1")
+                if (pathName == "phan1")
                 {
                     Phan1 frm = new Phan1();
                     frm.ShowDialog();
                 }
-                if (pathName == "chuong2")
+                if (pathName == "phan2")
                 {
-                    Phan2 frm = new Phan2();
+                    phan2 frm = new phan2();
                     frm.ShowDialog();
                 }
-                if (pathName == "chuong3")
+                if (pathName == "phan3")
                 {
                     Phan3 frm = new Phan3();
                     frm.ShowDialog();
                 }
-                if (pathName == "chuong4")
+                if (pathName == "phan4")
                 {
                     Chuong4 frm = new Chuong4();
                     frm.Show();
                 }
-                if (pathName == "chuong5")
+                if (pathName == "phan5")
                 {
                     Phan5 frm = new Phan5();
                     frm.Show();
@@ -125,7 +125,7 @@ namespace _46_50_ToanLop3
 
         private void chươngIIToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Phan2 frm = new Phan2();
+            phan2 frm = new phan2();
             frm.ShowDialog();
         }
 

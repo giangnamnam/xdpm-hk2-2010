@@ -100,119 +100,119 @@
             // mụcLụcToolStripMenuItem
             // 
             this.mụcLụcToolStripMenuItem.Name = "mụcLụcToolStripMenuItem";
-            this.mụcLụcToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.mụcLụcToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.mụcLụcToolStripMenuItem.Text = "Mục lục";
             this.mụcLụcToolStripMenuItem.Click += new System.EventHandler(this.mụcLụcToolStripMenuItem_Click);
             // 
             // bài1ToolStripMenuItem
             // 
             this.bài1ToolStripMenuItem.Name = "bài1ToolStripMenuItem";
-            this.bài1ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài1ToolStripMenuItem.Text = "Bài 1";
             this.bài1ToolStripMenuItem.Click += new System.EventHandler(this.bài1ToolStripMenuItem_Click);
             // 
             // bai2ToolStripMenuItem
             // 
             this.bai2ToolStripMenuItem.Name = "bai2ToolStripMenuItem";
-            this.bai2ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bai2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bai2ToolStripMenuItem.Text = "Bai 2";
             this.bai2ToolStripMenuItem.Click += new System.EventHandler(this.bai2ToolStripMenuItem_Click);
             // 
             // bai3ToolStripMenuItem
             // 
             this.bai3ToolStripMenuItem.Name = "bai3ToolStripMenuItem";
-            this.bai3ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bai3ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bai3ToolStripMenuItem.Text = "Bai 3";
             this.bai3ToolStripMenuItem.Click += new System.EventHandler(this.bai3ToolStripMenuItem_Click);
             // 
             // bài4ToolStripMenuItem
             // 
             this.bài4ToolStripMenuItem.Name = "bài4ToolStripMenuItem";
-            this.bài4ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài4ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài4ToolStripMenuItem.Text = "Bài 4";
             this.bài4ToolStripMenuItem.Click += new System.EventHandler(this.bài4ToolStripMenuItem_Click);
             // 
             // bai5ToolStripMenuItem
             // 
             this.bai5ToolStripMenuItem.Name = "bai5ToolStripMenuItem";
-            this.bai5ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bai5ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bai5ToolStripMenuItem.Text = "Bai 5";
             this.bai5ToolStripMenuItem.Click += new System.EventHandler(this.bai5ToolStripMenuItem_Click);
             // 
             // bài6ToolStripMenuItem
             // 
             this.bài6ToolStripMenuItem.Name = "bài6ToolStripMenuItem";
-            this.bài6ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài6ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài6ToolStripMenuItem.Text = "Bài 6";
             this.bài6ToolStripMenuItem.Click += new System.EventHandler(this.bài6ToolStripMenuItem_Click);
             // 
             // bài7ToolStripMenuItem
             // 
             this.bài7ToolStripMenuItem.Name = "bài7ToolStripMenuItem";
-            this.bài7ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài7ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài7ToolStripMenuItem.Text = "Bài 7";
             this.bài7ToolStripMenuItem.Click += new System.EventHandler(this.bài7ToolStripMenuItem_Click);
             // 
             // bài8ToolStripMenuItem
             // 
             this.bài8ToolStripMenuItem.Name = "bài8ToolStripMenuItem";
-            this.bài8ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài8ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài8ToolStripMenuItem.Text = "Bài 8";
             this.bài8ToolStripMenuItem.Click += new System.EventHandler(this.bài8ToolStripMenuItem_Click);
             // 
             // bài9ToolStripMenuItem
             // 
             this.bài9ToolStripMenuItem.Name = "bài9ToolStripMenuItem";
-            this.bài9ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài9ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài9ToolStripMenuItem.Text = "Bài 9";
             this.bài9ToolStripMenuItem.Click += new System.EventHandler(this.bài9ToolStripMenuItem_Click);
             // 
             // bài10ToolStripMenuItem
             // 
             this.bài10ToolStripMenuItem.Name = "bài10ToolStripMenuItem";
-            this.bài10ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài10ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài10ToolStripMenuItem.Text = "Bài 10";
             this.bài10ToolStripMenuItem.Click += new System.EventHandler(this.bài10ToolStripMenuItem_Click);
             // 
             // bài11ToolStripMenuItem
             // 
             this.bài11ToolStripMenuItem.Name = "bài11ToolStripMenuItem";
-            this.bài11ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài11ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài11ToolStripMenuItem.Text = "Bài 11";
             this.bài11ToolStripMenuItem.Click += new System.EventHandler(this.bài11ToolStripMenuItem_Click);
             // 
             // bài12ToolStripMenuItem
             // 
             this.bài12ToolStripMenuItem.Name = "bài12ToolStripMenuItem";
-            this.bài12ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài12ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài12ToolStripMenuItem.Text = "Bài 12";
             this.bài12ToolStripMenuItem.Click += new System.EventHandler(this.bài12ToolStripMenuItem_Click);
             // 
             // bài13ToolStripMenuItem
             // 
             this.bài13ToolStripMenuItem.Name = "bài13ToolStripMenuItem";
-            this.bài13ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài13ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài13ToolStripMenuItem.Text = "Bài 13";
             this.bài13ToolStripMenuItem.Click += new System.EventHandler(this.bài13ToolStripMenuItem_Click);
             // 
             // bài14ToolStripMenuItem
             // 
             this.bài14ToolStripMenuItem.Name = "bài14ToolStripMenuItem";
-            this.bài14ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài14ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài14ToolStripMenuItem.Text = "Bài 14";
             this.bài14ToolStripMenuItem.Click += new System.EventHandler(this.bài14ToolStripMenuItem_Click);
             // 
             // bài15ToolStripMenuItem
             // 
             this.bài15ToolStripMenuItem.Name = "bài15ToolStripMenuItem";
-            this.bài15ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài15ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài15ToolStripMenuItem.Text = "Bài 15";
             this.bài15ToolStripMenuItem.Click += new System.EventHandler(this.bài15ToolStripMenuItem_Click);
             // 
             // bài16ToolStripMenuItem
             // 
             this.bài16ToolStripMenuItem.Name = "bài16ToolStripMenuItem";
-            this.bài16ToolStripMenuItem.Size = new System.Drawing.Size(117, 22);
+            this.bài16ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.bài16ToolStripMenuItem.Text = "Bài 16";
             this.bài16ToolStripMenuItem.Click += new System.EventHandler(this.bài16ToolStripMenuItem_Click);
             // 

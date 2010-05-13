@@ -15,7 +15,7 @@ namespace _46_47_48_49_50_ToanLop3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PHAN4_11());
+            Application.Run(new MucLuc());
         }
     }
 }

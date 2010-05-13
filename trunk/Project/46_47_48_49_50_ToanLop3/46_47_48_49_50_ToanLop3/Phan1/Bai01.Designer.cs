@@ -37,11 +37,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btBaiTap = new System.Windows.Forms.Button();
+            this.pnBai1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btBaiTap1
             // 
-            this.btBaiTap1.Location = new System.Drawing.Point(188, 85);
+            this.btBaiTap1.Location = new System.Drawing.Point(188, 60);
             this.btBaiTap1.Name = "btBaiTap1";
             this.btBaiTap1.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap1.TabIndex = 0;
@@ -51,7 +52,7 @@
             // 
             // btBaiTap2
             // 
-            this.btBaiTap2.Location = new System.Drawing.Point(284, 85);
+            this.btBaiTap2.Location = new System.Drawing.Point(280, 60);
             this.btBaiTap2.Name = "btBaiTap2";
             this.btBaiTap2.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap2.TabIndex = 1;
@@ -61,7 +62,7 @@
             // 
             // btBaiTap3
             // 
-            this.btBaiTap3.Location = new System.Drawing.Point(376, 85);
+            this.btBaiTap3.Location = new System.Drawing.Point(372, 60);
             this.btBaiTap3.Name = "btBaiTap3";
             this.btBaiTap3.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap3.TabIndex = 2;
@@ -71,7 +72,7 @@
             // 
             // btBaiTap4
             // 
-            this.btBaiTap4.Location = new System.Drawing.Point(469, 85);
+            this.btBaiTap4.Location = new System.Drawing.Point(464, 60);
             this.btBaiTap4.Name = "btBaiTap4";
             this.btBaiTap4.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap4.TabIndex = 3;
@@ -81,7 +82,7 @@
             // 
             // btBaiTap5
             // 
-            this.btBaiTap5.Location = new System.Drawing.Point(561, 85);
+            this.btBaiTap5.Location = new System.Drawing.Point(556, 60);
             this.btBaiTap5.Name = "btBaiTap5";
             this.btBaiTap5.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap5.TabIndex = 4;
@@ -115,13 +116,20 @@
             // 
             // btBaiTap
             // 
-            this.btBaiTap.Location = new System.Drawing.Point(39, 85);
+            this.btBaiTap.Location = new System.Drawing.Point(95, 60);
             this.btBaiTap.Name = "btBaiTap";
             this.btBaiTap.Size = new System.Drawing.Size(87, 36);
             this.btBaiTap.TabIndex = 7;
             this.btBaiTap.Text = "&Chọn bài tập";
             this.btBaiTap.UseVisualStyleBackColor = true;
             this.btBaiTap.Click += new System.EventHandler(this.btBaiTap_Click);
+            // 
+            // pnBai1
+            // 
+            this.pnBai1.Location = new System.Drawing.Point(71, 102);
+            this.pnBai1.Name = "pnBai1";
+            this.pnBai1.Size = new System.Drawing.Size(757, 407);
+            this.pnBai1.TabIndex = 8;
             // 
             // Bai01
             // 
@@ -130,6 +138,7 @@
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.pnBai1);
             this.Controls.Add(this.btBaiTap);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -139,7 +148,7 @@
             this.Controls.Add(this.btBaiTap2);
             this.Controls.Add(this.btBaiTap1);
             this.Name = "Bai01";
-            this.Size = new System.Drawing.Size(772, 385);
+            this.Size = new System.Drawing.Size(900, 600);
             this.Load += new System.EventHandler(this.Bai01_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -156,5 +165,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btBaiTap;
+        private System.Windows.Forms.Panel pnBai1;
     }
 }

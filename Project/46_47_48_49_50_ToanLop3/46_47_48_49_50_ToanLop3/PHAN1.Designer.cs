@@ -53,7 +53,7 @@
             // 
             // btThoat
             // 
-            this.btThoat.Location = new System.Drawing.Point(647, 374);
+            this.btThoat.Location = new System.Drawing.Point(794, 516);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(78, 34);
             this.btThoat.TabIndex = 0;
@@ -66,7 +66,7 @@
             this.mucLucToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(763, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(884, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -215,7 +215,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(763, 435);
+            this.ClientSize = new System.Drawing.Size(884, 562);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

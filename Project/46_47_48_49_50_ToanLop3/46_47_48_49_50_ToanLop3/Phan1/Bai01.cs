@@ -35,7 +35,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan1
 
             for (int i = 0; i < nUserCT; i++)
             {
-                Controls.Add(UserCT[i]);
+               pnBai1.Controls.Add(UserCT[i]);
                 UserCT[i].Dock = DockStyle.Fill;
             }
             currentState = ScreenState.Temp;

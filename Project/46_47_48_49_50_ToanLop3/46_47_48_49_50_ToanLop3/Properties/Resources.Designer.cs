@@ -66,5 +66,12 @@ namespace _46_47_48_49_50_ToanLop3.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap frames8bd {
+            get {
+                object obj = ResourceManager.GetObject("frames8bd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

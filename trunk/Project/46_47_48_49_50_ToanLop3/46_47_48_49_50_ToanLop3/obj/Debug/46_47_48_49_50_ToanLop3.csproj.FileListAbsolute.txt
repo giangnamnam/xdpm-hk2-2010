@@ -1,0 +1,10 @@
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.DangNhap.resources
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Properties.Resources.resources
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.csproj.GenerateResource.Cache
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\Debug\46_47_48_49_50_ToanLop3.exe
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\Debug\46_47_48_49_50_ToanLop3.pdb
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.MucLuc.resources
+E:\Thuc Hanh\C#\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN1.resources

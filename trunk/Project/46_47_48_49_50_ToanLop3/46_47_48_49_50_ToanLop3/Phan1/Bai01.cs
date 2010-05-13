@@ -47,12 +47,12 @@ namespace _46_47_48_49_50_ToanLop3.Phan1
             {
                 UserCT[i].Hide();
             }
+
             btBaiTap1.Hide();
             btBaiTap2.Hide();
             btBaiTap3.Hide();
             btBaiTap4.Hide();
             btBaiTap5.Hide();
-
             switch (currentState)
             {
                 case ScreenState.BaiTap1:
@@ -76,11 +76,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan1
                     break;
                 case ScreenState.BaiTap5:
                     UserCT[4].Show();
-                    btBaiTap1.Hide();
-                    btBaiTap2.Hide();
-                    btBaiTap3.Hide();
-                    btBaiTap4.Hide();
-                    btBaiTap5.Hide();
+                 
 
                     break;
                 case ScreenState.Temp:

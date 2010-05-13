@@ -330,17 +330,28 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg" />
-    <None Include="Resources\13102.jpg" />
-    <Content Include="Resources\16.jpg" />
-    <Content Include="Resources\a_dreamy_world05.jpg" />
-    <None Include="Resources\C9.jpg" />
-    <None Include="Resources\C91.jpg" />
-    <Content Include="Resources\f3hv2pir4.png" />
-    <Content Include="Resources\f3hvf7yr3.png" />
-    <Content Include="Resources\khunghinh2.jpg" />
-    <None Include="Resources\thien-nga1.jpg" />
-    <None Include="Resources\thien-nga.jpg" />
+    <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\13102.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="Resources\16.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\a_dreamy_world05.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\a_dreamy_world051.jpg" />
+    <Content Include="Resources\f3hv2pir4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\f3hvf7yr3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Resources\khunghinh2.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Phan1\Bai2\" />

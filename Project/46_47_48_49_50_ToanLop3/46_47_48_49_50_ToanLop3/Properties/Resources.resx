@@ -118,28 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="A_S%20Template_Children_v01_01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\A_S%20Template_Children_v01_01.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="1235157360_1235069775_veselii-zajaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1235157360_1235069775_veselii-zajaz.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="f3hvf7yr3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\f3hvf7yr3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="a_dreamy_world05" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\a_dreamy_world05.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\16.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="13102" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\13102.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1235157360_1235069775_veselii-zajaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1235157360_1235069775_veselii-zajaz.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a_dreamy_world05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a_dreamy_world05.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C9.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="C91" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\C91.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="f3hv2pir4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\f3hv2pir4.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="f3hvf7yr3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f3hvf7yr3.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="khunghinh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khunghinh2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thien-nga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thien-nga.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thien-nga1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thien-nga1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

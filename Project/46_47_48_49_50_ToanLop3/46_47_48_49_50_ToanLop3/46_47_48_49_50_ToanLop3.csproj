@@ -214,19 +214,19 @@
       <DependentUpon>PHAN2.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai01.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai01.Designer.cs">
       <DependentUpon>Bai01.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai02.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai02.Designer.cs">
       <DependentUpon>Bai02.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap1.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap1.Designer.cs">
       <DependentUpon>BaiTap1.cs</DependentUpon>

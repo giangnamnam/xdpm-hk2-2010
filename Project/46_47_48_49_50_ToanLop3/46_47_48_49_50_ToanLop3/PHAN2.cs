@@ -93,11 +93,7 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult= MessageBox.Show("Bạn muốn quay lại mực lục chính", "Quay lại", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (dialogResult == DialogResult.OK)
-            {
-                this.Close();
-            }
+            this.Close();
         }
 
     }

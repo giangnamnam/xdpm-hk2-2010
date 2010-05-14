@@ -112,6 +112,7 @@
             this.llbThucHanh = new System.Windows.Forms.LinkLabel();
             this.btnLamLai = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox10.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -130,7 +131,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(393, 9);
+            this.label1.Location = new System.Drawing.Point(473, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(255, 25);
             this.label1.TabIndex = 0;
@@ -663,7 +664,7 @@
             // btnDaLamXong
             // 
             this.btnDaLamXong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDaLamXong.Location = new System.Drawing.Point(781, 481);
+            this.btnDaLamXong.Location = new System.Drawing.Point(716, 572);
             this.btnDaLamXong.Name = "btnDaLamXong";
             this.btnDaLamXong.Size = new System.Drawing.Size(113, 45);
             this.btnDaLamXong.TabIndex = 2;
@@ -675,7 +676,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(778, 529);
+            this.linkLabel1.Location = new System.Drawing.Point(577, 620);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(116, 15);
             this.linkLabel1.TabIndex = 5;
@@ -706,7 +707,7 @@
             this.groupBox11.Controls.Add(this.txt68);
             this.groupBox11.Controls.Add(this.txt1);
             this.groupBox11.Controls.Add(this.label5);
-            this.groupBox11.Location = new System.Drawing.Point(516, 123);
+            this.groupBox11.Location = new System.Drawing.Point(592, 123);
             this.groupBox11.Name = "groupBox11";
             this.groupBox11.Size = new System.Drawing.Size(237, 430);
             this.groupBox11.TabIndex = 0;
@@ -875,7 +876,7 @@
             // lblLuoi
             // 
             this.lblLuoi.AutoSize = true;
-            this.lblLuoi.Location = new System.Drawing.Point(577, 587);
+            this.lblLuoi.Location = new System.Drawing.Point(653, 587);
             this.lblLuoi.Name = "lblLuoi";
             this.lblLuoi.Size = new System.Drawing.Size(0, 13);
             this.lblLuoi.TabIndex = 46;
@@ -886,7 +887,7 @@
             this.lblError.AutoSize = true;
             this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(513, 556);
+            this.lblError.Location = new System.Drawing.Point(844, 186);
             this.lblError.Name = "lblError";
             this.lblError.Size = new System.Drawing.Size(42, 16);
             this.lblError.TabIndex = 47;
@@ -898,7 +899,7 @@
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.ForeColor = System.Drawing.Color.Red;
-            this.linkLabel3.Location = new System.Drawing.Point(122, 53);
+            this.linkLabel3.Location = new System.Drawing.Point(153, 53);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(228, 20);
             this.linkLabel3.TabIndex = 48;
@@ -910,7 +911,7 @@
             this.groupBox12.Controls.Add(this.label7);
             this.groupBox12.Controls.Add(this.label6);
             this.groupBox12.Controls.Add(this.llbThucHanh);
-            this.groupBox12.Location = new System.Drawing.Point(499, 37);
+            this.groupBox12.Location = new System.Drawing.Point(592, 37);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(354, 48);
             this.groupBox12.TabIndex = 51;
@@ -954,7 +955,7 @@
             // btnLamLai
             // 
             this.btnLamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamLai.Location = new System.Drawing.Point(781, 417);
+            this.btnLamLai.Location = new System.Drawing.Point(592, 572);
             this.btnLamLai.Name = "btnLamLai";
             this.btnLamLai.Size = new System.Drawing.Size(113, 45);
             this.btnLamLai.TabIndex = 1;
@@ -965,7 +966,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(771, 597);
+            this.button1.Location = new System.Drawing.Point(961, 503);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 52);
             this.button1.TabIndex = 52;
@@ -973,12 +974,25 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(961, 572);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(136, 40);
+            this.button2.TabIndex = 103;
+            this.button2.Text = "Thoát Chương Trình";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Bai01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1034, 709);
             this.ControlBox = false;
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnLamLai);
             this.Controls.Add(this.groupBox12);
@@ -991,7 +1005,6 @@
             this.Controls.Add(this.groupBox10);
             this.Controls.Add(this.label1);
             this.Name = "Bai01";
-            this.Text = "Bài 01 : BẢNG NHÂM 6";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bai01_Load);
             this.groupBox10.ResumeLayout(false);
@@ -1107,6 +1120,7 @@
         private System.Windows.Forms.RadioButton radioButton6;
         private System.Windows.Forms.Button btnLamLai;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
 
 
 

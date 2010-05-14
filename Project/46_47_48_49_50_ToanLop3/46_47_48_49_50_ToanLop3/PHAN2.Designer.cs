@@ -33,7 +33,7 @@
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "BẢNG NHÂN 6", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 2",
-            "Các số phạm vi 1.000"}, -1);
+            "NHÂN SỐ CÓ 2 CHỬ SỐ VỚI SỐ CÓ 1 CHỬ SỐ(Không nhớ)"}, -1);
             System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Bài 3"),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Các số đến 10.000", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
@@ -66,7 +66,7 @@
             this.chọnBàiTậpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1054, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(932, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -83,14 +83,14 @@
             // bài01ToolStripMenuItem
             // 
             this.bài01ToolStripMenuItem.Name = "bài01ToolStripMenuItem";
-            this.bài01ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bài01ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bài01ToolStripMenuItem.Text = "Bài 01";
             this.bài01ToolStripMenuItem.Click += new System.EventHandler(this.bài01ToolStripMenuItem_Click);
             // 
             // bài02ToolStripMenuItem
             // 
             this.bài02ToolStripMenuItem.Name = "bài02ToolStripMenuItem";
-            this.bài02ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bài02ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bài02ToolStripMenuItem.Text = "Bài 02";
             this.bài02ToolStripMenuItem.Click += new System.EventHandler(this.bài02ToolStripMenuItem_Click);
             // 
@@ -197,7 +197,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1054, 455);
+            this.ClientSize = new System.Drawing.Size(932, 447);
+            this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.bntBatDau);

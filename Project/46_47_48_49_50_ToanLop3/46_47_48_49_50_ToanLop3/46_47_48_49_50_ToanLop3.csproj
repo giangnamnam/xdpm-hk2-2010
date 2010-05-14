@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2504D51C-E490-4099-A5E3-BA6F26A07124}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -213,6 +213,48 @@
     <Compile Include="PHAN2.Designer.cs">
       <DependentUpon>PHAN2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan2\Bai01.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai02.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai02.Designer.cs">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap1.Designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap2.Designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap3.Designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap4.Designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap5.Designer.cs">
+      <DependentUpon>BaiTap5.cs</DependentUpon>
+    </Compile>
     <Compile Include="PHAN3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -289,6 +331,9 @@
     <EmbeddedResource Include="Phan1\Bai01.resx">
       <DependentUpon>Bai01.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan1\Bai15.resx">
       <DependentUpon>Bai15.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,6 +354,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan1\MucLuc1.resx">
       <DependentUpon>MucLuc1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN2.resx">
+      <DependentUpon>PHAN2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap5.resx">
+      <DependentUpon>BaiTap5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PHAN3.resx">
       <DependentUpon>PHAN3.cs</DependentUpon>

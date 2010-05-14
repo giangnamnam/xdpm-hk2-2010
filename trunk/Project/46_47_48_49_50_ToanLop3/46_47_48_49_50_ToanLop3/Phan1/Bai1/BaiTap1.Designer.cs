@@ -45,9 +45,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
-            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
-            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
             this.lineShape2 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.rectangleShape1 = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
+            this.bai021 = new _46_47_48_49_50_ToanLop3.Phan1.Bai02();
             this.SuspendLayout();
             // 
             // btOk
@@ -217,11 +218,13 @@
             this.shapeContainer1.TabIndex = 49;
             this.shapeContainer1.TabStop = false;
             // 
-            // rectangleShape1
+            // lineShape2
             // 
-            this.rectangleShape1.Location = new System.Drawing.Point(182, 98);
-            this.rectangleShape1.Name = "rectangleShape1";
-            this.rectangleShape1.Size = new System.Drawing.Size(374, 281);
+            this.lineShape2.Name = "lineShape2";
+            this.lineShape2.X1 = 180;
+            this.lineShape2.X2 = 553;
+            this.lineShape2.Y1 = 133;
+            this.lineShape2.Y2 = 133;
             // 
             // lineShape1
             // 
@@ -231,13 +234,18 @@
             this.lineShape1.Y1 = 98;
             this.lineShape1.Y2 = 379;
             // 
-            // lineShape2
+            // rectangleShape1
             // 
-            this.lineShape2.Name = "lineShape2";
-            this.lineShape2.X1 = 180;
-            this.lineShape2.X2 = 553;
-            this.lineShape2.Y1 = 133;
-            this.lineShape2.Y2 = 133;
+            this.rectangleShape1.Location = new System.Drawing.Point(182, 98);
+            this.rectangleShape1.Name = "rectangleShape1";
+            this.rectangleShape1.Size = new System.Drawing.Size(374, 281);
+            // 
+            // bai021
+            // 
+            this.bai021.Location = new System.Drawing.Point(679, 220);
+            this.bai021.Name = "bai021";
+            this.bai021.Size = new System.Drawing.Size(150, 150);
+            this.bai021.TabIndex = 50;
             // 
             // BaiTap1
             // 
@@ -245,6 +253,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.frames8bd;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.bai021);
             this.Controls.Add(this.btOk);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.tbkq5);
@@ -264,6 +273,7 @@
             this.Controls.Add(this.shapeContainer1);
             this.Name = "BaiTap1";
             this.Size = new System.Drawing.Size(739, 462);
+            this.Load += new System.EventHandler(this.BaiTap1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -291,6 +301,7 @@
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape rectangleShape1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape2;
+        private Bai02 bai021;
 
 
     }

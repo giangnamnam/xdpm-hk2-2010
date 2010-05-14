@@ -110,7 +110,6 @@ namespace _46_47_48_49_50_ToanLop3
             {
                 MessageBox.Show("Bạn hãy chọn phần để học!!!");
             }
-          
         }
 
         private void MucLuc_Load(object sender, EventArgs e)

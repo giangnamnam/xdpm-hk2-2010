@@ -92,8 +92,9 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Phan2.Bai1.txt1 frm = new Phan2.Bai1.txt1();
+            Phan2.Bai1.BaiTap1 frm = new Phan2.Bai1.BaiTap1();
             frm.ShowDialog();
+            this.Close();
         }
 
         private void btnLamLai_Click(object sender, EventArgs e)
@@ -116,8 +117,12 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            PHAN2 frm = new PHAN2();
-            frm.ShowDialog();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

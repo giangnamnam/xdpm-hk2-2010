@@ -18,38 +18,46 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void bntBatDau_Click(object sender, EventArgs e)
         {
-            string pathName = ListView1.SelectedItems[0].Tag.ToString();
-            if (pathName == "phan1")
+            try
             {
-                PHAN1 frm = new PHAN1();
-                frm.ShowDialog();
-            }
-            if (pathName == "phan2")
-            {
-                PHAN2 frm = new PHAN2();
-                frm.ShowDialog();
-            }
-            if (pathName == "phan3")
-            {
-                PHAN3 frm = new PHAN3();
-                frm.ShowDialog();
-            }
-            if (pathName == "phan4")
-            {
-                PHAN4 frm = new PHAN4();
-                frm.Show();
-            }
-            if (pathName == "phan5")
-            {
-                PHAN5 frm = new PHAN5();
-                frm.Show();
-            }
+                string pathName = ListView1.SelectedItems[0].Tag.ToString();
+                if (pathName == "phan1")
+                {
+                    PHAN1 frm = new PHAN1();
+                    frm.ShowDialog();
+                }
+                if (pathName == "phan2")
+                {
+                    PHAN2 frm = new PHAN2();
+                    frm.ShowDialog();
+                }
+                if (pathName == "phan3")
+                {
+                    PHAN3 frm = new PHAN3();
+                    frm.ShowDialog();
+                }
+                if (pathName == "phan4")
+                {
+                    PHAN4 frm = new PHAN4();
+                    frm.Show();
+                }
+                if (pathName == "phan5")
+                {
+                    PHAN5 frm = new PHAN5();
+                    frm.Show();
+                }
 
-            if (pathName == "baiTapThem")
-            {
-                BAITAPTHEM frm = new BAITAPTHEM();
-                frm.Show();
+                if (pathName == "baiTapThem")
+                {
+                    BAITAPTHEM frm = new BAITAPTHEM();
+                    frm.Show();
+                }
             }
+            catch 
+            {
+                MessageBox.Show("Bạn hãy chọn phần để học!!!");
+            }
+            
         }
 
         private void btnThoat_Click(object sender, EventArgs e)
@@ -63,38 +71,51 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void ListView1_DoubleClick(object sender, EventArgs e)
         {
-            string pathName = ListView1.SelectedItems[0].Tag.ToString();
-            if (pathName == "phan1")
+            try
             {
-                PHAN1 frm = new PHAN1();
-                frm.ShowDialog();
-            }
-            if (pathName == "phan2")
-            {
-                PHAN2 frm = new PHAN2();
-                frm.ShowDialog();
-            }
-            if (pathName == "phan3")
-            {
-                PHAN3 frm = new PHAN3();
-                frm.ShowDialog();
-            }
-            if (pathName == "phan4")
-            {
-                PHAN4 frm = new PHAN4();
-                frm.Show();
-            }
-            if (pathName == "phan5")
-            {
-                PHAN5 frm = new PHAN5();
-                frm.Show();
-            }
+                string pathName = ListView1.SelectedItems[0].Tag.ToString();
+                if (pathName == "phan1")
+                {
+                    PHAN1 frm = new PHAN1();
+                    frm.ShowDialog();
+                }
+                if (pathName == "phan2")
+                {
+                    PHAN2 frm = new PHAN2();
+                    frm.ShowDialog();
+                }
+                if (pathName == "phan3")
+                {
+                    PHAN3 frm = new PHAN3();
+                    frm.ShowDialog();
+                }
+                if (pathName == "phan4")
+                {
+                    PHAN4 frm = new PHAN4();
+                    frm.Show();
+                }
+                if (pathName == "phan5")
+                {
+                    PHAN5 frm = new PHAN5();
+                    frm.Show();
+                }
 
-            if (pathName == "baiTapThem")
-            {
-                BAITAPTHEM frm = new BAITAPTHEM();
-                frm.Show();
+                if (pathName == "baiTapThem")
+                {
+                    BAITAPTHEM frm = new BAITAPTHEM();
+                    frm.Show();
+                }
             }
+            catch
+            {
+                MessageBox.Show("Bạn hãy chọn phần để học!!!");
+            }
+          
+        }
+
+        private void MucLuc_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

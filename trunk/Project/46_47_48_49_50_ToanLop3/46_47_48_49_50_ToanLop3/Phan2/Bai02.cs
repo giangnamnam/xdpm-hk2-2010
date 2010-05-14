@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan2
 {
-    public partial class Bai02 : UserControl
+    public partial class Bai02 : Form
     {
         public Bai02()
         {
@@ -18,7 +18,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void Bai02_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

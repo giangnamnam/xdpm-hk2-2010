@@ -232,25 +232,25 @@
       <DependentUpon>BaiTap1.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap2.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap2.Designer.cs">
       <DependentUpon>BaiTap2.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap3.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap3.Designer.cs">
       <DependentUpon>BaiTap3.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap4.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap4.Designer.cs">
       <DependentUpon>BaiTap4.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap5.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap5.Designer.cs">
       <DependentUpon>BaiTap5.cs</DependentUpon>

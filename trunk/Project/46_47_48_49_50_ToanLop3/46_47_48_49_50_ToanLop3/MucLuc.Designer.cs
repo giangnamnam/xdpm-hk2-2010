@@ -85,9 +85,9 @@
             listViewItem4,
             listViewItem5,
             listViewItem6});
-            this.ListView1.Location = new System.Drawing.Point(75, 70);
+            this.ListView1.Location = new System.Drawing.Point(49, 73);
             this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(558, 244);
+            this.ListView1.Size = new System.Drawing.Size(593, 244);
             this.ListView1.TabIndex = 18;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
@@ -121,7 +121,7 @@
             // btnThoat
             // 
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(542, 335);
+            this.btnThoat.Location = new System.Drawing.Point(551, 335);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(91, 34);
             this.btnThoat.TabIndex = 22;
@@ -133,7 +133,7 @@
             // 
             this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntBatDau.ForeColor = System.Drawing.Color.Black;
-            this.bntBatDau.Location = new System.Drawing.Point(75, 335);
+            this.bntBatDau.Location = new System.Drawing.Point(49, 335);
             this.bntBatDau.Name = "bntBatDau";
             this.bntBatDau.Size = new System.Drawing.Size(141, 34);
             this.bntBatDau.TabIndex = 21;
@@ -146,6 +146,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(690, 399);
+            this.ControlBox = false;
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.bntBatDau);
             this.Controls.Add(this.label1);

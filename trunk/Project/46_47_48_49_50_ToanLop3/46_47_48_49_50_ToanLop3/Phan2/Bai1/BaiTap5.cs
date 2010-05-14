@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 {
-    public partial class BaiTap5 : UserControl
+    public partial class BaiTap5 : Form
     {
         public BaiTap5()
         {

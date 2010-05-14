@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 {
-    public partial class BaiTap1 : Form
+    public partial class txt1 : Form
     {
-        public BaiTap1()
+        public txt1()
         {
             InitializeComponent();
         }

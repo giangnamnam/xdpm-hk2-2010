@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bai01));
-            this.label1 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -113,6 +112,7 @@
             this.btnLamLai = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox10.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -126,16 +126,6 @@
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(473, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(255, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "BÀI 01 : BẢNG NHÂN 6";
             // 
             // groupBox10
             // 
@@ -966,9 +956,9 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(961, 503);
+            this.button1.Location = new System.Drawing.Point(912, 505);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(134, 52);
+            this.button1.Size = new System.Drawing.Size(134, 48);
             this.button1.TabIndex = 52;
             this.button1.Text = "Quay Lại Mục Lục Phần 2";
             this.button1.UseVisualStyleBackColor = true;
@@ -977,21 +967,33 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(961, 572);
+            this.button2.Location = new System.Drawing.Point(912, 572);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 40);
+            this.button2.Size = new System.Drawing.Size(134, 49);
             this.button2.TabIndex = 103;
             this.button2.Text = "Thoát Chương Trình";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(460, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(255, 25);
+            this.label1.TabIndex = 104;
+            this.label1.Text = "BÀI 01 : BẢNG NHÂN 6";
+            // 
             // Bai01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1034, 709);
+            this.ClientSize = new System.Drawing.Size(1102, 709);
             this.ControlBox = false;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnLamLai);
@@ -1003,7 +1005,6 @@
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.btnDaLamXong);
             this.Controls.Add(this.groupBox10);
-            this.Controls.Add(this.label1);
             this.Name = "Bai01";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bai01_Load);
@@ -1037,7 +1038,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Label label4;
@@ -1121,6 +1121,7 @@
         private System.Windows.Forms.Button btnLamLai;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label1;
 
 
 

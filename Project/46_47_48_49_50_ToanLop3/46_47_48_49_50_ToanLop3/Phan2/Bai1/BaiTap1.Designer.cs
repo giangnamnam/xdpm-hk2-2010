@@ -31,7 +31,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txt1 = new System.Windows.Forms.TextBox();
             this.txt3 = new System.Windows.Forms.TextBox();
             this.txt2 = new System.Windows.Forms.TextBox();
             this.txt62 = new System.Windows.Forms.TextBox();
@@ -60,7 +60,7 @@
             this.btnDaLamXong = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.chk25 = new System.Windows.Forms.CheckBox();
             this.chk14 = new System.Windows.Forms.CheckBox();
             this.chk32 = new System.Windows.Forms.CheckBox();
             this.chk30 = new System.Windows.Forms.CheckBox();
@@ -78,12 +78,18 @@
             this.txtLa24 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtLa54 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnQuayLaiPhan2 = new System.Windows.Forms.Button();
+            this.btnThoat = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.btnBT2LamLai = new System.Windows.Forms.Button();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.btnBT2 = new System.Windows.Forms.Button();
+            this.lblError = new System.Windows.Forms.Label();
+            this.lblLoiBT2 = new System.Windows.Forms.Label();
+            this.lblLoiBT3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -125,13 +131,13 @@
                 "                           0  x  6   = \r\n\r\n6 x 7 =                              " +
                 "   6  x  0   =\r\n\r\n";
             // 
-            // textBox1
+            // txt1
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 94);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(51, 21);
-            this.textBox1.TabIndex = 0;
+            this.txt1.Location = new System.Drawing.Point(82, 94);
+            this.txt1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.txt1.Name = "txt1";
+            this.txt1.Size = new System.Drawing.Size(51, 21);
+            this.txt1.TabIndex = 0;
             // 
             // txt3
             // 
@@ -339,6 +345,7 @@
             this.btnLamLai.TabIndex = 19;
             this.btnLamLai.Text = "Làm Lại";
             this.btnLamLai.UseVisualStyleBackColor = true;
+            this.btnLamLai.Click += new System.EventHandler(this.btnLamLai_Click);
             // 
             // linkLabel1
             // 
@@ -351,6 +358,7 @@
             this.linkLabel1.TabIndex = 17;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Kiễm tra kết quả ";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // btnDaLamXong
             // 
@@ -362,6 +370,7 @@
             this.btnDaLamXong.TabIndex = 18;
             this.btnDaLamXong.Text = "Đã Làm Xong";
             this.btnDaLamXong.UseVisualStyleBackColor = true;
+            this.btnDaLamXong.Click += new System.EventHandler(this.btnDaLamXong_Click);
             // 
             // label3
             // 
@@ -384,16 +393,16 @@
             this.label4.TabIndex = 76;
             this.label4.Text = "Mỗi thùng có 6 lít dầu.\r\nHỏi 5 thùng như thế có bao nhiêu lít dầu?";
             // 
-            // checkBox1
+            // chk25
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.checkBox1.Location = new System.Drawing.Point(6, 34);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(107, 19);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Có 25 lít dầu";
-            this.checkBox1.UseVisualStyleBackColor = false;
+            this.chk25.AutoSize = true;
+            this.chk25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chk25.Location = new System.Drawing.Point(6, 34);
+            this.chk25.Name = "chk25";
+            this.chk25.Size = new System.Drawing.Size(107, 19);
+            this.chk25.TabIndex = 0;
+            this.chk25.Text = "Có 25 lít dầu";
+            this.chk25.UseVisualStyleBackColor = false;
             // 
             // chk14
             // 
@@ -438,6 +447,7 @@
             this.bntBT2Ok.TabIndex = 12;
             this.bntBT2Ok.Text = "Đã Làm Xong";
             this.bntBT2Ok.UseVisualStyleBackColor = true;
+            this.bntBT2Ok.Click += new System.EventHandler(this.bntBT2Ok_Click);
             // 
             // btnLLBt2
             // 
@@ -449,6 +459,7 @@
             this.btnLLBt2.TabIndex = 13;
             this.btnLLBt2.Text = "Làm Lại";
             this.btnLLBt2.UseVisualStyleBackColor = true;
+            this.btnLLBt2.Click += new System.EventHandler(this.btnLLBt2_Click);
             // 
             // linkLabel2
             // 
@@ -461,6 +472,7 @@
             this.linkLabel2.TabIndex = 16;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Kiễm tra kết quả ";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // label7
             // 
@@ -501,6 +513,8 @@
             // 
             // txtLa48
             // 
+            this.txtLa48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa48.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtLa48.Location = new System.Drawing.Point(361, 20);
             this.txtLa48.Name = "txtLa48";
             this.txtLa48.Size = new System.Drawing.Size(43, 21);
@@ -508,6 +522,8 @@
             // 
             // txtLa42
             // 
+            this.txtLa42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa42.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtLa42.Location = new System.Drawing.Point(312, 20);
             this.txtLa42.Name = "txtLa42";
             this.txtLa42.Size = new System.Drawing.Size(43, 21);
@@ -523,17 +539,23 @@
             // 
             // txtLa30
             // 
+            this.txtLa30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa30.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtLa30.Location = new System.Drawing.Point(214, 20);
             this.txtLa30.Name = "txtLa30";
             this.txtLa30.Size = new System.Drawing.Size(43, 21);
             this.txtLa30.TabIndex = 4;
+            this.txtLa30.Tag = "";
             // 
             // txtLa24
             // 
+            this.txtLa24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa24.ForeColor = System.Drawing.SystemColors.WindowText;
             this.txtLa24.Location = new System.Drawing.Point(165, 20);
             this.txtLa24.Name = "txtLa24";
             this.txtLa24.Size = new System.Drawing.Size(43, 21);
             this.txtLa24.TabIndex = 3;
+            this.txtLa24.Tag = "";
             // 
             // textBox9
             // 
@@ -551,17 +573,19 @@
             this.textBox10.TabIndex = 1;
             this.textBox10.Text = "12";
             // 
-            // textBox4
+            // txtLa54
             // 
-            this.textBox4.Location = new System.Drawing.Point(410, 20);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(43, 21);
-            this.textBox4.TabIndex = 8;
+            this.txtLa54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa54.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtLa54.Location = new System.Drawing.Point(410, 20);
+            this.txtLa54.Name = "txtLa54";
+            this.txtLa54.Size = new System.Drawing.Size(43, 21);
+            this.txtLa54.TabIndex = 8;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtLa54);
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox10);
             this.groupBox1.Controls.Add(this.textBox3);
@@ -578,7 +602,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.chk25);
             this.groupBox2.Controls.Add(this.chk14);
             this.groupBox2.Controls.Add(this.chk32);
             this.groupBox2.Controls.Add(this.chk30);
@@ -587,41 +611,115 @@
             this.groupBox2.Size = new System.Drawing.Size(566, 73);
             this.groupBox2.TabIndex = 100;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Đáp Án";
+            this.groupBox2.Text = "Đáp Án : Chọn 1 Câu Đúng";
             // 
-            // button1
+            // btnQuayLaiPhan2
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(694, 611);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(136, 40);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "Quay Lại Mục Lục Phần 2";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnQuayLaiPhan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnQuayLaiPhan2.Location = new System.Drawing.Point(694, 611);
+            this.btnQuayLaiPhan2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnQuayLaiPhan2.Name = "btnQuayLaiPhan2";
+            this.btnQuayLaiPhan2.Size = new System.Drawing.Size(136, 40);
+            this.btnQuayLaiPhan2.TabIndex = 14;
+            this.btnQuayLaiPhan2.Text = "Quay Lại Mục Lục Phần 2";
+            this.btnQuayLaiPhan2.UseVisualStyleBackColor = true;
+            this.btnQuayLaiPhan2.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnThoat
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(694, 657);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(136, 40);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "Thoát Chương Trình";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.Location = new System.Drawing.Point(694, 657);
+            this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnThoat.Name = "btnThoat";
+            this.btnThoat.Size = new System.Drawing.Size(136, 40);
+            this.btnThoat.TabIndex = 15;
+            this.btnThoat.Text = "Thoát Chương Trình";
+            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.Click += new System.EventHandler(this.button2_Click);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(365, 9);
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label6.Location = new System.Drawing.Point(452, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(255, 25);
             this.label6.TabIndex = 101;
             this.label6.Text = "BÀI 01 : BẢNG NHÂN 6";
+            // 
+            // btnBT2LamLai
+            // 
+            this.btnBT2LamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBT2LamLai.Location = new System.Drawing.Point(769, 392);
+            this.btnBT2LamLai.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnBT2LamLai.Name = "btnBT2LamLai";
+            this.btnBT2LamLai.Size = new System.Drawing.Size(137, 36);
+            this.btnBT2LamLai.TabIndex = 104;
+            this.btnBT2LamLai.Text = "Làm Lại";
+            this.btnBT2LamLai.UseVisualStyleBackColor = true;
+            this.btnBT2LamLai.Click += new System.EventHandler(this.btnBT2LamLai_Click);
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel3.Location = new System.Drawing.Point(477, 451);
+            this.linkLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(116, 15);
+            this.linkLabel3.TabIndex = 102;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Kiễm tra kết quả ";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
+            // btnBT2
+            // 
+            this.btnBT2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBT2.Location = new System.Drawing.Point(630, 392);
+            this.btnBT2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnBT2.Name = "btnBT2";
+            this.btnBT2.Size = new System.Drawing.Size(120, 36);
+            this.btnBT2.TabIndex = 103;
+            this.btnBT2.Text = "Đã Làm Xong";
+            this.btnBT2.UseVisualStyleBackColor = true;
+            this.btnBT2.Click += new System.EventHandler(this.btnBT2_Click);
+            // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(788, 94);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(42, 16);
+            this.lblError.TabIndex = 105;
+            this.lblError.Text = "Error";
+            this.lblError.Visible = false;
+            // 
+            // lblLoiBT2
+            // 
+            this.lblLoiBT2.AutoSize = true;
+            this.lblLoiBT2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLoiBT2.ForeColor = System.Drawing.Color.Red;
+            this.lblLoiBT2.Location = new System.Drawing.Point(35, 451);
+            this.lblLoiBT2.Name = "lblLoiBT2";
+            this.lblLoiBT2.Size = new System.Drawing.Size(42, 16);
+            this.lblLoiBT2.TabIndex = 106;
+            this.lblLoiBT2.Text = "Error";
+            this.lblLoiBT2.Visible = false;
+            // 
+            // lblLoiBT3
+            // 
+            this.lblLoiBT3.AutoSize = true;
+            this.lblLoiBT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblLoiBT3.ForeColor = System.Drawing.Color.Red;
+            this.lblLoiBT3.Location = new System.Drawing.Point(35, 613);
+            this.lblLoiBT3.Name = "lblLoiBT3";
+            this.lblLoiBT3.Size = new System.Drawing.Size(42, 16);
+            this.lblLoiBT3.TabIndex = 107;
+            this.lblLoiBT3.Text = "Error";
+            this.lblLoiBT3.Visible = false;
             // 
             // BaiTap1
             // 
@@ -629,9 +727,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1362, 764);
             this.ControlBox = false;
+            this.Controls.Add(this.lblLoiBT3);
+            this.Controls.Add(this.lblLoiBT2);
+            this.Controls.Add(this.lblError);
+            this.Controls.Add(this.btnBT2LamLai);
+            this.Controls.Add(this.linkLabel3);
+            this.Controls.Add(this.btnBT2);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.btnQuayLaiPhan2);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label8);
@@ -667,7 +771,7 @@
             this.Controls.Add(this.txt61);
             this.Controls.Add(this.txt2);
             this.Controls.Add(this.txt3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
@@ -690,7 +794,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txt1;
         private System.Windows.Forms.TextBox txt3;
         private System.Windows.Forms.TextBox txt2;
         private System.Windows.Forms.TextBox txt62;
@@ -719,7 +823,7 @@
         private System.Windows.Forms.Button btnDaLamXong;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox chk25;
         private System.Windows.Forms.CheckBox chk14;
         private System.Windows.Forms.CheckBox chk32;
         private System.Windows.Forms.CheckBox chk30;
@@ -737,11 +841,17 @@
         private System.Windows.Forms.TextBox txtLa24;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtLa54;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnQuayLaiPhan2;
+        private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnBT2LamLai;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Button btnBT2;
+        private System.Windows.Forms.Label lblError;
+        private System.Windows.Forms.Label lblLoiBT2;
+        private System.Windows.Forms.Label lblLoiBT3;
     }
 }

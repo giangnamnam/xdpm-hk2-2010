@@ -146,7 +146,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void btnBT2LamLai_Click(object sender, EventArgs e)
         {
-            lblLoiBT2.Visible = true;
+            lblLoiBT2.Visible = false;
             chk25.Checked = false; chk14.Checked = false; chk30.Checked = false; chk32.Checked = false;
         }
 
@@ -202,6 +202,12 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             txtLa42.Text = "42";
             txtLa48.Text = "48";
             txtLa54.Text = "54";
+        }
+
+        private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Phan2.Bai1.LuyenTap.LuyenTapBT1 frm = new Phan2.Bai1.LuyenTap.LuyenTapBT1();
+            frm.ShowDialog();
         }
     }
 }

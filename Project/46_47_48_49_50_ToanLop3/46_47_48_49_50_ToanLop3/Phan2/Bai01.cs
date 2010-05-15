@@ -94,7 +94,6 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             Phan2.Bai1.BaiTap1 frm = new Phan2.Bai1.BaiTap1();
             frm.ShowDialog();
-            this.Close();
         }
 
         private void btnLamLai_Click(object sender, EventArgs e)

@@ -357,6 +357,7 @@
             // 
             // btnLamLaib
             // 
+            this.btnLamLaib.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLamLaib.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamLaib.Location = new System.Drawing.Point(770, 289);
             this.btnLamLaib.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -364,7 +365,7 @@
             this.btnLamLaib.Size = new System.Drawing.Size(137, 36);
             this.btnLamLaib.TabIndex = 158;
             this.btnLamLaib.Text = "Làm Lại";
-            this.btnLamLaib.UseVisualStyleBackColor = true;
+            this.btnLamLaib.UseVisualStyleBackColor = false;
             this.btnLamLaib.Click += new System.EventHandler(this.btnLamLaib_Click);
             // 
             // linkLabel2
@@ -382,6 +383,7 @@
             // 
             // btnDaLamb
             // 
+            this.btnDaLamb.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnDaLamb.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDaLamb.Location = new System.Drawing.Point(642, 288);
             this.btnDaLamb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -389,7 +391,7 @@
             this.btnDaLamb.Size = new System.Drawing.Size(120, 36);
             this.btnDaLamb.TabIndex = 157;
             this.btnDaLamb.Text = "Đã Làm Xong";
-            this.btnDaLamb.UseVisualStyleBackColor = true;
+            this.btnDaLamb.UseVisualStyleBackColor = false;
             this.btnDaLamb.Click += new System.EventHandler(this.btnDaLamb_Click);
             // 
             // label10
@@ -594,6 +596,7 @@
             // 
             // btnLamLaiBt3
             // 
+            this.btnLamLaiBt3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLamLaiBt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamLaiBt3.Location = new System.Drawing.Point(770, 630);
             this.btnLamLaiBt3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -601,11 +604,12 @@
             this.btnLamLaiBt3.Size = new System.Drawing.Size(137, 36);
             this.btnLamLaiBt3.TabIndex = 193;
             this.btnLamLaiBt3.Text = "Làm Lại";
-            this.btnLamLaiBt3.UseVisualStyleBackColor = true;
+            this.btnLamLaiBt3.UseVisualStyleBackColor = false;
             this.btnLamLaiBt3.Click += new System.EventHandler(this.btnLamLaiBt3_Click);
             // 
             // btnDaLamBt3
             // 
+            this.btnDaLamBt3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnDaLamBt3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDaLamBt3.Location = new System.Drawing.Point(642, 630);
             this.btnDaLamBt3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -613,7 +617,7 @@
             this.btnDaLamBt3.Size = new System.Drawing.Size(120, 36);
             this.btnDaLamBt3.TabIndex = 192;
             this.btnDaLamBt3.Text = "Đã Làm Xong";
-            this.btnDaLamBt3.UseVisualStyleBackColor = true;
+            this.btnDaLamBt3.UseVisualStyleBackColor = false;
             this.btnDaLamBt3.Click += new System.EventHandler(this.btnDaLamBt3_Click);
             // 
             // lblBt2
@@ -630,6 +634,7 @@
             // 
             // btnLamLaiBt2
             // 
+            this.btnLamLaiBt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLamLaiBt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamLaiBt2.Location = new System.Drawing.Point(770, 467);
             this.btnLamLaiBt2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -637,7 +642,7 @@
             this.btnLamLaiBt2.Size = new System.Drawing.Size(137, 36);
             this.btnLamLaiBt2.TabIndex = 197;
             this.btnLamLaiBt2.Text = "Làm Lại";
-            this.btnLamLaiBt2.UseVisualStyleBackColor = true;
+            this.btnLamLaiBt2.UseVisualStyleBackColor = false;
             this.btnLamLaiBt2.Click += new System.EventHandler(this.btnLamLaiBt2_Click);
             // 
             // linkLabel4
@@ -655,6 +660,7 @@
             // 
             // btnLamXongBt2
             // 
+            this.btnLamXongBt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLamXongBt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLamXongBt2.Location = new System.Drawing.Point(642, 466);
             this.btnLamXongBt2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -662,7 +668,7 @@
             this.btnLamXongBt2.Size = new System.Drawing.Size(120, 36);
             this.btnLamXongBt2.TabIndex = 196;
             this.btnLamXongBt2.Text = "Đã Làm Xong";
-            this.btnLamXongBt2.UseVisualStyleBackColor = true;
+            this.btnLamXongBt2.UseVisualStyleBackColor = false;
             this.btnLamXongBt2.Click += new System.EventHandler(this.btnLamXongBt2_Click);
             // 
             // lblBt1b
@@ -691,6 +697,7 @@
             // 
             // btnThoat
             // 
+            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Location = new System.Drawing.Point(989, 628);
             this.btnThoat.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -698,19 +705,20 @@
             this.btnThoat.Size = new System.Drawing.Size(136, 40);
             this.btnThoat.TabIndex = 201;
             this.btnThoat.Text = "Thoát Chương Trình";
-            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // btnQuayLaiPhan2
             // 
+            this.btnQuayLaiPhan2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnQuayLaiPhan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuayLaiPhan2.Location = new System.Drawing.Point(989, 579);
             this.btnQuayLaiPhan2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnQuayLaiPhan2.Name = "btnQuayLaiPhan2";
             this.btnQuayLaiPhan2.Size = new System.Drawing.Size(136, 40);
             this.btnQuayLaiPhan2.TabIndex = 200;
-            this.btnQuayLaiPhan2.Text = "Quay Lại Mục Lục Phần 2";
-            this.btnQuayLaiPhan2.UseVisualStyleBackColor = true;
+            this.btnQuayLaiPhan2.Text = "Quay Lại";
+            this.btnQuayLaiPhan2.UseVisualStyleBackColor = false;
             this.btnQuayLaiPhan2.Click += new System.EventHandler(this.btnQuayLaiPhan2_Click);
             // 
             // groupBox12

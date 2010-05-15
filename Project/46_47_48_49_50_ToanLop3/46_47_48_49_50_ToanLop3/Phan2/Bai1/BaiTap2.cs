@@ -20,5 +20,96 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
 
         }
+        #region bai 2 
+        private void btnDaLamXong_Click(object sender, EventArgs e)
+        {
+            lblError.Text = "Lổi ở : ";
+            lblError.Visible = true;
+            if (txt1.Text != "96")
+            {
+                lblError.Text += " Dòng 1 câu a  ;";
+            }
+            if (txt2.Text != "66")
+            {
+                lblError.Text += " Dòng 2 câu a ;";
+            }
+            if (txt3.Text != "84")
+            {
+                lblError.Text += "  Dòng 1 câu b ;";
+            }
+            if (txt4.Text != "39")
+            {
+                lblError.Text += "  Dòng 2 câu b ;";
+            }
+            else
+            {
+                lblError.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
+            }
+        }
+
+        private void btnLamLai_Click(object sender, EventArgs e)
+        {
+            lblError.Visible = false;
+            txt1.Text = "";
+            txt2.Text = "";
+            txt3.Text = "";
+            txt4.Text = "";
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lblError.Visible = false;
+            txt1.Text = "96";
+            txt2.Text = "66";
+            txt3.Text = "84";
+            txt4.Text = "39";
+        }
+        #endregion
+
+        private void btnDaLamBt3_Click(object sender, EventArgs e)
+        {
+            lblBt3.Visible = true;
+            if (chk48.Checked==true && chk18.Checked == false && chk34.Checked ==false && chk54.Checked == false)
+            {
+                lblBt3.Text = "Bạn Đã Chọn Đúng !!";
+            }
+            else
+            {
+                lblBt3.Text = "Bạn Đã Chọn Sai !!! Hãy Chọn Lại ";
+            }
+        }
+
+        private void btnLamLaiBt3_Click(object sender, EventArgs e)
+        {
+            lblBt3.Visible = false;
+            chk18.Checked = false;
+            chk34.Checked = false;
+            chk48.Checked = false;
+            chk54.Checked = false;
+        }
+
+        private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lblBt3.Visible = false;
+            chk48.Checked = true;
+            chk18.Checked = false;
+            chk34.Checked = false;
+            chk54.Checked = false;
+        }
+
+        private void btnQuayLaiPhan2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (DialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+        
     }
 }

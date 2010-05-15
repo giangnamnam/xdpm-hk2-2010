@@ -91,39 +91,39 @@
             // bài01ToolStripMenuItem
             // 
             this.bài01ToolStripMenuItem.Name = "bài01ToolStripMenuItem";
-            this.bài01ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bài01ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bài01ToolStripMenuItem.Text = "Bài 01";
             this.bài01ToolStripMenuItem.Click += new System.EventHandler(this.bài01ToolStripMenuItem_Click);
             // 
             // bài02ToolStripMenuItem
             // 
             this.bài02ToolStripMenuItem.Name = "bài02ToolStripMenuItem";
-            this.bài02ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bài02ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bài02ToolStripMenuItem.Text = "Bài 02";
             this.bài02ToolStripMenuItem.Click += new System.EventHandler(this.bài02ToolStripMenuItem_Click);
             // 
             // bảiToolStripMenuItem
             // 
             this.bảiToolStripMenuItem.Name = "bảiToolStripMenuItem";
-            this.bảiToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bảiToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bảiToolStripMenuItem.Text = "Bài 03";
             // 
             // bài04ToolStripMenuItem
             // 
             this.bài04ToolStripMenuItem.Name = "bài04ToolStripMenuItem";
-            this.bài04ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bài04ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bài04ToolStripMenuItem.Text = "Bài 04";
             // 
             // bải05ToolStripMenuItem
             // 
             this.bải05ToolStripMenuItem.Name = "bải05ToolStripMenuItem";
-            this.bải05ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bải05ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bải05ToolStripMenuItem.Text = "Bải 05";
             // 
             // bài06ToolStripMenuItem
             // 
             this.bài06ToolStripMenuItem.Name = "bài06ToolStripMenuItem";
-            this.bài06ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.bài06ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
             this.bài06ToolStripMenuItem.Text = "Bài 06";
             // 
             // label1
@@ -192,17 +192,19 @@
             // 
             // btnThoat
             // 
+            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.Location = new System.Drawing.Point(846, 349);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(141, 47);
             this.btnThoat.TabIndex = 28;
             this.btnThoat.Text = "Thoát";
-            this.btnThoat.UseVisualStyleBackColor = true;
+            this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
             // bntBatDau
             // 
+            this.bntBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntBatDau.ForeColor = System.Drawing.Color.Black;
             this.bntBatDau.Location = new System.Drawing.Point(846, 204);
@@ -210,11 +212,12 @@
             this.bntBatDau.Size = new System.Drawing.Size(141, 45);
             this.bntBatDau.TabIndex = 27;
             this.bntBatDau.Text = "Bắt Đầu Học";
-            this.bntBatDau.UseVisualStyleBackColor = true;
+            this.bntBatDau.UseVisualStyleBackColor = false;
             this.bntBatDau.Click += new System.EventHandler(this.bntBatDau_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(846, 280);
@@ -222,7 +225,7 @@
             this.button1.Size = new System.Drawing.Size(141, 45);
             this.button1.TabIndex = 29;
             this.button1.Text = "Quay Lại";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // PHAN2

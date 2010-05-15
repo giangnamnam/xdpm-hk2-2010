@@ -24,7 +24,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
         private void btnDaLamBt3_Click(object sender, EventArgs e)
         {
             lblBt3.Visible = true;
-            if (chk24.Checked)
+            if(chk24.Checked == true&&chk34.Checked == false&&chk18.Checked == false&&chk23.Checked == false)
             {
                 lblBt3.Text = "Bạn Đã Chọn Đúng !!";
             }
@@ -41,7 +41,11 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (DialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
 
         private void btnLamLaiBt3_Click(object sender, EventArgs e)
@@ -56,6 +60,9 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
         private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             chk24.Checked = true;
+            chk34.Checked = false;
+            chk18.Checked = false;
+            chk23.Checked = false;
         }
         #endregion
         #region Bai 2 

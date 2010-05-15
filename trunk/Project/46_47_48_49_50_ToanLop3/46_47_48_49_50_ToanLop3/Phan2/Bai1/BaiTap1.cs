@@ -28,9 +28,13 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (DialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
         }
-
+        #region Bài 1
         private void btnDaLamXong_Click(object sender, EventArgs e)
         {
             lblError.Text = "Lổi ở : ";
@@ -131,17 +135,19 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             txt612.Text = " ";
         }
 
+        #endregion
+        #region Bai 2
         private void btnBT2_Click(object sender, EventArgs e)
         {
             lblLoiBT2.Visible = true;
-           if (chk30.Checked)
+            if (chk25.Checked == false &&chk14.Checked == false && chk30.Checked == true && chk32.Checked == false)
             {
                 lblLoiBT2.Text = "Bạn Đã Chọn Đúng !!";
             }
-           else
-           {
-               lblLoiBT2.Text = "Bạn Đã Chọn Sai !!! Hãy Chọn Lại ";
-           }
+            else
+            {
+                lblLoiBT2.Text = "Bạn Đã Chọn Sai !!! Hãy Chọn Lại ";
+            }
         }
 
         private void btnBT2LamLai_Click(object sender, EventArgs e)
@@ -152,22 +158,23 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            chk30.Checked = true;
+            chk30.Checked = true; chk25.Checked = false; chk14.Checked = false; chk32.Checked = false;
         }
-
+        #endregion
+        #region Bai 3
         private void bntBT2Ok_Click(object sender, EventArgs e)
         {
             lblLoiBT3.Visible = true;
             lblLoiBT3.Text = "Lỗi ở : ";
-            if (txtLa24.Text !="24")
+            if (txtLa24.Text != "24")
             {
                 lblLoiBT3.Text += "Ô thứ 4 ;";
             }
-            if (txtLa30.Text!="30")
+            if (txtLa30.Text != "30")
             {
                 lblLoiBT3.Text += "Ô thứ 5 ;";
             }
-            if (txtLa42.Text!="42")
+            if (txtLa42.Text != "42")
             {
                 lblLoiBT3.Text += "Ô thứ 7 ;";
             }
@@ -203,7 +210,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             txtLa48.Text = "48";
             txtLa54.Text = "54";
         }
-
+        #endregion
+        
         private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             Phan2.Bai1.LuyenTap.LuyenTapBT1 frm = new Phan2.Bai1.LuyenTap.LuyenTapBT1();

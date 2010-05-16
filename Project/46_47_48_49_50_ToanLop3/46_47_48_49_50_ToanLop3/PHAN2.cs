@@ -49,13 +49,18 @@ namespace _46_47_48_49_50_ToanLop3
             }
             if (pathName == "bai3")
             {
-               
+                Phan2.Bai03 frm = new Phan2.Bai03();
+                frm.ShowDialog();
             }
             if (pathName == "bai4")
             {
+                Phan2.Bai04 frm = new Phan2.Bai04();
+                frm.ShowDialog();
             }
             if (pathName == "bai5")
             {
+                Phan2.Bai05 frm = new Phan2.Bai05();
+                frm.ShowDialog();
             }
         }
 
@@ -72,6 +77,21 @@ namespace _46_47_48_49_50_ToanLop3
                 if (pathName == "bai2")
                 {
                     Phan2.Bai02 frm = new Phan2.Bai02();
+                    frm.ShowDialog();
+                }
+                if (pathName =="bai3")
+                {
+                    Phan2.Bai03 frm = new Phan2.Bai03();
+                    frm.ShowDialog();
+                }
+                if (pathName == "bai4")
+                {
+                    Phan2.Bai04 frm = new Phan2.Bai04();
+                    frm.ShowDialog();
+                }
+                if (pathName == "bai5")
+                {
+                    Phan2.Bai05 frm = new Phan2.Bai05();
                     frm.ShowDialog();
                 }
             }

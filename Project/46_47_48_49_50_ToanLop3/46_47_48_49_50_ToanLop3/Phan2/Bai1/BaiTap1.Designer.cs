@@ -60,10 +60,6 @@
             this.btnDaLamXong = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.chk25 = new System.Windows.Forms.CheckBox();
-            this.chk14 = new System.Windows.Forms.CheckBox();
-            this.chk32 = new System.Windows.Forms.CheckBox();
-            this.chk30 = new System.Windows.Forms.CheckBox();
             this.bntBT2Ok = new System.Windows.Forms.Button();
             this.btnLLBt2 = new System.Windows.Forms.Button();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -80,7 +76,6 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.txtLa54 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnQuayLaiPhan2 = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -94,9 +89,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.llbThucHanh = new System.Windows.Forms.LinkLabel();
+            this.chk30 = new System.Windows.Forms.CheckBox();
+            this.chk32 = new System.Windows.Forms.CheckBox();
+            this.chk14 = new System.Windows.Forms.CheckBox();
+            this.chk25 = new System.Windows.Forms.CheckBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox12.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -400,50 +400,6 @@
             this.label4.TabIndex = 76;
             this.label4.Text = "Mỗi thùng có 6 lít dầu.\r\nHỏi 5 thùng như thế có bao nhiêu lít dầu?";
             // 
-            // chk25
-            // 
-            this.chk25.AutoSize = true;
-            this.chk25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.chk25.Location = new System.Drawing.Point(6, 34);
-            this.chk25.Name = "chk25";
-            this.chk25.Size = new System.Drawing.Size(107, 19);
-            this.chk25.TabIndex = 0;
-            this.chk25.Text = "Có 25 lít dầu";
-            this.chk25.UseVisualStyleBackColor = false;
-            // 
-            // chk14
-            // 
-            this.chk14.AutoSize = true;
-            this.chk14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.chk14.Location = new System.Drawing.Point(135, 34);
-            this.chk14.Name = "chk14";
-            this.chk14.Size = new System.Drawing.Size(107, 19);
-            this.chk14.TabIndex = 1;
-            this.chk14.Text = "Có 14 lít dầu";
-            this.chk14.UseVisualStyleBackColor = false;
-            // 
-            // chk32
-            // 
-            this.chk32.AutoSize = true;
-            this.chk32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.chk32.Location = new System.Drawing.Point(448, 34);
-            this.chk32.Name = "chk32";
-            this.chk32.Size = new System.Drawing.Size(107, 19);
-            this.chk32.TabIndex = 3;
-            this.chk32.Text = "Có 32 lít dầu";
-            this.chk32.UseVisualStyleBackColor = false;
-            // 
-            // chk30
-            // 
-            this.chk30.AutoSize = true;
-            this.chk30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.chk30.Location = new System.Drawing.Point(293, 34);
-            this.chk30.Name = "chk30";
-            this.chk30.Size = new System.Drawing.Size(107, 19);
-            this.chk30.TabIndex = 2;
-            this.chk30.Text = "Có 30 lít dầu";
-            this.chk30.UseVisualStyleBackColor = false;
-            // 
             // bntBT2Ok
             // 
             this.bntBT2Ok.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -609,19 +565,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.chk25);
-            this.groupBox2.Controls.Add(this.chk14);
-            this.groupBox2.Controls.Add(this.chk32);
-            this.groupBox2.Controls.Add(this.chk30);
-            this.groupBox2.Location = new System.Drawing.Point(32, 375);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(566, 73);
-            this.groupBox2.TabIndex = 100;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Đáp Án : Chọn 1 Câu Đúng";
-            // 
             // btnQuayLaiPhan2
             // 
             this.btnQuayLaiPhan2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
@@ -780,11 +723,68 @@
             this.llbThucHanh.Text = "Luyện Tập";
             this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
+            // chk30
+            // 
+            this.chk30.AutoSize = true;
+            this.chk30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chk30.Location = new System.Drawing.Point(293, 34);
+            this.chk30.Name = "chk30";
+            this.chk30.Size = new System.Drawing.Size(107, 19);
+            this.chk30.TabIndex = 2;
+            this.chk30.Text = "Có 30 lít dầu";
+            this.chk30.UseVisualStyleBackColor = false;
+            // 
+            // chk32
+            // 
+            this.chk32.AutoSize = true;
+            this.chk32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chk32.Location = new System.Drawing.Point(448, 34);
+            this.chk32.Name = "chk32";
+            this.chk32.Size = new System.Drawing.Size(107, 19);
+            this.chk32.TabIndex = 3;
+            this.chk32.Text = "Có 32 lít dầu";
+            this.chk32.UseVisualStyleBackColor = false;
+            // 
+            // chk14
+            // 
+            this.chk14.AutoSize = true;
+            this.chk14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chk14.Location = new System.Drawing.Point(135, 34);
+            this.chk14.Name = "chk14";
+            this.chk14.Size = new System.Drawing.Size(107, 19);
+            this.chk14.TabIndex = 1;
+            this.chk14.Text = "Có 14 lít dầu";
+            this.chk14.UseVisualStyleBackColor = false;
+            // 
+            // chk25
+            // 
+            this.chk25.AutoSize = true;
+            this.chk25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.chk25.Location = new System.Drawing.Point(6, 34);
+            this.chk25.Name = "chk25";
+            this.chk25.Size = new System.Drawing.Size(107, 19);
+            this.chk25.TabIndex = 0;
+            this.chk25.Text = "Có 25 lít dầu";
+            this.chk25.UseVisualStyleBackColor = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.chk25);
+            this.groupBox2.Controls.Add(this.chk14);
+            this.groupBox2.Controls.Add(this.chk32);
+            this.groupBox2.Controls.Add(this.chk30);
+            this.groupBox2.Location = new System.Drawing.Point(32, 375);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(566, 73);
+            this.groupBox2.TabIndex = 100;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Đáp Án : Chọn 1 Câu Đúng";
+            // 
             // BaiTap1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1362, 764);
+            this.ClientSize = new System.Drawing.Size(1356, 764);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox12);
             this.Controls.Add(this.lblLoiBT3);
@@ -842,10 +842,10 @@
             this.Load += new System.EventHandler(this.BaiTap1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -885,10 +885,6 @@
         private System.Windows.Forms.Button btnDaLamXong;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.CheckBox chk25;
-        private System.Windows.Forms.CheckBox chk14;
-        private System.Windows.Forms.CheckBox chk32;
-        private System.Windows.Forms.CheckBox chk30;
         private System.Windows.Forms.Button bntBT2Ok;
         private System.Windows.Forms.Button btnLLBt2;
         private System.Windows.Forms.LinkLabel linkLabel2;
@@ -905,7 +901,6 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox txtLa54;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Button btnQuayLaiPhan2;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Label label6;
@@ -919,5 +914,10 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.LinkLabel llbThucHanh;
+        private System.Windows.Forms.CheckBox chk30;
+        private System.Windows.Forms.CheckBox chk32;
+        private System.Windows.Forms.CheckBox chk14;
+        private System.Windows.Forms.CheckBox chk25;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }

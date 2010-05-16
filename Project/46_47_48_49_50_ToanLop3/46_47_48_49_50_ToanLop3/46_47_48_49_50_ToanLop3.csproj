@@ -459,6 +459,12 @@
     <Compile Include="Phan5\Bai1\Baitap2.Designer.cs">
       <DependentUpon>Baitap2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\Bai1\Baitap3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\Bai1\Baitap3.Designer.cs">
+      <DependentUpon>Baitap3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\Bai1\Baitap4.cs">
       <SubType>Form</SubType>
     </Compile>

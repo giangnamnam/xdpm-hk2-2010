@@ -50,6 +50,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         private void btnLamLai_Click(object sender, EventArgs e)
         {
             lblError.Visible = false;
+            btnDaLamXong.Visible = true;
             txt1.Text = "";
             txt2.Text = "";
             txt3.Text = "";
@@ -59,6 +60,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblError.Visible = false;
+            btnDaLamXong.Visible = false;
             txt1.Text = "96";
             txt2.Text = "66";
             txt3.Text = "84";
@@ -81,6 +83,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void btnLamLaiBt3_Click(object sender, EventArgs e)
         {
+            btnDaLamBt3.Visible = true;
             lblBt3.Visible = false;
             chk18.Checked = false;
             chk34.Checked = false;
@@ -90,6 +93,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            btnDaLamBt3.Visible = false;
             lblBt3.Visible = false;
             chk48.Checked = true;
             chk18.Checked = false;
@@ -104,8 +108,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (DialogResult == DialogResult.OK)
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
             {
                 Application.Exit();
             }

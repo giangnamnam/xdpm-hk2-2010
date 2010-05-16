@@ -72,6 +72,7 @@
             this.chk48 = new System.Windows.Forms.CheckBox();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnQuayLaiPhan2 = new System.Windows.Forms.Button();
+            this.label16 = new System.Windows.Forms.Label();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -270,7 +271,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(36, 48);
             this.label3.TabIndex = 109;
-            this.label3.Text = "   22\r\nx\r\n    4\r\n";
+            this.label3.Text = "   22\r\nx\r\n     4\r\n";
             // 
             // label12
             // 
@@ -300,7 +301,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 48);
             this.label4.TabIndex = 109;
-            this.label4.Text = "   11\r\nx\r\n    5\r\n";
+            this.label4.Text = "   11\r\nx\r\n     5\r\n";
             // 
             // label5
             // 
@@ -330,7 +331,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(36, 48);
             this.label13.TabIndex = 109;
-            this.label13.Text = "   24\r\nx\r\n    2\r\n";
+            this.label13.Text = "   24\r\nx\r\n     2\r\n";
             // 
             // label14
             // 
@@ -376,7 +377,7 @@
             // 
             this.btnLamLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamLai.Location = new System.Drawing.Point(804, 202);
+            this.btnLamLai.Location = new System.Drawing.Point(926, 208);
             this.btnLamLai.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLamLai.Name = "btnLamLai";
             this.btnLamLai.Size = new System.Drawing.Size(137, 36);
@@ -402,7 +403,7 @@
             // 
             this.btnDaLamXong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnDaLamXong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDaLamXong.Location = new System.Drawing.Point(949, 202);
+            this.btnDaLamXong.Location = new System.Drawing.Point(785, 207);
             this.btnDaLamXong.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnDaLamXong.Name = "btnDaLamXong";
             this.btnDaLamXong.Size = new System.Drawing.Size(139, 36);
@@ -572,12 +573,24 @@
             this.btnQuayLaiPhan2.UseVisualStyleBackColor = false;
             this.btnQuayLaiPhan2.Click += new System.EventHandler(this.btnQuayLaiPhan2_Click);
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label16.Location = new System.Drawing.Point(363, 675);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(426, 25);
+            this.label16.TabIndex = 209;
+            this.label16.Text = "BÀI HỌC ĐÃ HẾT CHÚC BẠN HỌC TỐT";
+            // 
             // BaiTap2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 709);
             this.ControlBox = false;
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnQuayLaiPhan2);
             this.Controls.Add(this.btnLamLaiBt3);
@@ -668,5 +681,6 @@
         private System.Windows.Forms.CheckBox chk48;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnQuayLaiPhan2;
+        private System.Windows.Forms.Label label16;
     }
 }

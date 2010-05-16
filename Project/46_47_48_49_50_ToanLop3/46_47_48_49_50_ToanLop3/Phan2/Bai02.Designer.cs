@@ -111,6 +111,7 @@
             this.groupBox12.Size = new System.Drawing.Size(351, 48);
             this.groupBox12.TabIndex = 143;
             this.groupBox12.TabStop = false;
+            this.groupBox12.Enter += new System.EventHandler(this.groupBox12_Enter);
             // 
             // label15
             // 
@@ -192,7 +193,7 @@
             this.label1.Size = new System.Drawing.Size(596, 50);
             this.label1.TabIndex = 126;
             this.label1.Text = "BÀI 02 : NHÂN SỐ CÓ 2 CHỬ SỚ VỚI SỐ CÓ 1 CHỬ SỐ\r\n                                " +
-                "            (Không nhớ)";
+                "        (Không nhớ)";
             // 
             // groupBox7
             // 
@@ -338,7 +339,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(36, 48);
             this.label9.TabIndex = 109;
-            this.label9.Text = "   33\r\nx\r\n    3\r\n";
+            this.label9.Text = "   33\r\nx\r\n     3\r\n";
             // 
             // label10
             // 
@@ -367,7 +368,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(36, 48);
             this.label11.TabIndex = 109;
-            this.label11.Text = "   22\r\nx\r\n    4\r\n";
+            this.label11.Text = "   22\r\nx\r\n     4\r\n";
             // 
             // label12
             // 
@@ -396,7 +397,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(36, 48);
             this.label13.TabIndex = 109;
-            this.label13.Text = "   20\r\nx\r\n    4\r\n";
+            this.label13.Text = "   20\r\nx\r\n     4\r\n";
             // 
             // label14
             // 
@@ -425,7 +426,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(36, 48);
             this.label7.TabIndex = 109;
-            this.label7.Text = "   11\r\nx\r\n    5\r\n";
+            this.label7.Text = "   11\r\nx\r\n     5\r\n";
             // 
             // label8
             // 
@@ -465,7 +466,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(36, 48);
             this.label4.TabIndex = 109;
-            this.label4.Text = "   24\r\nx\r\n    2\r\n";
+            this.label4.Text = "   24\r\nx\r\n     2\r\n";
             // 
             // label5
             // 

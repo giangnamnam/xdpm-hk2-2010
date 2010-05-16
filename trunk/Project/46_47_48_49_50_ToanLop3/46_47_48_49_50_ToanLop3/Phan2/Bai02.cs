@@ -53,6 +53,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void btnLamLai_Click(object sender, EventArgs e)
         {
+            btnDaLamXong.Visible = true;
             lblError.Visible = false;
             txt1.Text = "";
             txt2.Text = "";
@@ -75,8 +76,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?","Thoát",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning);
-            if (DialogResult ==DialogResult.OK)
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
             {
                 Application.Exit();
             }
@@ -85,11 +86,17 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
         {
             lblError.Visible = false;
+            btnDaLamXong.Visible = false;
             txt1.Text = "48";
             txt2.Text = "88";
             txt3.Text = "55";
             txt4.Text = "99";
             txt5.Text = "80";
+        }
+
+        private void groupBox12_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

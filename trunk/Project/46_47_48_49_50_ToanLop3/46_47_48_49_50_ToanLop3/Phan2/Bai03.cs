@@ -15,5 +15,25 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             InitializeComponent();
         }
+
+        private void btnQuayLaiPhan2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Phan2.Bai1.BaiTap3 frm = new Phan2.Bai1.BaiTap3();
+            frm.ShowDialog();
+        }
     }
 }

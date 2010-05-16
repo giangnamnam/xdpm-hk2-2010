@@ -28,8 +28,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (DialogResult == DialogResult.OK)
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
             {
                 Application.Exit();
             }
@@ -152,12 +152,14 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void btnBT2LamLai_Click(object sender, EventArgs e)
         {
+            btnBT2.Visible = true;
             lblLoiBT2.Visible = false;
             chk25.Checked = false; chk14.Checked = false; chk30.Checked = false; chk32.Checked = false;
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            btnBT2.Visible = false;
             chk30.Checked = true; chk25.Checked = false; chk14.Checked = false; chk32.Checked = false;
         }
         #endregion
@@ -194,6 +196,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void btnLLBt2_Click(object sender, EventArgs e)
         {
+            bntBT2Ok.Visible = true;
             lblLoiBT3.Visible = false;
             txtLa24.Text = " ";
             txtLa30.Text = "";
@@ -204,6 +207,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            bntBT2Ok.Visible = false;
             txtLa24.Text = "24";
             txtLa30.Text = "30";
             txtLa42.Text = "42";

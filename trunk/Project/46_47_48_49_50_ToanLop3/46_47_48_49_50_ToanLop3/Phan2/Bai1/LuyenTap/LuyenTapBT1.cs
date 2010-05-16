@@ -41,8 +41,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình ?", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (DialogResult == DialogResult.OK)
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
             {
                 Application.Exit();
             }
@@ -50,6 +50,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void btnLamLaiBt3_Click(object sender, EventArgs e)
         {
+            btnDaLamBt3.Visible = true;
             lblBt3.Visible = false;
             chk18.Checked = false;
             chk23.Checked = false;
@@ -59,6 +60,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            btnDaLamBt3.Visible = false;
             chk24.Checked = true;
             chk34.Checked = false;
             chk18.Checked = false;
@@ -91,6 +93,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
         private void btnLamLaiBt2_Click(object sender, EventArgs e)
         {
             lblBt2.Visible = false;
+            btnLamXongBt2.Visible = true;
             txt21.Text = "";
             txt22.Text = "";
             txt23.Text = "";
@@ -98,6 +101,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            btnLamXongBt2.Visible = false ;
             txt21.Text = "60";
             txt22.Text = "59";
             txt23.Text = "42";
@@ -152,6 +156,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            btnDaLamXong.Visible = false;
             lblBt1a.Visible = true;
             txt1.Text = "30";
             txt2.Text = "42";
@@ -166,6 +171,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void btnLamLai_Click(object sender, EventArgs e)
         {
+            btnDaLamXong.Visible = true;
             lblBt1a.Visible = false;
             txt1.Text = "";
             txt2.Text = "";

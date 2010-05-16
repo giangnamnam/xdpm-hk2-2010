@@ -91,6 +91,7 @@
             this.ListView1.TabIndex = 18;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
+            this.ListView1.SelectedIndexChanged += new System.EventHandler(this.ListView1_SelectedIndexChanged);
             this.ListView1.DoubleClick += new System.EventHandler(this.ListView1_DoubleClick);
             // 
             // columnHeader1

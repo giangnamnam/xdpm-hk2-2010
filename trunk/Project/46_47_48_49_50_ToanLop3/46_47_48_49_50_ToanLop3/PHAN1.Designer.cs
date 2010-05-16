@@ -59,6 +59,7 @@
             this.btThoat.TabIndex = 0;
             this.btThoat.Text = "&Thoát";
             this.btThoat.UseVisualStyleBackColor = true;
+            this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
             // menuStrip1
             // 

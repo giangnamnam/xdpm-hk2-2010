@@ -405,7 +405,7 @@
             this.label3.Size = new System.Drawing.Size(166, 48);
             this.label3.TabIndex = 18;
             this.label3.Text = "6 lấy được 2 lần, ta có :\r\n6 x 2 = 6 + 6 = 12\r\nVậy 6 x 2 = 12";
-            // 
+           // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));

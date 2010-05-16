@@ -36,16 +36,21 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btKiemtra = new System.Windows.Forms.Button();
+            this.btLamlai = new System.Windows.Forms.Button();
+            this.btThoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btHoanThanh
             // 
-            this.btHoanThanh.Location = new System.Drawing.Point(438, 237);
+            this.btHoanThanh.BackColor = System.Drawing.Color.White;
+            this.btHoanThanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btHoanThanh.Location = new System.Drawing.Point(229, 259);
             this.btHoanThanh.Name = "btHoanThanh";
             this.btHoanThanh.Size = new System.Drawing.Size(88, 32);
             this.btHoanThanh.TabIndex = 13;
-            this.btHoanThanh.Text = "&Hoàn thành";
-            this.btHoanThanh.UseVisualStyleBackColor = true;
+            this.btHoanThanh.Text = "&Làm xong\r\n";
+            this.btHoanThanh.UseVisualStyleBackColor = false;
             // 
             // tbvl2
             // 
@@ -102,12 +107,49 @@
             this.label1.TabIndex = 7;
             this.label1.Text = "4. Tìm số lớn nhất, bé nhất trong các số sau";
             // 
+            // btKiemtra
+            // 
+            this.btKiemtra.BackColor = System.Drawing.Color.White;
+            this.btKiemtra.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btKiemtra.Location = new System.Drawing.Point(323, 259);
+            this.btKiemtra.Name = "btKiemtra";
+            this.btKiemtra.Size = new System.Drawing.Size(90, 32);
+            this.btKiemtra.TabIndex = 14;
+            this.btKiemtra.Text = "&Xem kết quả";
+            this.btKiemtra.UseVisualStyleBackColor = false;
+            // 
+            // btLamlai
+            // 
+            this.btLamlai.BackColor = System.Drawing.Color.White;
+            this.btLamlai.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btLamlai.Location = new System.Drawing.Point(419, 259);
+            this.btLamlai.Name = "btLamlai";
+            this.btLamlai.Size = new System.Drawing.Size(85, 32);
+            this.btLamlai.TabIndex = 15;
+            this.btLamlai.Text = "&Làm lại";
+            this.btLamlai.UseVisualStyleBackColor = false;
+            // 
+            // btThoat
+            // 
+            this.btThoat.BackColor = System.Drawing.Color.White;
+            this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btThoat.Location = new System.Drawing.Point(510, 259);
+            this.btThoat.Name = "btThoat";
+            this.btThoat.Size = new System.Drawing.Size(85, 32);
+            this.btThoat.TabIndex = 16;
+            this.btThoat.Text = "&Thoát";
+            this.btThoat.UseVisualStyleBackColor = false;
+            this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
+            // 
             // BaiTap4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.btThoat);
+            this.Controls.Add(this.btLamlai);
+            this.Controls.Add(this.btKiemtra);
             this.Controls.Add(this.btHoanThanh);
             this.Controls.Add(this.tbvl2);
             this.Controls.Add(this.label4);
@@ -117,7 +159,7 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "BaiTap4";
-            this.Size = new System.Drawing.Size(685, 374);
+            this.Size = new System.Drawing.Size(757, 407);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,6 +174,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btKiemtra;
+        private System.Windows.Forms.Button btLamlai;
+        private System.Windows.Forms.Button btThoat;
 
     }
 }

@@ -127,5 +127,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
                 Application.Exit();
             }
         }
+
+       
     }
 }

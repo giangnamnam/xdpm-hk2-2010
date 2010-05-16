@@ -229,5 +229,12 @@ namespace _46_47_48_49_50_ToanLop3
             currentState = ScreenState.Bai16;
             UpdateSreen();
         }
+
+        private void btThoat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+       
     }
 }

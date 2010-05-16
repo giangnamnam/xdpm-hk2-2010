@@ -114,7 +114,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(29, 98);
+            this.label5.Location = new System.Drawing.Point(35, 94);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(286, 96);
@@ -648,9 +648,9 @@
             this.lblError.ForeColor = System.Drawing.Color.Red;
             this.lblError.Location = new System.Drawing.Point(788, 94);
             this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(42, 16);
+            this.lblError.Size = new System.Drawing.Size(29, 16);
             this.lblError.TabIndex = 105;
-            this.lblError.Text = "Error";
+            this.lblError.Text = "Lỗi";
             this.lblError.Visible = false;
             // 
             // lblLoiBT2
@@ -784,7 +784,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1356, 764);
+            this.ClientSize = new System.Drawing.Size(1276, 764);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox12);
             this.Controls.Add(this.lblLoiBT3);

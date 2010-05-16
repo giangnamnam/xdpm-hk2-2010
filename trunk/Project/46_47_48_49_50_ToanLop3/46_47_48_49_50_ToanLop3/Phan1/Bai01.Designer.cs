@@ -73,7 +73,7 @@
             // 
             this.btBaiTap4.Location = new System.Drawing.Point(410, 60);
             this.btBaiTap4.Name = "btBaiTap4";
-            this.btBaiTap4.Size = new System.Drawing.Size(100, 36);
+            this.btBaiTap4.Size = new System.Drawing.Size(102, 36);
             this.btBaiTap4.TabIndex = 3;
             this.btBaiTap4.Text = "&Bài Tập 4";
             this.btBaiTap4.UseVisualStyleBackColor = true;

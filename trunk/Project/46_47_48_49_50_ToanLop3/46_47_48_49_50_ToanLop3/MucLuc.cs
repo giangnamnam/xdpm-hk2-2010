@@ -116,5 +116,10 @@ namespace _46_47_48_49_50_ToanLop3
         {
 
         }
+
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

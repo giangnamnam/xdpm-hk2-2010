@@ -791,6 +791,7 @@
             this.llbThucHanh.TabIndex = 51;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Tiếp Theo";
+            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
             // BaiTap3
             // 

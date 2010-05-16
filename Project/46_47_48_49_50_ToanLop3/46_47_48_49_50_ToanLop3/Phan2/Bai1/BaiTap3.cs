@@ -109,10 +109,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lblError1b.Visible = false;
             btnDaLamBt1b.Visible = false;
-            txt1.Text = "168";
-            txt2.Text = "144";
-            txt3.Text = "410";
-            txt4.Text = "297";
+            txt1b.Text = "168";
+            txt2b.Text = "144";
+            txt3b.Text = "410";
+            txt4b.Text = "297";
         }
         #endregion
         #region Bai 2
@@ -155,6 +155,12 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             }
         }
         #endregion
+
+        private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Phan2.Bai1.LuyenTap.LuyenTapBT3 frm = new Phan2.Bai1.LuyenTap.LuyenTapBT3();
+            frm.ShowDialog();
+        }
         
         
  

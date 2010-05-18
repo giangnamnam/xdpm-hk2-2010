@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2504D51C-E490-4099-A5E3-BA6F26A07124}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -447,41 +447,35 @@
     <Compile Include="PHAN5.Designer.cs">
       <DependentUpon>PHAN5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\Bai01.cs">
+    <Compile Include="Phan5\Bai1\Bai01a.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\Bai01.Designer.cs">
-      <DependentUpon>Bai01.cs</DependentUpon>
+    <Compile Include="Phan5\Bai1\Bai01a.Designer.cs">
+      <DependentUpon>Bai01a.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap2.cs">
+    <Compile Include="Phan5\Bai1\Bai01b.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap2.Designer.cs">
-      <DependentUpon>Baitap2.cs</DependentUpon>
+    <Compile Include="Phan5\Bai1\Bai01b.Designer.cs">
+      <DependentUpon>Bai01b.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap3.cs">
+    <Compile Include="Phan5\Bai1\Bài02.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap3.Designer.cs">
-      <DependentUpon>Baitap3.cs</DependentUpon>
+    <Compile Include="Phan5\Bai1\Bài02.Designer.cs">
+      <DependentUpon>Bài02.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap4.cs">
+    <Compile Include="Phan5\Bai1\temp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap4.Designer.cs">
-      <DependentUpon>Baitap4.cs</DependentUpon>
+    <Compile Include="Phan5\Bai1\temp.Designer.cs">
+      <DependentUpon>temp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap5.cs">
+    <Compile Include="Phan5\Các Số Đến 100 000.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\Bai1\Baitap5.Designer.cs">
-      <DependentUpon>Baitap5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Phan5\Bai1\Baitep1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan5\Bai1\Baitep1.Designer.cs">
-      <DependentUpon>Baitep1.cs</DependentUpon>
+    <Compile Include="Phan5\Các Số Đến 100 000.Designer.cs">
+      <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -651,11 +645,20 @@
     <EmbeddedResource Include="PHAN5.resx">
       <DependentUpon>PHAN5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\Bai1\Baitap2.resx">
-      <DependentUpon>Baitap2.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\Bai1\Bai01a.resx">
+      <DependentUpon>Bai01a.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\Bai1\Baitep1.resx">
-      <DependentUpon>Baitep1.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\Bai1\Bai01b.resx">
+      <DependentUpon>Bai01b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\Bai1\Bài02.resx">
+      <DependentUpon>Bài02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\Bai1\temp.resx">
+      <DependentUpon>temp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\Các Số Đến 100 000.resx">
+      <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -706,7 +709,6 @@
     <Folder Include="Phan1\Bai4\" />
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />
-    <Folder Include="Phan5\Bai2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -26,8 +26,8 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void PHAN3_ONTAP_Load(object sender, EventArgs e)
         {
-            tabControl_.SelectedTab = tabPage_KetThuc;
-           
+            tabControl_.Visible = false;
+            tabControl_.SelectedTab = tabPage_LyThuyet;
             // Form hiện fullscreen
             Rectangle rect = new Rectangle();
             this.FormBorderStyle = FormBorderStyle.None;
@@ -69,7 +69,7 @@ namespace _46_47_48_49_50_ToanLop3
 
             KhoiTao_Tinh2So(pheptinh);
 
-            groupBox1.Left = 150;
+            groupBox1.Left = tabPage_Tinh2So.Left+150;
             groupBox2.Left = groupBox1.Right + 50;
             groupBox3.Left = groupBox2.Right + 50;
             groupBox4.Left = groupBox2.Left / 2 + 75;
@@ -91,7 +91,7 @@ namespace _46_47_48_49_50_ToanLop3
 
             button_TiepTuc.Left = button_KetQua.Right + 100;
             button_TiepTuc.Top = button_KetQua.Top;
-                        
+            tabControl_.Visible = true;            
         }
 
         private void button_Exit_Click(object sender, EventArgs e)
@@ -130,6 +130,8 @@ namespace _46_47_48_49_50_ToanLop3
         ////////////////////////////////////////////////
         private void KhoiTao_Tinh2So(string dau)
         {
+            button_TiepTuc.Show();
+            button_KetQua.Show();
             Random x = new Random();            
             x.Next(0, 10000);            
             
@@ -251,14 +253,14 @@ namespace _46_47_48_49_50_ToanLop3
                     _B4.Text = x.Next(2, 10).ToString();
                     _B5.Text = x.Next(2, 10).ToString();
                     break;
-            }
-            
-            
-          
+            }              
         }
 
         private void KhoiTao_TinhNham(string dau)
         {
+            
+            button_TiepTuc.Show();
+            button_KetQua.Show();
             Random x = new Random();
             x.Next(0, 10000);
 
@@ -378,9 +380,7 @@ namespace _46_47_48_49_50_ToanLop3
                     _temp5 = 10000 / int.Parse(_y5.Text);
                     _x5.Text = x.Next(0, _temp5).ToString();
                     break;
-                    
-                    break;
-
+                                        
                 case ":":
                     _y1.Text = x.Next(2, 10).ToString();
                     _y2.Text = x.Next(2, 10).ToString();
@@ -403,12 +403,12 @@ namespace _46_47_48_49_50_ToanLop3
                     break;
             }
 
-
-
         }
 
         private void KhoiTao_ToanDo()
         {
+            button_TiepTuc.Show();
+            button_KetQua.Show();
             label_DeBai1.Text = "";
             label_DeBai2.Text = "";
             label_DonVi1.Text = "";
@@ -452,6 +452,29 @@ namespace _46_47_48_49_50_ToanLop3
             }
 
         }
+        private void KhoiTao_LyThuyet()
+        {
+            button_KetQua.Hide();
+            button_TiepTuc.Hide();
+            switch (pheptinh)
+            {
+                case "+":
+                    tabPage_LyThuyet.BackgroundImage = new Bitmap(duongdan + "\\HinhAnh\\phepcong.jpg");
+                    
+                    break;
+                case "-":
+                    tabPage_LyThuyet.BackgroundImage = new Bitmap(duongdan + "\\HinhAnh\\pheptru.jpg");
+                    break;
+                case "x":
+                    tabPage_LyThuyet.BackgroundImage = new Bitmap(duongdan + "\\HinhAnh\\phepnhan.jpg");
+                    break;
+                case ":":
+                    tabPage_LyThuyet.BackgroundImage = new Bitmap(duongdan + "\\HinhAnh\\phepchia.jpg");
+                    break;
+                    
+            }
+            tabPage_LyThuyet.BackgroundImageLayout = ImageLayout.Stretch;
+        }
 
         private void tabControl__Selected(object sender, TabControlEventArgs e)
         {
@@ -467,6 +490,9 @@ namespace _46_47_48_49_50_ToanLop3
 
                 case 2:
                     KhoiTao_ToanDo();
+                    break;
+                case 3:
+                    KhoiTao_LyThuyet();
                     break;
             }
             
@@ -496,6 +522,7 @@ namespace _46_47_48_49_50_ToanLop3
         // Ham tra ve so luong dap an SAI
         private int KiemTra_Tinh2So()
         {
+            
             int a1;
             int b1;
             a1 = int.Parse(_A1.Text);
@@ -815,6 +842,10 @@ namespace _46_47_48_49_50_ToanLop3
                 case 1:
                     KhoiTao_TinhNham(pheptinh);
                     break;
+
+                case 3:
+                    KhoiTao_LyThuyet();
+                    break;
             }
             
         }
@@ -831,6 +862,9 @@ namespace _46_47_48_49_50_ToanLop3
                 case 1:
                     KhoiTao_TinhNham(pheptinh);
                     break;
+                case 3:
+                    KhoiTao_LyThuyet();
+                    break;
             }
         }
 
@@ -846,6 +880,9 @@ namespace _46_47_48_49_50_ToanLop3
                 case 1:
                     KhoiTao_TinhNham(pheptinh);
                     break;
+                case 3:
+                    KhoiTao_LyThuyet();
+                    break;
             }
         }
 
@@ -860,6 +897,9 @@ namespace _46_47_48_49_50_ToanLop3
 
                 case 1:
                     KhoiTao_TinhNham(pheptinh);
+                    break;
+                case 3:
+                    KhoiTao_LyThuyet();
                     break;
             }
         }

@@ -131,7 +131,7 @@
             this.label33 = new System.Windows.Forms.Label();
             this._TraLoi1 = new System.Windows.Forms.RichTextBox();
             this.label_DeBai1 = new System.Windows.Forms.Label();
-            this.tabPage_KetThuc = new System.Windows.Forms.TabPage();
+            this.tabPage_LyThuyet = new System.Windows.Forms.TabPage();
             this.button_KetQua = new System.Windows.Forms.Button();
             this.button_TiepTuc = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
@@ -293,7 +293,7 @@
             this.tabControl_.Controls.Add(this.tabPage_Tinh2So);
             this.tabControl_.Controls.Add(this.tabPage_TinhNham);
             this.tabControl_.Controls.Add(this.tabPage_ToanDo);
-            this.tabControl_.Controls.Add(this.tabPage_KetThuc);
+            this.tabControl_.Controls.Add(this.tabPage_LyThuyet);
             this.tabControl_.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tabControl_.Location = new System.Drawing.Point(42, 201);
             this.tabControl_.Name = "tabControl_";
@@ -349,7 +349,7 @@
             // _A5
             // 
             this._A5.BackColor = System.Drawing.Color.Transparent;
-            this._A5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._A5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._A5.Location = new System.Drawing.Point(65, 10);
             this._A5.Name = "_A5";
             this._A5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -361,20 +361,20 @@
             // 
             this._Dau5.AutoSize = true;
             this._Dau5.BackColor = System.Drawing.Color.Transparent;
-            this._Dau5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._Dau5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._Dau5.Location = new System.Drawing.Point(24, 22);
             this._Dau5.Name = "_Dau5";
             this._Dau5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._Dau5.Size = new System.Drawing.Size(50, 27);
+            this._Dau5.Size = new System.Drawing.Size(43, 24);
             this._Dau5.TabIndex = 12;
             this._Dau5.Text = "+-*/";
             // 
             // _AB5
             // 
             this._AB5.BackColor = System.Drawing.Color.Yellow;
-            this._AB5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._AB5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._AB5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this._AB5.Location = new System.Drawing.Point(50, 70);
+            this._AB5.Location = new System.Drawing.Point(50, 72);
             this._AB5.MaxLength = 5;
             this._AB5.Multiline = false;
             this._AB5.Name = "_AB5";
@@ -386,7 +386,7 @@
             // _B5
             // 
             this._B5.BackColor = System.Drawing.Color.Transparent;
-            this._B5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._B5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._B5.Location = new System.Drawing.Point(65, 39);
             this._B5.Name = "_B5";
             this._B5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -398,11 +398,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(48, 43);
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(48, 45);
             this.label13.Name = "label13";
             this.label13.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label13.Size = new System.Drawing.Size(102, 27);
+            this.label13.Size = new System.Drawing.Size(109, 24);
             this.label13.TabIndex = 13;
             this.label13.Text = "_________";
             // 
@@ -435,7 +435,7 @@
             // _A4
             // 
             this._A4.BackColor = System.Drawing.Color.Transparent;
-            this._A4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._A4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._A4.Location = new System.Drawing.Point(65, 10);
             this._A4.Name = "_A4";
             this._A4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -447,20 +447,20 @@
             // 
             this._Dau4.AutoSize = true;
             this._Dau4.BackColor = System.Drawing.Color.Transparent;
-            this._Dau4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._Dau4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._Dau4.Location = new System.Drawing.Point(24, 22);
             this._Dau4.Name = "_Dau4";
             this._Dau4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._Dau4.Size = new System.Drawing.Size(50, 27);
+            this._Dau4.Size = new System.Drawing.Size(43, 24);
             this._Dau4.TabIndex = 12;
             this._Dau4.Text = "+-*/";
             // 
             // _AB4
             // 
             this._AB4.BackColor = System.Drawing.Color.Yellow;
-            this._AB4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._AB4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._AB4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this._AB4.Location = new System.Drawing.Point(50, 70);
+            this._AB4.Location = new System.Drawing.Point(50, 72);
             this._AB4.MaxLength = 5;
             this._AB4.Multiline = false;
             this._AB4.Name = "_AB4";
@@ -472,7 +472,7 @@
             // _B4
             // 
             this._B4.BackColor = System.Drawing.Color.Transparent;
-            this._B4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._B4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._B4.Location = new System.Drawing.Point(65, 39);
             this._B4.Name = "_B4";
             this._B4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -484,11 +484,11 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(48, 43);
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(48, 45);
             this.label7.Name = "label7";
             this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label7.Size = new System.Drawing.Size(102, 27);
+            this.label7.Size = new System.Drawing.Size(109, 24);
             this.label7.TabIndex = 13;
             this.label7.Text = "_________";
             // 
@@ -521,7 +521,7 @@
             // _A3
             // 
             this._A3.BackColor = System.Drawing.Color.Transparent;
-            this._A3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._A3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._A3.Location = new System.Drawing.Point(65, 10);
             this._A3.Name = "_A3";
             this._A3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -533,20 +533,20 @@
             // 
             this._Dau3.AutoSize = true;
             this._Dau3.BackColor = System.Drawing.Color.Transparent;
-            this._Dau3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._Dau3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._Dau3.Location = new System.Drawing.Point(24, 22);
             this._Dau3.Name = "_Dau3";
             this._Dau3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._Dau3.Size = new System.Drawing.Size(50, 27);
+            this._Dau3.Size = new System.Drawing.Size(43, 24);
             this._Dau3.TabIndex = 12;
             this._Dau3.Text = "+-*/";
             // 
             // _AB3
             // 
             this._AB3.BackColor = System.Drawing.Color.Yellow;
-            this._AB3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._AB3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._AB3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this._AB3.Location = new System.Drawing.Point(50, 70);
+            this._AB3.Location = new System.Drawing.Point(50, 72);
             this._AB3.MaxLength = 5;
             this._AB3.Multiline = false;
             this._AB3.Name = "_AB3";
@@ -558,7 +558,7 @@
             // _B3
             // 
             this._B3.BackColor = System.Drawing.Color.Transparent;
-            this._B3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._B3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._B3.Location = new System.Drawing.Point(65, 39);
             this._B3.Name = "_B3";
             this._B3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -570,11 +570,11 @@
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(48, 43);
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(48, 45);
             this.label11.Name = "label11";
             this.label11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label11.Size = new System.Drawing.Size(102, 27);
+            this.label11.Size = new System.Drawing.Size(109, 24);
             this.label11.TabIndex = 13;
             this.label11.Text = "_________";
             // 
@@ -607,7 +607,7 @@
             // _A2
             // 
             this._A2.BackColor = System.Drawing.Color.Transparent;
-            this._A2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._A2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._A2.Location = new System.Drawing.Point(65, 10);
             this._A2.Name = "_A2";
             this._A2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -619,20 +619,20 @@
             // 
             this._Dau2.AutoSize = true;
             this._Dau2.BackColor = System.Drawing.Color.Transparent;
-            this._Dau2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._Dau2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._Dau2.Location = new System.Drawing.Point(24, 22);
             this._Dau2.Name = "_Dau2";
             this._Dau2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._Dau2.Size = new System.Drawing.Size(50, 27);
+            this._Dau2.Size = new System.Drawing.Size(43, 24);
             this._Dau2.TabIndex = 12;
             this._Dau2.Text = "+-*/";
             // 
             // _AB2
             // 
             this._AB2.BackColor = System.Drawing.Color.Yellow;
-            this._AB2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._AB2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._AB2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this._AB2.Location = new System.Drawing.Point(50, 70);
+            this._AB2.Location = new System.Drawing.Point(50, 72);
             this._AB2.MaxLength = 5;
             this._AB2.Multiline = false;
             this._AB2.Name = "_AB2";
@@ -644,7 +644,7 @@
             // _B2
             // 
             this._B2.BackColor = System.Drawing.Color.Transparent;
-            this._B2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._B2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._B2.Location = new System.Drawing.Point(65, 39);
             this._B2.Name = "_B2";
             this._B2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -656,11 +656,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(48, 43);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(48, 45);
             this.label6.Name = "label6";
             this.label6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label6.Size = new System.Drawing.Size(102, 27);
+            this.label6.Size = new System.Drawing.Size(109, 24);
             this.label6.TabIndex = 13;
             this.label6.Text = "_________";
             // 
@@ -693,7 +693,7 @@
             // _A1
             // 
             this._A1.BackColor = System.Drawing.Color.Transparent;
-            this._A1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._A1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._A1.Location = new System.Drawing.Point(65, 10);
             this._A1.Name = "_A1";
             this._A1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -705,20 +705,20 @@
             // 
             this._Dau1.AutoSize = true;
             this._Dau1.BackColor = System.Drawing.Color.Transparent;
-            this._Dau1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._Dau1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._Dau1.Location = new System.Drawing.Point(24, 22);
             this._Dau1.Name = "_Dau1";
             this._Dau1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._Dau1.Size = new System.Drawing.Size(50, 27);
+            this._Dau1.Size = new System.Drawing.Size(43, 24);
             this._Dau1.TabIndex = 12;
             this._Dau1.Text = "+-*/";
             // 
             // _AB1
             // 
             this._AB1.BackColor = System.Drawing.Color.Yellow;
-            this._AB1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._AB1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._AB1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this._AB1.Location = new System.Drawing.Point(50, 70);
+            this._AB1.Location = new System.Drawing.Point(50, 72);
             this._AB1.MaxLength = 5;
             this._AB1.Multiline = false;
             this._AB1.Name = "_AB1";
@@ -730,7 +730,7 @@
             // _B1
             // 
             this._B1.BackColor = System.Drawing.Color.Transparent;
-            this._B1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._B1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._B1.Location = new System.Drawing.Point(65, 39);
             this._B1.Name = "_B1";
             this._B1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -742,11 +742,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(48, 43);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(48, 45);
             this.label1.Name = "label1";
             this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label1.Size = new System.Drawing.Size(102, 27);
+            this.label1.Size = new System.Drawing.Size(109, 24);
             this.label1.TabIndex = 13;
             this.label1.Text = "_________";
             // 
@@ -796,7 +796,7 @@
             // _Du5
             // 
             this._Du5.BackColor = System.Drawing.Color.Yellow;
-            this._Du5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._Du5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._Du5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._Du5.Location = new System.Drawing.Point(378, 29);
             this._Du5.MaxLength = 5;
@@ -823,18 +823,18 @@
             // 
             this.label50.AutoSize = true;
             this.label50.BackColor = System.Drawing.Color.Transparent;
-            this.label50.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label50.Location = new System.Drawing.Point(219, 29);
             this.label50.Name = "label50";
             this.label50.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label50.Size = new System.Drawing.Size(25, 27);
+            this.label50.Size = new System.Drawing.Size(22, 24);
             this.label50.TabIndex = 20;
             this.label50.Text = "=";
             // 
             // _xy5
             // 
             this._xy5.BackColor = System.Drawing.Color.Yellow;
-            this._xy5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._xy5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._xy5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._xy5.Location = new System.Drawing.Point(251, 29);
             this._xy5.MaxLength = 5;
@@ -849,11 +849,11 @@
             // 
             this._pheptinh5.AutoSize = true;
             this._pheptinh5.BackColor = System.Drawing.Color.Transparent;
-            this._pheptinh5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._pheptinh5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._pheptinh5.Location = new System.Drawing.Point(106, 29);
             this._pheptinh5.Name = "_pheptinh5";
             this._pheptinh5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._pheptinh5.Size = new System.Drawing.Size(50, 27);
+            this._pheptinh5.Size = new System.Drawing.Size(43, 24);
             this._pheptinh5.TabIndex = 12;
             this._pheptinh5.Text = "+-*/";
             // 
@@ -861,11 +861,11 @@
             // 
             this._y5.AutoSize = true;
             this._y5.BackColor = System.Drawing.Color.Transparent;
-            this._y5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._y5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._y5.Location = new System.Drawing.Point(155, 29);
             this._y5.Name = "_y5";
             this._y5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._y5.Size = new System.Drawing.Size(26, 27);
+            this._y5.Size = new System.Drawing.Size(23, 24);
             this._y5.TabIndex = 11;
             this._y5.Text = "B";
             // 
@@ -873,11 +873,11 @@
             // 
             this._x5.AutoSize = true;
             this._x5.BackColor = System.Drawing.Color.Transparent;
-            this._x5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._x5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._x5.Location = new System.Drawing.Point(26, 29);
             this._x5.Name = "_x5";
             this._x5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._x5.Size = new System.Drawing.Size(26, 27);
+            this._x5.Size = new System.Drawing.Size(24, 24);
             this._x5.TabIndex = 16;
             this._x5.Text = "A";
             // 
@@ -912,7 +912,7 @@
             // _Du4
             // 
             this._Du4.BackColor = System.Drawing.Color.Yellow;
-            this._Du4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._Du4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._Du4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._Du4.Location = new System.Drawing.Point(378, 29);
             this._Du4.MaxLength = 5;
@@ -939,18 +939,18 @@
             // 
             this.label45.AutoSize = true;
             this.label45.BackColor = System.Drawing.Color.Transparent;
-            this.label45.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(219, 29);
             this.label45.Name = "label45";
             this.label45.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label45.Size = new System.Drawing.Size(25, 27);
+            this.label45.Size = new System.Drawing.Size(22, 24);
             this.label45.TabIndex = 20;
             this.label45.Text = "=";
             // 
             // _xy4
             // 
             this._xy4.BackColor = System.Drawing.Color.Yellow;
-            this._xy4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._xy4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._xy4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._xy4.Location = new System.Drawing.Point(251, 29);
             this._xy4.MaxLength = 5;
@@ -965,11 +965,11 @@
             // 
             this._pheptinh4.AutoSize = true;
             this._pheptinh4.BackColor = System.Drawing.Color.Transparent;
-            this._pheptinh4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._pheptinh4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._pheptinh4.Location = new System.Drawing.Point(106, 29);
             this._pheptinh4.Name = "_pheptinh4";
             this._pheptinh4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._pheptinh4.Size = new System.Drawing.Size(50, 27);
+            this._pheptinh4.Size = new System.Drawing.Size(43, 24);
             this._pheptinh4.TabIndex = 12;
             this._pheptinh4.Text = "+-*/";
             // 
@@ -977,11 +977,11 @@
             // 
             this._y4.AutoSize = true;
             this._y4.BackColor = System.Drawing.Color.Transparent;
-            this._y4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._y4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._y4.Location = new System.Drawing.Point(155, 29);
             this._y4.Name = "_y4";
             this._y4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._y4.Size = new System.Drawing.Size(26, 27);
+            this._y4.Size = new System.Drawing.Size(23, 24);
             this._y4.TabIndex = 11;
             this._y4.Text = "B";
             // 
@@ -989,11 +989,11 @@
             // 
             this._x4.AutoSize = true;
             this._x4.BackColor = System.Drawing.Color.Transparent;
-            this._x4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._x4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._x4.Location = new System.Drawing.Point(26, 29);
             this._x4.Name = "_x4";
             this._x4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._x4.Size = new System.Drawing.Size(26, 27);
+            this._x4.Size = new System.Drawing.Size(24, 24);
             this._x4.TabIndex = 16;
             this._x4.Text = "A";
             // 
@@ -1016,7 +1016,7 @@
             // _Du1
             // 
             this._Du1.BackColor = System.Drawing.Color.Yellow;
-            this._Du1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._Du1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._Du1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._Du1.Location = new System.Drawing.Point(378, 29);
             this._Du1.MaxLength = 5;
@@ -1043,11 +1043,11 @@
             // 
             this.label38.AutoSize = true;
             this.label38.BackColor = System.Drawing.Color.Transparent;
-            this.label38.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label38.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(219, 29);
             this.label38.Name = "label38";
             this.label38.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label38.Size = new System.Drawing.Size(25, 27);
+            this.label38.Size = new System.Drawing.Size(22, 24);
             this.label38.TabIndex = 20;
             this.label38.Text = "=";
             // 
@@ -1066,7 +1066,7 @@
             // _xy1
             // 
             this._xy1.BackColor = System.Drawing.Color.Yellow;
-            this._xy1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._xy1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._xy1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._xy1.Location = new System.Drawing.Point(251, 29);
             this._xy1.MaxLength = 5;
@@ -1081,11 +1081,11 @@
             // 
             this._pheptinh1.AutoSize = true;
             this._pheptinh1.BackColor = System.Drawing.Color.Transparent;
-            this._pheptinh1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._pheptinh1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._pheptinh1.Location = new System.Drawing.Point(107, 29);
             this._pheptinh1.Name = "_pheptinh1";
             this._pheptinh1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._pheptinh1.Size = new System.Drawing.Size(50, 27);
+            this._pheptinh1.Size = new System.Drawing.Size(43, 24);
             this._pheptinh1.TabIndex = 12;
             this._pheptinh1.Text = "+-*/";
             // 
@@ -1093,11 +1093,11 @@
             // 
             this._y1.AutoSize = true;
             this._y1.BackColor = System.Drawing.Color.Transparent;
-            this._y1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._y1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._y1.Location = new System.Drawing.Point(155, 29);
             this._y1.Name = "_y1";
             this._y1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._y1.Size = new System.Drawing.Size(26, 27);
+            this._y1.Size = new System.Drawing.Size(23, 24);
             this._y1.TabIndex = 11;
             this._y1.Text = "B";
             // 
@@ -1105,11 +1105,11 @@
             // 
             this._x1.AutoSize = true;
             this._x1.BackColor = System.Drawing.Color.Transparent;
-            this._x1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._x1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._x1.Location = new System.Drawing.Point(26, 29);
             this._x1.Name = "_x1";
             this._x1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._x1.Size = new System.Drawing.Size(26, 27);
+            this._x1.Size = new System.Drawing.Size(24, 24);
             this._x1.TabIndex = 16;
             this._x1.Text = "A";
             // 
@@ -1144,7 +1144,7 @@
             // _Du2
             // 
             this._Du2.BackColor = System.Drawing.Color.Yellow;
-            this._Du2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._Du2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._Du2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._Du2.Location = new System.Drawing.Point(378, 29);
             this._Du2.MaxLength = 5;
@@ -1171,18 +1171,18 @@
             // 
             this.label34.AutoSize = true;
             this.label34.BackColor = System.Drawing.Color.Transparent;
-            this.label34.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label34.Location = new System.Drawing.Point(219, 29);
             this.label34.Name = "label34";
             this.label34.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label34.Size = new System.Drawing.Size(25, 27);
+            this.label34.Size = new System.Drawing.Size(22, 24);
             this.label34.TabIndex = 20;
             this.label34.Text = "=";
             // 
             // _xy2
             // 
             this._xy2.BackColor = System.Drawing.Color.Yellow;
-            this._xy2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._xy2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._xy2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._xy2.Location = new System.Drawing.Point(251, 29);
             this._xy2.MaxLength = 5;
@@ -1197,11 +1197,11 @@
             // 
             this._pheptinh2.AutoSize = true;
             this._pheptinh2.BackColor = System.Drawing.Color.Transparent;
-            this._pheptinh2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._pheptinh2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._pheptinh2.Location = new System.Drawing.Point(107, 26);
             this._pheptinh2.Name = "_pheptinh2";
             this._pheptinh2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._pheptinh2.Size = new System.Drawing.Size(50, 27);
+            this._pheptinh2.Size = new System.Drawing.Size(43, 24);
             this._pheptinh2.TabIndex = 12;
             this._pheptinh2.Text = "+-*/";
             // 
@@ -1209,11 +1209,11 @@
             // 
             this._y2.AutoSize = true;
             this._y2.BackColor = System.Drawing.Color.Transparent;
-            this._y2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._y2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._y2.Location = new System.Drawing.Point(155, 29);
             this._y2.Name = "_y2";
             this._y2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._y2.Size = new System.Drawing.Size(26, 27);
+            this._y2.Size = new System.Drawing.Size(23, 24);
             this._y2.TabIndex = 11;
             this._y2.Text = "B";
             // 
@@ -1221,11 +1221,11 @@
             // 
             this._x2.AutoSize = true;
             this._x2.BackColor = System.Drawing.Color.Transparent;
-            this._x2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._x2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._x2.Location = new System.Drawing.Point(26, 29);
             this._x2.Name = "_x2";
             this._x2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._x2.Size = new System.Drawing.Size(26, 27);
+            this._x2.Size = new System.Drawing.Size(24, 24);
             this._x2.TabIndex = 16;
             this._x2.Text = "A";
             // 
@@ -1260,7 +1260,7 @@
             // _Du3
             // 
             this._Du3.BackColor = System.Drawing.Color.Yellow;
-            this._Du3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._Du3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._Du3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._Du3.Location = new System.Drawing.Point(378, 29);
             this._Du3.MaxLength = 5;
@@ -1287,18 +1287,18 @@
             // 
             this.label40.AutoSize = true;
             this.label40.BackColor = System.Drawing.Color.Transparent;
-            this.label40.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label40.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(219, 29);
             this.label40.Name = "label40";
             this.label40.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label40.Size = new System.Drawing.Size(25, 27);
+            this.label40.Size = new System.Drawing.Size(22, 24);
             this.label40.TabIndex = 20;
             this.label40.Text = "=";
             // 
             // _xy3
             // 
             this._xy3.BackColor = System.Drawing.Color.Yellow;
-            this._xy3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._xy3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._xy3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._xy3.Location = new System.Drawing.Point(251, 29);
             this._xy3.MaxLength = 5;
@@ -1313,11 +1313,11 @@
             // 
             this._pheptinh3.AutoSize = true;
             this._pheptinh3.BackColor = System.Drawing.Color.Transparent;
-            this._pheptinh3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._pheptinh3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._pheptinh3.Location = new System.Drawing.Point(106, 27);
             this._pheptinh3.Name = "_pheptinh3";
             this._pheptinh3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._pheptinh3.Size = new System.Drawing.Size(50, 27);
+            this._pheptinh3.Size = new System.Drawing.Size(43, 24);
             this._pheptinh3.TabIndex = 12;
             this._pheptinh3.Text = "+-*/";
             // 
@@ -1325,11 +1325,11 @@
             // 
             this._y3.AutoSize = true;
             this._y3.BackColor = System.Drawing.Color.Transparent;
-            this._y3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._y3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._y3.Location = new System.Drawing.Point(155, 29);
             this._y3.Name = "_y3";
             this._y3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._y3.Size = new System.Drawing.Size(26, 27);
+            this._y3.Size = new System.Drawing.Size(23, 24);
             this._y3.TabIndex = 11;
             this._y3.Text = "B";
             // 
@@ -1337,11 +1337,11 @@
             // 
             this._x3.AutoSize = true;
             this._x3.BackColor = System.Drawing.Color.Transparent;
-            this._x3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._x3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._x3.Location = new System.Drawing.Point(26, 29);
             this._x3.Name = "_x3";
             this._x3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this._x3.Size = new System.Drawing.Size(26, 27);
+            this._x3.Size = new System.Drawing.Size(24, 24);
             this._x3.TabIndex = 16;
             this._x3.Text = "A";
             // 
@@ -1413,14 +1413,14 @@
             this.label35.ForeColor = System.Drawing.Color.Blue;
             this.label35.Location = new System.Drawing.Point(212, 119);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(113, 22);
+            this.label35.Size = new System.Drawing.Size(112, 22);
             this.label35.TabIndex = 20;
             this.label35.Text = "Câu Trả Lời";
             // 
             // _TraLoi2
             // 
             this._TraLoi2.BackColor = System.Drawing.Color.Yellow;
-            this._TraLoi2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._TraLoi2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._TraLoi2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._TraLoi2.Location = new System.Drawing.Point(334, 111);
             this._TraLoi2.MaxLength = 5;
@@ -1472,14 +1472,14 @@
             this.label33.ForeColor = System.Drawing.Color.Blue;
             this.label33.Location = new System.Drawing.Point(212, 119);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(113, 22);
+            this.label33.Size = new System.Drawing.Size(112, 22);
             this.label33.TabIndex = 20;
             this.label33.Text = "Câu Trả Lời";
             // 
             // _TraLoi1
             // 
             this._TraLoi1.BackColor = System.Drawing.Color.Yellow;
-            this._TraLoi1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this._TraLoi1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this._TraLoi1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this._TraLoi1.Location = new System.Drawing.Point(334, 111);
             this._TraLoi1.MaxLength = 5;
@@ -1501,16 +1501,16 @@
             this.label_DeBai1.TabIndex = 17;
             this.label_DeBai1.Text = "A";
             // 
-            // tabPage_KetThuc
+            // tabPage_LyThuyet
             // 
-            this.tabPage_KetThuc.BackColor = System.Drawing.Color.White;
-            this.tabPage_KetThuc.Location = new System.Drawing.Point(4, 31);
-            this.tabPage_KetThuc.Name = "tabPage_KetThuc";
-            this.tabPage_KetThuc.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_KetThuc.Size = new System.Drawing.Size(798, 537);
-            this.tabPage_KetThuc.TabIndex = 3;
-            this.tabPage_KetThuc.Text = "tabPage1";
-            this.tabPage_KetThuc.Click += new System.EventHandler(this.tabPage_KetThuc_Click);
+            this.tabPage_LyThuyet.BackColor = System.Drawing.Color.White;
+            this.tabPage_LyThuyet.Location = new System.Drawing.Point(4, 31);
+            this.tabPage_LyThuyet.Name = "tabPage_LyThuyet";
+            this.tabPage_LyThuyet.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage_LyThuyet.Size = new System.Drawing.Size(798, 537);
+            this.tabPage_LyThuyet.TabIndex = 3;
+            this.tabPage_LyThuyet.Text = "Lý Thuyết";
+            this.tabPage_LyThuyet.Click += new System.EventHandler(this.tabPage_KetThuc_Click);
             // 
             // button_KetQua
             // 
@@ -1602,7 +1602,7 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(65, 10);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1614,18 +1614,18 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(24, 22);
             this.label4.Name = "label4";
             this.label4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label4.Size = new System.Drawing.Size(50, 27);
+            this.label4.Size = new System.Drawing.Size(43, 24);
             this.label4.TabIndex = 12;
             this.label4.Text = "+-*/";
             // 
             // richTextBox1
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.Yellow;
-            this.richTextBox1.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox1.Location = new System.Drawing.Point(50, 70);
             this.richTextBox1.MaxLength = 5;
@@ -1639,7 +1639,7 @@
             // label5
             // 
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(65, 39);
             this.label5.Name = "label5";
             this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1651,11 +1651,11 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(48, 43);
             this.label8.Name = "label8";
             this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label8.Size = new System.Drawing.Size(102, 27);
+            this.label8.Size = new System.Drawing.Size(109, 24);
             this.label8.TabIndex = 13;
             this.label8.Text = "_________";
             // 
@@ -1688,7 +1688,7 @@
             // label10
             // 
             this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(65, 10);
             this.label10.Name = "label10";
             this.label10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1700,18 +1700,18 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(24, 22);
             this.label12.Name = "label12";
             this.label12.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label12.Size = new System.Drawing.Size(50, 27);
+            this.label12.Size = new System.Drawing.Size(43, 24);
             this.label12.TabIndex = 12;
             this.label12.Text = "+-*/";
             // 
             // richTextBox2
             // 
             this.richTextBox2.BackColor = System.Drawing.Color.Yellow;
-            this.richTextBox2.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox2.Location = new System.Drawing.Point(50, 70);
             this.richTextBox2.MaxLength = 5;
@@ -1725,7 +1725,7 @@
             // label14
             // 
             this.label14.BackColor = System.Drawing.Color.Transparent;
-            this.label14.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(65, 39);
             this.label14.Name = "label14";
             this.label14.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1737,11 +1737,11 @@
             // 
             this.label15.AutoSize = true;
             this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(48, 43);
             this.label15.Name = "label15";
             this.label15.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label15.Size = new System.Drawing.Size(102, 27);
+            this.label15.Size = new System.Drawing.Size(109, 24);
             this.label15.TabIndex = 13;
             this.label15.Text = "_________";
             // 
@@ -1795,7 +1795,7 @@
             // label19
             // 
             this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(65, 10);
             this.label19.Name = "label19";
             this.label19.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1807,18 +1807,18 @@
             // 
             this.label20.AutoSize = true;
             this.label20.BackColor = System.Drawing.Color.Transparent;
-            this.label20.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(24, 22);
             this.label20.Name = "label20";
             this.label20.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label20.Size = new System.Drawing.Size(50, 27);
+            this.label20.Size = new System.Drawing.Size(43, 24);
             this.label20.TabIndex = 12;
             this.label20.Text = "+-*/";
             // 
             // richTextBox3
             // 
             this.richTextBox3.BackColor = System.Drawing.Color.Yellow;
-            this.richTextBox3.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox3.Location = new System.Drawing.Point(50, 70);
             this.richTextBox3.MaxLength = 5;
@@ -1832,7 +1832,7 @@
             // label21
             // 
             this.label21.BackColor = System.Drawing.Color.Transparent;
-            this.label21.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(65, 39);
             this.label21.Name = "label21";
             this.label21.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1844,11 +1844,11 @@
             // 
             this.label22.AutoSize = true;
             this.label22.BackColor = System.Drawing.Color.Transparent;
-            this.label22.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(48, 43);
             this.label22.Name = "label22";
             this.label22.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label22.Size = new System.Drawing.Size(102, 27);
+            this.label22.Size = new System.Drawing.Size(109, 24);
             this.label22.TabIndex = 13;
             this.label22.Text = "_________";
             // 
@@ -1881,7 +1881,7 @@
             // label24
             // 
             this.label24.BackColor = System.Drawing.Color.Transparent;
-            this.label24.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(65, 10);
             this.label24.Name = "label24";
             this.label24.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1893,18 +1893,18 @@
             // 
             this.label25.AutoSize = true;
             this.label25.BackColor = System.Drawing.Color.Transparent;
-            this.label25.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(24, 22);
             this.label25.Name = "label25";
             this.label25.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label25.Size = new System.Drawing.Size(50, 27);
+            this.label25.Size = new System.Drawing.Size(43, 24);
             this.label25.TabIndex = 12;
             this.label25.Text = "+-*/";
             // 
             // richTextBox4
             // 
             this.richTextBox4.BackColor = System.Drawing.Color.Yellow;
-            this.richTextBox4.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox4.Location = new System.Drawing.Point(50, 70);
             this.richTextBox4.MaxLength = 5;
@@ -1918,7 +1918,7 @@
             // label26
             // 
             this.label26.BackColor = System.Drawing.Color.Transparent;
-            this.label26.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(65, 39);
             this.label26.Name = "label26";
             this.label26.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1930,11 +1930,11 @@
             // 
             this.label27.AutoSize = true;
             this.label27.BackColor = System.Drawing.Color.Transparent;
-            this.label27.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(48, 43);
             this.label27.Name = "label27";
             this.label27.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label27.Size = new System.Drawing.Size(102, 27);
+            this.label27.Size = new System.Drawing.Size(109, 24);
             this.label27.TabIndex = 13;
             this.label27.Text = "_________";
             // 
@@ -1967,7 +1967,7 @@
             // label29
             // 
             this.label29.BackColor = System.Drawing.Color.Transparent;
-            this.label29.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label29.Location = new System.Drawing.Point(65, 10);
             this.label29.Name = "label29";
             this.label29.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -1979,18 +1979,18 @@
             // 
             this.label30.AutoSize = true;
             this.label30.BackColor = System.Drawing.Color.Transparent;
-            this.label30.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(24, 22);
             this.label30.Name = "label30";
             this.label30.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label30.Size = new System.Drawing.Size(50, 27);
+            this.label30.Size = new System.Drawing.Size(43, 24);
             this.label30.TabIndex = 12;
             this.label30.Text = "+-*/";
             // 
             // richTextBox5
             // 
             this.richTextBox5.BackColor = System.Drawing.Color.Yellow;
-            this.richTextBox5.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold);
+            this.richTextBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
             this.richTextBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.richTextBox5.Location = new System.Drawing.Point(50, 70);
             this.richTextBox5.MaxLength = 5;
@@ -2004,7 +2004,7 @@
             // label31
             // 
             this.label31.BackColor = System.Drawing.Color.Transparent;
-            this.label31.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(65, 39);
             this.label31.Name = "label31";
             this.label31.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
@@ -2016,11 +2016,11 @@
             // 
             this.label32.AutoSize = true;
             this.label32.BackColor = System.Drawing.Color.Transparent;
-            this.label32.Font = new System.Drawing.Font("VNI-Souvir", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(48, 43);
             this.label32.Name = "label32";
             this.label32.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label32.Size = new System.Drawing.Size(102, 27);
+            this.label32.Size = new System.Drawing.Size(109, 24);
             this.label32.TabIndex = 13;
             this.label32.Text = "_________";
             // 
@@ -2251,6 +2251,6 @@
         private System.Windows.Forms.Label label_DonVi2;
         private System.Windows.Forms.Label _TraLoiDung1;
         private System.Windows.Forms.Label _TraLoiDung2;
-        private System.Windows.Forms.TabPage tabPage_KetThuc;
+        private System.Windows.Forms.TabPage tabPage_LyThuyet;
     }
 }

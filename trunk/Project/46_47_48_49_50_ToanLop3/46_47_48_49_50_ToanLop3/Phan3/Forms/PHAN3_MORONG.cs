@@ -30,7 +30,7 @@ namespace _46_47_48_49_50_ToanLop3
             this.SetBounds(0, 0, rect.Width, rect.Height);
 
             // Khởi tạo nền cho form
-            Bitmap bmp = new Bitmap(duongdan + "\\HinhAnh\\C.jpg");
+            Bitmap bmp = new Bitmap(duongdan + "\\HinhAnh\\D.jpg");
             this.BackgroundImage = bmp;
             this.BackgroundImageLayout = ImageLayout.Stretch;
 
@@ -53,7 +53,7 @@ namespace _46_47_48_49_50_ToanLop3
             tabPage_LyThuyet.BackgroundImage = bmp1;
             tabPage_LyThuyet.BackgroundImageLayout = ImageLayout.Stretch;
 
-            Bitmap bmp2 = new Bitmap(duongdan + "\\HinhAnh\\tab2.jpg");
+            Bitmap bmp2 = new Bitmap(duongdan + "\\HinhAnh\\tab1.jpg");
             tabPage_BaiTap.BackgroundImage = bmp2;
             tabPage_BaiTap.BackgroundImageLayout = ImageLayout.Stretch;
         }

@@ -13,7 +13,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan1.Bai1
     {
         public BaiTap1()
         {
-            InitializeComponent();
+      //      InitializeComponent();
         }
 
 

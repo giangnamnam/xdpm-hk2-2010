@@ -459,6 +459,12 @@
     <Compile Include="Phan5\Bai1\Bai01b.Designer.cs">
       <DependentUpon>Bai01b.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\Bai1\Bai03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\Bai1\Bai03.Designer.cs">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\Bai1\Bài02.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -650,6 +656,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\Bai1\Bai01b.resx">
       <DependentUpon>Bai01b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\Bai1\Bai03.resx">
+      <DependentUpon>Bai03.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\Bai1\Bài02.resx">
       <DependentUpon>Bài02.cs</DependentUpon>

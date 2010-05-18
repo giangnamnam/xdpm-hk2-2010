@@ -13,7 +13,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan1.Bai3
     {
         public BaiTap4()
         {
-            InitializeComponent();
+   //         InitializeComponent();
         }
 
         private void btThoat_Click(object sender, EventArgs e)

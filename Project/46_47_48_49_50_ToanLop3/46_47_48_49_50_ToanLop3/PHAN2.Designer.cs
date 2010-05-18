@@ -46,6 +46,12 @@
             System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 06",
             "PHÉP CHIA HẾT VÀ PHÉP CHIA CÓ DƯ"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem("Bài 07");
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Bài 08");
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("Bài 09");
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("Bài 10");
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem("Bài 11");
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("Bài 12");
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.chọnBàiTậpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bài01ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -61,7 +67,9 @@
             this.btnThoat = new System.Windows.Forms.Button();
             this.bntBatDau = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -70,7 +78,7 @@
             this.chọnBàiTậpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1071, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1366, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -91,39 +99,39 @@
             // bài01ToolStripMenuItem
             // 
             this.bài01ToolStripMenuItem.Name = "bài01ToolStripMenuItem";
-            this.bài01ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bài01ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.bài01ToolStripMenuItem.Text = "Bài 01";
             this.bài01ToolStripMenuItem.Click += new System.EventHandler(this.bài01ToolStripMenuItem_Click);
             // 
             // bài02ToolStripMenuItem
             // 
             this.bài02ToolStripMenuItem.Name = "bài02ToolStripMenuItem";
-            this.bài02ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bài02ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.bài02ToolStripMenuItem.Text = "Bài 02";
             this.bài02ToolStripMenuItem.Click += new System.EventHandler(this.bài02ToolStripMenuItem_Click);
             // 
             // bảiToolStripMenuItem
             // 
             this.bảiToolStripMenuItem.Name = "bảiToolStripMenuItem";
-            this.bảiToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bảiToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.bảiToolStripMenuItem.Text = "Bài 03";
             // 
             // bài04ToolStripMenuItem
             // 
             this.bài04ToolStripMenuItem.Name = "bài04ToolStripMenuItem";
-            this.bài04ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bài04ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.bài04ToolStripMenuItem.Text = "Bài 04";
             // 
             // bải05ToolStripMenuItem
             // 
             this.bải05ToolStripMenuItem.Name = "bải05ToolStripMenuItem";
-            this.bải05ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bải05ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.bải05ToolStripMenuItem.Text = "Bải 05";
             // 
             // bài06ToolStripMenuItem
             // 
             this.bài06ToolStripMenuItem.Name = "bài06ToolStripMenuItem";
-            this.bài06ToolStripMenuItem.Size = new System.Drawing.Size(122, 24);
+            this.bài06ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
             this.bài06ToolStripMenuItem.Text = "Bài 06";
             // 
             // label1
@@ -134,7 +142,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.OrangeRed;
-            this.label1.Location = new System.Drawing.Point(349, 0);
+            this.label1.Location = new System.Drawing.Point(606, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(115, 25);
             this.label1.TabIndex = 24;
@@ -145,6 +153,7 @@
             this.ListView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
+            this.ListView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             listViewItem1.Checked = true;
             listViewItem1.StateImageIndex = 1;
@@ -164,37 +173,50 @@
             listViewItem6.Checked = true;
             listViewItem6.StateImageIndex = 1;
             listViewItem6.Tag = "bai6";
+            listViewItem7.Tag = "bai7";
+            listViewItem8.Tag = "bai8";
+            listViewItem9.Tag = "bai9";
+            listViewItem10.Tag = "bai10";
+            listViewItem11.Tag = "bai1";
+            listViewItem12.Tag = "bai12";
             this.ListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
             listViewItem3,
             listViewItem4,
             listViewItem5,
-            listViewItem6});
-            this.ListView1.Location = new System.Drawing.Point(12, 28);
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10,
+            listViewItem11,
+            listViewItem12});
+            this.ListView1.Location = new System.Drawing.Point(3, 22);
             this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(825, 422);
+            this.ListView1.Size = new System.Drawing.Size(1360, 338);
             this.ListView1.TabIndex = 23;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
+            this.ListView1.SelectedIndexChanged += new System.EventHandler(this.ListView1_SelectedIndexChanged);
             this.ListView1.DoubleClick += new System.EventHandler(this.ListView1_DoubleClick);
             // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "Chọn Bài Học";
-            this.columnHeader1.Width = 199;
+            this.columnHeader1.Width = 225;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tựa đề";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 643;
+            this.columnHeader2.Width = 1119;
             // 
             // btnThoat
             // 
             this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoat.Location = new System.Drawing.Point(846, 349);
+            this.btnThoat.Location = new System.Drawing.Point(700, 426);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(141, 47);
             this.btnThoat.TabIndex = 28;
@@ -207,7 +229,7 @@
             this.bntBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntBatDau.ForeColor = System.Drawing.Color.Black;
-            this.bntBatDau.Location = new System.Drawing.Point(846, 204);
+            this.bntBatDau.Location = new System.Drawing.Point(406, 426);
             this.bntBatDau.Name = "bntBatDau";
             this.bntBatDau.Size = new System.Drawing.Size(141, 45);
             this.bntBatDau.TabIndex = 27;
@@ -220,7 +242,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(846, 280);
+            this.button1.Location = new System.Drawing.Point(553, 426);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 45);
             this.button1.TabIndex = 29;
@@ -228,25 +250,38 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.ListView1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.groupBox1.Location = new System.Drawing.Point(0, 57);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(1366, 363);
+            this.groupBox1.TabIndex = 30;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "MỤC LỤC";
+            // 
             // PHAN2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1071, 471);
+            this.ClientSize = new System.Drawing.Size(1366, 503);
             this.ControlBox = false;
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.bntBatDau);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.ListView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "PHAN2";
-            this.Text = "PHAN2";
+            this.Text = "z";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.PHAN2_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -269,5 +304,6 @@
         private System.Windows.Forms.ToolStripMenuItem bài04ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bải05ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem bài06ToolStripMenuItem;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

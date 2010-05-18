@@ -45,8 +45,8 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan5")
                 {
-                    PHAN5 frm = new PHAN5();
-                    frm.Show();
+                    //PHAN5 frm = new PHAN5();
+                    //frm.Show();
                 }
 
                 if (pathName == "baiTapThem")
@@ -97,8 +97,8 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan5")
                 {
-                    PHAN5 frm = new PHAN5();
-                    frm.Show();
+                    //PHAN5 frm = new PHAN5();
+                    //frm.Show();
                 }
 
                 if (pathName == "baiTapThem")

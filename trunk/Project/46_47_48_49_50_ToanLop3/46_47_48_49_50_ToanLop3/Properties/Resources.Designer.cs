@@ -59,40 +59,5 @@ namespace _46_47_48_49_50_ToanLop3.Properties {
                 resourceCulture = value;
             }
         }
-        
-        internal static System.Drawing.Bitmap _1210586355_img {
-            get {
-                object obj = ResourceManager.GetObject("1210586355.img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap _39061953_1 {
-            get {
-                object obj = ResourceManager.GetObject("39061953_1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap _6 {
-            get {
-                object obj = ResourceManager.GetObject("6", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap a_dreamy_world05 {
-            get {
-                object obj = ResourceManager.GetObject("a_dreamy_world05", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap frames8bd {
-            get {
-                object obj = ResourceManager.GetObject("frames8bd", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

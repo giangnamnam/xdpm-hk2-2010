@@ -28,8 +28,10 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan2")
                 {
+                   
                     PHAN2 frm = new PHAN2();
                     frm.ShowDialog();
+                    
                 }
                 if (pathName == "phan3")
                 {
@@ -57,7 +59,6 @@ namespace _46_47_48_49_50_ToanLop3
             {
                 MessageBox.Show("Bạn hãy chọn phần để học!!!");
             }
-            
         }
 
         private void btnThoat_Click(object sender, EventArgs e)

@@ -28,76 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ChonBai = new System.Windows.Forms.ToolStripMenuItem();
-            this.bài1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bài2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.bài1ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.bài2ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btCacSo100000 = new System.Windows.Forms.Button();
+            this.btCacSoDen100000tt = new System.Windows.Forms.Button();
+            this.btDaiLuong = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // label1
             // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ChonBai});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(284, 24);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(205, 49);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(224, 26);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "ÔN TẬP CUỐI NĂM";
             // 
-            // ChonBai
+            // btCacSo100000
             // 
-            this.ChonBai.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bài1ToolStripMenuItem,
-            this.bài2ToolStripMenuItem});
-            this.ChonBai.Name = "ChonBai";
-            this.ChonBai.Size = new System.Drawing.Size(70, 20);
-            this.ChonBai.Text = "Chọn bài ";
-            this.ChonBai.Click += new System.EventHandler(this.chọnBàiToolStripMenuItem_Click);
+            this.btCacSo100000.Location = new System.Drawing.Point(63, 100);
+            this.btCacSo100000.Name = "btCacSo100000";
+            this.btCacSo100000.Size = new System.Drawing.Size(227, 23);
+            this.btCacSo100000.TabIndex = 2;
+            this.btCacSo100000.Text = "Các Số Đến 100 000\r\n";
+            this.btCacSo100000.UseVisualStyleBackColor = true;
+            this.btCacSo100000.Click += new System.EventHandler(this.btCacSo100000_Click);
             // 
-            // bài1ToolStripMenuItem
+            // btCacSoDen100000tt
             // 
-            this.bài1ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.bài1ToolStripMenuItem1,
-            this.bài2ToolStripMenuItem1});
-            this.bài1ToolStripMenuItem.Name = "bài1ToolStripMenuItem";
-            this.bài1ToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.bài1ToolStripMenuItem.Text = "Các số đến 100 000";
-            this.bài1ToolStripMenuItem.Click += new System.EventHandler(this.bài1ToolStripMenuItem_Click_1);
+            this.btCacSoDen100000tt.Location = new System.Drawing.Point(63, 146);
+            this.btCacSoDen100000tt.Name = "btCacSoDen100000tt";
+            this.btCacSoDen100000tt.Size = new System.Drawing.Size(227, 23);
+            this.btCacSoDen100000tt.TabIndex = 3;
+            this.btCacSoDen100000tt.Text = "Các Số Đến 100 000 (tiếp theo)";
+            this.btCacSoDen100000tt.UseVisualStyleBackColor = true;
             // 
-            // bài2ToolStripMenuItem
+            // btDaiLuong
             // 
-            this.bài2ToolStripMenuItem.Name = "bài2ToolStripMenuItem";
-            this.bài2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.bài2ToolStripMenuItem.Text = "Bài 2";
+            this.btDaiLuong.Location = new System.Drawing.Point(63, 195);
+            this.btDaiLuong.Name = "btDaiLuong";
+            this.btDaiLuong.Size = new System.Drawing.Size(227, 23);
+            this.btDaiLuong.TabIndex = 4;
+            this.btDaiLuong.Text = "Ôn Tập Về Đại Lượng";
+            this.btDaiLuong.UseVisualStyleBackColor = true;
             // 
-            // bài1ToolStripMenuItem1
+            // button4
             // 
-            this.bài1ToolStripMenuItem1.Name = "bài1ToolStripMenuItem1";
-            this.bài1ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.bài1ToolStripMenuItem1.Text = "Bài 1";
-            this.bài1ToolStripMenuItem1.Click += new System.EventHandler(this.bài1ToolStripMenuItem1_Click);
-            // 
-            // bài2ToolStripMenuItem1
-            // 
-            this.bài2ToolStripMenuItem1.Name = "bài2ToolStripMenuItem1";
-            this.bài2ToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
-            this.bài2ToolStripMenuItem1.Text = "Bài 2";
-            this.bài2ToolStripMenuItem1.Click += new System.EventHandler(this.bài2ToolStripMenuItem1_Click);
+            this.button4.Location = new System.Drawing.Point(63, 250);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(227, 23);
+            this.button4.TabIndex = 5;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // PHAN5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.ClientSize = new System.Drawing.Size(633, 330);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.btDaiLuong);
+            this.Controls.Add(this.btCacSoDen100000tt);
+            this.Controls.Add(this.btCacSo100000);
+            this.Controls.Add(this.label1);
             this.Name = "PHAN5";
             this.Text = "PHAN5";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -105,11 +101,10 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ChonBai;
-        private System.Windows.Forms.ToolStripMenuItem bài1ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bài2ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem bài1ToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem bài2ToolStripMenuItem1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btCacSo100000;
+        private System.Windows.Forms.Button btCacSoDen100000tt;
+        private System.Windows.Forms.Button btDaiLuong;
+        private System.Windows.Forms.Button button4;
     }
 }

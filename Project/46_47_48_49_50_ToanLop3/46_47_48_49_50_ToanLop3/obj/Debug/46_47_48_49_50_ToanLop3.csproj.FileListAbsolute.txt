@@ -371,9 +371,7 @@ G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4_13.resources
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Properties.Resources.resources
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.csproj.GenerateResource.Cache
-G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Baitap1.resources
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN5.resources
-G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Baitap2.resources
 C:\Users\Q60\Desktop\New folder\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
 C:\Users\Q60\Desktop\New folder\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb
 C:\Users\Q60\Desktop\New folder\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\ResolveAssemblyReference.cache

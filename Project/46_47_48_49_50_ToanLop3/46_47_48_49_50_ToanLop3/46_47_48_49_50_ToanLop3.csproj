@@ -471,6 +471,54 @@
     <Compile Include="Phan4\PHAN4_13.Designer.cs">
       <DependentUpon>PHAN4_13.cs</DependentUpon>
     </Compile>
+    <Compile Include="PHAN5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PHAN5.Designer.cs">
+      <DependentUpon>PHAN5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai01a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai01a.designer.cs">
+      <DependentUpon>Bai01a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai01b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai01b.designer.cs">
+      <DependentUpon>Bai01b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai03a.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai03a.designer.cs">
+      <DependentUpon>Bai03a.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai03b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai03b.designer.cs">
+      <DependentUpon>Bai03b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bai04.designer.cs">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bài02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap1\Bài02.designer.cs">
+      <DependentUpon>Bài02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\Các Số Đến 100 000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\Các Số Đến 100 000.designer.cs">
+      <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DangNhap.resx">
@@ -651,6 +699,30 @@
       <DependentUpon>PHAN4_13.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PHAN5.resx">
+      <DependentUpon>PHAN5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap1\Bai01a.resx">
+      <DependentUpon>Bai01a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap1\Bai01b.resx">
+      <DependentUpon>Bai01b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap1\Bai03a.resx">
+      <DependentUpon>Bai03a.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap1\Bai03b.resx">
+      <DependentUpon>Bai03b.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap1\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap1\Bài02.resx">
+      <DependentUpon>Bài02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\Các Số Đến 100 000.resx">
+      <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -685,6 +757,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\a_dreamy_world051.jpg" />
+    <Content Include="Resources\Bitmap1.bmp" />
     <Content Include="Resources\f3hv2pir4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -700,7 +773,6 @@
     <Folder Include="Phan1\Bai4\" />
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />
-    <Folder Include="Phan5\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

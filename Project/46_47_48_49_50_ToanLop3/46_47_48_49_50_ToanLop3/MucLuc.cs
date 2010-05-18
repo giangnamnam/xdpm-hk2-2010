@@ -45,8 +45,8 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan5")
                 {
-                    //PHAN5 frm = new PHAN5();
-                    //frm.Show();
+                    PHAN5 frm = new PHAN5();
+                    frm.Show();
                 }
 
                 if (pathName == "baiTapThem")
@@ -97,8 +97,8 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan5")
                 {
-                    //PHAN5 frm = new PHAN5();
-                    //frm.Show();
+                    PHAN5 frm = new PHAN5();
+                    frm.Show();
                 }
 
                 if (pathName == "baiTapThem")
@@ -119,6 +119,11 @@ namespace _46_47_48_49_50_ToanLop3
         }
 
         private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListView1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
         }

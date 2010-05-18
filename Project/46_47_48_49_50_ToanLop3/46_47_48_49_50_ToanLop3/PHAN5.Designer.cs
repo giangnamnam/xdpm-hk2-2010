@@ -93,7 +93,7 @@
             this.Controls.Add(this.btCacSo100000);
             this.Controls.Add(this.label1);
             this.Name = "PHAN5";
-            this.Text = "PHAN5";
+            this.Text = "PHẦN 5";
             this.ResumeLayout(false);
             this.PerformLayout();
 

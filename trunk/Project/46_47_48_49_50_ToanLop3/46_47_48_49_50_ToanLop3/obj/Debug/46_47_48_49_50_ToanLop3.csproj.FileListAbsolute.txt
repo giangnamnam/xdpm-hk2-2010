@@ -737,3 +737,5 @@ G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai04.resources
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bài_2.resources
 G:\Users\ZERO\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.CacSoDen100000.resources
+D:\Hoctap\HK6\XDpm\New folder (3)\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
+D:\Hoctap\HK6\XDpm\New folder (3)\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb

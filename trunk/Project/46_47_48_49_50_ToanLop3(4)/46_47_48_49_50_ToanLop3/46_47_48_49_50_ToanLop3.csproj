@@ -429,6 +429,13 @@
     <Compile Include="Phan4\Bai1.Designer.cs">
       <DependentUpon>Bai1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan4\Bai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai2.Designer.cs">
+      <DependentUpon>Bai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan4\DAO\PhepTinhDAO.cs" />
     <Compile Include="Phan4\DAO\So5ChuSoDAO.cs" />
     <Compile Include="Phan4\DTO\PhepTinhDTO.cs" />
     <Compile Include="Phan4\DTO\So5ChuSoDTO.cs" />
@@ -438,47 +445,47 @@
     <Compile Include="Phan4\PHAN4_1NamChuSoFrm.designer.cs">
       <DependentUpon>PHAN4_1NamChuSoFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_1_LuyenTap.cs">
+    <Compile Include="Phan4\Bai1_LuyenTap.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_1_LuyenTap.designer.cs">
-      <DependentUpon>PHAN4_1_LuyenTap.cs</DependentUpon>
+    <Compile Include="Phan4\Bai1_LuyenTap.designer.cs">
+      <DependentUpon>Bai1_LuyenTap.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_DaySoFrm.cs">
+    <Compile Include="Phan4\Bai5.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_DaySoFrm.designer.cs">
-      <DependentUpon>PHAN4_DaySoFrm.cs</DependentUpon>
+    <Compile Include="Phan4\Bai5.designer.cs">
+      <DependentUpon>Bai5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_SoSanh.cs">
+    <Compile Include="Phan4\Bai3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_SoSanh.designer.cs">
-      <DependentUpon>PHAN4_SoSanh.cs</DependentUpon>
+    <Compile Include="Phan4\Bai3.designer.cs">
+      <DependentUpon>Bai3.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_TinhDienTichFrm.cs">
+    <Compile Include="Phan4\Bai4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_TinhDienTichFrm.designer.cs">
-      <DependentUpon>PHAN4_TinhDienTichFrm.cs</DependentUpon>
+    <Compile Include="Phan4\Bai4.designer.cs">
+      <DependentUpon>Bai4.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_11.cs">
+    <Compile Include="Phan4\Bai6.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_11.Designer.cs">
-      <DependentUpon>PHAN4_11.cs</DependentUpon>
+    <Compile Include="Phan4\Bai6.Designer.cs">
+      <DependentUpon>Bai6.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_12.cs">
+    <Compile Include="Phan4\Bai7.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_12.Designer.cs">
-      <DependentUpon>PHAN4_12.cs</DependentUpon>
+    <Compile Include="Phan4\Bai7.Designer.cs">
+      <DependentUpon>Bai7.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan4\PHAN4_13.cs">
+    <Compile Include="Phan4\Bai8.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan4\PHAN4_13.Designer.cs">
-      <DependentUpon>PHAN4_13.cs</DependentUpon>
+    <Compile Include="Phan4\Bai8.Designer.cs">
+      <DependentUpon>Bai8.cs</DependentUpon>
     </Compile>
     <Compile Include="PHAN5.cs">
       <SubType>Form</SubType>
@@ -687,34 +694,40 @@
       <DependentUpon>PHAN3_TINHTOAN.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="PHAN4.resx">
+      <DependentUpon>PHAN4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai1.resx">
       <DependentUpon>Bai1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan4\Bai2.resx">
+      <DependentUpon>Bai2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan4\PHAN4_1NamChuSoFrm.resx">
       <DependentUpon>PHAN4_1NamChuSoFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_1_LuyenTap.resx">
-      <DependentUpon>PHAN4_1_LuyenTap.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai1_LuyenTap.resx">
+      <DependentUpon>Bai1_LuyenTap.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_DaySoFrm.resx">
-      <DependentUpon>PHAN4_DaySoFrm.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai5.resx">
+      <DependentUpon>Bai5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_SoSanh.resx">
-      <DependentUpon>PHAN4_SoSanh.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai3.resx">
+      <DependentUpon>Bai3.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_TinhDienTichFrm.resx">
-      <DependentUpon>PHAN4_TinhDienTichFrm.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai4.resx">
+      <DependentUpon>Bai4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_11.resx">
-      <DependentUpon>PHAN4_11.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai6.resx">
+      <DependentUpon>Bai6.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_12.resx">
-      <DependentUpon>PHAN4_12.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai7.resx">
+      <DependentUpon>Bai7.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_13.resx">
-      <DependentUpon>PHAN4_13.cs</DependentUpon>
+    <EmbeddedResource Include="Phan4\Bai8.resx">
+      <DependentUpon>Bai8.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="PHAN5.resx">

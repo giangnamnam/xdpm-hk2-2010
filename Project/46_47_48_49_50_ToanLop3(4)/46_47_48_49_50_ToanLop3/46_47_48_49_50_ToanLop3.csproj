@@ -859,6 +859,7 @@
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />
     <Folder Include="Phan5\Bai2\" />
+    <Folder Include="Phan5\BaiOnTap3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

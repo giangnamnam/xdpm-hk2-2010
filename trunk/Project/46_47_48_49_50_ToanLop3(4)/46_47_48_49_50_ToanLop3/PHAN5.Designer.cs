@@ -63,6 +63,7 @@
             this.btCacSoDen100000tt.TabIndex = 3;
             this.btCacSoDen100000tt.Text = "Các Số Đến 100 000 (tiếp theo)";
             this.btCacSoDen100000tt.UseVisualStyleBackColor = true;
+            this.btCacSoDen100000tt.Click += new System.EventHandler(this.btCacSoDen100000tt_Click);
             // 
             // btDaiLuong
             // 

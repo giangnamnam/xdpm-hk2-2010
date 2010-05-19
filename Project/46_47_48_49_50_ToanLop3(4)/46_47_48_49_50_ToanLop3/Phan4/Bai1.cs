@@ -153,6 +153,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
         {
             if (currentIndex < sizeOfXML)
                 currentIndex++;
+            else currentIndex = 0;
             So5ChuSoDTO so5ChuSoDTO = null;
             so5ChuSoDTO = (So5ChuSoDTO)arrSo5ChuSo[currentIndex-1];
             lbDocSo.Text = so5ChuSoDTO.Text;

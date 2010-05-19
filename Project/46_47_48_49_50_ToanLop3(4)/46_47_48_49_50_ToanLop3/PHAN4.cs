@@ -51,6 +51,10 @@ namespace _46_47_48_49_50_ToanLop3
                     Phan2.Bai05 frm = new Phan2.Bai05();
                     frm.ShowDialog();
                 }
+                if (pathName=="bai6")
+                {
+
+                }
             }
             catch
             {
@@ -70,6 +74,16 @@ namespace _46_47_48_49_50_ToanLop3
         private void btQuayLai_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PHAN4_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

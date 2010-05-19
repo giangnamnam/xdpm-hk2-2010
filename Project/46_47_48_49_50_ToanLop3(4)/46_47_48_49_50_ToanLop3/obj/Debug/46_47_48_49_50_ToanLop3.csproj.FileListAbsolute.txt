@@ -877,13 +877,7 @@ C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\D
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_ONTAP.resources
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_TINHTOAN.resources
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.NamChuSoFrm.resources
-C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4_5ChuSo.resources
-C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.DaySoFrm.resources
-C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.SoSanh.resources
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.TinhDienTichFrm.resources
-C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4_11.resources
-C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4_12.resources
-C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4_13.resources
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN5.resources
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai01a.resources
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai01b.resources
@@ -898,3 +892,11 @@ C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\D
 C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai1.resources
 C:\Users\Nguyen\Desktop\xdpm-hk2-2010\Project\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
 C:\Users\Nguyen\Desktop\xdpm-hk2-2010\Project\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai2.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_5ChuSo.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.SoSanh.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.DaySoFrm.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_11.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_12.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3(4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_13.resources

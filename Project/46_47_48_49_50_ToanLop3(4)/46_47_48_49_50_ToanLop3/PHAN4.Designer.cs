@@ -28,28 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem31 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 1",
             "Làm quen với số có 5 chữ số"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem32 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 1 - Luyện Tập",
+            "Luyện Tập Các Số 5 Chữ Số"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 2",
             "Nhân số có 5 chữ số với số có 1 chữ số"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem33 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 3",
-            "Chia số có 5 chữ số với số có 1 chữ số"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem34 = new System.Windows.Forms.ListViewItem(new string[] {
+            "So Sánh 2 Số Có 5 Chữ Số"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 4",
-            "Tính chu vi hình chữ nhật"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem35 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Chu Vi Diện Tích Hình Chữ Nhật, Hình Vuông"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 5",
-            "Tính diện tích hình chữ nhật"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem36 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Dãy Số 5 Chữ Số"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 6",
-            "Ôn tập"}, -1);
+            "Nhân Số Có 5 Chữ Số Với 1 Chữ Số"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 7",
+            "Chia Số Có 5 Chữ Số Với 1 Chữ Số"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 8",
+            "Luyện Tập Chung"}, -1);
             this.listView1 = new System.Windows.Forms.ListView();
-            this.label1 = new System.Windows.Forms.Label();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
             this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
+            this.label1 = new System.Windows.Forms.Label();
             this.btBatDau = new System.Windows.Forms.Button();
             this.btQuayLai = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
@@ -61,36 +70,32 @@
             this.columnHeader1,
             this.columnHeader2});
             this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            listViewItem31.Tag = "bai1";
-            listViewItem32.Tag = "bai2";
-            listViewItem33.Tag = "bai3";
-            listViewItem34.Tag = "bai4";
-            listViewItem35.Tag = "bai5";
-            listViewItem36.Tag = "bai5";
+            listViewItem1.Tag = "bai1";
+            listViewItem2.Tag = "bai1lt";
+            listViewItem3.Tag = "bai2";
+            listViewItem4.Tag = "bai3";
+            listViewItem5.Tag = "bai4";
+            listViewItem6.Tag = "bai5";
+            listViewItem7.Tag = "bai5";
+            listViewItem8.Tag = "bai6";
+            listViewItem9.Tag = "bai8";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem31,
-            listViewItem32,
-            listViewItem33,
-            listViewItem34,
-            listViewItem35,
-            listViewItem36});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9});
             this.listView1.Location = new System.Drawing.Point(15, 36);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(965, 215);
+            this.listView1.Size = new System.Drawing.Size(965, 295);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 20);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "MỤC LỤC";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
             // 
             // columnHeader1
             // 
@@ -103,11 +108,22 @@
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader2.Width = 476;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "MỤC LỤC";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // btBatDau
             // 
             this.btBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btBatDau.Location = new System.Drawing.Point(225, 291);
+            this.btBatDau.Location = new System.Drawing.Point(225, 337);
             this.btBatDau.Name = "btBatDau";
             this.btBatDau.Size = new System.Drawing.Size(140, 45);
             this.btBatDau.TabIndex = 2;
@@ -119,7 +135,7 @@
             // 
             this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btQuayLai.Location = new System.Drawing.Point(450, 291);
+            this.btQuayLai.Location = new System.Drawing.Point(450, 337);
             this.btQuayLai.Name = "btQuayLai";
             this.btQuayLai.Size = new System.Drawing.Size(140, 45);
             this.btQuayLai.TabIndex = 3;
@@ -131,7 +147,7 @@
             // 
             this.btThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThoat.Location = new System.Drawing.Point(686, 291);
+            this.btThoat.Location = new System.Drawing.Point(686, 337);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(140, 45);
             this.btThoat.TabIndex = 4;
@@ -143,7 +159,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(992, 366);
+            this.ClientSize = new System.Drawing.Size(992, 428);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btQuayLai);
             this.Controls.Add(this.btBatDau);
@@ -153,6 +169,7 @@
             this.MinimizeBox = false;
             this.Name = "PHAN4";
             this.Text = "PHAN4";
+            this.Load += new System.EventHandler(this.PHAN4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

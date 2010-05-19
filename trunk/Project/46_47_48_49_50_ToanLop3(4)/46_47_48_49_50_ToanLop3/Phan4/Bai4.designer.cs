@@ -1,4 +1,4 @@
-﻿namespace _46_47_48_49_50_ToanLop3
+﻿namespace _46_47_48_49_50_ToanLop3.Phan4
 {
     partial class TinhDienTichFrm
     {

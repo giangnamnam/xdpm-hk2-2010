@@ -47,7 +47,7 @@
             // 
             // btCacSo100000
             // 
-            this.btCacSo100000.Location = new System.Drawing.Point(63, 100);
+            this.btCacSo100000.Location = new System.Drawing.Point(202, 108);
             this.btCacSo100000.Name = "btCacSo100000";
             this.btCacSo100000.Size = new System.Drawing.Size(227, 23);
             this.btCacSo100000.TabIndex = 2;
@@ -57,7 +57,7 @@
             // 
             // btCacSoDen100000tt
             // 
-            this.btCacSoDen100000tt.Location = new System.Drawing.Point(63, 146);
+            this.btCacSoDen100000tt.Location = new System.Drawing.Point(202, 154);
             this.btCacSoDen100000tt.Name = "btCacSoDen100000tt";
             this.btCacSoDen100000tt.Size = new System.Drawing.Size(227, 23);
             this.btCacSoDen100000tt.TabIndex = 3;
@@ -66,16 +66,17 @@
             // 
             // btDaiLuong
             // 
-            this.btDaiLuong.Location = new System.Drawing.Point(63, 195);
+            this.btDaiLuong.Location = new System.Drawing.Point(202, 203);
             this.btDaiLuong.Name = "btDaiLuong";
             this.btDaiLuong.Size = new System.Drawing.Size(227, 23);
             this.btDaiLuong.TabIndex = 4;
-            this.btDaiLuong.Text = "Ôn Tập Về Đại Lượng";
+            this.btDaiLuong.Text = "Ôn Tập Hình Học";
             this.btDaiLuong.UseVisualStyleBackColor = true;
+            this.btDaiLuong.Click += new System.EventHandler(this.btDaiLuong_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(63, 250);
+            this.button4.Location = new System.Drawing.Point(202, 258);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(227, 23);
             this.button4.TabIndex = 5;

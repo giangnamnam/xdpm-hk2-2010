@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2504D51C-E490-4099-A5E3-BA6F26A07124}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -519,6 +519,12 @@
     <Compile Include="Phan5\Các Số Đến 100 000.designer.cs">
       <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\HinhHoc\Bai1_174.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\HinhHoc\Bai1_174.Designer.cs">
+      <DependentUpon>Bai1_174.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="DangNhap.resx">
@@ -722,6 +728,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\Các Số Đến 100 000.resx">
       <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\HinhHoc\Bai1_174.resx">
+      <DependentUpon>Bai1_174.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

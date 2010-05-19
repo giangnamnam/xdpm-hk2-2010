@@ -63,5 +63,11 @@ namespace _46_47_48_49_50_ToanLop3
             Phan5.CacSoDen100000 fr = new Phan5.CacSoDen100000();
             fr.Show();
         }
+
+        private void btDaiLuong_Click(object sender, EventArgs e)
+        {
+            Phan5.HinhHoc.Bai1_174 fr = new Phan5.HinhHoc.Bai1_174();
+            fr.Show();
+        }
     }
 }

@@ -535,6 +535,18 @@
     <Compile Include="Phan5\BaiOnTap2\Bai02.Designer.cs">
       <DependentUpon>Bai02.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai03.Designer.cs">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai04.Designer.cs">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\CacSoDen100ktt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -771,6 +783,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\BaiOnTap2\Bai02.resx">
       <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap2\Bai03.resx">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap2\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\CacSoDen100ktt.resx">
       <DependentUpon>CacSoDen100ktt.cs</DependentUpon>

@@ -63,5 +63,11 @@ namespace _46_47_48_49_50_ToanLop3
             Phan5.CacSoDen100000 fr = new Phan5.CacSoDen100000();
             fr.Show();
         }
+
+        private void btCacSoDen100000tt_Click(object sender, EventArgs e)
+        {
+            Phan5.BaiOnTap2.Bai01 fr = new Phan5.BaiOnTap2.Bai01();
+            fr.Show();
+        }
     }
 }

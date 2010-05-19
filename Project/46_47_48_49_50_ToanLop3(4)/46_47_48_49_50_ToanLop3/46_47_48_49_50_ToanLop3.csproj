@@ -439,12 +439,6 @@
     <Compile Include="Phan4\DAO\So5ChuSoDAO.cs" />
     <Compile Include="Phan4\DTO\PhepTinhDTO.cs" />
     <Compile Include="Phan4\DTO\So5ChuSoDTO.cs" />
-    <Compile Include="Phan4\PHAN4_1NamChuSoFrm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan4\PHAN4_1NamChuSoFrm.designer.cs">
-      <DependentUpon>PHAN4_1NamChuSoFrm.cs</DependentUpon>
-    </Compile>
     <Compile Include="Phan4\Bai1_LuyenTap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -702,9 +696,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai2.resx">
       <DependentUpon>Bai2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Phan4\PHAN4_1NamChuSoFrm.resx">
-      <DependentUpon>PHAN4_1NamChuSoFrm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai1_LuyenTap.resx">
       <DependentUpon>Bai1_LuyenTap.cs</DependentUpon>

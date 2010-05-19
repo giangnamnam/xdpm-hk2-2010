@@ -21,13 +21,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4.DTO
             get { return soThuHai; }
             set { soThuHai = value; }
         }
-        private int phepTinh;
-
-        public int PhepTinh
-        {
-            get { return phepTinh; }
-            set { phepTinh = value; }
-        }
+        
         private int ketQua;
 
         public int KetQua
@@ -38,11 +32,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan4.DTO
 
         public PhepTinhDTO() { }
 
-        public PhepTinhDTO(int soThuNhat, int soThuHai, int phepTinh, int ketQua)
+        public PhepTinhDTO(int soThuNhat, int soThuHai, int ketQua)
         {
             this.soThuNhat = soThuNhat;
             this.soThuHai = soThuHai;
-            this.phepTinh = phepTinh;
             this.ketQua = ketQua;
         }
     }

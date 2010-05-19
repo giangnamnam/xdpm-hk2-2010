@@ -523,6 +523,24 @@
     <Compile Include="Phan5\BaiOnTap1\Bài02.designer.cs">
       <DependentUpon>Bài02.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap2\Bai02.Designer.cs">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\CacSoDen100ktt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\CacSoDen100ktt.Designer.cs">
+      <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\Các Số Đến 100 000.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -533,6 +551,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan5\HinhHoc\Bai1_174.Designer.cs">
+      <DependentUpon>Bai1_174.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\OnTapHinhHoc\Bai1_174.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\OnTapHinhHoc\Bai1_174.Designer.cs">
       <DependentUpon>Bai1_174.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -742,6 +766,15 @@
     <EmbeddedResource Include="Phan5\BaiOnTap1\Bài02.resx">
       <DependentUpon>Bài02.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap2\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap2\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\CacSoDen100ktt.resx">
+      <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan5\Các Số Đến 100 000.resx">
       <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </EmbeddedResource>
@@ -798,6 +831,7 @@
     <Folder Include="Phan1\Bai4\" />
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />
+    <Folder Include="Phan5\Bai2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

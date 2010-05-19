@@ -30,5 +30,17 @@ namespace _46_47_48_49_50_ToanLop3.Phan5
                 fr.Show();
             
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Phan5.BaiOnTap2.Bai03 fr = new Phan5.BaiOnTap2.Bai03();
+            fr.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Phan5.BaiOnTap2.Bai04 fr = new Phan5.BaiOnTap2.Bai04();
+            fr.Show();
+        }
     }
 }

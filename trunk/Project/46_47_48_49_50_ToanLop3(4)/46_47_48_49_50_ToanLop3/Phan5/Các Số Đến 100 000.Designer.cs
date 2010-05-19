@@ -45,6 +45,7 @@
             // btBai1
             // 
             this.btBai1.BackColor = System.Drawing.Color.MistyRose;
+            this.btBai1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBai1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btBai1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btBai1.Location = new System.Drawing.Point(155, 74);
@@ -58,6 +59,7 @@
             // btBai2
             // 
             this.btBai2.BackColor = System.Drawing.Color.MistyRose;
+            this.btBai2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBai2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btBai2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btBai2.Location = new System.Drawing.Point(155, 177);
@@ -71,6 +73,7 @@
             // btBai3
             // 
             this.btBai3.BackColor = System.Drawing.Color.MistyRose;
+            this.btBai3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBai3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btBai3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btBai3.Location = new System.Drawing.Point(155, 272);
@@ -84,6 +87,7 @@
             // btBai4
             // 
             this.btBai4.BackColor = System.Drawing.Color.MistyRose;
+            this.btBai4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btBai4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btBai4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btBai4.Location = new System.Drawing.Point(292, 74);
@@ -108,6 +112,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.MistyRose;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button1.Location = new System.Drawing.Point(292, 177);
@@ -121,6 +126,7 @@
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.MistyRose;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.button2.Location = new System.Drawing.Point(292, 272);
@@ -133,6 +139,7 @@
             // 
             // button3
             // 
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Navy;
             this.button3.Location = new System.Drawing.Point(26, 74);
@@ -145,6 +152,7 @@
             // 
             // button4
             // 
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 23F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.Navy;
             this.button4.Location = new System.Drawing.Point(427, 74);

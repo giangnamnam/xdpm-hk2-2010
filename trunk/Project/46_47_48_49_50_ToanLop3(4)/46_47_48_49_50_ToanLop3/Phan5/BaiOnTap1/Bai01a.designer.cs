@@ -56,7 +56,7 @@
             // 
             // btThoat
             // 
-            this.btThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.btThoat.BackColor = System.Drawing.Color.Red;
             this.btThoat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoat.Location = new System.Drawing.Point(879, 208);
@@ -69,7 +69,7 @@
             // 
             // btQuayLai
             // 
-            this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.btQuayLai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btQuayLai.Location = new System.Drawing.Point(690, 208);
@@ -82,7 +82,7 @@
             // 
             // btLamLai
             // 
-            this.btLamLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.btLamLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btLamLai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btLamLai.Location = new System.Drawing.Point(488, 208);
@@ -313,7 +313,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
- //           this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.a_dreamy_world05;
             this.ClientSize = new System.Drawing.Size(1276, 352);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);

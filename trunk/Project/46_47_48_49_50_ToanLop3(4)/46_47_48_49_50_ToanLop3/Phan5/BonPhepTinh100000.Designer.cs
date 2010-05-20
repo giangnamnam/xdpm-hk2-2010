@@ -148,6 +148,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources._39061953_1;
             this.ClientSize = new System.Drawing.Size(710, 413);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);

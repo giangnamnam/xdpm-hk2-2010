@@ -1006,6 +1006,7 @@
     <Content Include="obj\Debug\46_47_48_49_50_ToanLop3.exe" />
     <Content Include="obj\Debug\46_47_48_49_50_ToanLop3.pdb" />
     <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
+    <None Include="Resources\123.jpg" />
     <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1018,6 +1019,8 @@
     <Content Include="Resources\16.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\2.jpg" />
+    <None Include="Resources\39061953_1.jpg" />
     <Content Include="Resources\a_dreamy_world05.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

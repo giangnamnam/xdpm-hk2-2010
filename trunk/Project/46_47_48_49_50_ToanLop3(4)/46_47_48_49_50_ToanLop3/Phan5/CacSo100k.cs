@@ -97,5 +97,19 @@ namespace _46_47_48_49_50_ToanLop3.Phan5
             Phan5.Bai1.Bai04 fr = new Phan5.Bai1.Bai04();
             fr.Show();
         }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

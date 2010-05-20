@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan5
 {
-    public partial class BonPhepTinhtt : Form
+    public partial class BonPhepTinhTTT : Form
     {
-        public BonPhepTinhtt()
+        public BonPhepTinhTTT()
         {
             InitializeComponent();
         }
@@ -53,21 +53,5 @@ namespace _46_47_48_49_50_ToanLop3.Phan5
             Phan5.BaiOnTap4.Bai04 fr = new Phan5.BaiOnTap4.Bai04();
             fr.Show();
         }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

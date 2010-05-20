@@ -595,29 +595,29 @@
     <Compile Include="Phan5\BaiOnTap4\Bai04.Designer.cs">
       <DependentUpon>Bai04.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\BonPhepTinh100000.cs">
+    <Compile Include="Phan5\BonPhepTinh.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\BonPhepTinh100000.Designer.cs">
-      <DependentUpon>BonPhepTinh100000.cs</DependentUpon>
+    <Compile Include="Phan5\BonPhepTinh.Designer.cs">
+      <DependentUpon>BonPhepTinh.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\BonPhepTinhtt.cs">
+    <Compile Include="Phan5\BonPhepTinhTTT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\BonPhepTinhtt.Designer.cs">
-      <DependentUpon>BonPhepTinhtt.cs</DependentUpon>
+    <Compile Include="Phan5\BonPhepTinhTTT.Designer.cs">
+      <DependentUpon>BonPhepTinhTTT.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\CacSo100k.cs">
+    <Compile Include="Phan5\CacSo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\CacSo100k.Designer.cs">
-      <DependentUpon>CacSo100k.cs</DependentUpon>
+    <Compile Include="Phan5\CacSo.Designer.cs">
+      <DependentUpon>CacSo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\CacSoDen100ktt.cs">
+    <Compile Include="Phan5\CacSoTT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\CacSoDen100ktt.Designer.cs">
-      <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
+    <Compile Include="Phan5\CacSoTT.Designer.cs">
+      <DependentUpon>CacSoTT.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan5\HinhHoc\Bai1_174.cs">
       <SubType>Form</SubType>
@@ -956,17 +956,17 @@
     <EmbeddedResource Include="Phan5\BaiOnTap4\Bai04.resx">
       <DependentUpon>Bai04.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\BonPhepTinh100000.resx">
-      <DependentUpon>BonPhepTinh100000.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\BonPhepTinh.resx">
+      <DependentUpon>BonPhepTinh.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\BonPhepTinhtt.resx">
-      <DependentUpon>BonPhepTinhtt.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\BonPhepTinhTTT.resx">
+      <DependentUpon>BonPhepTinhTTT.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\CacSo100k.resx">
-      <DependentUpon>CacSo100k.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\CacSo.resx">
+      <DependentUpon>CacSo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\CacSoDen100ktt.resx">
-      <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\CacSoTT.resx">
+      <DependentUpon>CacSoTT.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\HinhHoc\Bai1_174.resx">
       <DependentUpon>Bai1_174.cs</DependentUpon>

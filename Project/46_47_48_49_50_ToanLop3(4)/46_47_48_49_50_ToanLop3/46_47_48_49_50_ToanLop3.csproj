@@ -640,6 +640,89 @@
       <DependentUpon>MucLuc.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.DangNhap.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.MucLuc.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai01.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai02.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai03.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai1.BaiTap1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai1.BaiTap2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai1.BaiTap3.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai1.BaiTap4.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai1.BaiTap5.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai15.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai2.BaiTap1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai2.BaiTap2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai2.BaiTap3.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai2.BaiTap4.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai2.BaiTap5.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai2.LuyenTap.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.BaiTap1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.BaiTap2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.BaiTap3.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.BaiTap4.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.BaiTap5.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.LuyemTap.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.Bai3.LyThuyet.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan1.MucLuc1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai01.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai02.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai03.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai04.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai05.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai06.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap3.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap4.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap5.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT1_tieptheo_.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT3.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT3_tieptheo1_.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT3_tieptheo_.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_LAMQUEN.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_MORONG.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_ONTAP.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN3_TINHTOAN.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai1.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.DaySoFrm.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_11.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_12.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_13.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.PHAN4_5ChuSo.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN4.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.SoSanh.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.TinhDienTichFrm.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai01a.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai01b.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai03a.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai03b.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bai04.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.Bai1.Bài_2.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap2.Bai01.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap2.Bai02.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap2.Bai03.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap2.Bai04.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap2.Bai05.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap3.Bai01.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap3.Bai02.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap3.Bai03.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap4.Bai01.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap4.Bai02.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap4.Bai03.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BaiOnTap4.Bai04.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BonPhepTinh100000.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.BonPhepTinhtt.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.CacSoDen100000.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.CacSoDen100ktt.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.Bai1_174.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.PHAN5.resources" />
+    <EmbeddedResource Include="obj\Debug\_46_47_48_49_50_ToanLop3.Properties.Resources.resources" />
     <EmbeddedResource Include="PHAN1.resx">
       <DependentUpon>PHAN1.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -910,9 +993,26 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\46_47_48_49_50_ToanLop3.exe" />
+    <Content Include="bin\Debug\46_47_48_49_50_ToanLop3.pdb" />
+    <Content Include="bin\Debug\46_47_48_49_50_ToanLop3.vshost.exe" />
+    <Content Include="bin\Debug\Resources\1235157360_1235069775_veselii-zajaz.jpg" />
+    <Content Include="bin\Debug\Resources\13102.jpg" />
+    <Content Include="bin\Debug\Resources\16.jpg" />
+    <Content Include="bin\Debug\Resources\a_dreamy_world05.jpg" />
+    <Content Include="bin\Debug\Resources\f3hv2pir4.png" />
+    <Content Include="bin\Debug\Resources\f3hvf7yr3.png" />
+    <Content Include="bin\Debug\Resources\khunghinh2.jpg" />
+    <Content Include="obj\Debug\46_47_48_49_50_ToanLop3.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\46_47_48_49_50_ToanLop3.exe" />
+    <Content Include="obj\Debug\46_47_48_49_50_ToanLop3.pdb" />
+    <Content Include="obj\Debug\TempPE\Properties.Resources.Designer.cs.dll" />
     <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="bin\Debug\46_47_48_49_50_ToanLop3.vshost.exe.manifest" />
+    <None Include="obj\Debug\46_47_48_49_50_ToanLop3.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\ResolveAssemblyReference.cache" />
     <None Include="Resources\13102.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -936,6 +1036,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="obj\Debug\Refactor\" />
     <Folder Include="Phan1\Bai4\" />
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />

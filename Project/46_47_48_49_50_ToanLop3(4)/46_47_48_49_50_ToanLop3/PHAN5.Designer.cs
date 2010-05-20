@@ -47,7 +47,7 @@
             // 
             // btCacSo100000
             // 
-            this.btCacSo100000.Location = new System.Drawing.Point(202, 108);
+            this.btCacSo100000.Location = new System.Drawing.Point(43, 102);
             this.btCacSo100000.Name = "btCacSo100000";
             this.btCacSo100000.Size = new System.Drawing.Size(227, 23);
             this.btCacSo100000.TabIndex = 2;
@@ -57,7 +57,7 @@
             // 
             // btCacSoDen100000tt
             // 
-            this.btCacSoDen100000tt.Location = new System.Drawing.Point(202, 154);
+            this.btCacSoDen100000tt.Location = new System.Drawing.Point(43, 151);
             this.btCacSoDen100000tt.Name = "btCacSoDen100000tt";
             this.btCacSoDen100000tt.Size = new System.Drawing.Size(227, 23);
             this.btCacSoDen100000tt.TabIndex = 3;
@@ -67,7 +67,7 @@
             // 
             // btDaiLuong
             // 
-            this.btDaiLuong.Location = new System.Drawing.Point(202, 203);
+            this.btDaiLuong.Location = new System.Drawing.Point(366, 102);
             this.btDaiLuong.Name = "btDaiLuong";
             this.btDaiLuong.Size = new System.Drawing.Size(227, 23);
             this.btDaiLuong.TabIndex = 4;
@@ -77,12 +77,13 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(202, 258);
+            this.button4.Location = new System.Drawing.Point(43, 215);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(227, 23);
             this.button4.TabIndex = 5;
-            this.button4.Text = "button4";
+            this.button4.Text = "Bốn Phép Toán Trong Pham Vi 100 000";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // PHAN5
             // 

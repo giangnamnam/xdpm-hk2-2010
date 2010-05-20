@@ -75,5 +75,11 @@ namespace _46_47_48_49_50_ToanLop3
             Phan5.CacSoDen100ktt fr = new Phan5.CacSoDen100ktt();
             fr.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Phan5.BonPhepTinh100000 fr = new Phan5.BonPhepTinh100000();
+            fr.Show();
+        }
     }
 }

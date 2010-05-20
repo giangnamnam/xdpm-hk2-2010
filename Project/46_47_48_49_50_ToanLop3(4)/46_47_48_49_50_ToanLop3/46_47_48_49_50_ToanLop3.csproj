@@ -553,6 +553,24 @@
     <Compile Include="Phan5\BaiOnTap2\Bai05.Designer.cs">
       <DependentUpon>Bai05.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\BaiOnTap3\Bai01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap3\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap3\Bai02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BaiOnTap3\Bai02.Designer.cs">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\BonPhepTinh100000.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\BonPhepTinh100000.Designer.cs">
+      <DependentUpon>BonPhepTinh100000.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\CacSoDen100ktt.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -799,6 +817,15 @@
     <EmbeddedResource Include="Phan5\BaiOnTap2\Bai05.resx">
       <DependentUpon>Bai05.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap3\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap3\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BonPhepTinh100000.resx">
+      <DependentUpon>BonPhepTinh100000.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan5\CacSoDen100ktt.resx">
       <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
     </EmbeddedResource>
@@ -859,7 +886,6 @@
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />
     <Folder Include="Phan5\Bai2\" />
-    <Folder Include="Phan5\BaiOnTap3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

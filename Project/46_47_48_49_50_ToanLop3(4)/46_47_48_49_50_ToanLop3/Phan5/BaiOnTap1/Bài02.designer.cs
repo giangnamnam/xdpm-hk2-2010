@@ -81,7 +81,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox1.Controls.Add(this.groupBox3);
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -93,7 +93,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.groupBox3.Controls.Add(this.label13);
             this.groupBox3.Controls.Add(this.textBox5);
             this.groupBox3.Controls.Add(this.textBox4);
@@ -153,7 +153,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
@@ -220,11 +220,11 @@
             // 
             // btLamXong
             // 
-            this.btLamXong.BackColor = System.Drawing.Color.Turquoise;
+            this.btLamXong.BackColor = System.Drawing.Color.Lime;
             this.btLamXong.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLamXong.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btLamXong.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btLamXong.Location = new System.Drawing.Point(115, 412);
+            this.btLamXong.Location = new System.Drawing.Point(115, 382);
             this.btLamXong.Name = "btLamXong";
             this.btLamXong.Size = new System.Drawing.Size(153, 51);
             this.btLamXong.TabIndex = 4;
@@ -238,7 +238,7 @@
             this.btLamLai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btLamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btLamLai.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btLamLai.Location = new System.Drawing.Point(320, 412);
+            this.btLamLai.Location = new System.Drawing.Point(334, 382);
             this.btLamLai.Name = "btLamLai";
             this.btLamLai.Size = new System.Drawing.Size(153, 51);
             this.btLamLai.TabIndex = 5;
@@ -248,11 +248,11 @@
             // 
             // btQuayLai
             // 
-            this.btQuayLai.BackColor = System.Drawing.Color.Turquoise;
+            this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btQuayLai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btQuayLai.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btQuayLai.Location = new System.Drawing.Point(546, 412);
+            this.btQuayLai.Location = new System.Drawing.Point(549, 382);
             this.btQuayLai.Name = "btQuayLai";
             this.btQuayLai.Size = new System.Drawing.Size(153, 51);
             this.btQuayLai.TabIndex = 6;
@@ -266,7 +266,7 @@
             this.btThoat.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoat.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.btThoat.Location = new System.Drawing.Point(777, 412);
+            this.btThoat.Location = new System.Drawing.Point(777, 382);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(153, 51);
             this.btThoat.TabIndex = 7;
@@ -343,8 +343,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-//            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.frames8bd;
-            this.ClientSize = new System.Drawing.Size(982, 563);
+            this.ClientSize = new System.Drawing.Size(982, 492);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);

@@ -59,6 +59,7 @@
             this.button4.TabIndex = 18;
             this.button4.Text = "Thoát";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click_1);
             // 
             // button3
             // 
@@ -71,6 +72,7 @@
             this.button3.TabIndex = 17;
             this.button3.Text = "Quay\r\nLại\r\n";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button2
             // 
@@ -171,6 +173,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources._123;
             this.ClientSize = new System.Drawing.Size(591, 366);
             this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.button4);

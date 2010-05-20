@@ -92,5 +92,20 @@ namespace _46_47_48_49_50_ToanLop3
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

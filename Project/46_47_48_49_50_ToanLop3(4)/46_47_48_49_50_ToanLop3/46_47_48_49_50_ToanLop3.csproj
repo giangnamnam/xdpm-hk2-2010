@@ -1033,9 +1033,11 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\frames8bd.jpg" />
+    <None Include="Resources\so5chuso.xsd" />
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\so5chuso.xml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="obj\Debug\Refactor\" />

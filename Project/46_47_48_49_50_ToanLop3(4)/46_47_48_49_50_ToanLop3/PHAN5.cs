@@ -60,7 +60,7 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void btCacSo100000_Click(object sender, EventArgs e)
         {
-            Phan5.CacSoDen100000 fr = new Phan5.CacSoDen100000();
+            Phan5.CacSo100k fr = new Phan5.CacSo100k();
             fr.Show();
         }
 

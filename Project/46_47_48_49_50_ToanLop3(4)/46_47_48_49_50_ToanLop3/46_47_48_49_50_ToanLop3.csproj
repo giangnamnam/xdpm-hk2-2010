@@ -607,17 +607,17 @@
     <Compile Include="Phan5\BonPhepTinhtt.Designer.cs">
       <DependentUpon>BonPhepTinhtt.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\CacSo100k.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\CacSo100k.Designer.cs">
+      <DependentUpon>CacSo100k.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\CacSoDen100ktt.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Phan5\CacSoDen100ktt.Designer.cs">
       <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Phan5\Các Số Đến 100 000.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan5\Các Số Đến 100 000.designer.cs">
-      <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan5\HinhHoc\Bai1_174.cs">
       <SubType>Form</SubType>
@@ -963,11 +963,11 @@
     <EmbeddedResource Include="Phan5\BonPhepTinhtt.resx">
       <DependentUpon>BonPhepTinhtt.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\CacSo100k.resx">
+      <DependentUpon>CacSo100k.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan5\CacSoDen100ktt.resx">
       <DependentUpon>CacSoDen100ktt.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\Các Số Đến 100 000.resx">
-      <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\HinhHoc\Bai1_174.resx">
       <DependentUpon>Bai1_174.cs</DependentUpon>

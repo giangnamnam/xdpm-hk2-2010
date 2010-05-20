@@ -108,6 +108,7 @@
             this.label1.Size = new System.Drawing.Size(252, 26);
             this.label1.TabIndex = 4;
             this.label1.Text = "CÁC SỐ ĐẾN 100 000";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -169,6 +170,7 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
             this.numericUpDown1.TabIndex = 9;
+            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // CacSoDen100000
             // 

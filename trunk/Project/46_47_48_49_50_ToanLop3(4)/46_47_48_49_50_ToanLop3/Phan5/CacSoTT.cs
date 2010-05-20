@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan5
 {
-    public partial class BonPhepTinhtt : Form
+    public partial class CacSoTT : Form
     {
-        public BonPhepTinhtt()
+        public CacSoTT()
         {
             InitializeComponent();
         }
@@ -30,44 +30,36 @@ namespace _46_47_48_49_50_ToanLop3.Phan5
             this.Close();
         }
 
+        private void Bai1_Click(object sender, EventArgs e)
+        {
+            Phan5.BaiOnTap2.Bai01 fr = new Phan5.BaiOnTap2.Bai01();
+            fr.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            Phan5.BaiOnTap4.Bai01 fr = new Phan5.BaiOnTap4.Bai01();
+            Phan5.BaiOnTap2.Bai02 fr = new Phan5.BaiOnTap2.Bai02();
+
+
             fr.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Phan5.BaiOnTap4.Bai02 fr = new Phan5.BaiOnTap4.Bai02();
+            Phan5.BaiOnTap2.Bai03 fr = new Phan5.BaiOnTap2.Bai03();
             fr.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Phan5.BaiOnTap4.Bai03 fr = new Phan5.BaiOnTap4.Bai03();
+            Phan5.BaiOnTap2.Bai04 fr = new Phan5.BaiOnTap2.Bai04();
             fr.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Phan5.BaiOnTap4.Bai04 fr = new Phan5.BaiOnTap4.Bai04();
+            Phan5.BaiOnTap2.Bai05 fr = new Phan5.BaiOnTap2.Bai05();
             fr.Show();
         }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

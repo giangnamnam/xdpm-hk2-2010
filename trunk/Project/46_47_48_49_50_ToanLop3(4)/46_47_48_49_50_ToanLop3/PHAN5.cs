@@ -60,7 +60,7 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void btCacSo100000_Click(object sender, EventArgs e)
         {
-            Phan5.CacSo100k fr = new Phan5.CacSo100k();
+            Phan5.CacSo fr = new Phan5.CacSo();
             fr.Show();
         }
 
@@ -72,19 +72,19 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void btCacSoDen100000tt_Click(object sender, EventArgs e)
         {
-            Phan5.CacSoDen100ktt fr = new Phan5.CacSoDen100ktt();
+            Phan5.CacSoTT fr = new Phan5.CacSoTT();
             fr.Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Phan5.BonPhepTinh100000 fr = new Phan5.BonPhepTinh100000();
+            Phan5.BonPhepTinh fr = new Phan5.BonPhepTinh();
             fr.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Phan5.BonPhepTinhtt fr = new Phan5.BonPhepTinhtt();
+            Phan5.BonPhepTinhTTT fr = new Phan5.BonPhepTinhTTT();
             fr.Show();
         }
 

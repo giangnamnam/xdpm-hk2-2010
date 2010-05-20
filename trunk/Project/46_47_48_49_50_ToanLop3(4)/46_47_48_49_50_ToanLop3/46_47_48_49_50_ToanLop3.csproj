@@ -871,6 +871,9 @@
     <EmbeddedResource Include="Phan5\BaiOnTap4\Bai03.resx">
       <DependentUpon>Bai03.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\BaiOnTap4\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan5\BonPhepTinh100000.resx">
       <DependentUpon>BonPhepTinh100000.cs</DependentUpon>
     </EmbeddedResource>

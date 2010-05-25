@@ -15,5 +15,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan5.OnTapHinhHoc
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

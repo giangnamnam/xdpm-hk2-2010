@@ -15,50 +15,60 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
         {
             InitializeComponent();
         }
-
-        private void LuyenTapBT3_Load(object sender, EventArgs e)
+        #region  Bai 3
+        private void btnDaLamBt3_Click(object sender, EventArgs e)
         {
-
-        }
-        #region Bai 3
-        private void btnDaLamBt1b_Click(object sender, EventArgs e)
-        {
-            lblError3a.Text = "";
-            lblError3b.Text = "";
-            lblError3a.Visible = true;
-            lblError3b.Visible = true;
-            if (txt72.Text != "72")
+            lblBt3.Visible = true;
+            if (chk5.Checked == false && chk8.Checked == true && chk7.Checked == false && chk9.Checked == false)
             {
-                lblError3a.Text += "Không Đúng ";
-            }
-            if (txt92.Text != "92")
-            {
-                lblError3b.Text += "Không Đúng";
+                lblBt3.Text = "Bạn Đã Chọn Đúng !!";
             }
             else
             {
-                lblError3a.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
-                lblError3b.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
+                lblBt3.Text = "Bạn Đã Chọn Sai !!! Hãy Chọn Lại ";
             }
         }
 
-        private void btnLamLaiBt1b_Click(object sender, EventArgs e)
+        private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            btnDaLamBt1b.Visible = true;
-            lblError3a.Visible = false;
-            lblError3b.Visible = false;
-            txt72.Text = "";
-            txt92.Text = "";
+            lblBt3.Visible = false;
+            chk8.Checked = true;
         }
 
-        private void lblKiemTra1b_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void btnLamLaiBt3_Click(object sender, EventArgs e)
         {
-            btnDaLamBt1b.Visible = false;
-            lblError3a.Visible = false;
-            lblError3b.Visible = false;
-            txt72.Text = "72";
-            txt92.Text = "92";
+            lblBt3.Visible = false;
+            chk8.Checked = false; chk5.Checked = false;
+            chk7.Checked = false; chk9.Checked = false;
         }
+        #endregion
+        #region  Bai 4
+        private void btnLamXong4_Click(object sender, EventArgs e)
+        {
+            lblError4.Visible = true;
+            if (chk48.Checked == true && chk49.Checked == false && chk10.Checked == false && chk11.Checked == false)
+            {
+                lblError4.Text = "Bạn Đã Chọn Đúng !!";
+            }
+            else
+            {
+                lblError4.Text = "Bạn Đã Chọn Sai !!! Hãy Chọn Lại ";
+            }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lblError4.Visible = false;
+            chk48.Checked = true;
+        }
+
+        private void btnLamLai4_Click(object sender, EventArgs e)
+        {
+            lblError4.Visible = false;
+            chk48.Checked = false; chk10.Checked = false;
+            chk11.Checked = false; chk49.Checked = false;
+        }
+       
         #endregion
 
         private void btnQuayLaiPhan2_Click(object sender, EventArgs e)
@@ -77,8 +87,9 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 
         private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LuyenTapBT3_tieptheo_ frm = new LuyenTapBT3_tieptheo_();
+            LuyenTapBT4_tieptheo_ frm = new LuyenTapBT4_tieptheo_();
             frm.ShowDialog();
         }
+      
     }
 }

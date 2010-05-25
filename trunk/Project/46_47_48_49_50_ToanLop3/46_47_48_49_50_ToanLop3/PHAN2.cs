@@ -29,7 +29,7 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void bài02ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Phan2.Bai03 frm = new Phan2.Bai03();
+            Phan2.Bai02 frm = new Phan2.Bai02();
             frm.ShowDialog();
 
         }
@@ -69,6 +69,7 @@ namespace _46_47_48_49_50_ToanLop3
             {
                 MessageBox.Show("Bạn hãy chọn bài học cho mình!!");
             }
+      
         }
 
         private void bntBatDau_Click(object sender, EventArgs e)
@@ -122,11 +123,5 @@ namespace _46_47_48_49_50_ToanLop3
         {
             this.Close();
         }
-
-        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

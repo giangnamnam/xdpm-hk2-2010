@@ -33,13 +33,13 @@
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "BẢNG NHÂN 6", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
             System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 02",
-            "BẢNG CHIA 6"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
-            "Bài 03",
             "NHÂN SỐ CÓ 2 CHỬ SỐ VỚI SỐ CÓ 1 CHỬ SỐ (Không nhớ)"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
-            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Bài 04"),
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Bài 03"),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "NHÂN SỐ CÓ HAI CHỬ SỐ VỚI SỚ CÓ 1 CHỬ SỐ (Có Nhớ)", System.Drawing.SystemColors.WindowFrame, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 04",
+            "BẢNG CHIA 6"}, -1);
             System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 05",
             "TÌM MỘT TRONG CÁC PHẦN BẰNG NHAU CỦA MỘT SỐ"}, -1);
@@ -161,12 +161,12 @@
             listViewItem1.Checked = true;
             listViewItem1.StateImageIndex = 1;
             listViewItem1.Tag = "bai1";
+            listViewItem2.Checked = true;
+            listViewItem2.StateImageIndex = 1;
             listViewItem2.Tag = "bai2";
             listViewItem3.Checked = true;
             listViewItem3.StateImageIndex = 1;
             listViewItem3.Tag = "bai3";
-            listViewItem4.Checked = true;
-            listViewItem4.StateImageIndex = 1;
             listViewItem4.Tag = "bai4";
             listViewItem5.Checked = true;
             listViewItem5.StateImageIndex = 1;
@@ -203,7 +203,6 @@
             this.ListView1.TabIndex = 23;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
-            this.ListView1.SelectedIndexChanged += new System.EventHandler(this.ListView1_SelectedIndexChanged);
             this.ListView1.DoubleClick += new System.EventHandler(this.ListView1_DoubleClick);
             // 
             // columnHeader1

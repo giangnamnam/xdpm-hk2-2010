@@ -39,54 +39,58 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lblError.Text = "Lổi ở : ";
             lblError.Visible = true;
-            if (txt1.Text != "24")
+            if (true)
             {
-                lblError.Text += " 6 x 4  sai ;";
+                if (txt1.Text != "24")
+                {
+                    lblError.Text += " 6 x 4  sai ;";
+                }
+                if (txt2.Text != "36")
+                {
+                    lblError.Text += "  6 x 6  sai ;\n";
+                }
+                if (txt3.Text != "48")
+                {
+                    lblError.Text += "  6 x 8  sai ;";
+                }
+                if (txt4.Text != "6")
+                {
+                    lblError.Text += "  6 x 1  sai ;\n";
+                }
+                if (txt5.Text != "18")
+                {
+                    lblError.Text += " 6 x 3  sai ;";
+                }
+                if (txt6.Text != "30")
+                {
+                    lblError.Text += " 6 x 5  sai ;";
+                }
+                if (txt7.Text != "54")
+                {
+                    lblError.Text += " 6 x 9  sai ;\n";
+                }
+                if (txt8.Text != "12")
+                {
+                    lblError.Text += " 6 x 2  sai ;";
+                }
+                if (txt9.Text != "42")
+                {
+                    lblError.Text += " 6 x 7  sai ;\n";
+                }
+                if (txt10.Text != "60")
+                {
+                    lblError.Text += " 6 x 10  sai ;";
+                }
+                if (txt11.Text != "0")
+                {
+                    lblError.Text += " 0 x 6  sai ;\n";
+                }
+                if (txt12.Text != "0")
+                {
+                    lblError.Text += " 6 x 0  sai ;";
+                }
             }
-            if (txt2.Text != "36")
-            {
-                lblError.Text += "  6 x 6  sai ;\n";
-            }
-            if (txt3.Text != "48")
-            {
-                lblError.Text += "  6 x 8  sai ;";
-            }
-            if (txt4.Text != "6")
-            {
-                lblError.Text += "  6 x 1  sai ;\n";
-            }
-            if (txt5.Text != "18")
-            {
-                lblError.Text += " 6 x 3  sai ;";
-            }
-            if (txt6.Text != "30")
-            {
-                lblError.Text += " 6 x 5  sai ;";
-            }
-            if (txt7.Text != "54")
-            {
-                lblError.Text += " 6 x 9  sai ;\n";
-            }
-            if (txt8.Text != "12")
-            {
-                lblError.Text += " 6 x 2  sai ;";
-            }
-            if (txt9.Text != "42")
-            {
-                lblError.Text += " 6 x 7  sai ;\n";
-            }
-            if (txt10.Text != "60")
-            {
-                lblError.Text += " 6 x 10  sai ;";
-            }
-            if (txt11.Text != "0")
-            {
-                lblError.Text += " 0 x 6  sai ;\n";
-            }
-            if (txt12.Text != "0")
-            {
-                lblError.Text += " 6 x 0  sai ;";
-            }
+            
             else
             {
                 lblError.Text = "Bạn Làm Rất Tốt !!!";
@@ -168,26 +172,30 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lblLoiBT3.Visible = true;
             lblLoiBT3.Text = "Lỗi ở : ";
-            if (txtLa24.Text != "24")
+            if (true)
             {
-                lblLoiBT3.Text += "Ô thứ 4 ;";
+                if (txtLa24.Text != "24")
+                {
+                    lblLoiBT3.Text += "Ô thứ 4 ;";
+                }
+                if (txtLa30.Text != "30")
+                {
+                    lblLoiBT3.Text += "Ô thứ 5 ;";
+                }
+                if (txtLa42.Text != "42")
+                {
+                    lblLoiBT3.Text += "Ô thứ 7 ;";
+                }
+                if (txtLa48.Text != "48")
+                {
+                    lblLoiBT3.Text += "Ô thứ 8 ;";
+                }
+                if (txtLa54.Text != "54")
+                {
+                    lblLoiBT3.Text += "Ô thứ 9";
+                }
             }
-            if (txtLa30.Text != "30")
-            {
-                lblLoiBT3.Text += "Ô thứ 5 ;";
-            }
-            if (txtLa42.Text != "42")
-            {
-                lblLoiBT3.Text += "Ô thứ 7 ;";
-            }
-            if (txtLa48.Text != "48")
-            {
-                lblLoiBT3.Text += "Ô thứ 8 ;";
-            }
-            if (txtLa54.Text != "54")
-            {
-                lblLoiBT3.Text += "Ô thứ 9";
-            }
+            
             else
             {
                 lblLoiBT3.Text = "Chúc Mừng !! Bạn Đã Làm Đúng !!";

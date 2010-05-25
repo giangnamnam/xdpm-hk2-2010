@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 {
-    public partial class LuyenTapBT3 : Form
+    public partial class LuyenTapBT4 : Form
     {
-        public LuyenTapBT3()
+        public LuyenTapBT4()
         {
             InitializeComponent();
         }

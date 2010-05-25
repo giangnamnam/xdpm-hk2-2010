@@ -1,6 +1,6 @@
 ﻿namespace _46_47_48_49_50_ToanLop3.Phan2
 {
-    partial class Bai06
+    partial class Bai07
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // Bai05
+            // Bai06
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 687);
             this.ControlBox = false;
-            this.Name = "Bai05";
+            this.Name = "Bai06";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
 {
-    public partial class Bai1_174 : Form
+    public partial class Bai01 : Form
     {
-        public Bai1_174()
+        public Bai01()
         {
             InitializeComponent();
         }
 
-        private void Bai1_174_Load(object sender, EventArgs e)
+        private void Bai01_Load(object sender, EventArgs e)
         {
             labelA.Text = "";
             labelB.Text = "";
@@ -98,9 +98,5 @@ namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
             labelD.Text = "8";
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
     }
 }

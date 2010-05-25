@@ -1,6 +1,6 @@
 ﻿namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
 {
-    partial class LuyenTapBT3
+    partial class LuyenTapBT4
     {
         /// <summary>
         /// Required designer variable.
@@ -193,7 +193,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(596, 50);
             this.label20.TabIndex = 238;
-            this.label20.Text = "BÀI 03 : NHÂN SỐ CÓ 2 CHỬ SỚ VỚI SỐ CÓ 1 CHỬ SỐ\r\n                                " +
+            this.label20.Text = "BÀI 04 : NHÂN SỐ CÓ 2 CHỬ SỚ VỚI SỐ CÓ 1 CHỬ SỐ\r\n                                " +
                 "        (Có nhớ)";
             // 
             // groupBox12
@@ -242,7 +242,7 @@
             this.llbThucHanh.Text = "Tiếp Theo";
             this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
-            // LuyenTapBT3
+            // LuyenTapBT4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -262,7 +262,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label20);
-            this.Name = "LuyenTapBT3";
+            this.Name = "LuyenTapBT4";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.LuyenTapBT3_Load);
             this.groupBox12.ResumeLayout(false);

@@ -30,13 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Bai05
+            // Bai04
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1102, 687);
             this.ControlBox = false;
-            this.Name = "Bai05";
+            this.Name = "Bai04";
+            this.Text = "Bai04";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
 

@@ -29,38 +29,45 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void bài02ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Phan2.Bai02 frm = new Phan2.Bai02();
+            Phan2.Bai03 frm = new Phan2.Bai03();
             frm.ShowDialog();
 
         }
 
         private void ListView1_DoubleClick(object sender, EventArgs e)
         {
-            string pathName = ListView1.SelectedItems[0].Tag.ToString();
-            if (pathName == "bai1")
+            try
             {
-                Phan2.Bai01 frm = new Phan2.Bai01();
-                frm.ShowDialog();
+                string pathName = ListView1.SelectedItems[0].Tag.ToString();
+                if (pathName == "bai1")
+                {
+                    Phan2.Bai01 frm = new Phan2.Bai01();
+                    frm.ShowDialog();
+                }
+                if (pathName == "bai2")
+                {
+                    Phan2.Bai02 frm = new Phan2.Bai02();
+                    frm.ShowDialog();
+                }
+                if (pathName == "bai3")
+                {
+                    Phan2.Bai03 frm = new Phan2.Bai03();
+                    frm.ShowDialog();
+                }
+                if (pathName == "bai4")
+                {
+                    Phan2.Bai04 frm = new Phan2.Bai04();
+                    frm.ShowDialog();
+                }
+                if (pathName == "bai5")
+                {
+                    Phan2.Bai05 frm = new Phan2.Bai05();
+                    frm.ShowDialog();
+                }
             }
-            if (pathName == "bai2")
+            catch
             {
-                Phan2.Bai02 frm = new Phan2.Bai02();
-                frm.ShowDialog();
-            }
-            if (pathName == "bai3")
-            {
-                Phan2.Bai03 frm = new Phan2.Bai03();
-                frm.ShowDialog();
-            }
-            if (pathName == "bai4")
-            {
-                Phan2.Bai04 frm = new Phan2.Bai04();
-                frm.ShowDialog();
-            }
-            if (pathName == "bai5")
-            {
-                Phan2.Bai05 frm = new Phan2.Bai05();
-                frm.ShowDialog();
+                MessageBox.Show("Bạn hãy chọn bài học cho mình!!");
             }
         }
 

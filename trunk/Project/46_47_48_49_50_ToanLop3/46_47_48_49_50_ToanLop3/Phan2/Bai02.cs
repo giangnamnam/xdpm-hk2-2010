@@ -16,54 +16,68 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
             InitializeComponent();
         }
 
-        private void Bai02_Load(object sender, EventArgs e)
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            
-        }
-
-        private void btnDaLamXong_Click(object sender, EventArgs e)
-        {
-            lblError.Text = "Lổi ở : ";
-            lblError.Visible = true;
-            if (txt1.Text != "48")
-            {
-                lblError.Text += " 24 x 2  sai ;";
-            }
-            if (txt2.Text != "88")
-            {
-                lblError.Text += "  22 x 4  sai ;";
-            }
-            if (txt3.Text != "55")
-            {
-                lblError.Text += "  11 x 5  sai ;";
-            }
-            if (txt4.Text != "99")
-            {
-                lblError.Text += "  33 x 3  sai ;";
-            }
-            if (txt5.Text != "80")
-            {
-                lblError.Text += " 20 x 4  sai ;";
-            }
-            else
-            {
-                lblError.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
-            }
+            btnDaLamXong.Visible = false; lbl1.Visible = false;lbl2.Visible = false;
+            lbl3.Visible = false; lbl4.Visible = false; lbl5.Visible = false; lbl6.Visible = false;
+            txt1.Text = "5"; txt2.Text = "6"; 
+            txt3.Text = "7"; txt4.Text = "8";
+            txt5.Text = "9"; txt6.Text = "10";
         }
 
         private void btnLamLai_Click(object sender, EventArgs e)
         {
-            btnDaLamXong.Visible = true;
-            lblError.Visible = false;
-            txt1.Text = "";
-            txt2.Text = "";
-            txt3.Text = "";
-            txt4.Text = "";
-            txt5.Text = "";
-            
+            btnDaLamXong.Visible = true; lbl1.Visible = false; lbl2.Visible = false;
+            lbl3.Visible = false; lbl4.Visible = false; lbl5.Visible = false; lbl6.Visible = false;
+            txt1.Text = ""; txt2.Text = "";
+            txt3.Text = ""; txt4.Text = "";
+            txt5.Text = ""; txt6.Text = "";
         }
 
-        private void btnQuayLaiPhan2_Click(object sender, EventArgs e)
+        private void btnDaLamXong_Click(object sender, EventArgs e)
+        {
+            if (true)
+            {
+                if (txt1.Text != "5")
+                {
+                    lbl1.Visible = true;
+                    lbl1.Text = "Sai";
+                }
+                if (txt2.Text != "6")
+                {
+                    lbl2.Visible = true;
+                    lbl2.Text = "Sai";
+                }
+                if (txt3.Text != "7")
+                {
+                    lbl3.Visible = true;
+                    lbl3.Text = "Sai";
+                }
+                if (txt4.Text != "8")
+                {
+                    lbl4.Visible = true;
+                    lbl4.Text = "Sai";
+                }
+                if (txt5.Text != "9")
+                {
+                    lbl5.Visible = true;
+                    lbl5.Text = "Sai";
+                }
+                if (txt6.Text != "10")
+                {
+                    lbl6.Visible = true;
+                    lbl6.Text = "Sai";
+                }
+            }
+            
+            else
+            {
+                lblError.Visible = true;
+                lblError.Text = "Bạn Đã Làm Đúng!";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
@@ -74,27 +88,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
             frm.ShowDialog();
         }
 
-        private void btnThoat_Click(object sender, EventArgs e)
-        {
-            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
-            if (dialogResult == DialogResult.OK)
-            {
-                Application.Exit();
-            }
-        }
-
-        private void linkLabel1_LinkClicked_1(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            lblError.Visible = false;
-            btnDaLamXong.Visible = false;
-            txt1.Text = "48";
-            txt2.Text = "88";
-            txt3.Text = "55";
-            txt4.Text = "99";
-            txt5.Text = "80";
-        }
-
-        private void groupBox12_Enter(object sender, EventArgs e)
+        private void Bai02_Load(object sender, EventArgs e)
         {
 
         }

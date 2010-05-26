@@ -129,7 +129,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         #region bai2
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            btnLamXong2.Visible = false;
+            btnLamXong2.Visible = false; btnLamLaibt2.Visible = true;
             lbl21.Visible = false; lbl212.Visible = false; lbl24.Visible = false;
             lbl210.Visible = false; lbl22.Visible = false; lbl25.Visible = false;
             lbl211.Visible = false; lbl23.Visible = false; lbl26.Visible = false;
@@ -146,7 +146,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lbl21.Text = ""; lbl212.Text = ""; lbl24.Text = ""; lbl26.Text = ""; lbl29.Text = "";
             lbl210.Text = ""; lbl22.Text = ""; lbl25.Text = ""; lbl27.Text = ""; lbl28.Text = "";
-            lbl211.Text = ""; lbl23.Text = ""; 
+            lbl211.Text = ""; lbl23.Text = ""; btnLamLaibt2.Visible = false;
             if (true)
             {
                 if (txt21.Text != "24")

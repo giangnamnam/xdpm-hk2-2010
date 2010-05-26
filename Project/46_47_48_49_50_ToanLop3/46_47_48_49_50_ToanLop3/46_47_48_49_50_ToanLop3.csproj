@@ -387,6 +387,12 @@
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.Designer.cs">
       <DependentUpon>LuyenTapBT4%28tieptheo%29.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.Designer.cs">
+      <DependentUpon>LuyenTapBT4%28tieptheo1%29.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -788,6 +794,9 @@
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.resx">
       <DependentUpon>LuyenTapBT4%28tieptheo%29.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.resx">
+      <DependentUpon>LuyenTapBT4%28tieptheo1%29.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.resx">
       <DependentUpon>LuyenTapBT4.cs</DependentUpon>
     </EmbeddedResource>
@@ -946,6 +955,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\hinh2.jpg" />
+    <Content Include="Images\hinh1.jpg" />
     <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -967,6 +978,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\frames8bd.jpg" />
+    <None Include="Resources\hinh2.jpg" />
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

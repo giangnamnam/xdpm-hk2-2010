@@ -243,6 +243,7 @@
             this.btnLamLai.TabIndex = 156;
             this.btnLamLai.Text = "Làm Lại";
             this.btnLamLai.UseVisualStyleBackColor = false;
+            this.btnLamLai.Visible = false;
             this.btnLamLai.Click += new System.EventHandler(this.btnLamLai_Click);
             // 
             // linkLabel1

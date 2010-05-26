@@ -82,8 +82,10 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan2")
                 {
+
                     PHAN2 frm = new PHAN2();
                     frm.ShowDialog();
+
                 }
                 if (pathName == "phan3")
                 {
@@ -111,22 +113,6 @@ namespace _46_47_48_49_50_ToanLop3
             {
                 MessageBox.Show("Bạn hãy chọn phần để học!!!");
             }
-        }
-
-        private void MucLuc_Load(object sender, EventArgs e)
-        {
-           
-            
-        }
-
-        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ListView1_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

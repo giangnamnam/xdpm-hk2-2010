@@ -97,7 +97,7 @@ namespace _46_47_48_49_50_ToanLop3
                     Phan2.Bai04 frm = new Phan2.Bai04();
                     frm.ShowDialog();
                 }
-                if (pathName == "bai5")
+                if (pathName=="bai5")
                 {
                     Phan2.Bai05 frm = new Phan2.Bai05();
                     frm.ShowDialog();

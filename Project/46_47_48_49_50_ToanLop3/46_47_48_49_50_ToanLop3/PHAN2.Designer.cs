@@ -100,8 +100,6 @@
             listViewItem3.StateImageIndex = 1;
             listViewItem3.Tag = "bai3";
             listViewItem4.Tag = "bai4";
-            listViewItem5.Checked = true;
-            listViewItem5.StateImageIndex = 1;
             listViewItem5.Tag = "bai5";
             listViewItem6.Checked = true;
             listViewItem6.StateImageIndex = 1;
@@ -151,7 +149,10 @@
             // btnThoat
             // 
             this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnThoat.ForeColor = System.Drawing.Color.Blue;
             this.btnThoat.Location = new System.Drawing.Point(551, 446);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(141, 47);
@@ -163,8 +164,10 @@
             // bntBatDau
             // 
             this.bntBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bntBatDau.ForeColor = System.Drawing.Color.Black;
+            this.bntBatDau.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.bntBatDau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntBatDau.ForeColor = System.Drawing.Color.Blue;
             this.bntBatDau.Location = new System.Drawing.Point(257, 446);
             this.bntBatDau.Name = "bntBatDau";
             this.bntBatDau.Size = new System.Drawing.Size(141, 45);
@@ -176,8 +179,10 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(404, 446);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 45);

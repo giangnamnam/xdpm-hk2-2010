@@ -67,9 +67,23 @@ namespace _46_47_48_49_50_ToanLop3.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap hinh11 {
+            get {
+                object obj = ResourceManager.GetObject("hinh11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap hinh2 {
             get {
                 object obj = ResourceManager.GetObject("hinh2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap hinh3 {
+            get {
+                object obj = ResourceManager.GetObject("hinh3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

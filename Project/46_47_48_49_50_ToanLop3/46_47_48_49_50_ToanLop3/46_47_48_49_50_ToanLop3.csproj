@@ -417,6 +417,12 @@
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT3.Designer.cs">
       <DependentUpon>LuyenTapBT3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT5.Designer.cs">
+      <DependentUpon>LuyenTapBT5.cs</DependentUpon>
+    </Compile>
     <Compile Include="PHAN3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -955,8 +961,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\hinh2.jpg" />
     <Content Include="Images\hinh1.jpg" />
+    <Content Include="Images\hinh2.jpg" />
+    <Content Include="Images\hinh3.png" />
     <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

@@ -53,6 +53,7 @@
             this.radioButton36 = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
+            this.lblError = new System.Windows.Forms.Label();
             this.lbl6 = new System.Windows.Forms.Label();
             this.lbl5 = new System.Windows.Forms.Label();
             this.lbl4 = new System.Windows.Forms.Label();
@@ -79,7 +80,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.lblError = new System.Windows.Forms.Label();
             this.groupBox9.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
@@ -371,6 +371,18 @@
             this.groupBox11.TabIndex = 106;
             this.groupBox11.TabStop = false;
             // 
+            // lblError
+            // 
+            this.lblError.AutoSize = true;
+            this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblError.ForeColor = System.Drawing.Color.Red;
+            this.lblError.Location = new System.Drawing.Point(6, 348);
+            this.lblError.Name = "lblError";
+            this.lblError.Size = new System.Drawing.Size(146, 16);
+            this.lblError.TabIndex = 54;
+            this.lblError.Text = "Bạn Đã Làm Đúng !!!";
+            this.lblError.Visible = false;
+            // 
             // lbl6
             // 
             this.lbl6.AutoSize = true;
@@ -645,18 +657,6 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "LUYỆN TẬP";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
-            // 
-            // lblError
-            // 
-            this.lblError.AutoSize = true;
-            this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(6, 348);
-            this.lblError.Name = "lblError";
-            this.lblError.Size = new System.Drawing.Size(146, 16);
-            this.lblError.TabIndex = 54;
-            this.lblError.Text = "Bạn Đã Làm Đúng !!!";
-            this.lblError.Visible = false;
             // 
             // Bai04
             // 

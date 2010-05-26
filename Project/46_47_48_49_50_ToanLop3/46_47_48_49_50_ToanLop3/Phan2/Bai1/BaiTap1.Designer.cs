@@ -65,17 +65,6 @@
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.txtLa48 = new System.Windows.Forms.TextBox();
-            this.txtLa42 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.txtLa30 = new System.Windows.Forms.TextBox();
-            this.txtLa24 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.txtLa54 = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnQuayLaiPhan2 = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -85,17 +74,24 @@
             this.lblError = new System.Windows.Forms.Label();
             this.lblLoiBT2 = new System.Windows.Forms.Label();
             this.lblLoiBT3 = new System.Windows.Forms.Label();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.llbThucHanh = new System.Windows.Forms.LinkLabel();
             this.chk30 = new System.Windows.Forms.CheckBox();
             this.chk32 = new System.Windows.Forms.CheckBox();
             this.chk14 = new System.Windows.Forms.CheckBox();
             this.chk25 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox1.SuspendLayout();
-            this.groupBox12.SuspendLayout();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.llbThucHanh = new System.Windows.Forms.LinkLabel();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtLa54 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtLa48 = new System.Windows.Forms.TextBox();
+            this.txtLa24 = new System.Windows.Forms.TextBox();
+            this.txtLa42 = new System.Windows.Forms.TextBox();
+            this.txtLa30 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -356,6 +352,7 @@
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
+            this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel1.Location = new System.Drawing.Point(482, 207);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -382,6 +379,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(28, 312);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -393,6 +391,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label4.Location = new System.Drawing.Point(44, 342);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
@@ -429,6 +428,7 @@
             // linkLabel2
             // 
             this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel2.Location = new System.Drawing.Point(766, 553);
             this.linkLabel2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -459,111 +459,6 @@
             this.label8.Size = new System.Drawing.Size(297, 15);
             this.label8.TabIndex = 88;
             this.label8.Text = "Đếm thêm 6 rồi viết số thích hợp vào ô trống :\r\n";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(15, 20);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(43, 21);
-            this.textBox2.TabIndex = 0;
-            this.textBox2.Text = "6";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(459, 20);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(43, 21);
-            this.textBox3.TabIndex = 9;
-            this.textBox3.Text = "60";
-            // 
-            // txtLa48
-            // 
-            this.txtLa48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtLa48.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtLa48.Location = new System.Drawing.Point(361, 20);
-            this.txtLa48.Name = "txtLa48";
-            this.txtLa48.Size = new System.Drawing.Size(43, 21);
-            this.txtLa48.TabIndex = 2;
-            // 
-            // txtLa42
-            // 
-            this.txtLa42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtLa42.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtLa42.Location = new System.Drawing.Point(312, 20);
-            this.txtLa42.Name = "txtLa42";
-            this.txtLa42.Size = new System.Drawing.Size(43, 21);
-            this.txtLa42.TabIndex = 6;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(263, 20);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(43, 21);
-            this.textBox6.TabIndex = 5;
-            this.textBox6.Text = "36";
-            // 
-            // txtLa30
-            // 
-            this.txtLa30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtLa30.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtLa30.Location = new System.Drawing.Point(214, 20);
-            this.txtLa30.Name = "txtLa30";
-            this.txtLa30.Size = new System.Drawing.Size(43, 21);
-            this.txtLa30.TabIndex = 1;
-            this.txtLa30.Tag = "";
-            // 
-            // txtLa24
-            // 
-            this.txtLa24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtLa24.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtLa24.Location = new System.Drawing.Point(165, 20);
-            this.txtLa24.Name = "txtLa24";
-            this.txtLa24.Size = new System.Drawing.Size(43, 21);
-            this.txtLa24.TabIndex = 0;
-            this.txtLa24.Tag = "";
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(113, 20);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(43, 21);
-            this.textBox9.TabIndex = 0;
-            this.textBox9.Text = "18";
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(64, 20);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(43, 21);
-            this.textBox10.TabIndex = 1;
-            this.textBox10.Text = "12";
-            // 
-            // txtLa54
-            // 
-            this.txtLa54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.txtLa54.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtLa54.Location = new System.Drawing.Point(410, 20);
-            this.txtLa54.Name = "txtLa54";
-            this.txtLa54.Size = new System.Drawing.Size(43, 21);
-            this.txtLa54.TabIndex = 3;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox9);
-            this.groupBox1.Controls.Add(this.txtLa54);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox10);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.txtLa48);
-            this.groupBox1.Controls.Add(this.txtLa24);
-            this.groupBox1.Controls.Add(this.txtLa42);
-            this.groupBox1.Controls.Add(this.txtLa30);
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Location = new System.Drawing.Point(348, 494);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(528, 56);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
             // 
             // btnQuayLaiPhan2
             // 
@@ -618,6 +513,7 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
+            this.linkLabel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.Location = new System.Drawing.Point(477, 451);
             this.linkLabel3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -644,6 +540,7 @@
             // lblError
             // 
             this.lblError.AutoSize = true;
+            this.lblError.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError.ForeColor = System.Drawing.Color.Red;
             this.lblError.Location = new System.Drawing.Point(788, 94);
@@ -668,60 +565,15 @@
             // lblLoiBT3
             // 
             this.lblLoiBT3.AutoSize = true;
+            this.lblLoiBT3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblLoiBT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLoiBT3.ForeColor = System.Drawing.Color.Red;
-            this.lblLoiBT3.Location = new System.Drawing.Point(345, 553);
+            this.lblLoiBT3.Location = new System.Drawing.Point(368, 552);
             this.lblLoiBT3.Name = "lblLoiBT3";
             this.lblLoiBT3.Size = new System.Drawing.Size(42, 16);
             this.lblLoiBT3.TabIndex = 107;
             this.lblLoiBT3.Text = "Error";
             this.lblLoiBT3.Visible = false;
-            // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.label9);
-            this.groupBox12.Controls.Add(this.label10);
-            this.groupBox12.Controls.Add(this.llbThucHanh);
-            this.groupBox12.Location = new System.Drawing.Point(12, 657);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(553, 48);
-            this.groupBox12.TabIndex = 108;
-            this.groupBox12.TabStop = false;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(180, 16);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(373, 20);
-            this.label9.TabIndex = 53;
-            this.label9.Text = "Để Làm Các Bài Tập Thêm Của Bảng Nhân 6 ";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(6, 16);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(82, 20);
-            this.label10.TabIndex = 52;
-            this.label10.Text = "Bấm Vào";
-            // 
-            // llbThucHanh
-            // 
-            this.llbThucHanh.AutoSize = true;
-            this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llbThucHanh.LinkColor = System.Drawing.Color.Red;
-            this.llbThucHanh.Location = new System.Drawing.Point(87, 16);
-            this.llbThucHanh.Name = "llbThucHanh";
-            this.llbThucHanh.Size = new System.Drawing.Size(92, 20);
-            this.llbThucHanh.TabIndex = 51;
-            this.llbThucHanh.TabStop = true;
-            this.llbThucHanh.Text = "Luyện Tập";
-            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
             // chk30
             // 
@@ -769,6 +621,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox2.Controls.Add(this.chk25);
             this.groupBox2.Controls.Add(this.chk14);
             this.groupBox2.Controls.Add(this.chk32);
@@ -780,13 +633,149 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Đáp Án : Chọn 1 Câu Đúng";
             // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(208, 675);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(373, 20);
+            this.label9.TabIndex = 110;
+            this.label9.Text = "Để Làm Các Bài Tập Thêm Của Bảng Nhân 6 ";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(34, 675);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 20);
+            this.label10.TabIndex = 109;
+            this.label10.Text = "Bấm Vào";
+            // 
+            // llbThucHanh
+            // 
+            this.llbThucHanh.AutoSize = true;
+            this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llbThucHanh.LinkColor = System.Drawing.Color.Red;
+            this.llbThucHanh.Location = new System.Drawing.Point(115, 675);
+            this.llbThucHanh.Name = "llbThucHanh";
+            this.llbThucHanh.Size = new System.Drawing.Size(92, 20);
+            this.llbThucHanh.TabIndex = 108;
+            this.llbThucHanh.TabStop = true;
+            this.llbThucHanh.Text = "Luyện Tập";
+            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(469, 510);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(43, 21);
+            this.textBox9.TabIndex = 113;
+            this.textBox9.Text = "18";
+            // 
+            // txtLa54
+            // 
+            this.txtLa54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa54.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtLa54.Location = new System.Drawing.Point(766, 510);
+            this.txtLa54.Name = "txtLa54";
+            this.txtLa54.Size = new System.Drawing.Size(43, 21);
+            this.txtLa54.TabIndex = 117;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(371, 510);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(43, 21);
+            this.textBox2.TabIndex = 111;
+            this.textBox2.Text = "6";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(420, 510);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(43, 21);
+            this.textBox10.TabIndex = 114;
+            this.textBox10.Text = "12";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(815, 510);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(43, 21);
+            this.textBox3.TabIndex = 120;
+            this.textBox3.Text = "60";
+            // 
+            // txtLa48
+            // 
+            this.txtLa48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa48.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtLa48.Location = new System.Drawing.Point(717, 510);
+            this.txtLa48.Name = "txtLa48";
+            this.txtLa48.Size = new System.Drawing.Size(43, 21);
+            this.txtLa48.TabIndex = 116;
+            // 
+            // txtLa24
+            // 
+            this.txtLa24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa24.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtLa24.Location = new System.Drawing.Point(521, 510);
+            this.txtLa24.Name = "txtLa24";
+            this.txtLa24.Size = new System.Drawing.Size(43, 21);
+            this.txtLa24.TabIndex = 112;
+            this.txtLa24.Tag = "";
+            // 
+            // txtLa42
+            // 
+            this.txtLa42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa42.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtLa42.Location = new System.Drawing.Point(668, 510);
+            this.txtLa42.Name = "txtLa42";
+            this.txtLa42.Size = new System.Drawing.Size(43, 21);
+            this.txtLa42.TabIndex = 119;
+            // 
+            // txtLa30
+            // 
+            this.txtLa30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.txtLa30.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.txtLa30.Location = new System.Drawing.Point(570, 510);
+            this.txtLa30.Name = "txtLa30";
+            this.txtLa30.Size = new System.Drawing.Size(43, 21);
+            this.txtLa30.TabIndex = 115;
+            this.txtLa30.Tag = "";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(619, 510);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(43, 21);
+            this.textBox6.TabIndex = 118;
+            this.textBox6.Text = "36";
+            // 
             // BaiTap1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1276, 764);
             this.ControlBox = false;
-            this.Controls.Add(this.groupBox12);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.txtLa54);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtLa48);
+            this.Controls.Add(this.txtLa24);
+            this.Controls.Add(this.txtLa42);
+            this.Controls.Add(this.txtLa30);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.llbThucHanh);
             this.Controls.Add(this.lblLoiBT3);
             this.Controls.Add(this.lblLoiBT2);
             this.Controls.Add(this.lblError);
@@ -797,7 +786,6 @@
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnQuayLaiPhan2);
             this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.linkLabel2);
@@ -840,10 +828,6 @@
             this.Name = "BaiTap1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.BaiTap1_Load);
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -890,17 +874,6 @@
         private System.Windows.Forms.LinkLabel linkLabel2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox txtLa48;
-        private System.Windows.Forms.TextBox txtLa42;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox txtLa30;
-        private System.Windows.Forms.TextBox txtLa24;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox txtLa54;
-        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btnQuayLaiPhan2;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Label label6;
@@ -910,14 +883,23 @@
         private System.Windows.Forms.Label lblError;
         private System.Windows.Forms.Label lblLoiBT2;
         private System.Windows.Forms.Label lblLoiBT3;
-        private System.Windows.Forms.GroupBox groupBox12;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.LinkLabel llbThucHanh;
         private System.Windows.Forms.CheckBox chk30;
         private System.Windows.Forms.CheckBox chk32;
         private System.Windows.Forms.CheckBox chk14;
         private System.Windows.Forms.CheckBox chk25;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.LinkLabel llbThucHanh;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtLa54;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtLa48;
+        private System.Windows.Forms.TextBox txtLa24;
+        private System.Windows.Forms.TextBox txtLa42;
+        private System.Windows.Forms.TextBox txtLa30;
+        private System.Windows.Forms.TextBox textBox6;
     }
 }

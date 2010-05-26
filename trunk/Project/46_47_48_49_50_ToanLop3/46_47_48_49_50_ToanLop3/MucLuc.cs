@@ -115,7 +115,8 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void MucLuc_Load(object sender, EventArgs e)
         {
-
+           
+            
         }
 
         private void ListView1_SelectedIndexChanged(object sender, EventArgs e)

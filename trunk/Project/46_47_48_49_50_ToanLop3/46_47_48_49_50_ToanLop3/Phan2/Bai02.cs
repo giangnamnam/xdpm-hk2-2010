@@ -25,8 +25,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             lblError.Text = "Lổi ở : ";
             lblError.Visible = true;
-            if (true)
-            {
+            btnLamLai.Visible = false;
                 if (txt1.Text != "48")
                 {
                     lblError.Text += " 24 x 2  sai ;";
@@ -47,11 +46,15 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
                 {
                     lblError.Text += " 20 x 4  sai ;";
                 }
-            }
             
-            else if(false)
+            else if(txt1.Text == "48"&&
+            txt2.Text == "88"&&
+            txt3.Text == "55"&&
+            txt4.Text == "99"&&
+            txt5.Text == "80")
             {
                 lblError.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
+                btnLamLai.Visible = true;
             }
         }
 
@@ -59,6 +62,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             btnDaLamXong.Visible = true;
             lblError.Visible = false;
+            btnLamLai.Visible = false;
             txt1.Text = "";
             txt2.Text = "";
             txt3.Text = "";
@@ -91,6 +95,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             lblError.Visible = false;
             btnDaLamXong.Visible = false;
+            btnLamLai.Visible = true;
             txt1.Text = "48";
             txt2.Text = "88";
             txt3.Text = "55";

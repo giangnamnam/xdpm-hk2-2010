@@ -24,7 +24,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         private void btnDaLamXong_Click(object sender, EventArgs e)
         {
             lblError.Text = "Lổi ở : ";
-            lblError.Visible = true;
+            lblError.Visible = true; btnLamLai.Visible = false;
             if (txt1.Text != "96")
             {
                 lblError.Text += " Dòng 1 câu a  ;";
@@ -41,8 +41,12 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             {
                 lblError.Text += "  Dòng 2 câu b ;";
             }
-            else
+            else if ( txt1.Text == "96"&&
+            txt2.Text == "66"&&
+            txt3.Text == "84"&&
+            txt4.Text == "39")  
             {
+                btnLamLai.Visible = true;
                 lblError.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
             }
         }
@@ -51,6 +55,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lblError.Visible = false;
             btnDaLamXong.Visible = true;
+            btnLamLai.Visible = false;
             txt1.Text = "";
             txt2.Text = "";
             txt3.Text = "";
@@ -61,6 +66,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lblError.Visible = false;
             btnDaLamXong.Visible = false;
+            btnLamLai.Visible=true;
             txt1.Text = "96";
             txt2.Text = "66";
             txt3.Text = "84";

@@ -78,9 +78,9 @@
             this.label2.Location = new System.Drawing.Point(150, 93);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(324, 20);
+            this.label2.Size = new System.Drawing.Size(314, 20);
             this.label2.TabIndex = 108;
-            this.label2.Text = "Bài 1: Viết số thích hợp vào chổ trống ?";
+            this.label2.Text = "Bài 1: Viết số thích hợp vào chổ trống ";
             // 
             // label11
             // 
@@ -294,7 +294,7 @@
             // 
             this.btnLamLaibt2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btnLamLaibt2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLamLaibt2.Location = new System.Drawing.Point(418, 538);
+            this.btnLamLaibt2.Location = new System.Drawing.Point(675, 538);
             this.btnLamLaibt2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnLamLaibt2.Name = "btnLamLaibt2";
             this.btnLamLaibt2.Size = new System.Drawing.Size(121, 36);
@@ -332,7 +332,7 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(647, 491);
+            this.linkLabel1.Location = new System.Drawing.Point(423, 538);
             this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(116, 15);
@@ -346,7 +346,7 @@
             this.lblError2.AutoSize = true;
             this.lblError2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError2.ForeColor = System.Drawing.Color.Red;
-            this.lblError2.Location = new System.Drawing.Point(414, 492);
+            this.lblError2.Location = new System.Drawing.Point(414, 489);
             this.lblError2.Name = "lblError2";
             this.lblError2.Size = new System.Drawing.Size(42, 16);
             this.lblError2.TabIndex = 215;

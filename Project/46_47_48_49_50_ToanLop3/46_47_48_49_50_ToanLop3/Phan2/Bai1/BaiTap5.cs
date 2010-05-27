@@ -50,7 +50,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
                 lblBt1.Visible = true;
                 lblBt1.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
             }
-            lblBt1.Text += lblBt1.Text.TrimEnd(';');
+            lblBt1.Text = lblBt1.Text.TrimEnd(';');
         }
 
         private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -96,6 +96,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             richTextBox2.Visible = true;
             btnLamLaibt2.Visible = true;
             btnDaLamBt2.Visible = false;
+            txtbt2.Text = "8";
         }
 
         private void btnLamLaibt2_Click(object sender, EventArgs e)
@@ -103,6 +104,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             richTextBox2.Visible = false;
             btnDaLamBt2.Visible = true;
             btnLamLaibt2.Visible = false;
+            txtbt2.Text = "8";
         }
 
         private void btnDaLamBt2_Click(object sender, EventArgs e)

@@ -167,7 +167,7 @@
             // 
             // txt6
             // 
-            this.txt6.Location = new System.Drawing.Point(389, 205);
+            this.txt6.Location = new System.Drawing.Point(389, 201);
             this.txt6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt6.Name = "txt6";
             this.txt6.Size = new System.Drawing.Size(38, 20);
@@ -191,7 +191,7 @@
             // 
             // txt3
             // 
-            this.txt3.Location = new System.Drawing.Point(212, 205);
+            this.txt3.Location = new System.Drawing.Point(212, 201);
             this.txt3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt3.Name = "txt3";
             this.txt3.Size = new System.Drawing.Size(38, 20);
@@ -241,7 +241,7 @@
             // 
             // txt12
             // 
-            this.txt12.Location = new System.Drawing.Point(750, 205);
+            this.txt12.Location = new System.Drawing.Point(750, 202);
             this.txt12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt12.Name = "txt12";
             this.txt12.Size = new System.Drawing.Size(38, 20);
@@ -265,7 +265,7 @@
             // 
             // txt9
             // 
-            this.txt9.Location = new System.Drawing.Point(573, 205);
+            this.txt9.Location = new System.Drawing.Point(573, 202);
             this.txt9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt9.Name = "txt9";
             this.txt9.Size = new System.Drawing.Size(38, 20);

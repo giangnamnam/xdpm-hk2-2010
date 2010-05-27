@@ -23,51 +23,51 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
             btnLamLai1.Visible = false;
             if (txt1.Text != " 21")
             {
-                lblError.Text += " 7 x 3;";
+                lblError.Text += " 7 x 3 ;";
             }
             if (txt2.Text != "35")
             {
-                lblError.Text += "7 x 5;";
+                lblError.Text += "7 x 5 ;";
             }
             if (txt3.Text != "49")
             {
-                lblError.Text += " 7 x 7;";
+                lblError.Text += " 7 x 7 ;";
             }
             if (txt4.Text != "56")
             {
-                lblError.Text += " 7 x 8;";
+                lblError.Text += " 7 x 8 ;";
             }
             if (txt5.Text != "42")
             {
-                lblError.Text += " 7 x 6;";
+                lblError.Text += " 7 x 6 ;";
             }
             if (txt6.Text != "28")
             {
-                lblError.Text += "7 x 4;";
+                lblError.Text += "7 x 4 ;";
             }
             if (txt7.Text != "14")
             {
-                lblError.Text += " 7 x 2;";
+                lblError.Text += " 7 x 2 ;";
             }
             if (txt8.Text != "70")
             {
-                lblError.Text += " 7 x 10;";
+                lblError.Text += " 7 x 10 ;";
             }
             if (txt9.Text != "63")
             {
-                lblError.Text += " 7 x 9;";
+                lblError.Text += " 7 x 9 ;";
             }
             if (txt10.Text != "7")
             {
-                lblError.Text += " 7 x 1;";
+                lblError.Text += " 7 x 1 ;";
             }
             if (txt11.Text != "0")
             {
-                lblError.Text += " 0 x 7;";
+                lblError.Text += " 0 x 7 ;";
             }
             if (txt12.Text != "0")
             {
-                lblError.Text += " 7 x 0;";
+                lblError.Text += " 7 x 0 ;";
             }
             else
                 if (txt1.Text == "21" &&

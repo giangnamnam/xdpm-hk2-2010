@@ -40,18 +40,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.btnThoat = new System.Windows.Forms.Button();
             this.btnQuayLaiPhan2 = new System.Windows.Forms.Button();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.llbThucHanh = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh4;
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label3);
@@ -103,6 +101,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label1.Location = new System.Drawing.Point(275, 22);
@@ -114,7 +113,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh4;
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
@@ -190,48 +189,39 @@
             this.btnQuayLaiPhan2.UseVisualStyleBackColor = false;
             this.btnQuayLaiPhan2.Click += new System.EventHandler(this.btnQuayLaiPhan2_Click);
             // 
-            // groupBox12
-            // 
-            this.groupBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.groupBox12.Controls.Add(this.label15);
-            this.groupBox12.Controls.Add(this.label16);
-            this.groupBox12.Controls.Add(this.llbThucHanh);
-            this.groupBox12.Location = new System.Drawing.Point(203, 461);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(351, 48);
-            this.groupBox12.TabIndex = 146;
-            this.groupBox12.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(173, 16);
+            this.label15.Location = new System.Drawing.Point(543, 511);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(179, 20);
+            this.label15.Size = new System.Drawing.Size(204, 24);
             this.label15.TabIndex = 53;
             this.label15.Text = "Để Làm Phần Bài tập";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.BackColor = System.Drawing.Color.Transparent;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(6, 16);
+            this.label16.Location = new System.Drawing.Point(352, 511);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(82, 20);
+            this.label16.Size = new System.Drawing.Size(94, 24);
             this.label16.TabIndex = 52;
             this.label16.Text = "Bấm Vào";
             // 
             // llbThucHanh
             // 
             this.llbThucHanh.AutoSize = true;
-            this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llbThucHanh.BackColor = System.Drawing.Color.Transparent;
+            this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbThucHanh.LinkColor = System.Drawing.Color.Red;
-            this.llbThucHanh.Location = new System.Drawing.Point(87, 16);
+            this.llbThucHanh.Location = new System.Drawing.Point(442, 511);
             this.llbThucHanh.Name = "llbThucHanh";
-            this.llbThucHanh.Size = new System.Drawing.Size(88, 20);
+            this.llbThucHanh.Size = new System.Drawing.Size(107, 24);
             this.llbThucHanh.TabIndex = 51;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Tiếp Theo";
@@ -245,9 +235,11 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1102, 687);
             this.ControlBox = false;
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.btnThoat);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.btnQuayLaiPhan2);
-            this.Controls.Add(this.groupBox12);
+            this.Controls.Add(this.llbThucHanh);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
@@ -257,8 +249,6 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -277,7 +267,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.Button btnQuayLaiPhan2;
-        private System.Windows.Forms.GroupBox groupBox12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.LinkLabel llbThucHanh;

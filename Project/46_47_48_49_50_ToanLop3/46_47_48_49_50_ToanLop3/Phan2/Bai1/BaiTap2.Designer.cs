@@ -455,6 +455,7 @@
             this.btnLamLaiBt3.TabIndex = 198;
             this.btnLamLaiBt3.Text = "Làm Lại";
             this.btnLamLaiBt3.UseVisualStyleBackColor = false;
+            this.btnLamLaiBt3.Visible = false;
             this.btnLamLaiBt3.Click += new System.EventHandler(this.btnLamLaiBt3_Click);
             // 
             // btnDaLamBt3

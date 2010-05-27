@@ -172,8 +172,6 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         {
             lblLoiBT3.Visible = true;
             lblLoiBT3.Text = "Lỗi ở : ";
-            if (true)
-            {
                 if (txtLa24.Text != "24")
                 {
                     lblLoiBT3.Text += "Ô thứ 4 ;";
@@ -194,12 +192,16 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
                 {
                     lblLoiBT3.Text += "Ô thứ 9";
                 }
-            }
-            
-            else
-            {
-                lblLoiBT3.Text = "Chúc Mừng !! Bạn Đã Làm Đúng !!";
-            }
+
+                else
+                    if (txtLa24.Text == "24" &&
+                txtLa30.Text == "30" &&
+                txtLa42.Text == "42" &&
+                txtLa48.Text == "48" &&
+                txtLa54.Text == "54")
+                    {
+                        lblLoiBT3.Text = "Chúc Mừng !! Bạn Đã Làm Đúng !!";
+                    }
         }
 
         private void btnLLBt2_Click(object sender, EventArgs e)

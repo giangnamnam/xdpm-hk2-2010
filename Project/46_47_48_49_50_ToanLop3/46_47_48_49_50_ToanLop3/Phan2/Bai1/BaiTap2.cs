@@ -77,9 +77,11 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         private void btnDaLamBt3_Click(object sender, EventArgs e)
         {
             lblBt3.Visible = true;
+            btnLamLaiBt3.Visible = false;
             if (chk48.Checked==true && chk18.Checked == false && chk34.Checked ==false && chk54.Checked == false)
             {
                 lblBt3.Text = "Bạn Đã Chọn Đúng !!";
+                btnLamLaiBt3.Visible = true;
             }
             else
             {
@@ -90,6 +92,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         private void btnLamLaiBt3_Click(object sender, EventArgs e)
         {
             btnDaLamBt3.Visible = true;
+            btnLamLaiBt3.Visible = false;
             lblBt3.Visible = false;
             chk18.Checked = false;
             chk34.Checked = false;
@@ -100,6 +103,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
         private void llbKiemTraBt3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             btnDaLamBt3.Visible = false;
+            btnLamLaiBt3.Visible=true;
             lblBt3.Visible = false;
             chk48.Checked = true;
             chk18.Checked = false;

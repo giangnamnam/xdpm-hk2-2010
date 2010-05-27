@@ -34,12 +34,16 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
                 case 0:
                     {
                         if (iIndex == 2)
+                        {
                             return "không ";
+                        }
                         else
+                        {
                             if (iIndex == 3)
                                 return "lẻ ";
                             else
                                 return "";
+                        }
                         break;
                     }
 

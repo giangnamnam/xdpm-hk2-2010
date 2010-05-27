@@ -49,11 +49,21 @@
             System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 07",
             "PHÉP CHIA HẾT VÀ PHÉP CHIA CÓ DƯ"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem("Bài 08");
-            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem("Bài 09");
-            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem("Bài 10");
-            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem("Bài 11");
-            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem("Bài 12");
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 08",
+            "BẢNG NHÂN 7"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 09",
+            "GẤP MỘT SỐ LÊN NHIỀU LẦN"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 10",
+            "BẢNG CHIA 7"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 11",
+            "GIẢM ĐI MỘT SỐ LẦN"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 12",
+            "TÌM SỐ CHIA"}, -1);
             System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem("Bài 13");
             this.label1 = new System.Windows.Forms.Label();
             this.ListView1 = new System.Windows.Forms.ListView();
@@ -89,7 +99,7 @@
             this.columnHeader1,
             this.columnHeader2});
             this.ListView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             listViewItem1.Checked = true;
             listViewItem1.StateImageIndex = 1;
             listViewItem1.Tag = "bai1";
@@ -129,7 +139,7 @@
             listViewItem13});
             this.ListView1.Location = new System.Drawing.Point(3, 22);
             this.ListView1.Name = "ListView1";
-            this.ListView1.Size = new System.Drawing.Size(871, 334);
+            this.ListView1.Size = new System.Drawing.Size(853, 656);
             this.ListView1.TabIndex = 23;
             this.ListView1.UseCompatibleStateImageBehavior = false;
             this.ListView1.View = System.Windows.Forms.View.Details;
@@ -148,12 +158,11 @@
             // 
             // btnThoat
             // 
-            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnThoat.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.btnThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnThoat.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThoat.ForeColor = System.Drawing.Color.Black;
-            this.btnThoat.Location = new System.Drawing.Point(551, 446);
+            this.btnThoat.Location = new System.Drawing.Point(877, 696);
             this.btnThoat.Name = "btnThoat";
             this.btnThoat.Size = new System.Drawing.Size(141, 47);
             this.btnThoat.TabIndex = 28;
@@ -163,12 +172,11 @@
             // 
             // bntBatDau
             // 
-            this.bntBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.bntBatDau.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.bntBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.bntBatDau.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bntBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bntBatDau.ForeColor = System.Drawing.Color.Black;
-            this.bntBatDau.Location = new System.Drawing.Point(257, 446);
+            this.bntBatDau.Location = new System.Drawing.Point(874, 594);
             this.bntBatDau.Name = "bntBatDau";
             this.bntBatDau.Size = new System.Drawing.Size(141, 45);
             this.bntBatDau.TabIndex = 27;
@@ -178,12 +186,11 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.button1.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(404, 446);
+            this.button1.Location = new System.Drawing.Point(877, 645);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(141, 45);
             this.button1.TabIndex = 29;
@@ -199,7 +206,7 @@
             this.groupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
             this.groupBox1.Location = new System.Drawing.Point(12, 62);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(877, 359);
+            this.groupBox1.Size = new System.Drawing.Size(859, 681);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "MỤC LỤC";
@@ -210,7 +217,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1026, 503);
+            this.ClientSize = new System.Drawing.Size(1057, 755);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);

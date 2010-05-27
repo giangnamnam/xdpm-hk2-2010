@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaiTap4));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -170,11 +171,9 @@
             this.label5.Location = new System.Drawing.Point(212, 175);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(240, 96);
+            this.label5.Size = new System.Drawing.Size(400, 96);
             this.label5.TabIndex = 133;
-            this.label5.Text = "42 : 6  =                                24 : 6  =\r\n\r\n54 : 6  =                  " +
-                "              36 : 6  =\r\n\r\n12 : 6  =                                  6 : 6  =\r\n" +
-                "\r\n";
+            this.label5.Text = resources.GetString("label5.Text");
             // 
             // txt5
             // 
@@ -256,11 +255,11 @@
             this.label4.Location = new System.Drawing.Point(582, 174);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(240, 96);
+            this.label4.Size = new System.Drawing.Size(352, 96);
             this.label4.TabIndex = 141;
-            this.label4.Text = "48 : 6  =                                30 : 6  =\r\n\r\n18 : 6  =                  " +
-                "              30 : 5  =\r\n\r\n60 : 6  =                                30 : 3  =\r\n\r" +
-                "\n";
+            this.label4.Text = "48 : 6  =                                30 : 6  =                            \r\n\r" +
+                "\n18 : 6  =                                30 : 5  =\r\n\r\n60 : 6  =                " +
+                "                30 : 3  =\r\n\r\n";
             // 
             // lbl1
             // 
@@ -745,11 +744,11 @@
             this.label21.Location = new System.Drawing.Point(582, 363);
             this.label21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(240, 96);
+            this.label21.Size = new System.Drawing.Size(351, 96);
             this.label21.TabIndex = 181;
-            this.label21.Text = "5  x  6 =                                 6  :  1 =\r\n\r\n30 : 6  =                 " +
-                "                6  :  6 =\r\n\r\n30 : 5  =                                 6  :  5 =" +
-                "\r\n\r\n";
+            this.label21.Text = "5  x  6 =                                 6  :  1 =                            \r\n" +
+                "\r\n30 : 6  =                                 6  :  6 =\r\n\r\n30 : 5  =              " +
+                "                   6  :  5 =\r\n\r\n";
             // 
             // txt25
             // 
@@ -807,11 +806,11 @@
             this.label22.Location = new System.Drawing.Point(212, 364);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(242, 96);
+            this.label22.Size = new System.Drawing.Size(378, 96);
             this.label22.TabIndex = 174;
-            this.label22.Text = "6 x 4    =                                6 x 2   =\r\n\r\n24 : 6  =                 " +
-                "               12 : 6  =\r\n\r\n24 : 4  =                                12 : 2  =\r\n" +
-                "\r\n";
+            this.label22.Text = "6 x 4    =                                6 x 2   =                              " +
+                "    \r\n\r\n24 : 6  =                                12 : 6  =\r\n\r\n24 : 4  =         " +
+                "                       12 : 2  =\r\n\r\n";
             // 
             // groupBox12
             // 

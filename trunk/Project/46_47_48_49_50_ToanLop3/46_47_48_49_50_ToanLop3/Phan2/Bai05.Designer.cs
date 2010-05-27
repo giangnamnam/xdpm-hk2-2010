@@ -211,7 +211,7 @@
             this.label21.AutoSize = true;
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.ForeColor = System.Drawing.Color.Black;
-            this.label21.Location = new System.Drawing.Point(610, 59);
+            this.label21.Location = new System.Drawing.Point(597, 71);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(198, 24);
             this.label21.TabIndex = 219;
@@ -222,7 +222,7 @@
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.ForeColor = System.Drawing.Color.Black;
-            this.label22.Location = new System.Drawing.Point(413, 59);
+            this.label22.Location = new System.Drawing.Point(400, 71);
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(94, 24);
             this.label22.TabIndex = 218;
@@ -233,7 +233,7 @@
             this.llbThucHanh.AutoSize = true;
             this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbThucHanh.LinkColor = System.Drawing.Color.Red;
-            this.llbThucHanh.Location = new System.Drawing.Point(505, 59);
+            this.llbThucHanh.Location = new System.Drawing.Point(492, 71);
             this.llbThucHanh.Name = "llbThucHanh";
             this.llbThucHanh.Size = new System.Drawing.Size(109, 24);
             this.llbThucHanh.TabIndex = 217;

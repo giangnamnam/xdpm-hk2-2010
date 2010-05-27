@@ -94,5 +94,20 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
             Phan2.Bai1.LuyenTap.LuyenTapBT4_tieptheo_ frm = new Phan2.Bai1.LuyenTap.LuyenTapBT4_tieptheo_();
             frm.ShowDialog();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

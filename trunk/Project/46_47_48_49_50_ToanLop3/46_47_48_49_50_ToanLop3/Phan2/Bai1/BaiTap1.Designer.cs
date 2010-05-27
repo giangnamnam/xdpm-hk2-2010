@@ -98,6 +98,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(28, 33);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -491,6 +492,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.label6.Location = new System.Drawing.Point(452, 9);
@@ -542,7 +544,7 @@
             // lblError
             // 
             this.lblError.AutoSize = true;
-            this.lblError.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblError.BackColor = System.Drawing.Color.Transparent;
             this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError.ForeColor = System.Drawing.Color.Red;
             this.lblError.Location = new System.Drawing.Point(788, 94);
@@ -567,7 +569,7 @@
             // lblLoiBT3
             // 
             this.lblLoiBT3.AutoSize = true;
-            this.lblLoiBT3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.lblLoiBT3.BackColor = System.Drawing.Color.Transparent;
             this.lblLoiBT3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLoiBT3.ForeColor = System.Drawing.Color.Red;
             this.lblLoiBT3.Location = new System.Drawing.Point(368, 552);
@@ -638,9 +640,10 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(208, 675);
+            this.label9.Location = new System.Drawing.Point(423, 734);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(373, 20);
             this.label9.TabIndex = 110;
@@ -649,9 +652,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(34, 675);
+            this.label10.Location = new System.Drawing.Point(234, 735);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(82, 20);
             this.label10.TabIndex = 109;
@@ -660,11 +664,12 @@
             // llbThucHanh
             // 
             this.llbThucHanh.AutoSize = true;
-            this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llbThucHanh.BackColor = System.Drawing.Color.Transparent;
+            this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbThucHanh.LinkColor = System.Drawing.Color.Red;
-            this.llbThucHanh.Location = new System.Drawing.Point(115, 675);
+            this.llbThucHanh.Location = new System.Drawing.Point(315, 731);
             this.llbThucHanh.Name = "llbThucHanh";
-            this.llbThucHanh.Size = new System.Drawing.Size(92, 20);
+            this.llbThucHanh.Size = new System.Drawing.Size(109, 24);
             this.llbThucHanh.TabIndex = 108;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Luyện Tập";

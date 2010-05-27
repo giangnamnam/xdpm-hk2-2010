@@ -41,11 +41,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.groupBox12 = new System.Windows.Forms.GroupBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.llbThucHanh = new System.Windows.Forms.LinkLabel();
-            this.groupBox12.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnThoat
@@ -103,6 +101,7 @@
             // lblKiemTra1b
             // 
             this.lblKiemTra1b.AutoSize = true;
+            this.lblKiemTra1b.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblKiemTra1b.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKiemTra1b.Location = new System.Drawing.Point(605, 415);
             this.lblKiemTra1b.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -116,6 +115,7 @@
             // lblError3b
             // 
             this.lblError3b.AutoSize = true;
+            this.lblError3b.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblError3b.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError3b.ForeColor = System.Drawing.Color.Red;
             this.lblError3b.Location = new System.Drawing.Point(267, 322);
@@ -128,6 +128,7 @@
             // lblError3a
             // 
             this.lblError3a.AutoSize = true;
+            this.lblError3a.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblError3a.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError3a.ForeColor = System.Drawing.Color.Red;
             this.lblError3a.Location = new System.Drawing.Point(267, 266);
@@ -147,6 +148,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(267, 293);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -165,6 +167,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(267, 238);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -176,6 +179,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(196, 189);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -187,32 +191,23 @@
             // label20
             // 
             this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label20.Location = new System.Drawing.Point(311, 68);
+            this.label20.Location = new System.Drawing.Point(308, 31);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(596, 50);
             this.label20.TabIndex = 238;
             this.label20.Text = "BÀI 03 : NHÂN SỐ CÓ 2 CHỬ SỚ VỚI SỐ CÓ 1 CHỬ SỐ\r\n                                " +
                 "        (Có nhớ)";
             // 
-            // groupBox12
-            // 
-            this.groupBox12.Controls.Add(this.label15);
-            this.groupBox12.Controls.Add(this.label16);
-            this.groupBox12.Controls.Add(this.llbThucHanh);
-            this.groupBox12.Location = new System.Drawing.Point(294, 457);
-            this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(451, 48);
-            this.groupBox12.TabIndex = 251;
-            this.groupBox12.TabStop = false;
-            // 
             // label15
             // 
             this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(173, 16);
+            this.label15.Location = new System.Drawing.Point(697, 293);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(271, 20);
             this.label15.TabIndex = 53;
@@ -221,9 +216,10 @@
             // label16
             // 
             this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(6, 16);
+            this.label16.Location = new System.Drawing.Point(530, 293);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(82, 20);
             this.label16.TabIndex = 52;
@@ -232,9 +228,10 @@
             // llbThucHanh
             // 
             this.llbThucHanh.AutoSize = true;
+            this.llbThucHanh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.llbThucHanh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbThucHanh.LinkColor = System.Drawing.Color.Red;
-            this.llbThucHanh.Location = new System.Drawing.Point(87, 16);
+            this.llbThucHanh.Location = new System.Drawing.Point(611, 293);
             this.llbThucHanh.Name = "llbThucHanh";
             this.llbThucHanh.Size = new System.Drawing.Size(88, 20);
             this.llbThucHanh.TabIndex = 51;
@@ -246,9 +243,12 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.ClientSize = new System.Drawing.Size(1102, 665);
             this.ControlBox = false;
-            this.Controls.Add(this.groupBox12);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.llbThucHanh);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.btnQuayLaiPhan2);
             this.Controls.Add(this.btnLamLaiBt1b);
@@ -265,8 +265,6 @@
             this.Name = "LuyenTapBT3";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.LuyenTapBT3_Load);
-            this.groupBox12.ResumeLayout(false);
-            this.groupBox12.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,7 +285,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.GroupBox groupBox12;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.LinkLabel llbThucHanh;

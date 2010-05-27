@@ -113,6 +113,10 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.groupBox13 = new System.Windows.Forms.GroupBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.groupBox10.SuspendLayout();
             this.groupBox9.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -125,6 +129,7 @@
             this.groupBox1.SuspendLayout();
             this.groupBox11.SuspendLayout();
             this.groupBox12.SuspendLayout();
+            this.groupBox13.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox10
@@ -142,7 +147,7 @@
             // 
             // groupBox9
             // 
-            this.groupBox9.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.groupBox9.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh4;
             this.groupBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox9.Controls.Add(this.label4);
             this.groupBox9.Controls.Add(this.groupBox4);
@@ -157,7 +162,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label4.BackColor = System.Drawing.Color.Silver;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(85, 101);
             this.label4.Name = "label4";
@@ -392,7 +397,7 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.groupBox8.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh4;
             this.groupBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox8.Controls.Add(this.label3);
             this.groupBox8.Controls.Add(this.groupBox3);
@@ -406,7 +411,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label3.BackColor = System.Drawing.Color.Silver;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(85, 62);
             this.label3.Name = "label3";
@@ -566,7 +571,7 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.groupBox7.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh4;
             this.groupBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.groupBox7.Controls.Add(this.groupBox1);
             this.groupBox7.Controls.Add(this.label2);
@@ -654,7 +659,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label2.BackColor = System.Drawing.Color.Silver;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(76, 58);
             this.label2.Name = "label2";
@@ -664,8 +669,7 @@
             // 
             // btnDaLamXong
             // 
-            this.btnDaLamXong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnDaLamXong.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.btnDaLamXong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnDaLamXong.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnDaLamXong.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDaLamXong.Location = new System.Drawing.Point(716, 572);
@@ -681,7 +685,7 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.Location = new System.Drawing.Point(577, 620);
+            this.linkLabel1.Location = new System.Drawing.Point(662, 620);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(116, 15);
             this.linkLabel1.TabIndex = 5;
@@ -908,7 +912,7 @@
             this.linkLabel3.AutoSize = true;
             this.linkLabel3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.linkLabel3.ForeColor = System.Drawing.Color.Red;
-            this.linkLabel3.Location = new System.Drawing.Point(153, 53);
+            this.linkLabel3.Location = new System.Drawing.Point(25, 53);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(228, 20);
             this.linkLabel3.TabIndex = 48;
@@ -921,7 +925,7 @@
             this.groupBox12.Controls.Add(this.label7);
             this.groupBox12.Controls.Add(this.label6);
             this.groupBox12.Controls.Add(this.llbThucHanh);
-            this.groupBox12.Location = new System.Drawing.Point(592, 37);
+            this.groupBox12.Location = new System.Drawing.Point(547, 638);
             this.groupBox12.Name = "groupBox12";
             this.groupBox12.Size = new System.Drawing.Size(354, 48);
             this.groupBox12.TabIndex = 51;
@@ -964,10 +968,10 @@
             // 
             // btnLamLai
             // 
-            this.btnLamLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnLamLai.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
+            this.btnLamLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnLamLai.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnLamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLamLai.ForeColor = System.Drawing.Color.Black;
             this.btnLamLai.Location = new System.Drawing.Point(592, 572);
             this.btnLamLai.Name = "btnLamLai";
             this.btnLamLai.Size = new System.Drawing.Size(113, 45);
@@ -1017,6 +1021,53 @@
             this.label1.TabIndex = 104;
             this.label1.Text = "BÀI 01 : BẢNG NHÂN 6";
             // 
+            // groupBox13
+            // 
+            this.groupBox13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.groupBox13.Controls.Add(this.label8);
+            this.groupBox13.Controls.Add(this.label9);
+            this.groupBox13.Controls.Add(this.linkLabel2);
+            this.groupBox13.Location = new System.Drawing.Point(443, 37);
+            this.groupBox13.Name = "groupBox13";
+            this.groupBox13.Size = new System.Drawing.Size(297, 48);
+            this.groupBox13.TabIndex = 105;
+            this.groupBox13.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.Black;
+            this.label8.Location = new System.Drawing.Point(170, 16);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(124, 20);
+            this.label8.TabIndex = 53;
+            this.label8.Text = "Để Thực Hành";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(6, 16);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(82, 20);
+            this.label9.TabIndex = 52;
+            this.label9.Text = "Bấm Vào";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.Red;
+            this.linkLabel2.Location = new System.Drawing.Point(83, 16);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(92, 20);
+            this.linkLabel2.TabIndex = 51;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Luyện Tập";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+            // 
             // Bai01
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1025,6 +1076,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1102, 709);
             this.ControlBox = false;
+            this.Controls.Add(this.groupBox13);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -1063,6 +1115,8 @@
             this.groupBox11.PerformLayout();
             this.groupBox12.ResumeLayout(false);
             this.groupBox12.PerformLayout();
+            this.groupBox13.ResumeLayout(false);
+            this.groupBox13.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1154,6 +1208,10 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox13;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.LinkLabel linkLabel2;
 
 
 

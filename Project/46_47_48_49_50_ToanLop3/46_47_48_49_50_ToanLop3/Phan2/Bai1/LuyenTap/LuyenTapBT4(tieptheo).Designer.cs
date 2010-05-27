@@ -145,7 +145,7 @@
             this.lblError.AutoSize = true;
             this.lblError.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError.ForeColor = System.Drawing.Color.Red;
-            this.lblError.Location = new System.Drawing.Point(147, 230);
+            this.lblError.Location = new System.Drawing.Point(147, 214);
             this.lblError.Name = "lblError";
             this.lblError.Size = new System.Drawing.Size(42, 16);
             this.lblError.TabIndex = 198;
@@ -157,7 +157,7 @@
             this.lbl11.AutoSize = true;
             this.lbl11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl11.ForeColor = System.Drawing.Color.Red;
-            this.lbl11.Location = new System.Drawing.Point(800, 201);
+            this.lbl11.Location = new System.Drawing.Point(800, 198);
             this.lbl11.Name = "lbl11";
             this.lbl11.Size = new System.Drawing.Size(42, 16);
             this.lbl11.TabIndex = 197;
@@ -205,7 +205,7 @@
             this.lbl5.AutoSize = true;
             this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl5.ForeColor = System.Drawing.Color.Red;
-            this.lbl5.Location = new System.Drawing.Point(430, 201);
+            this.lbl5.Location = new System.Drawing.Point(430, 200);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(42, 16);
             this.lbl5.TabIndex = 191;
@@ -229,7 +229,7 @@
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2.ForeColor = System.Drawing.Color.Red;
-            this.lbl2.Location = new System.Drawing.Point(253, 202);
+            this.lbl2.Location = new System.Drawing.Point(253, 195);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(42, 16);
             this.lbl2.TabIndex = 188;
@@ -250,7 +250,7 @@
             // 
             // txt11
             // 
-            this.txt11.Location = new System.Drawing.Point(755, 198);
+            this.txt11.Location = new System.Drawing.Point(755, 192);
             this.txt11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt11.Name = "txt11";
             this.txt11.Size = new System.Drawing.Size(38, 20);
@@ -282,7 +282,7 @@
             // 
             // txt5
             // 
-            this.txt5.Location = new System.Drawing.Point(385, 199);
+            this.txt5.Location = new System.Drawing.Point(385, 194);
             this.txt5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt5.Name = "txt5";
             this.txt5.Size = new System.Drawing.Size(38, 20);
@@ -298,7 +298,7 @@
             // 
             // txt2
             // 
-            this.txt2.Location = new System.Drawing.Point(208, 199);
+            this.txt2.Location = new System.Drawing.Point(208, 194);
             this.txt2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(38, 20);
@@ -330,10 +330,10 @@
             this.label5.Location = new System.Drawing.Point(147, 167);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(240, 48);
+            this.label5.Size = new System.Drawing.Size(382, 48);
             this.label5.TabIndex = 175;
-            this.label5.Text = "6  x 6  =                                6 x  9  =\r\n\r\n36 : 6  =                  " +
-                "              54 : 6  =\r\n";
+            this.label5.Text = "6  x 6  =                                6 x  9  =                               " +
+                "     \r\n\r\n36 : 6  =                                54 : 6  =\r\n";
             // 
             // label4
             // 
@@ -342,10 +342,10 @@
             this.label4.Location = new System.Drawing.Point(517, 166);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(244, 80);
+            this.label4.Size = new System.Drawing.Size(356, 48);
             this.label4.TabIndex = 182;
             this.label4.Text = "6 x  7  =                                 6 x  8  =\r\n\r\n42 : 6  =                 " +
-                "               48  : 6  =\r\n\r\n\r\n";
+                "               48  : 6  =                            ";
             // 
             // label11
             // 
@@ -383,7 +383,7 @@
             // 
             // txt28
             // 
-            this.txt28.Location = new System.Drawing.Point(663, 364);
+            this.txt28.Location = new System.Drawing.Point(663, 361);
             this.txt28.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt28.Name = "txt28";
             this.txt28.Size = new System.Drawing.Size(38, 20);
@@ -391,7 +391,7 @@
             // 
             // txt29
             // 
-            this.txt29.Location = new System.Drawing.Point(663, 396);
+            this.txt29.Location = new System.Drawing.Point(663, 389);
             this.txt29.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt29.Name = "txt29";
             this.txt29.Size = new System.Drawing.Size(38, 20);
@@ -399,7 +399,7 @@
             // 
             // txt27
             // 
-            this.txt27.Location = new System.Drawing.Point(663, 331);
+            this.txt27.Location = new System.Drawing.Point(663, 333);
             this.txt27.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt27.Name = "txt27";
             this.txt27.Size = new System.Drawing.Size(38, 20);
@@ -409,17 +409,16 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(602, 332);
+            this.label15.Location = new System.Drawing.Point(540, 334);
             this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(188, 96);
+            this.label15.Size = new System.Drawing.Size(180, 96);
             this.label15.TabIndex = 214;
-            this.label15.Text = "24 : 6  =\r\n\r\n24 : 4  =                               \r\n\r\n35 : 5  =               " +
-                "                 \r\n\r\n";
+            this.label15.Text = "24 : 6  =\r\n\r\n24 : 4  =                              \r\n\r\n35 : 5  =    \r\n\r\n";
             // 
             // txt25
             // 
-            this.txt25.Location = new System.Drawing.Point(470, 365);
+            this.txt25.Location = new System.Drawing.Point(470, 364);
             this.txt25.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt25.Name = "txt25";
             this.txt25.Size = new System.Drawing.Size(38, 20);
@@ -427,7 +426,7 @@
             // 
             // txt26
             // 
-            this.txt26.Location = new System.Drawing.Point(470, 397);
+            this.txt26.Location = new System.Drawing.Point(470, 396);
             this.txt26.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt26.Name = "txt26";
             this.txt26.Size = new System.Drawing.Size(38, 20);
@@ -435,7 +434,7 @@
             // 
             // txt24
             // 
-            this.txt24.Location = new System.Drawing.Point(470, 332);
+            this.txt24.Location = new System.Drawing.Point(470, 334);
             this.txt24.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt24.Name = "txt24";
             this.txt24.Size = new System.Drawing.Size(38, 20);
@@ -459,7 +458,7 @@
             // 
             // txt21
             // 
-            this.txt21.Location = new System.Drawing.Point(293, 332);
+            this.txt21.Location = new System.Drawing.Point(293, 335);
             this.txt21.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txt21.Name = "txt21";
             this.txt21.Size = new System.Drawing.Size(38, 20);
@@ -472,11 +471,11 @@
             this.label16.Location = new System.Drawing.Point(232, 333);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(240, 96);
+            this.label16.Size = new System.Drawing.Size(308, 96);
             this.label16.TabIndex = 207;
-            this.label16.Text = "16 : 4  =                                18 : 3  =\r\n\r\n16 : 2  =                  " +
-                "              18 : 6  =\r\n\r\n12 : 6  =                                15 : 5  =\r\n\r" +
-                "\n";
+            this.label16.Text = "16 : 4  =                                18 : 3  =                 \r\n\r\n16 : 2  = " +
+                "                               18 : 6  =\r\n\r\n12 : 6  =                           " +
+                "     15 : 5  =\r\n\r\n";
             // 
             // btnLamLaibt2
             // 
@@ -593,6 +592,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1102, 643);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox12);

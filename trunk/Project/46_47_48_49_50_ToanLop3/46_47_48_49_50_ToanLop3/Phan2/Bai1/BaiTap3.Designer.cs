@@ -105,6 +105,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
             this.groupBox1.Controls.Add(this.groupBox2);
             this.groupBox1.Controls.Add(this.txt2);
             this.groupBox1.Controls.Add(this.groupBox3);
@@ -124,6 +125,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -164,6 +166,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox3.Controls.Add(this.label4);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -204,6 +207,7 @@
             // 
             // groupBox5
             // 
+            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox5.Controls.Add(this.label3);
             this.groupBox5.Controls.Add(this.label12);
             this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -244,6 +248,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox4.Controls.Add(this.label9);
             this.groupBox4.Controls.Add(this.label10);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -285,6 +290,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(130, 103);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -295,6 +301,7 @@
             // 
             // groupBox6
             // 
+            this.groupBox6.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
             this.groupBox6.Controls.Add(this.groupBox7);
             this.groupBox6.Controls.Add(this.txt2b);
             this.groupBox6.Controls.Add(this.groupBox8);
@@ -314,6 +321,7 @@
             // 
             // groupBox7
             // 
+            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox7.Controls.Add(this.label1);
             this.groupBox7.Controls.Add(this.label2);
             this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -354,6 +362,7 @@
             // 
             // groupBox8
             // 
+            this.groupBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox8.Controls.Add(this.label7);
             this.groupBox8.Controls.Add(this.label8);
             this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -394,6 +403,7 @@
             // 
             // groupBox9
             // 
+            this.groupBox9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox9.Controls.Add(this.label11);
             this.groupBox9.Controls.Add(this.label15);
             this.groupBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -434,6 +444,7 @@
             // 
             // groupBox10
             // 
+            this.groupBox10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox10.Controls.Add(this.label16);
             this.groupBox10.Controls.Add(this.label17);
             this.groupBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -474,6 +485,8 @@
             // 
             // groupBox11
             // 
+            this.groupBox11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.groupBox11.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh1;
             this.groupBox11.Controls.Add(this.chk48);
             this.groupBox11.Controls.Add(this.chk87);
             this.groupBox11.Controls.Add(this.chk70);
@@ -537,6 +550,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(188, 463);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -548,6 +562,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(130, 460);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -559,6 +574,7 @@
             // lblError1a
             // 
             this.lblError1a.AutoSize = true;
+            this.lblError1a.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblError1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError1a.ForeColor = System.Drawing.Color.Red;
             this.lblError1a.Location = new System.Drawing.Point(131, 274);
@@ -571,6 +587,7 @@
             // lblError1b
             // 
             this.lblError1b.AutoSize = true;
+            this.lblError1b.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblError1b.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError1b.ForeColor = System.Drawing.Color.Red;
             this.lblError1b.Location = new System.Drawing.Point(131, 444);
@@ -583,6 +600,7 @@
             // lblError2
             // 
             this.lblError2.AutoSize = true;
+            this.lblError2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblError2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblError2.ForeColor = System.Drawing.Color.Red;
             this.lblError2.Location = new System.Drawing.Point(188, 574);
@@ -621,6 +639,7 @@
             // llbKiemTra1a
             // 
             this.llbKiemTra1a.AutoSize = true;
+            this.llbKiemTra1a.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.llbKiemTra1a.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.llbKiemTra1a.Location = new System.Drawing.Point(809, 245);
             this.llbKiemTra1a.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -660,6 +679,7 @@
             // lblKiemTra1b
             // 
             this.lblKiemTra1b.AutoSize = true;
+            this.lblKiemTra1b.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblKiemTra1b.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKiemTra1b.Location = new System.Drawing.Point(809, 424);
             this.lblKiemTra1b.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -699,6 +719,7 @@
             // lblKiemTra2
             // 
             this.lblKiemTra2.AutoSize = true;
+            this.lblKiemTra2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.lblKiemTra2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblKiemTra2.Location = new System.Drawing.Point(809, 536);
             this.lblKiemTra2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -749,6 +770,7 @@
             // 
             // groupBox12
             // 
+            this.groupBox12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.groupBox12.Controls.Add(this.label21);
             this.groupBox12.Controls.Add(this.label22);
             this.groupBox12.Controls.Add(this.llbThucHanh);
@@ -797,6 +819,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1102, 687);
             this.ControlBox = false;
             this.Controls.Add(this.groupBox12);

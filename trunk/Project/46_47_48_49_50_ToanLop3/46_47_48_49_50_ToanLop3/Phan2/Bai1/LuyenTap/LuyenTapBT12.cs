@@ -15,44 +15,142 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
         {
             InitializeComponent();
         }
-
-        private void btnDaLamXong_Click(object sender, EventArgs e)
+        #region Bai 1
+        private void btnDung1_Click(object sender, EventArgs e)
         {
-            lblError1.Text = "Lổi ở : ";
-            lblError1.Visible = true;
-            if (txt1.Text != "7")
+            lblError2c.Visible = true;
+            if (txt2c.Text != "35")
             {
-                lblError1.Text += " Ô  Thứ Nhất ;";
-            }
-            if (txt2.Text != "5")
-            {
-                lblError1.Text += " Ô  Thứ 2 ;";
-            }
-            if (txt3.Text != "4")
-            {
-                lblError1.Text += " Ô  Thứ 3 ;";
-            }
-            if (txt4.Text != "7")
-            {
-                lblError1.Text += " Ô  Thứ 4 ;";
+                lblError2c.Text = "Sai";
             }
             else
-                if (txt1.Text == "7"&&
-                    txt1.Text == "5"&&
-                    txt1.Text == "4"&&
-                    txt1.Text == "7")
             {
-                lblError1.Text = "Chúc Mừng Bạn!!Bạn Đã Làm Đúng";
+                lblError2c.Text = "Đúng";
             }
-            lblError1.Text = lblError1.Text.TrimEnd(';');
         }
 
-        private void btnLamLai_Click(object sender, EventArgs e)
+        private void btnDung1b_Click(object sender, EventArgs e)
         {
-            txt1.Text = "7";
-                    txt1.Text = "5";
-                    txt1.Text = "4";
-                    txt1.Text = "7";
+            lblError2d.Visible = true;
+            if (txt2d.Text != "18")
+            {
+                lblError2d.Text = "Sai";
+            }
+            else
+            {
+                lblError2d.Text = "Đúng";
+            }
         }
+
+        private void btnLamLai1_Click(object sender, EventArgs e)
+        {
+            lblError2c.Visible = false;
+            lblError2d.Visible = false;
+            dapan3.Visible = false;
+            dapan4.Visible = false;
+            txt2c.Text = "";
+            txt2d.Text = "";
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            lblError2c.Visible = false;
+            lblError2d.Visible = false;
+            dapan3.Visible = true;
+            dapan4.Visible = true;
+            txt2c.Text = "35";
+            txt2d.Text = "18";
+        }
+        #endregion
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+        #region Bai 2
+        private void btnDaLam2_Click(object sender, EventArgs e)
+        {
+            lblError.Visible = true;
+            if (txt21.Text == "70" &&
+                txt22.Text == "104" &&
+                txt23.Text == "33" &&
+                txt24.Text == "20")
+            {
+                lblError.Text = "Chúc Mừng!!Bạn Thật Khá!!!";
+            }
+            else
+            {
+                lblError.Text = "Sai!!!Hãy Bấm Kết Quả Để So Sánh";
+            }
+        }
+
+        private void btnKetQua2_Click(object sender, EventArgs e)
+        {
+            button2.Visible = true;
+            lblError.Visible = false;
+            textBox1.Visible = true;
+            textBox2.Visible = true;
+            textBox3.Visible = true;
+            textBox4.Visible = true;
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Visible = false;
+            lblError.Visible = false;
+            textBox1.Visible = false;
+            textBox2.Visible = false;
+            textBox3.Visible = false;
+            textBox4.Visible = false;
+        }
+        #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            lblBt3.Visible = true;
+            if (chk1.Checked == false &&
+                chk2.Checked == true &&
+                chk3.Checked == false &&
+                chk4.Checked == false)
+            {
+                lblBt3.Text = "Bạn Rất Khá!!!";
+            }
+            else
+            {
+                lblBt3.Text = "Sai Rồi Bấm Kết Quả Đi Bạn!!!";
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            btnLamLai3.Visible = true;
+            chk1.Checked = false;
+            chk2.Checked = true;
+            chk3.Checked = false;
+            chk4.Checked = false;
+            lblBt3.Visible = false;
+        }
+
+        private void btnLamLai3_Click(object sender, EventArgs e)
+        {
+            btnLamLai3.Visible = false;
+            chk1.Checked = false;
+            chk2.Checked = false;
+            chk3.Checked = false;
+            chk4.Checked = false;
+            lblBt3.Visible = false;
+        }
+
+      
+        
+        
     }
 }

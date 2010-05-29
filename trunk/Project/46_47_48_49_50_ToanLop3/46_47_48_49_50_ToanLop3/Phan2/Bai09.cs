@@ -32,14 +32,14 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Bai1.LuyenTap.LuyenTapBT9 frm = new Bai1.LuyenTap.LuyenTapBT9();
-            frm.ShowDialog();
+            //Bai1.LuyenTap.LuyenTapBT9 frm = new Bai1.LuyenTap.LuyenTapBT9();
+           // frm.ShowDialog();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            Bai1.BaiTap9 frm = new Bai1.BaiTap9();
-            frm.ShowDialog();
+          //  Bai1.BaiTap9 frm = new Bai1.BaiTap9();
+           // frm.ShowDialog();
         }
     }
 }

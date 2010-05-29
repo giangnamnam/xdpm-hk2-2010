@@ -98,8 +98,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1
 
         private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            LuyenTap.LuyenTapBT6 frm = new LuyenTap.LuyenTapBT6();
-            frm.ShowDialog();
+          //  LuyenTap.LuyenTapBT6 frm = new LuyenTap.LuyenTapBT6();
+            //frm.ShowDialog();
         }
         
     }

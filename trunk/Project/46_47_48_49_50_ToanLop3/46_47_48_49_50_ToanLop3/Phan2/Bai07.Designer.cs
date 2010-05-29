@@ -227,6 +227,7 @@
             this.linkLabel2.TabIndex = 346;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Bài Tập";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // radioButton4
             // 
@@ -719,6 +720,7 @@
             this.llbThucHanh.TabIndex = 344;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Luyện Tập";
+            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
             // Bai07
             // 

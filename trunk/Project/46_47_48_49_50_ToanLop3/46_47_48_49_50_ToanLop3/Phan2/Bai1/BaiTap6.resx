@@ -117,4 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Bài 2 : 
+     a) Tìm 1/3 của : 69 kg =                          kg ; 36 m =                         m 
+     b) Tìm 1/2 của : 24 giờ =                               giờ ; 48 phút =                         phút
+                                                                                                                                         </value>
+  </data>
 </root>

@@ -67,6 +67,48 @@
             System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 13",
             "GÓC VUÔNG GÓC KHÔNG VUÔNG"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 14",
+            "ĐƠN VỊ ĐO ĐỘ DÀI"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 15",
+            "LUYỆN TẬP CHUNG"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 16",
+            "BÀI TOÁN GIẢI BẰNG HAI PHÉP TÍNH"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 17",
+            "BẢNG NHÂN 8"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 18",
+            "BẢNG CHIA 8"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 19",
+            "SO SÁNH SỐ LƠN GẤP MẤY LẦN SỐ BÉ VÀ NGƯỢC LẠI"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 20",
+            "BẢNG NHÂN 9"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 21",
+            "GAM"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 22",
+            "BẢNG CHIA 9"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 23",
+            "CHIA SỐ CÓ BA CHỬ SỐ CHO SỐ CÓ MỘT CHỬ SỐ"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 25",
+            "GIỚI THIỆU BẢNG CHIA"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 24",
+            "GIỚI THIỆU BẢNG NHÂN"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 26",
+            "LÀM QUEN VÀ TÍNH GIÁ TRỊ CỦA BIẾU THỨC"}, -1);
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
+            "Bài 27",
+            "HÌNH VUÔNG VÀ HÌNH CHỮ NHẬT"}, -1);
             this.label1 = new System.Windows.Forms.Label();
             this.ListView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
@@ -126,6 +168,20 @@
             listViewItem11.Tag = "bai11";
             listViewItem12.Tag = "bai12";
             listViewItem13.Tag = "bai13";
+            listViewItem14.Tag = "bai14";
+            listViewItem15.Tag = "bai15";
+            listViewItem16.Tag = "bai16";
+            listViewItem17.Tag = "bai17";
+            listViewItem18.Tag = "bai18";
+            listViewItem19.Tag = "bai19";
+            listViewItem20.Tag = "bai20";
+            listViewItem21.Tag = "bai21";
+            listViewItem22.Tag = "bai22";
+            listViewItem23.Tag = "bai23";
+            listViewItem24.Tag = "bai25";
+            listViewItem25.Tag = "bai24";
+            listViewItem26.Tag = "bai26";
+            listViewItem27.Tag = "bai27";
             this.ListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
             listViewItem2,
@@ -139,7 +195,21 @@
             listViewItem10,
             listViewItem11,
             listViewItem12,
-            listViewItem13});
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18,
+            listViewItem19,
+            listViewItem20,
+            listViewItem21,
+            listViewItem22,
+            listViewItem23,
+            listViewItem24,
+            listViewItem25,
+            listViewItem26,
+            listViewItem27});
             this.ListView1.Location = new System.Drawing.Point(3, 22);
             this.ListView1.Name = "ListView1";
             this.ListView1.Size = new System.Drawing.Size(853, 656);

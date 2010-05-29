@@ -1,32 +1,46 @@
 <?xml version="1.0"?>
-<project default="includeUserguide">
-	<property name="rootDir" value="..\" readonly="false"/>
-	<target name="clean">
-		<delete file="${rootDir}\9 Release\46_47_48_49_50_ToanLop3.exe"/>
-	</target>
-
-	<target name="buildSolution" depends="clean">
-		<solution
-			solutionfile="${rootDir}\6 Source Code\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3.sln"
-			configuration="release"
-			outputdir="${rootDir}\Release\" />
-	</target>
-
-	<target name="deleteDirtyFiles" depends="buildSolution">
-		<delete file="${rootDir}\Release\46_47_48_49_50_ToanLop3.pdb"/>
-	</target>
-
-	<target name="renameFileExe" depends="deleteDirtyFiles">
-		<copy file="${rootDir}\Release\46_47_48_49_50_ToanLop3.exe" tofile="${rootDir}\Release\ToanLop3.exe"/>
-		<delete file="${rootDir}\Release\46_47_48_49_50_ToanLop3.exe"/>
-	</target>
-	<target name="includeDatabase" depends="renameFileExe">
-	</target>
-	<target name="includeUserguide" depends="includeDatabase">
-		<copy todir="${rootDir}\Release\">
-			<fileset basedir="${rootDir}\Manual Document\">
-				<include name="UserGuide.docx"/>
-			</fileset>
-		</copy>		
-	</target>
-</project>
+<project name="46_47_48_49_50_ToanLop3" default="run" >
+	<description>Build files cua Chuong trinh toan lop 3</description>
+	<property name="release.dir" value="46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\bin\release" />
+	<property name="obj.dir" value="46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj" />
+	<property name="solution.dir" value="46_47_48_49_50_ToanLop3/46_47_48_49_50_ToanLop3.sln" />
+  
+  
+  
+  <target name="buildsolution">
+    <solution  configuration="release" solutionfile="${solution.dir}" verbose="true" >
+    </solution>
+  </target>
+  
+  <target name="cleansolution">
+    <delete>
+      <fileset basedir=".">
+        <include name="46_47_48_49_50_ToanLop3/**/bin/**"/>
+        <include name="46_47_48_49_50_ToanLop3/**/obj/**"/>
+     
+        <exclude name="${release.dir}/*.vshost.exe" />
+      </fileset>
+    </delete>
+  </target>
+  
+  <target name="run" depends="buildsolution">
+    <exec program="46_47_48_49_50_ToanLop3.exe" basedir="${release.dir}"/>
+   
+    
+  </target>
+  
+  <target name="zip">
+    <zip zipfile="build_new.zip">
+      <fileset basedir="${release.dir}">
+        <include name="*.dll" />
+        <include name="*.exe" />
+     
+      </fileset>
+    </zip>
+  </target>
+  
+ 
+  
+  </project>
+	
+	

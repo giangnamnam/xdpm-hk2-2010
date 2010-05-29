@@ -563,3 +563,9 @@ C:\Users\VAN-DUOC\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\De
 D:\XDPM\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT6.resources
 D:\XDPM\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap7.resources
 D:\XDPM\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT7.resources
+C:\Users\VAN-DUOC\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap7.resources
+C:\Users\VAN-DUOC\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap9.resources
+C:\Users\VAN-DUOC\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT7.resources
+C:\Users\VAN-DUOC\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT9.resources
+D:\XDPM\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.BaiTap9.resources
+D:\XDPM\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap.LuyenTapBT9.resources

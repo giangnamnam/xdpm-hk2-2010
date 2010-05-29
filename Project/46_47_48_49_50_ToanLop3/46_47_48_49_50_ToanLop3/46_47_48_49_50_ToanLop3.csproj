@@ -386,12 +386,6 @@
     <Compile Include="Phan2\Bai1\BaiTap12.Designer.cs">
       <DependentUpon>BaiTap12.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan2\Bai1\BaiTap4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan2\Bai1\BaiTap4.Designer.cs">
-      <DependentUpon>BaiTap4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Phan2\Bai1\BaiTap2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -403,6 +397,12 @@
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap3.Designer.cs">
       <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap4.Designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\BaiTap5.cs">
       <SubType>Form</SubType>
@@ -428,6 +428,12 @@
     <Compile Include="Phan2\Bai1\BaiTap8.Designer.cs">
       <DependentUpon>BaiTap8.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap9.Designer.cs">
+      <DependentUpon>BaiTap9.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT1%28tieptheo%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -446,24 +452,6 @@
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT12.Designer.cs">
       <DependentUpon>LuyenTapBT12.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.Designer.cs">
-      <DependentUpon>LuyenTapBT4%28tieptheo%29.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.Designer.cs">
-      <DependentUpon>LuyenTapBT4%28tieptheo1%29.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.Designer.cs">
-      <DependentUpon>LuyenTapBT4.cs</DependentUpon>
-    </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT3%28tieptheo%29.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -481,6 +469,24 @@
     </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT3.Designer.cs">
       <DependentUpon>LuyenTapBT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.Designer.cs">
+      <DependentUpon>LuyenTapBT4%28tieptheo%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.Designer.cs">
+      <DependentUpon>LuyenTapBT4%28tieptheo1%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.Designer.cs">
+      <DependentUpon>LuyenTapBT4.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT5%28tieptheo%29.cs">
       <SubType>Form</SubType>
@@ -517,6 +523,12 @@
     </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT8.Designer.cs">
       <DependentUpon>LuyenTapBT8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT9.Designer.cs">
+      <DependentUpon>LuyenTapBT9.cs</DependentUpon>
     </Compile>
     <Compile Include="PHAN3.cs">
       <SubType>Form</SubType>
@@ -889,14 +901,14 @@
     <EmbeddedResource Include="Phan2\Bai1\BaiTap12.resx">
       <DependentUpon>BaiTap12.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan2\Bai1\BaiTap4.resx">
-      <DependentUpon>BaiTap4.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\BaiTap2.resx">
       <DependentUpon>BaiTap2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\BaiTap3.resx">
       <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\BaiTap5.resx">
       <DependentUpon>BaiTap5.cs</DependentUpon>
@@ -910,6 +922,9 @@
     <EmbeddedResource Include="Phan2\Bai1\BaiTap8.resx">
       <DependentUpon>BaiTap8.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap9.resx">
+      <DependentUpon>BaiTap9.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT1%28tieptheo%29.resx">
       <DependentUpon>LuyenTapBT1%28tieptheo%29.cs</DependentUpon>
     </EmbeddedResource>
@@ -919,15 +934,6 @@
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT12.resx">
       <DependentUpon>LuyenTapBT12.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.resx">
-      <DependentUpon>LuyenTapBT4%28tieptheo%29.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.resx">
-      <DependentUpon>LuyenTapBT4%28tieptheo1%29.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.resx">
-      <DependentUpon>LuyenTapBT4.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT3%28tieptheo%29.resx">
       <DependentUpon>LuyenTapBT3%28tieptheo%29.cs</DependentUpon>
     </EmbeddedResource>
@@ -936,6 +942,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT3.resx">
       <DependentUpon>LuyenTapBT3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo%29.resx">
+      <DependentUpon>LuyenTapBT4%28tieptheo%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4%28tieptheo1%29.resx">
+      <DependentUpon>LuyenTapBT4%28tieptheo1%29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT4.resx">
+      <DependentUpon>LuyenTapBT4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT5%28tieptheo%29.resx">
       <DependentUpon>LuyenTapBT5%28tieptheo%29.cs</DependentUpon>
@@ -954,6 +969,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT8.resx">
       <DependentUpon>LuyenTapBT8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT9.resx">
+      <DependentUpon>LuyenTapBT9.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PHAN3.resx">
       <DependentUpon>PHAN3.cs</DependentUpon>
@@ -1107,6 +1125,7 @@
     <Content Include="Images\hinh4.jpg" />
     <Content Include="Images\hinh5.png" />
     <Content Include="Images\hinh6.png" />
+    <Content Include="Images\hinh7.jpg" />
     <Content Include="Resources\1235157360_1235069775_veselii-zajaz.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1131,6 +1150,7 @@
     <None Include="Resources\hinh2.jpg" />
     <None Include="Resources\images.jpg" />
     <None Include="Resources\hinh6.png" />
+    <None Include="Resources\hinh7.jpg" />
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

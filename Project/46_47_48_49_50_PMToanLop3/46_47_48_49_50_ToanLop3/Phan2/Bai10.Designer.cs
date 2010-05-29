@@ -139,6 +139,7 @@
             this.linkLabel1.TabIndex = 284;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Thực Hành";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // groupBox1
             // 
@@ -629,6 +630,7 @@
             this.llbThucHanh.TabIndex = 287;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Luyện Tập";
+            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
             // label1
             // 

@@ -380,6 +380,18 @@
     <Compile Include="Phan2\Bai1\BaiTap1.Designer.cs">
       <DependentUpon>BaiTap1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap10.Designer.cs">
+      <DependentUpon>BaiTap10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\BaiTap11.Designer.cs">
+      <DependentUpon>BaiTap11.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan2\Bai1\BaiTap12.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -445,6 +457,18 @@
     </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT1.Designer.cs">
       <DependentUpon>LuyenTapBT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT10.Designer.cs">
+      <DependentUpon>LuyenTapBT10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT11.Designer.cs">
+      <DependentUpon>LuyenTapBT11.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan2\Bai1\LuyenTap\LuyenTapBT12.cs">
       <SubType>Form</SubType>
@@ -898,6 +922,12 @@
     <EmbeddedResource Include="Phan2\Bai1\BaiTap1.resx">
       <DependentUpon>BaiTap1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap10.resx">
+      <DependentUpon>BaiTap10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\BaiTap11.resx">
+      <DependentUpon>BaiTap11.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\BaiTap12.resx">
       <DependentUpon>BaiTap12.cs</DependentUpon>
     </EmbeddedResource>
@@ -930,6 +960,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT1.resx">
       <DependentUpon>LuyenTapBT1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT10.resx">
+      <DependentUpon>LuyenTapBT10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT11.resx">
+      <DependentUpon>LuyenTapBT11.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan2\Bai1\LuyenTap\LuyenTapBT12.resx">
       <DependentUpon>LuyenTapBT12.cs</DependentUpon>
@@ -1151,6 +1187,7 @@
     <None Include="Resources\images.jpg" />
     <None Include="Resources\hinh6.png" />
     <None Include="Resources\hinh7.jpg" />
+    <None Include="Resources\hinh8.jpg" />
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

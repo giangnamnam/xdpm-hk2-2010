@@ -286,7 +286,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
         }
 
         #endregion
-      
+        #region Bai 3
         private void button3_Click(object sender, EventArgs e)
         {
             lblErrorbt3.Visible = true;
@@ -324,6 +324,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan2.Bai1.LuyenTap
             chk28.Checked = false;
             chk42.Checked = false;
         }
+        #endregion
+       
 
         private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

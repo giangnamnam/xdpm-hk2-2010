@@ -195,6 +195,7 @@
             this.linkLabel2.TabIndex = 351;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Bài Tập";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // label3
             // 
@@ -243,6 +244,7 @@
             this.llbThucHanh.TabIndex = 349;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Luyện Tập";
+            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
             // btnThoat
             // 
@@ -289,7 +291,6 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Bai06";
-            this.Text = "4";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

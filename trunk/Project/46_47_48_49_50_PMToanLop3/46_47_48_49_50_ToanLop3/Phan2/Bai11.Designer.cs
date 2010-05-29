@@ -47,14 +47,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.label21 = new System.Windows.Forms.Label();
             this.btnQuayLaiPhan2 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.llbThucHanh = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -79,8 +79,11 @@
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.pictureBox4);
+            this.groupBox1.Controls.Add(this.label18);
             this.groupBox1.Controls.Add(this.pictureBox3);
+            this.groupBox1.Controls.Add(this.linkLabel2);
             this.groupBox1.Controls.Add(this.pictureBox2);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.label14);
@@ -96,9 +99,6 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label11);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label15);
-            this.groupBox1.Controls.Add(this.label16);
-            this.groupBox1.Controls.Add(this.linkLabel1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(173, 88);
             this.groupBox1.Name = "groupBox1";
@@ -298,43 +298,6 @@
             this.label4.Text = "*  Hàng trên : 6 cây kẹo \r\n    Hàng dưới : 6 : 3 =2 (cây kẹo)\r\n\r\n    Số con gà ở " +
                 "hàng trên giảm 3 lần\r\n    thì dược số cây kẹo ở hàng dưới.";
             // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.Color.Transparent;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Black;
-            this.label15.Location = new System.Drawing.Point(462, 435);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(158, 24);
-            this.label15.TabIndex = 286;
-            this.label15.Text = "Để Làm Bài Tập";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Black;
-            this.label16.Location = new System.Drawing.Point(263, 435);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(94, 24);
-            this.label16.TabIndex = 285;
-            this.label16.Text = "Bấm Vào";
-            // 
-            // linkLabel1
-            // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.linkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.linkLabel1.LinkColor = System.Drawing.Color.Red;
-            this.linkLabel1.Location = new System.Drawing.Point(351, 435);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(114, 24);
-            this.linkLabel1.TabIndex = 284;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Thực Hành";
-            // 
             // label21
             // 
             this.label21.AutoSize = true;
@@ -384,6 +347,7 @@
             this.llbThucHanh.TabIndex = 294;
             this.llbThucHanh.TabStop = true;
             this.llbThucHanh.Text = "Luyện Tập";
+            this.llbThucHanh.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llbThucHanh_LinkClicked);
             // 
             // label1
             // 
@@ -396,6 +360,44 @@
             this.label1.Size = new System.Drawing.Size(335, 25);
             this.label1.TabIndex = 293;
             this.label1.Text = "BÀI 11 : GIẢM ĐI MỘT SỐ LẦN";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(444, 426);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(158, 24);
+            this.label17.TabIndex = 302;
+            this.label17.Text = "Để Làm Bài Tập";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Black;
+            this.label18.Location = new System.Drawing.Point(245, 426);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(94, 24);
+            this.label18.TabIndex = 301;
+            this.label18.Text = "Bấm Vào";
+            // 
+            // linkLabel2
+            // 
+            this.linkLabel2.AutoSize = true;
+            this.linkLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.linkLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel2.LinkColor = System.Drawing.Color.Red;
+            this.linkLabel2.Location = new System.Drawing.Point(333, 426);
+            this.linkLabel2.Name = "linkLabel2";
+            this.linkLabel2.Size = new System.Drawing.Size(114, 24);
+            this.linkLabel2.TabIndex = 300;
+            this.linkLabel2.TabStop = true;
+            this.linkLabel2.Text = "Thực Hành";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // Bai11
             // 
@@ -429,9 +431,6 @@
 
         private System.Windows.Forms.Button btnThoat;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Button btnQuayLaiPhan2;
         private System.Windows.Forms.Label label22;
@@ -454,6 +453,9 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.LinkLabel linkLabel2;
 
     }
 }

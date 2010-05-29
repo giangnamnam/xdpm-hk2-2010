@@ -100,5 +100,17 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             this.Close();
         }
+
+        private void llbThucHanh_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Bai1.LuyenTap.LuyenTapBT10 frm= new Bai1.LuyenTap.LuyenTapBT10();
+            frm.ShowDialog();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Bai1.BaiTap10 frm = new Bai1.BaiTap10();
+            frm.ShowDialog();
+        }
     }
 }

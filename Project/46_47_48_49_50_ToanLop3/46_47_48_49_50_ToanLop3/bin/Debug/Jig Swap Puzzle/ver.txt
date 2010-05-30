@@ -1,0 +1,10 @@
+version 1.03
+1. Add promo screens
+
+version 1.02
+1. Fix bug with WinXP + SP2
+
+version 1.01
+1. Add continue
+
+version 1.0

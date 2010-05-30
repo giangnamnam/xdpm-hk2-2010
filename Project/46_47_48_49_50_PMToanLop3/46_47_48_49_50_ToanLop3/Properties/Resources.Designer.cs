@@ -136,5 +136,26 @@ namespace _46_47_48_49_50_ToanLop3.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        internal static System.Drawing.Bitmap nen_cac_form_con_lai {
+            get {
+                object obj = ResourceManager.GetObject("nen cac form con lai", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap nen_spalsn {
+            get {
+                object obj = ResourceManager.GetObject("nen spalsn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Thong_tin_dang_nhap {
+            get {
+                object obj = ResourceManager.GetObject("Thong tin dang nhap", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

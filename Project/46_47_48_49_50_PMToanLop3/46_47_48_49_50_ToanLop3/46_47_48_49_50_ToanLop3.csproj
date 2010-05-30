@@ -74,6 +74,12 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.Designer.cs">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </Compile>
     <Compile Include="PHAN1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -809,6 +815,9 @@
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resx">
+      <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MucLuc.resx">
       <DependentUpon>MucLuc.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -1201,6 +1210,9 @@
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <None Include="Resources\nen spalsn.JPG" />
+    <None Include="Resources\nen cac form con lai.png" />
+    <None Include="Resources\Thong tin dang nhap.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Phan1\Bai4\" />

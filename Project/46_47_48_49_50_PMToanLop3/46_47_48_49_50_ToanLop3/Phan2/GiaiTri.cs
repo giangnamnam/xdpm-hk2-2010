@@ -44,12 +44,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
 
         private void GiaiTri_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult answer = MessageBox.Show("Bạn Có Muốn Thoát?", "Thông Báo",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (answer == DialogResult.No)
-            {
-                Application.Exit();
-            }
+
         }
     }
 }

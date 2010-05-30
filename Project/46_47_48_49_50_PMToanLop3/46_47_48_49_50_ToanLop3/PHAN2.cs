@@ -203,12 +203,7 @@ namespace _46_47_48_49_50_ToanLop3
 
         private void PHAN2_FormClosing(object sender, FormClosingEventArgs e)
         {
-            DialogResult answer = MessageBox.Show("Bạn Có Muốn Thoát?", "Thông Báo",
-                MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if (answer == DialogResult.No)
-            {
-                Application.Exit();
-            }
+
         }
     }
 }

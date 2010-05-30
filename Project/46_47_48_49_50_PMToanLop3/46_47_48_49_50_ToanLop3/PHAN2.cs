@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace _46_47_48_49_50_ToanLop3
 {
@@ -192,6 +193,12 @@ namespace _46_47_48_49_50_ToanLop3
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnGiaiTri_Click(object sender, EventArgs e)
+        {
+            Phan2.GiaiTri frm = new Phan2.GiaiTri();
+            frm.ShowDialog();
         }
     }
 }

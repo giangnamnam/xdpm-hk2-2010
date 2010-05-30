@@ -28,9 +28,12 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "phan2")
                 {
-                   
+                    MucLuc frm1 = new MucLuc();
+                    frm1.Close();
                     PHAN2 frm = new PHAN2();
                     frm.ShowDialog();
+                    
+                    
                     
                 }
                 if (pathName == "phan3")

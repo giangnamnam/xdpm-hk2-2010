@@ -28,85 +28,85 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewItem listViewItem55 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Bài 01"),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "BẢNG NHÂN 6", System.Drawing.SystemColors.WindowText, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
-            System.Windows.Forms.ListViewItem listViewItem56 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 02",
             "NHÂN SỐ CÓ 2 CHỬ SỐ VỚI SỐ CÓ 1 CHỬ SỐ (Không nhớ)"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem57 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
+            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new System.Windows.Forms.ListViewItem.ListViewSubItem[] {
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "Bài 03"),
             new System.Windows.Forms.ListViewItem.ListViewSubItem(null, "NHÂN SỐ CÓ HAI CHỬ SỐ VỚI SỚ CÓ 1 CHỬ SỐ (Có Nhớ)", System.Drawing.SystemColors.WindowFrame, System.Drawing.SystemColors.Window, new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0))))}, -1);
-            System.Windows.Forms.ListViewItem listViewItem58 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 04",
             "BẢNG CHIA 6"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem59 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem5 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 05",
             "TÌM MỘT TRONG CÁC PHẦN BẰNG NHAU CỦA MỘT SỐ"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem60 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem6 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 06",
             "CHIA SỐ CÓ HAI CHỬ SỐ CHO SỐ CÓ MỘT CHỪ SỐ"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem61 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem7 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 07",
             "PHÉP CHIA HẾT VÀ PHÉP CHIA CÓ DƯ"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem62 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem8 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 08",
             "BẢNG NHÂN 7"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem63 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem9 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 09",
             "GẤP MỘT SỐ LÊN NHIỀU LẦN"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem64 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem10 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 10",
             "BẢNG CHIA 7"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem65 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem11 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 11",
             "GIẢM ĐI MỘT SỐ LẦN"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem66 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem12 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 12",
             "TÌM SỐ CHIA"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem67 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem13 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 13",
             "GÓC VUÔNG GÓC KHÔNG VUÔNG"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem68 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem14 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 14",
             "ĐƠN VỊ ĐO ĐỘ DÀI"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem69 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem15 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 15",
             "LUYỆN TẬP CHUNG"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem70 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem16 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 16",
             "BÀI TOÁN GIẢI BẰNG HAI PHÉP TÍNH"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem71 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem17 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 17",
             "BẢNG NHÂN 8"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem72 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem18 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 18",
             "BẢNG CHIA 8"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem73 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem19 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 19",
             "SO SÁNH SỐ LƠN GẤP MẤY LẦN SỐ BÉ VÀ NGƯỢC LẠI"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem74 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem20 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 20",
             "BẢNG NHÂN 9"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem75 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem21 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 21",
             "GAM"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem76 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem22 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 22",
             "BẢNG CHIA 9"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem77 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem23 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 23",
             "CHIA SỐ CÓ BA CHỬ SỐ CHO SỐ CÓ MỘT CHỬ SỐ"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem78 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem24 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 25",
             "GIỚI THIỆU BẢNG CHIA"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem79 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem25 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 24",
             "GIỚI THIỆU BẢNG NHÂN"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem80 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem26 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 26",
             "LÀM QUEN VÀ TÍNH GIÁ TRỊ CỦA BIẾU THỨC"}, -1);
-            System.Windows.Forms.ListViewItem listViewItem81 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem27 = new System.Windows.Forms.ListViewItem(new string[] {
             "Bài 27",
             "HÌNH VUÔNG VÀ HÌNH CHỮ NHẬT"}, -1);
             this.label1 = new System.Windows.Forms.Label();
@@ -146,71 +146,71 @@
             this.ListView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ListView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ListView1.ForeColor = System.Drawing.Color.Black;
-            listViewItem55.Checked = true;
-            listViewItem55.StateImageIndex = 1;
-            listViewItem55.Tag = "bai1";
-            listViewItem56.Checked = true;
-            listViewItem56.StateImageIndex = 1;
-            listViewItem56.Tag = "bai2";
-            listViewItem57.Checked = true;
-            listViewItem57.StateImageIndex = 1;
-            listViewItem57.Tag = "bai3";
-            listViewItem58.Tag = "bai4";
-            listViewItem59.Tag = "bai5";
-            listViewItem60.Checked = true;
-            listViewItem60.StateImageIndex = 1;
-            listViewItem60.Tag = "bai6";
-            listViewItem61.Checked = true;
-            listViewItem61.StateImageIndex = 1;
-            listViewItem61.Tag = "bai7";
-            listViewItem62.Tag = "bai8";
-            listViewItem63.Tag = "bai9";
-            listViewItem64.Tag = "bai10";
-            listViewItem65.Tag = "bai11";
-            listViewItem66.Tag = "bai12";
-            listViewItem67.Tag = "bai13";
-            listViewItem68.Tag = "bai14";
-            listViewItem69.Tag = "bai15";
-            listViewItem70.Tag = "bai16";
-            listViewItem71.Tag = "bai17";
-            listViewItem72.Tag = "bai18";
-            listViewItem73.Tag = "bai19";
-            listViewItem74.Tag = "bai20";
-            listViewItem75.Tag = "bai21";
-            listViewItem76.Tag = "bai22";
-            listViewItem77.Tag = "bai23";
-            listViewItem78.Tag = "bai25";
-            listViewItem79.Tag = "bai24";
-            listViewItem80.Tag = "bai26";
-            listViewItem81.Tag = "bai27";
+            listViewItem1.Checked = true;
+            listViewItem1.StateImageIndex = 1;
+            listViewItem1.Tag = "bai1";
+            listViewItem2.Checked = true;
+            listViewItem2.StateImageIndex = 1;
+            listViewItem2.Tag = "bai2";
+            listViewItem3.Checked = true;
+            listViewItem3.StateImageIndex = 1;
+            listViewItem3.Tag = "bai3";
+            listViewItem4.Tag = "bai4";
+            listViewItem5.Tag = "bai5";
+            listViewItem6.Checked = true;
+            listViewItem6.StateImageIndex = 1;
+            listViewItem6.Tag = "bai6";
+            listViewItem7.Checked = true;
+            listViewItem7.StateImageIndex = 1;
+            listViewItem7.Tag = "bai7";
+            listViewItem8.Tag = "bai8";
+            listViewItem9.Tag = "bai9";
+            listViewItem10.Tag = "bai10";
+            listViewItem11.Tag = "bai11";
+            listViewItem12.Tag = "bai12";
+            listViewItem13.Tag = "bai13";
+            listViewItem14.Tag = "bai14";
+            listViewItem15.Tag = "bai15";
+            listViewItem16.Tag = "bai16";
+            listViewItem17.Tag = "bai17";
+            listViewItem18.Tag = "bai18";
+            listViewItem19.Tag = "bai19";
+            listViewItem20.Tag = "bai20";
+            listViewItem21.Tag = "bai21";
+            listViewItem22.Tag = "bai22";
+            listViewItem23.Tag = "bai23";
+            listViewItem24.Tag = "bai25";
+            listViewItem25.Tag = "bai24";
+            listViewItem26.Tag = "bai26";
+            listViewItem27.Tag = "bai27";
             this.ListView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem55,
-            listViewItem56,
-            listViewItem57,
-            listViewItem58,
-            listViewItem59,
-            listViewItem60,
-            listViewItem61,
-            listViewItem62,
-            listViewItem63,
-            listViewItem64,
-            listViewItem65,
-            listViewItem66,
-            listViewItem67,
-            listViewItem68,
-            listViewItem69,
-            listViewItem70,
-            listViewItem71,
-            listViewItem72,
-            listViewItem73,
-            listViewItem74,
-            listViewItem75,
-            listViewItem76,
-            listViewItem77,
-            listViewItem78,
-            listViewItem79,
-            listViewItem80,
-            listViewItem81});
+            listViewItem1,
+            listViewItem2,
+            listViewItem3,
+            listViewItem4,
+            listViewItem5,
+            listViewItem6,
+            listViewItem7,
+            listViewItem8,
+            listViewItem9,
+            listViewItem10,
+            listViewItem11,
+            listViewItem12,
+            listViewItem13,
+            listViewItem14,
+            listViewItem15,
+            listViewItem16,
+            listViewItem17,
+            listViewItem18,
+            listViewItem19,
+            listViewItem20,
+            listViewItem21,
+            listViewItem22,
+            listViewItem23,
+            listViewItem24,
+            listViewItem25,
+            listViewItem26,
+            listViewItem27});
             this.ListView1.Location = new System.Drawing.Point(3, 22);
             this.ListView1.Name = "ListView1";
             this.ListView1.Size = new System.Drawing.Size(853, 603);
@@ -306,7 +306,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1366, 744);
+            this.ClientSize = new System.Drawing.Size(1362, 742);
             this.Controls.Add(this.btnGiaiTri);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
@@ -316,6 +316,7 @@
             this.Name = "PHAN2";
             this.Text = "Mục Lục";
             this.Load += new System.EventHandler(this.PHAN2_Load);
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PHAN2_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

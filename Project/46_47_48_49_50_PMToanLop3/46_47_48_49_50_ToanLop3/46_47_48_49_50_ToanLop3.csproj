@@ -1197,6 +1197,7 @@
     <None Include="Resources\hinh6.png" />
     <None Include="Resources\hinh7.jpg" />
     <None Include="Resources\hinh8.jpg" />
+    <None Include="Resources\hinh9.jpg" />
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

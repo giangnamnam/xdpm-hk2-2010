@@ -31,6 +31,7 @@ namespace _46_47_48_49_50_ToanLop3
                 MucLuc frmMucLuc = new MucLuc();
                 frmMucLuc.ShowDialog();
                 this.Close();
+                this.Hide();
                
             }
         }

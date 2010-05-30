@@ -316,7 +316,6 @@
             this.Name = "PHAN2";
             this.Text = "Mục Lục";
             this.Load += new System.EventHandler(this.PHAN2_Load);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.PHAN2_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

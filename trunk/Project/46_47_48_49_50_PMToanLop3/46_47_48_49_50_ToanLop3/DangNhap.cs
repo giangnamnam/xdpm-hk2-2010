@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace _46_47_48_49_50_ToanLop3
 {
@@ -26,10 +27,11 @@ namespace _46_47_48_49_50_ToanLop3
             }
             else
             {
+               
                 MucLuc frmMucLuc = new MucLuc();
-                this.Hide();
                 frmMucLuc.ShowDialog();
                 this.Close();
+               
             }
         }
 
@@ -38,8 +40,21 @@ namespace _46_47_48_49_50_ToanLop3
             DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.OK)
             {
-                this.Close();
+                Application.Exit();
             }
+        }
+
+        private void DangNhap_Load(object sender, EventArgs e)
+        {
+            Thread th = new Thread(new ThreadStart(GoiFormGioiThieu));
+            th.Start();
+            Thread.Sleep(1500);
+            th.Abort();
+        }
+        void GoiFormGioiThieu()
+        {
+            frmSplash frm = new frmSplash();
+            frm.ShowDialog();
         }
     }
 }

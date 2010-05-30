@@ -87,7 +87,6 @@
             this.Name = "GiaiTri";
             this.Text = "Gải Trí";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GiaiTri_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

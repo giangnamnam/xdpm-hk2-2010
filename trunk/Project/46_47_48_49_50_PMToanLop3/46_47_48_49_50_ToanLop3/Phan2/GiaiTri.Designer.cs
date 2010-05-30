@@ -30,19 +30,19 @@
         {
             this.btnGiaiTri = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnGiaiTri
             // 
             this.btnGiaiTri.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnGiaiTri.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh9;
             this.btnGiaiTri.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnGiaiTri.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaiTri.ForeColor = System.Drawing.Color.Black;
-            this.btnGiaiTri.Location = new System.Drawing.Point(89, 101);
+            this.btnGiaiTri.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGiaiTri.ForeColor = System.Drawing.Color.Yellow;
+            this.btnGiaiTri.Location = new System.Drawing.Point(63, 101);
             this.btnGiaiTri.Name = "btnGiaiTri";
-            this.btnGiaiTri.Size = new System.Drawing.Size(141, 45);
+            this.btnGiaiTri.Size = new System.Drawing.Size(173, 113);
             this.btnGiaiTri.TabIndex = 32;
             this.btnGiaiTri.Text = "Xếp Gạch";
             this.btnGiaiTri.UseVisualStyleBackColor = false;
@@ -59,20 +59,6 @@
             this.label1.Size = new System.Drawing.Size(251, 25);
             this.label1.TabIndex = 33;
             this.label1.Text = "CHỌN GAME GIẢI TRÍ ";
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(590, 489);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(141, 45);
-            this.button1.TabIndex = 35;
-            this.button1.Text = "Quay Lại";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnThoat
             // 
@@ -95,13 +81,13 @@
             this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(921, 547);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnGiaiTri);
             this.Name = "GiaiTri";
             this.Text = "Gải Trí";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GiaiTri_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,7 +97,6 @@
 
         private System.Windows.Forms.Button btnGiaiTri;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnThoat;
     }
 }

@@ -36,5 +36,20 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
             this.Close();
         }
+
+        private void btnBanTrung_Click(object sender, EventArgs e)
+        {
+            Process.Start("");
+        }
+
+        private void GiaiTri_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult answer = MessageBox.Show("Bạn Có Muốn Thoát?", "Thông Báo",
+                MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (answer == DialogResult.No)
+            {
+                Application.Exit();
+            }
+        }
     }
 }

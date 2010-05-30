@@ -182,7 +182,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
                 int temp1, temp2;
                 temp1 = int.Parse(txtSBC.Text);
                 temp2 = int.Parse(txtSC.Text);
-                if (temp1 >= 10000 && temp1 < 100000 && temp2 < 10)
+                if (temp1 >= 10000 && temp1 < 100000 && temp2 < 10 && temp2 > 0)
                 {
                     // MessageBox.Show("đầu vào OK");
                     txtB0.Text = "";
@@ -291,8 +291,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
                     {
                         if (temp1 < 10000 || temp1 > 100000)
                             MessageBox.Show("số bị chia phải là số có 5 chữ số");
-                        else if (temp2 >= 10)
-                            MessageBox.Show("số chia phải là số có 1 chữ số");
+                        else if (temp2 >= 10 || temp2 <=0)
+                            MessageBox.Show("số chia phải là số có 1 chữ số và khác 0");
                     }
                 }
             }
@@ -309,9 +309,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
 
         private void btnLuyenTap_Click(object sender, EventArgs e)
         {
-            PHAN4_13 frmLTC = new PHAN4_13();
+            //PHAN4_13 frmLTC = new PHAN4_13();
+            Bai7_LuyenTap frmLT = new Bai7_LuyenTap();
             this.Hide();
-            frmLTC.ShowDialog();
+            frmLT.ShowDialog();
             this.Close();
         }
     }

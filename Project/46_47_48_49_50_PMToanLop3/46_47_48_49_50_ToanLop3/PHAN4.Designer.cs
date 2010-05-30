@@ -76,8 +76,8 @@
             listViewItem4.Tag = "bai3";
             listViewItem5.Tag = "bai4";
             listViewItem6.Tag = "bai5";
-            listViewItem7.Tag = "bai5";
-            listViewItem8.Tag = "bai6";
+            listViewItem7.Tag = "bai6";
+            listViewItem8.Tag = "bai7";
             listViewItem9.Tag = "bai8";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,

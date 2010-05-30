@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2504D51C-E490-4099-A5E3-BA6F26A07124}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -752,6 +752,18 @@
     <Compile Include="Phan4\Bai2.Designer.cs">
       <DependentUpon>Bai2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan4\Bai6_LuyenTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai6_LuyenTap.Designer.cs">
+      <DependentUpon>Bai6_LuyenTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan4\Bai7_LuyenTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai7_LuyenTap.Designer.cs">
+      <DependentUpon>Bai7_LuyenTap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan4\DAO\PhepTinhDAO.cs" />
     <Compile Include="Phan4\DAO\So5ChuSoDAO.cs" />
     <Compile Include="Phan4\DTO\PhepTinhDTO.cs" />
@@ -1299,8 +1311,16 @@
       <DependentUpon>Bai6.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan4\Bai6_LuyenTap.resx">
+      <DependentUpon>Bai6_LuyenTap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai7.resx">
       <DependentUpon>Bai7.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan4\Bai7_LuyenTap.resx">
+      <DependentUpon>Bai7_LuyenTap.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai8.resx">

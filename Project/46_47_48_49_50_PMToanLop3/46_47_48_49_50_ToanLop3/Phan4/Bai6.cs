@@ -240,10 +240,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
 
         private void btnLT_Click(object sender, EventArgs e)
         {
-
-            PHAN4_13 frmLTC = new PHAN4_13();
+            Bai6_LuyenTap frmLT = new Bai6_LuyenTap();
+            //PHAN4_13 frmLTC = new PHAN4_13();
             this.Hide();
-            frmLTC.ShowDialog();
+            frmLT.ShowDialog();
             this.Close();
         }
     }

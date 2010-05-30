@@ -48,6 +48,7 @@
             this.btKiemtra = new System.Windows.Forms.Button();
             this.btLamlai = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
+            this.lbLoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbvl12
@@ -156,6 +157,7 @@
             this.btHoanThanh.TabIndex = 20;
             this.btHoanThanh.Text = "&Làm xong";
             this.btHoanThanh.UseVisualStyleBackColor = false;
+            this.btHoanThanh.Click += new System.EventHandler(this.btHoanThanh_Click);
             // 
             // label3
             // 
@@ -198,6 +200,7 @@
             this.btKiemtra.TabIndex = 33;
             this.btKiemtra.Text = "&Xem kết quả";
             this.btKiemtra.UseVisualStyleBackColor = false;
+            this.btKiemtra.Click += new System.EventHandler(this.btKiemtra_Click);
             // 
             // btLamlai
             // 
@@ -209,6 +212,7 @@
             this.btLamlai.TabIndex = 34;
             this.btLamlai.Text = "&Làm lại";
             this.btLamlai.UseVisualStyleBackColor = false;
+            this.btLamlai.Click += new System.EventHandler(this.btLamlai_Click);
             // 
             // btThoat
             // 
@@ -222,6 +226,16 @@
             this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
+            // lbLoi
+            // 
+            this.lbLoi.AutoSize = true;
+            this.lbLoi.BackColor = System.Drawing.Color.Transparent;
+            this.lbLoi.Location = new System.Drawing.Point(241, 210);
+            this.lbLoi.Name = "lbLoi";
+            this.lbLoi.Size = new System.Drawing.Size(35, 13);
+            this.lbLoi.TabIndex = 36;
+            this.lbLoi.Text = "label4";
+            // 
             // BaiTap5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -229,6 +243,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Controls.Add(this.lbLoi);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btLamlai);
             this.Controls.Add(this.btKiemtra);
@@ -250,6 +265,7 @@
             this.Controls.Add(this.label1);
             this.Name = "BaiTap5";
             this.Size = new System.Drawing.Size(757, 407);
+            this.Load += new System.EventHandler(this.BaiTap5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -276,6 +292,7 @@
         private System.Windows.Forms.Button btKiemtra;
         private System.Windows.Forms.Button btLamlai;
         private System.Windows.Forms.Button btThoat;
+        private System.Windows.Forms.Label lbLoi;
 
     }
 }

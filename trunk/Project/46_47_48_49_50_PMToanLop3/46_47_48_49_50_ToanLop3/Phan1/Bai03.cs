@@ -31,7 +31,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan1
             UserCT[2] = new Phan1.Bai3.BaiTap3();
             UserCT[3] = new Phan1.Bai3.BaiTap4();
             UserCT[4] = new Phan1.Bai3.BaiTap5();
-            UserCT[5] = new Phan1.Bai3.LuyemTap();
+            UserCT[5] = new Phan1.Bai3.LuyenTap();
             UserCT[6] = new Phan1.Bai3.LyThuyet();
             for (int i = 0; i < nUserCT; i++)
             {

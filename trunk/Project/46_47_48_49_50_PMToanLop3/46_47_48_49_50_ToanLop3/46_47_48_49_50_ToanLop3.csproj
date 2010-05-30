@@ -284,17 +284,185 @@
     <Compile Include="Phan1\Bai3\BaiTap5.Designer.cs">
       <DependentUpon>BaiTap5.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan1\Bai3\LuyemTap.cs">
+    <Compile Include="Phan1\Bai3\LuyenTap.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Phan1\Bai3\LuyemTap.Designer.cs">
-      <DependentUpon>LuyemTap.cs</DependentUpon>
+    <Compile Include="Phan1\Bai3\LuyenTap.designer.cs">
+      <DependentUpon>LuyenTap.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan1\Bai3\LyThuyet.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Phan1\Bai3\LyThuyet.Designer.cs">
       <DependentUpon>LyThuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai4\BaiTap12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai4\BaiTap12.designer.cs">
+      <DependentUpon>BaiTap12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai4\BaiTap34.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai4\BaiTap34.designer.cs">
+      <DependentUpon>BaiTap34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai4\LuyenTap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai4\LuyenTap.designer.cs">
+      <DependentUpon>LuyenTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai4\LyThuyet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai4\LyThuyet.designer.cs">
+      <DependentUpon>LyThuyet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap1.designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap2.designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap3.designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai7\BaiTap4.designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap1.designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap2.designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap3.designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai8\BaiTap4.designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap1.designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap2.designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap3.designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai9\BaiTap4.designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap1.designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap2.designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap3.designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_10\BaiTap4.designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap1.designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap2.designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap3.designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_11\BaiTap4.designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap1.designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap2.designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap3.designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Phan1\Bai_12\BaiTap4.designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan1\MucLuc1.cs">
       <SubType>UserControl</SubType>
@@ -798,12 +966,6 @@
     <Compile Include="Phan5\Các Số Đến 100 000.designer.cs">
       <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\HinhHoc\Bai1_174.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan5\HinhHoc\Bai1_174.Designer.cs">
-      <DependentUpon>Bai1_174.cs</DependentUpon>
-    </Compile>
     <Compile Include="Phan5\OnTapHinhHoc\Bai1_174.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -835,6 +997,20 @@
     <EmbeddedResource Include="Phan1\Bai03.resx">
       <DependentUpon>Bai03.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai05.resx">
+      <DependentUpon>Bai05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai07.resx">
+      <DependentUpon>Bai07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai08.resx" />
+    <EmbeddedResource Include="Phan1\Bai09.resx" />
+    <EmbeddedResource Include="Phan1\Bai10.resx" />
+    <EmbeddedResource Include="Phan1\Bai11.resx" />
+    <EmbeddedResource Include="Phan1\Bai12.resx" />
     <EmbeddedResource Include="Phan1\Bai15.resx">
       <DependentUpon>Bai15.cs</DependentUpon>
     </EmbeddedResource>
@@ -886,11 +1062,95 @@
     <EmbeddedResource Include="Phan1\Bai3\BaiTap5.resx">
       <DependentUpon>BaiTap5.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan1\Bai3\LuyemTap.resx">
-      <DependentUpon>LuyemTap.cs</DependentUpon>
+    <EmbeddedResource Include="Phan1\Bai3\LuyenTap.resx">
+      <DependentUpon>LuyenTap.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan1\Bai3\LyThuyet.resx">
       <DependentUpon>LyThuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai4\BaiTap12.resx">
+      <DependentUpon>BaiTap12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai4\BaiTap34.resx">
+      <DependentUpon>BaiTap34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai4\LuyenTap.resx">
+      <DependentUpon>LuyenTap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai4\LyThuyet.resx">
+      <DependentUpon>LyThuyet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai7\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai7\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai7\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai7\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai8\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai8\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai8\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai8\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai9\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai9\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai9\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai9\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_10\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_10\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_10\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_10\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_11\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_11\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_11\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_11\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_12\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_12\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_12\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan1\Bai_12\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan1\MucLuc1.resx">
       <DependentUpon>MucLuc1.cs</DependentUpon>
@@ -1149,9 +1409,6 @@
     <EmbeddedResource Include="Phan5\Các Số Đến 100 000.resx">
       <DependentUpon>Các Số Đến 100 000.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\HinhHoc\Bai1_174.resx">
-      <DependentUpon>Bai1_174.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -1215,10 +1472,10 @@
     <None Include="Resources\Thong tin dang nhap.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Phan1\Bai4\" />
     <Folder Include="Phan3\AmThanh\" />
     <Folder Include="Phan3\HinhAnh\" />
     <Folder Include="Phan5\Bai2\" />
+    <Folder Include="Phan5\HinhHoc\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

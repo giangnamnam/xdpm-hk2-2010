@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
 {
-    public partial class Bai1_174 : Form
+    public partial class Bai1 : Form
     {
-        public Bai1_174()
+        public Bai1()
         {
             InitializeComponent();
         }

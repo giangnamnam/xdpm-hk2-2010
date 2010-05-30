@@ -30,13 +30,26 @@
   </target>
   
   <target name="zip">
-    <zip zipfile="build_new.zip">
+    <zip zipfile="build.zip">
       <fileset basedir="${release.dir}">
         <include name="*.dll" />
         <include name="*.exe" />
      
       </fileset>
     </zip>
+  </target>
+  
+  <target name="mail"  depends="zip">
+    <mail 
+    from="lequochao@gmail.com" 
+    tolist="nnlam.khtn@gmail.com,vanduoc0012@gmail.com,caocuong.0801@gmail.com,ntv.vincent@gmail.com,zzronn@gmail.com,copecnic@gmail.com" 
+    subject="Build file is first" 
+    mailhost="mail.google.com"
+    message="chung ta da build thanh cong Do An Phan mem hoc toan lop 3!" >
+      <attachments>
+        <include name="build.zip" />
+      </attachments>
+    </mail>
   </target>
   
  

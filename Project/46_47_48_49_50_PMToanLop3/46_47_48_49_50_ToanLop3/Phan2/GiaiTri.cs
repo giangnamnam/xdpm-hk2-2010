@@ -46,5 +46,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan2
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -35,7 +35,7 @@
             this.btBaiTap3 = new System.Windows.Forms.Button();
             this.btBaiTap2 = new System.Windows.Forms.Button();
             this.btBaiTap1 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btLuyenTap = new System.Windows.Forms.Button();
             this.btLyThuyet = new System.Windows.Forms.Button();
             this.btBaiTap5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -73,79 +73,86 @@
             // 
             // btBaiTap4
             // 
+            this.btBaiTap4.BackColor = System.Drawing.Color.White;
             this.btBaiTap4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBaiTap4.Location = new System.Drawing.Point(440, 57);
             this.btBaiTap4.Name = "btBaiTap4";
             this.btBaiTap4.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap4.TabIndex = 12;
             this.btBaiTap4.Text = "&Bài Tập 4";
-            this.btBaiTap4.UseVisualStyleBackColor = true;
+            this.btBaiTap4.UseVisualStyleBackColor = false;
             this.btBaiTap4.Click += new System.EventHandler(this.btBaiTap4_Click);
             // 
             // btBaiTap3
             // 
+            this.btBaiTap3.BackColor = System.Drawing.Color.White;
             this.btBaiTap3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBaiTap3.Location = new System.Drawing.Point(348, 57);
             this.btBaiTap3.Name = "btBaiTap3";
             this.btBaiTap3.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap3.TabIndex = 11;
             this.btBaiTap3.Text = "&Bài Tập 3";
-            this.btBaiTap3.UseVisualStyleBackColor = true;
+            this.btBaiTap3.UseVisualStyleBackColor = false;
             this.btBaiTap3.Click += new System.EventHandler(this.btBaiTap3_Click);
             // 
             // btBaiTap2
             // 
+            this.btBaiTap2.BackColor = System.Drawing.Color.White;
             this.btBaiTap2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBaiTap2.Location = new System.Drawing.Point(256, 57);
             this.btBaiTap2.Name = "btBaiTap2";
             this.btBaiTap2.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap2.TabIndex = 10;
             this.btBaiTap2.Text = "&Bài Tập 2";
-            this.btBaiTap2.UseVisualStyleBackColor = true;
+            this.btBaiTap2.UseVisualStyleBackColor = false;
             this.btBaiTap2.Click += new System.EventHandler(this.btBaiTap2_Click);
             // 
             // btBaiTap1
             // 
+            this.btBaiTap1.BackColor = System.Drawing.Color.White;
             this.btBaiTap1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBaiTap1.Location = new System.Drawing.Point(164, 57);
             this.btBaiTap1.Name = "btBaiTap1";
             this.btBaiTap1.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap1.TabIndex = 9;
             this.btBaiTap1.Text = "&Bài Tập 1";
-            this.btBaiTap1.UseVisualStyleBackColor = true;
+            this.btBaiTap1.UseVisualStyleBackColor = false;
             this.btBaiTap1.Click += new System.EventHandler(this.btBaiTap1_Click);
             // 
-            // button1
+            // btLuyenTap
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.button1.Location = new System.Drawing.Point(624, 57);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 36);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "&Luyện tập";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btLuyenTap.BackColor = System.Drawing.Color.White;
+            this.btLuyenTap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.btLuyenTap.Location = new System.Drawing.Point(624, 57);
+            this.btLuyenTap.Name = "btLuyenTap";
+            this.btLuyenTap.Size = new System.Drawing.Size(86, 36);
+            this.btLuyenTap.TabIndex = 18;
+            this.btLuyenTap.Text = "&Luyện tập";
+            this.btLuyenTap.UseVisualStyleBackColor = false;
+            this.btLuyenTap.Click += new System.EventHandler(this.button1_Click);
             // 
             // btLyThuyet
             // 
+            this.btLyThuyet.BackColor = System.Drawing.Color.White;
             this.btLyThuyet.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btLyThuyet.Location = new System.Drawing.Point(71, 57);
             this.btLyThuyet.Name = "btLyThuyet";
             this.btLyThuyet.Size = new System.Drawing.Size(87, 36);
             this.btLyThuyet.TabIndex = 19;
             this.btLyThuyet.Text = "&Lý thuyết";
-            this.btLyThuyet.UseVisualStyleBackColor = true;
+            this.btLyThuyet.UseVisualStyleBackColor = false;
             this.btLyThuyet.Click += new System.EventHandler(this.btLyThuyet_Click);
             // 
             // btBaiTap5
             // 
+            this.btBaiTap5.BackColor = System.Drawing.Color.White;
             this.btBaiTap5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btBaiTap5.Location = new System.Drawing.Point(532, 57);
             this.btBaiTap5.Name = "btBaiTap5";
             this.btBaiTap5.Size = new System.Drawing.Size(86, 36);
             this.btBaiTap5.TabIndex = 13;
             this.btBaiTap5.Text = "&Bài Tập 5";
-            this.btBaiTap5.UseVisualStyleBackColor = true;
+            this.btBaiTap5.UseVisualStyleBackColor = false;
             this.btBaiTap5.Click += new System.EventHandler(this.btBaiTap5_Click);
             // 
             // Bai03
@@ -154,7 +161,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.btBaiTap5);
             this.Controls.Add(this.btLyThuyet);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btLuyenTap);
             this.Controls.Add(this.pnBai1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -179,7 +186,7 @@
         private System.Windows.Forms.Button btBaiTap3;
         private System.Windows.Forms.Button btBaiTap2;
         private System.Windows.Forms.Button btBaiTap1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btLuyenTap;
         private System.Windows.Forms.Button btLyThuyet;
         private System.Windows.Forms.Button btBaiTap5;
 

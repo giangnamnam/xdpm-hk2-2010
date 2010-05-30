@@ -97,19 +97,21 @@
             // 
             // btThoat
             // 
+            this.btThoat.BackColor = System.Drawing.Color.White;
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.btThoat.Location = new System.Drawing.Point(487, 305);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(82, 29);
             this.btThoat.TabIndex = 30;
             this.btThoat.Text = "&Thoát";
-            this.btThoat.UseVisualStyleBackColor = true;
+            this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
             // LyThuyet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -118,7 +120,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "LyThuyet";
-            this.Size = new System.Drawing.Size(706, 359);
+            this.Size = new System.Drawing.Size(757, 407);
             this.ResumeLayout(false);
             this.PerformLayout();
 

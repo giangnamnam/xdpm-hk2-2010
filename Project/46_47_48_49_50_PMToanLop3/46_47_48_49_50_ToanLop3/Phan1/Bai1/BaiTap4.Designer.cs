@@ -39,6 +39,7 @@
             this.btKiemtra = new System.Windows.Forms.Button();
             this.btLamlai = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
+            this.lbLoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btHoanThanh
@@ -51,6 +52,7 @@
             this.btHoanThanh.TabIndex = 13;
             this.btHoanThanh.Text = "&Làm xong\r\n";
             this.btHoanThanh.UseVisualStyleBackColor = false;
+            this.btHoanThanh.Click += new System.EventHandler(this.btHoanThanh_Click);
             // 
             // tbvl2
             // 
@@ -117,6 +119,7 @@
             this.btKiemtra.TabIndex = 14;
             this.btKiemtra.Text = "&Xem kết quả";
             this.btKiemtra.UseVisualStyleBackColor = false;
+            this.btKiemtra.Click += new System.EventHandler(this.btKiemtra_Click);
             // 
             // btLamlai
             // 
@@ -128,6 +131,7 @@
             this.btLamlai.TabIndex = 15;
             this.btLamlai.Text = "&Làm lại";
             this.btLamlai.UseVisualStyleBackColor = false;
+            this.btLamlai.Click += new System.EventHandler(this.btLamlai_Click);
             // 
             // btThoat
             // 
@@ -141,12 +145,23 @@
             this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
+            // lbLoi
+            // 
+            this.lbLoi.AutoSize = true;
+            this.lbLoi.BackColor = System.Drawing.Color.Transparent;
+            this.lbLoi.Location = new System.Drawing.Point(190, 217);
+            this.lbLoi.Name = "lbLoi";
+            this.lbLoi.Size = new System.Drawing.Size(35, 13);
+            this.lbLoi.TabIndex = 17;
+            this.lbLoi.Text = "label5";
+            // 
             // BaiTap4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.lbLoi);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btLamlai);
             this.Controls.Add(this.btKiemtra);
@@ -160,6 +175,7 @@
             this.DoubleBuffered = true;
             this.Name = "BaiTap4";
             this.Size = new System.Drawing.Size(757, 407);
+            this.Load += new System.EventHandler(this.BaiTap4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,6 +193,7 @@
         private System.Windows.Forms.Button btKiemtra;
         private System.Windows.Forms.Button btLamlai;
         private System.Windows.Forms.Button btThoat;
+        private System.Windows.Forms.Label lbLoi;
 
     }
 }

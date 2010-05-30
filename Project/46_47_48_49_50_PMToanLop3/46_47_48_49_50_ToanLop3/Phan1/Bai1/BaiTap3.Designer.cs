@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaiTap3));
             this.tbHoanThanh = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tbvl6 = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tbvl5 = new System.Windows.Forms.TextBox();
@@ -52,6 +52,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
+            this.lbLoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // tbHoanThanh
@@ -64,6 +65,7 @@
             this.tbHoanThanh.TabIndex = 39;
             this.tbHoanThanh.Text = "&Làm xong";
             this.tbHoanThanh.UseVisualStyleBackColor = false;
+            this.tbHoanThanh.Click += new System.EventHandler(this.tbHoanThanh_Click);
             // 
             // label13
             // 
@@ -75,12 +77,12 @@
             this.label13.TabIndex = 38;
             this.label13.Text = "200 + 40 + 3 ";
             // 
-            // textBox1
+            // tbvl6
             // 
-            this.textBox1.Location = new System.Drawing.Point(387, 205);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(49, 20);
-            this.textBox1.TabIndex = 37;
+            this.tbvl6.Location = new System.Drawing.Point(387, 205);
+            this.tbvl6.Name = "tbvl6";
+            this.tbvl6.Size = new System.Drawing.Size(49, 20);
+            this.tbvl6.TabIndex = 37;
             // 
             // label12
             // 
@@ -249,6 +251,7 @@
             this.button1.TabIndex = 40;
             this.button1.Text = "&Xem kết quả";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -260,6 +263,7 @@
             this.button2.TabIndex = 41;
             this.button2.Text = "&Làm lại";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // btThoat
             // 
@@ -273,18 +277,29 @@
             this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
+            // lbLoi
+            // 
+            this.lbLoi.AutoSize = true;
+            this.lbLoi.BackColor = System.Drawing.Color.Transparent;
+            this.lbLoi.Location = new System.Drawing.Point(207, 246);
+            this.lbLoi.Name = "lbLoi";
+            this.lbLoi.Size = new System.Drawing.Size(41, 13);
+            this.lbLoi.TabIndex = 43;
+            this.lbLoi.Text = "label14";
+            // 
             // BaiTap3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.lbLoi);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.tbHoanThanh);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.tbvl6);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.tbvl5);
@@ -305,6 +320,7 @@
             this.DoubleBuffered = true;
             this.Name = "BaiTap3";
             this.Size = new System.Drawing.Size(757, 407);
+            this.Load += new System.EventHandler(this.BaiTap3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -314,7 +330,7 @@
 
         private System.Windows.Forms.Button tbHoanThanh;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbvl6;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox tbvl5;
@@ -335,6 +351,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btThoat;
+        private System.Windows.Forms.Label lbLoi;
 
     }
 }

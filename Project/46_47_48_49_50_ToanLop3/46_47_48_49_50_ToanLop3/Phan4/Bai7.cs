@@ -17,101 +17,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
             InitializeComponent();
         }
 
-        private void txtSBC_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtSC_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtB0_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtThuong_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtB1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtB2_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtB3_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
-
-        private void txtB4_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!char.IsNumber(e.KeyChar))
-            {
-                e.Handled = true;
-            }
-            if (char.IsControl(e.KeyChar))
-            {
-                e.Handled = false;
-            }
-        }
+      
 
         private void Tinh_Click(object sender, EventArgs e)
         {
@@ -173,134 +79,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
             lblB4.Text = "0";
         }
 
-        private void btnTinhBT_Click(object sender, EventArgs e)
-        {
-
-
-            if (txtSBC.Text != "" && txtSC.Text != "")
-            {
-                int temp1, temp2;
-                temp1 = int.Parse(txtSBC.Text);
-                temp2 = int.Parse(txtSC.Text);
-                if (temp1 >= 10000 && temp1 < 100000 && temp2 < 10)
-                {
-                    // MessageBox.Show("đầu vào OK");
-                    txtB0.Text = "";
-                    txtB1.Text = "";
-                    txtB2.Text = "";
-                    txtB3.Text = "";
-                    txtB4.Text = "";
-                    txtThuong.Text = "";
-                    txtSBC.ReadOnly = true;
-                    txtSC.ReadOnly = true;
-                    txtThuong.ReadOnly = true;
-                    txtB0.ReadOnly = true;
-                    txtB1.ReadOnly = true;
-                    txtB2.ReadOnly = true;
-                    txtB3.ReadOnly = true;
-                    txtB4.ReadOnly = true;
-                    btnTinhBT.Enabled = false;
-
-
-                    int sochia = int.Parse(txtSC.Text);
-                    int sobichia = int.Parse(txtSBC.Text);
-                    int chucngan;
-                    int thuong;
-                    int temp;
-                    chucngan = sobichia / 10000;
-                    thuong = chucngan / sochia;
-                    temp = chucngan - (thuong * sochia);
-                    if (thuong != 0)
-                    {
-                        txtThuong.Text = thuong.ToString();
-                    }
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    txtB0.Text = temp.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    int ngan = (sobichia % 10000) / 1000;
-                    txtB0.Text = txtB0.Text + ngan.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    temp = int.Parse(txtB0.Text);
-                    int tam;
-                    tam = temp / sochia;
-                    txtThuong.Text = txtThuong.Text + tam.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    txtB1.Text = (temp - tam * sochia).ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    int tram = (sobichia % 1000) / 100;
-                    txtB1.Text = txtB1.Text + tram.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    tam = int.Parse(txtB1.Text);
-                    int tam1;
-                    tam1 = tam / sochia;
-                    txtThuong.Text = txtThuong.Text + tam1.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    txtB2.Text = (tam - tam1 * sochia).ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    int chuc = (sobichia % 100) / 10;
-                    txtB2.Text = txtB2.Text + chuc.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    int tam2 = int.Parse(txtB2.Text);
-                    int tam3 = tam2 / sochia;
-                    txtThuong.Text = txtThuong.Text + tam3.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    txtB3.Text = (tam2 - tam3 * sochia).ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    int donvi = sobichia % 10;
-                    txtB3.Text = txtB3.Text + donvi.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    int tam4 = int.Parse(txtB3.Text) / sochia;
-                    txtThuong.Text = txtThuong.Text + tam4.ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    txtB4.Text = (int.Parse(txtB3.Text) - tam4 * sochia).ToString();
-                    Thread.Sleep(1000);
-                    Application.DoEvents();
-                    txtSBC.ReadOnly = false;
-                    txtSC.ReadOnly = false;
-                    txtThuong.ReadOnly = false;
-                    txtB0.ReadOnly = false;
-                    txtB1.ReadOnly = false;
-                    txtB2.ReadOnly = false;
-                    txtB3.ReadOnly = false;
-                    txtB4.ReadOnly = false;
-                    btnTinhBT.Enabled = true;
-                    if (int.Parse(txtB4.Text) != 0)
-                        lblGhiKetQua.Text = "Kết Quả: " + txtSBC.Text + " : " + txtSC.Text + " = " + txtThuong.Text + " (dư " + txtB4.Text + ")";
-                    else
-                        lblGhiKetQua.Text = "Kết Quả: " + txtSBC.Text + " : " + txtSC.Text + " = " + txtThuong.Text;
-
-                }
-                else
-                {
-                    if ((temp1 < 10000 || temp1 > 100000) && temp2 >= 10)
-                        MessageBox.Show("số bị chia phải là số có 5 chữ số, số chia phải là số có 1 chữ số");
-                    else
-                    {
-                        if (temp1 < 10000 || temp1 > 100000)
-                            MessageBox.Show("số bị chia phải là số có 5 chữ số");
-                        else if (temp2 >= 10)
-                            MessageBox.Show("số chia phải là số có 1 chữ số");
-                    }
-                }
-            }
-            else
-            {
-                MessageBox.Show("chưa nhập 2 số");
-            }
-        }
+        
 
         private void btnThoat_Click(object sender, EventArgs e)
         {
@@ -309,9 +88,298 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
 
         private void btnLuyenTap_Click(object sender, EventArgs e)
         {
-            PHAN4_13 frmLTC = new PHAN4_13();
+            Bai7_LuyenTap frmLT = new Bai7_LuyenTap();
             this.Hide();
-            frmLTC.ShowDialog();
+            frmLT.ShowDialog();
+            this.Close();
+        }
+
+        private void txtKQB1A_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB1B_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB1C_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void btnKTB1A_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1A.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1A.Text.ToString()) == (84848 / 4))
+                {
+
+                    txtKQB1A.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1A.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB1B_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1B.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1B.Text.ToString()) == (24693 / 3))
+                {
+
+                    txtKQB1B.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1B.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB1C_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1C.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1C.Text.ToString()) == (23436 / 3))
+                {
+
+                    txtKQB1C.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1C.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void txtKQB2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void btnKTB2_Click(object sender, EventArgs e)
+        {
+            if (txtKQB2.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB2.Text.ToString()) == (36550 - 36550 / 5))
+                {
+
+                    txtKQB2.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB2.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+
+        }
+
+        private void txtKQB3A_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB3B_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB3C_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB3D_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void btnKTB3A_Click(object sender, EventArgs e)
+        {
+            if (txtKQB3A.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB3A.Text.ToString()) == (69218 - 26736 / 3))
+                {
+
+                    txtKQB3A.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB3A.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB3B_Click(object sender, EventArgs e)
+        {
+            if (txtKQB3B.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB3B.Text.ToString()) == (30507 + 27876 / 3))
+                {
+
+                    txtKQB3B.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB3B.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB3C_Click(object sender, EventArgs e)
+        {
+            if (txtKQB3C.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB3C.Text.ToString()) == ((35281 + 51645) / 2))
+                {
+
+                    txtKQB3C.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB3C.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB3D_Click(object sender, EventArgs e)
+        {
+            if (txtKQB3D.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB3D.Text.ToString()) == ((45405 - 8221) / 4))
+                {
+
+                    txtKQB3D.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB3D.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnTiepTheo_Click(object sender, EventArgs e)
+        {
+            Bai7_tieptheo_ frmTT = new Bai7_tieptheo_();
+            this.Hide();
+            frmTT.ShowDialog();
             this.Close();
         }
     }

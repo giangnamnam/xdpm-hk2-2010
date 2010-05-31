@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "46_47_48_49_50_ToanLop3", "46_47_48_49_50_ToanLop3.csproj", "{2504D51C-E490-4099-A5E3-BA6F26A07124}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ToanLop3", "..\ToanLop3\ToanLop3.vdproj", "{749C9282-ED27-48E6-B3C2-8D3E5F690F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2504D51C-E490-4099-A5E3-BA6F26A07124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2504D51C-E490-4099-A5E3-BA6F26A07124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2504D51C-E490-4099-A5E3-BA6F26A07124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2504D51C-E490-4099-A5E3-BA6F26A07124}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749C9282-ED27-48E6-B3C2-8D3E5F690F94}.Debug|Any CPU.ActiveCfg = Debug
+		{749C9282-ED27-48E6-B3C2-8D3E5F690F94}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

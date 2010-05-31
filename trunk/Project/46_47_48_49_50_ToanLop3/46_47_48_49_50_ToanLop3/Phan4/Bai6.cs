@@ -240,11 +240,315 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
 
         private void btnLT_Click(object sender, EventArgs e)
         {
-
-            PHAN4_13 frmLTC = new PHAN4_13();
+            Bai6_LuyenTap frmLT = new Bai6_LuyenTap();
+            //PHAN4_13 frmLTC = new PHAN4_13();
             this.Hide();
-            frmLTC.ShowDialog();
+            frmLT.ShowDialog();
             this.Close();
+        }
+
+        private void txtKQB1A_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB1B_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB1C_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtKQB1D_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+       
+
+        
+
+
+        private void btnKTB1A_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1A.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1A.Text.ToString()) == (21526 * 3))
+                {
+
+                    txtKQB1A.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1A.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+
+            }
+        }
+
+        private void btnKTB1B_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1B.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1B.Text.ToString()) == (40729 * 2))
+                {
+
+                    txtKQB1B.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1B.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB1C_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1C.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1C.Text.ToString()) == (17092 * 4))
+                {
+
+                    txtKQB1C.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1C.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnKTB1D_Click(object sender, EventArgs e)
+        {
+            if (txtKQB1D.Text.ToString() == "")
+            {
+                MessageBox.Show("vui lòng điền kết quả trước");
+            }
+            else
+            {
+                if (int.Parse(txtKQB1D.Text.ToString()) == (15180 * 5))
+                {
+
+                    txtKQB1D.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB1D.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+       
+
+      
+       
+        private void txtKQB2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (txtKQB2.Text.ToString() == "")
+            {
+                {
+                    MessageBox.Show("vui lòng điền kết quả trước");
+                }
+            }
+            else
+            {
+                if (int.Parse(txtKQB2.Text.ToString()) == (27150*2 + 27150))
+                {
+
+                    txtKQB2.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtKQB2.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void txtBai2A_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+
+        }
+
+        private void txtbai2B_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void txtBai2C_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsNumber(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+            if (char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+        }
+
+        private void btnBai2A_Click(object sender, EventArgs e)
+        {
+            if (txtBai2A.Text.ToString() == "")
+            {
+                {
+                    MessageBox.Show("vui lòng điền kết quả trước");
+                }
+            }
+            else
+            {
+                if (int.Parse(txtBai2A.Text.ToString()) == (19091 * 5))
+                {
+
+                    txtBai2A.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtBai2A.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnBai2B_Click(object sender, EventArgs e)
+        {
+            if (txtbai2B.Text.ToString() == "")
+            {
+                {
+                    MessageBox.Show("vui lòng điền kết quả trước");
+                }
+            }
+            else
+            {
+                if (int.Parse(txtbai2B.Text.ToString()) == (13070 * 6))
+                {
+
+                    txtbai2B.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtbai2B.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void btnBai2C_Click(object sender, EventArgs e)
+        {
+            if (txtBai2C.Text.ToString() == "")
+            {
+                {
+                    MessageBox.Show("vui lòng điền kết quả trước");
+                }
+            }
+            else
+            {
+                if (int.Parse(txtBai2C.Text.ToString()) == (10709 * 7))
+                {
+
+                    txtBai2C.BackColor = Color.Blue;
+                    MessageBox.Show("kết quả đúng");
+                }
+                else
+                {
+
+                    txtBai2C.BackColor = Color.Red;
+                    MessageBox.Show("kết quả sai");
+                }
+            }
+        }
+
+        private void groupBox7_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

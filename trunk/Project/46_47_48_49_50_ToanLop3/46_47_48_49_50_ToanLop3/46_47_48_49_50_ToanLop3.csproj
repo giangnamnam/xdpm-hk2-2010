@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2504D51C-E490-4099-A5E3-BA6F26A07124}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -614,6 +614,24 @@
     <Compile Include="Phan4\Bai2.Designer.cs">
       <DependentUpon>Bai2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan4\Bai6_LuyenTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai6_LuyenTap.Designer.cs">
+      <DependentUpon>Bai6_LuyenTap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan4\Bai7%28tieptheo%29.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai7%28tieptheo%29.Designer.cs">
+      <DependentUpon>Bai7%28tieptheo%29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan4\Bai7_LuyenTap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai7_LuyenTap.Designer.cs">
+      <DependentUpon>Bai7_LuyenTap.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan4\DAO\PhepTinhDAO.cs" />
     <Compile Include="Phan4\DAO\So5ChuSoDAO.cs" />
     <Compile Include="Phan4\DTO\PhepTinhDTO.cs" />
@@ -1072,8 +1090,20 @@
       <DependentUpon>Bai6.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Phan4\Bai6_LuyenTap.resx">
+      <DependentUpon>Bai6_LuyenTap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan4\Bai7%28tieptheo%29.resx">
+      <DependentUpon>Bai7%28tieptheo%29.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai7.resx">
       <DependentUpon>Bai7.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan4\Bai7_LuyenTap.resx">
+      <DependentUpon>Bai7_LuyenTap.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan4\Bai8.resx">
@@ -1193,7 +1223,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\a_dreamy_world051.jpg" />
+    <None Include="Resources\bai7_du.jpg" />
     <Content Include="Resources\Bitmap1.bmp" />
+    <None Include="Resources\bài.jpg" />
     <Content Include="Resources\f3hv2pir4.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -1211,6 +1243,9 @@
     <Content Include="Resources\khunghinh2.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Resources\tamgiac.jpg" />
+    <None Include="Resources\xeptamgiac.jpg" />
+    <None Include="Resources\tamgiac1.jpg" />
     <None Include="Resources\nen spalsn.JPG" />
     <None Include="Resources\nen cac form con lai.png" />
     <None Include="Resources\Thong tin dang nhap.jpg" />

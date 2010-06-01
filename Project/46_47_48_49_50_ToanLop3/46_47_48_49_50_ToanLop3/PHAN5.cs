@@ -87,5 +87,19 @@ namespace _46_47_48_49_50_ToanLop3
             Phan5.BonPhepTinhtt fr = new Phan5.BonPhepTinhtt();
             fr.Show();
         }
+
+        private void btnLTChung_Click(object sender, EventArgs e)
+        {
+            Phan5.LuyenTapChung fr = new Phan5.LuyenTapChung();
+            fr.Show();
+        }
+
+        private void btnLTChungtt_Click(object sender, EventArgs e)
+        {
+            Phan5.LuyenTapChungtt1 fr = new Phan5.LuyenTapChungtt1();
+            fr.Show();
+        }
+
+       
     }
 }

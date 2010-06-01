@@ -34,6 +34,8 @@
             this.btDaiLuong = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.btnLTChung = new System.Windows.Forms.Button();
+            this.btnLTChungtt = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -96,11 +98,33 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnLTChung
+            // 
+            this.btnLTChung.Location = new System.Drawing.Point(366, 151);
+            this.btnLTChung.Name = "btnLTChung";
+            this.btnLTChung.Size = new System.Drawing.Size(227, 23);
+            this.btnLTChung.TabIndex = 7;
+            this.btnLTChung.Text = "Luyện Tập Chung";
+            this.btnLTChung.UseVisualStyleBackColor = true;
+            this.btnLTChung.Click += new System.EventHandler(this.btnLTChung_Click);
+            // 
+            // btnLTChungtt
+            // 
+            this.btnLTChungtt.Location = new System.Drawing.Point(366, 213);
+            this.btnLTChungtt.Name = "btnLTChungtt";
+            this.btnLTChungtt.Size = new System.Drawing.Size(227, 23);
+            this.btnLTChungtt.TabIndex = 8;
+            this.btnLTChungtt.Text = "                Luyện Tập Chung (tiếp theo)";
+            this.btnLTChungtt.UseVisualStyleBackColor = true;
+            this.btnLTChungtt.Click += new System.EventHandler(this.btnLTChungtt_Click);
+            // 
             // PHAN5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 330);
+            this.Controls.Add(this.btnLTChungtt);
+            this.Controls.Add(this.btnLTChung);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.btDaiLuong);
@@ -122,5 +146,7 @@
         private System.Windows.Forms.Button btDaiLuong;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnLTChung;
+        private System.Windows.Forms.Button btnLTChungtt;
     }
 }

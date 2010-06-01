@@ -80,6 +80,12 @@
     <Compile Include="frmSplash.Designer.cs">
       <DependentUpon>frmSplash.cs</DependentUpon>
     </Compile>
+    <Compile Include="LuyenTapChung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LuyenTapChung.Designer.cs">
+      <DependentUpon>LuyenTapChung.cs</DependentUpon>
+    </Compile>
     <Compile Include="PHAN1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -822,6 +828,48 @@
     <Compile Include="Phan5\HinhHoc\Bai1_174.Designer.cs">
       <DependentUpon>Bai1_174.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt1.Designer.cs">
+      <DependentUpon>LuyenTapChungtt1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai03.Designer.cs">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai04.Designer.cs">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai05.Designer.cs">
+      <DependentUpon>Bai05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Bai2.Designer.cs">
+      <DependentUpon>Bai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChung_1\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\OnTapHinhHoc\Bai1_174.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -835,6 +883,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSplash.resx">
       <DependentUpon>frmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LuyenTapChung.resx">
+      <DependentUpon>LuyenTapChung.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="MucLuc.resx">
       <DependentUpon>MucLuc.cs</DependentUpon>
@@ -1181,6 +1233,34 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\HinhHoc\Bai1_174.resx">
       <DependentUpon>Bai1_174.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt1.resx">
+      <DependentUpon>LuyenTapChungtt1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChung_1\Bai03.resx">
+      <DependentUpon>Bai03.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChung_1\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChung_1\Bai05.resx">
+      <DependentUpon>Bai05.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChung_1\Bai2.resx">
+      <DependentUpon>Bai2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChung_1\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

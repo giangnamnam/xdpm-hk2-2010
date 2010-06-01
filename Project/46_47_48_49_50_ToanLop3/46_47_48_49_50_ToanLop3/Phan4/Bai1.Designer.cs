@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbKetQua = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.tbKetQua = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tbVietSo = new System.Windows.Forms.TextBox();
@@ -52,8 +54,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btQuayLai = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lbKetQua = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -81,6 +81,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bài 1: Làm quen với số 5 chữ số";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // lbKetQua
+            // 
+            this.lbKetQua.AutoSize = true;
+            this.lbKetQua.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lbKetQua.Location = new System.Drawing.Point(343, 110);
+            this.lbKetQua.Name = "lbKetQua";
+            this.lbKetQua.Size = new System.Drawing.Size(0, 24);
+            this.lbKetQua.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(3, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(60, 24);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "label2";
             // 
             // tbKetQua
             // 
@@ -327,24 +345,6 @@
             this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 24);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "label2";
-            // 
-            // lbKetQua
-            // 
-            this.lbKetQua.AutoSize = true;
-            this.lbKetQua.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.lbKetQua.Location = new System.Drawing.Point(343, 110);
-            this.lbKetQua.Name = "lbKetQua";
-            this.lbKetQua.Size = new System.Drawing.Size(0, 24);
-            this.lbKetQua.TabIndex = 15;
-            // 
             // Bai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -357,6 +357,7 @@
             this.MinimizeBox = false;
             this.Name = "Bai1";
             this.Text = "Bai1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bai1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

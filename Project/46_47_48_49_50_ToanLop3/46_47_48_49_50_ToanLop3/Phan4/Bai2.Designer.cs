@@ -31,6 +31,7 @@
             this.tbRsh2 = new System.Windows.Forms.TextBox();
             this.tbRsh1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.labelKetQua = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.bt10 = new System.Windows.Forms.Button();
             this.bt9 = new System.Windows.Forms.Button();
@@ -63,7 +64,6 @@
             this.btLamLai = new System.Windows.Forms.Button();
             this.btQuayLai = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
-            this.labelKetQua = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.gbR.SuspendLayout();
@@ -107,6 +107,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bài 2: Nhân số có 5 chữ số với số có 1 chữ số";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // labelKetQua
+            // 
+            this.labelKetQua.AutoSize = true;
+            this.labelKetQua.Location = new System.Drawing.Point(406, 111);
+            this.labelKetQua.Name = "labelKetQua";
+            this.labelKetQua.Size = new System.Drawing.Size(0, 24);
+            this.labelKetQua.TabIndex = 29;
             // 
             // groupBox3
             // 
@@ -456,14 +464,6 @@
             this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
-            // labelKetQua
-            // 
-            this.labelKetQua.AutoSize = true;
-            this.labelKetQua.Location = new System.Drawing.Point(406, 111);
-            this.labelKetQua.Name = "labelKetQua";
-            this.labelKetQua.Size = new System.Drawing.Size(0, 24);
-            this.labelKetQua.TabIndex = 29;
-            // 
             // Bai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -477,6 +477,7 @@
             this.MinimizeBox = false;
             this.Name = "Bai2";
             this.Text = "Bafi2: Nhan so 5 chu so voi so 1 chu so";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bai2_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

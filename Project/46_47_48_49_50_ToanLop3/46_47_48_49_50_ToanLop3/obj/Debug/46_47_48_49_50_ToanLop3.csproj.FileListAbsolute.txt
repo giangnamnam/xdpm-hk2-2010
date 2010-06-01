@@ -1068,3 +1068,5 @@ F:\HocHanh\20092010\HK2\XDPM\XDPM_project\Project\46_47_48_49_50_ToanLop3\46_47_
 F:\HocHanh\20092010\HK2\XDPM\XDPM_project\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai6_LuyenTap.resources
 F:\HocHanh\20092010\HK2\XDPM\XDPM_project\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai7_tieptheo_.resources
 F:\HocHanh\20092010\HK2\XDPM\XDPM_project\Project\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan4.Bai7_LuyenTap.resources
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.exe
+C:\Users\Nguyen\Desktop\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3\obj\Debug\46_47_48_49_50_ToanLop3.pdb

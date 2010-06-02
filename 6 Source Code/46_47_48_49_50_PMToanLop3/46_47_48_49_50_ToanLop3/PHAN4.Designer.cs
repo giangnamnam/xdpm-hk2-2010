@@ -189,5 +189,6 @@
         private System.Windows.Forms.Button btBatDau;
         private System.Windows.Forms.Button btQuayLai;
         private System.Windows.Forms.Button btThoat;
+
     }
 }

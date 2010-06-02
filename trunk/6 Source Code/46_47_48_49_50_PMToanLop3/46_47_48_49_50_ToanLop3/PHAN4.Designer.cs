@@ -66,6 +66,8 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.White;
+            this.listView1.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
@@ -76,8 +78,8 @@
             listViewItem4.Tag = "bai3";
             listViewItem5.Tag = "bai4";
             listViewItem6.Tag = "bai5";
-            listViewItem7.Tag = "bai5";
-            listViewItem8.Tag = "bai6";
+            listViewItem7.Tag = "bai6";
+            listViewItem8.Tag = "bai7";
             listViewItem9.Tag = "bai8";
             this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
             listViewItem1,
@@ -96,6 +98,7 @@
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
             // 
@@ -159,6 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.ClientSize = new System.Drawing.Size(992, 428);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btQuayLai);
@@ -169,6 +173,7 @@
             this.MinimizeBox = false;
             this.Name = "PHAN4";
             this.Text = "PHAN4";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.PHAN4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

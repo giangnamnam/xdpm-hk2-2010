@@ -112,10 +112,15 @@ namespace _46_47_48_49_50_ToanLop3
                 MessageBox.Show("Bạn hãy chọn phần để học!!!");
             }
         }
-
-        private void MucLuc_FormClosing(object sender, FormClosingEventArgs e)
+        private void MucLuc_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnGiaiTri_Click(object sender, EventArgs e)
+        {
+            Phan2.GiaiTri frm = new Phan2.GiaiTri();
+            frm.ShowDialog();
         }
     }
 }

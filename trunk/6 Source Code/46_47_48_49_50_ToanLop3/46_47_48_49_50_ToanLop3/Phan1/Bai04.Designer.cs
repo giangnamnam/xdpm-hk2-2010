@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bai04));
             this.btLyThuyet = new System.Windows.Forms.Button();
             this.pnBai1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -51,6 +52,7 @@
             // 
             // pnBai1
             // 
+            this.pnBai1.BackColor = System.Drawing.Color.Transparent;
             this.pnBai1.Location = new System.Drawing.Point(59, 104);
             this.pnBai1.Name = "pnBai1";
             this.pnBai1.Size = new System.Drawing.Size(757, 407);
@@ -120,6 +122,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.btLuyenTap);
             this.Controls.Add(this.btLyThuyet);
             this.Controls.Add(this.pnBai1);

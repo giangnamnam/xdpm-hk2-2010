@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaiTap5));
-            
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -48,10 +47,6 @@
             this.tbLamxong = new System.Windows.Forms.Button();
             this.lbLoi = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // shapeContainer1
-            // 
-            
             // 
             // label1
             // 
@@ -220,9 +215,10 @@
             // 
             this.lbLoi.AutoSize = true;
             this.lbLoi.BackColor = System.Drawing.Color.Transparent;
+            this.lbLoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbLoi.Location = new System.Drawing.Point(259, 230);
             this.lbLoi.Name = "lbLoi";
-            this.lbLoi.Size = new System.Drawing.Size(41, 13);
+            this.lbLoi.Size = new System.Drawing.Size(59, 16);
             this.lbLoi.TabIndex = 125;
             this.lbLoi.Text = "label10";
             // 
@@ -249,7 +245,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-          
             this.Name = "BaiTap5";
             this.Size = new System.Drawing.Size(757, 407);
             this.Load += new System.EventHandler(this.BaiTap5_Load);

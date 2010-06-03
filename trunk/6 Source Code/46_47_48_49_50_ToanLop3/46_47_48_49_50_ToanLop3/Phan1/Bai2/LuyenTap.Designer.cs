@@ -391,9 +391,10 @@
             // lbLoi
             // 
             this.lbLoi.AutoSize = true;
+            this.lbLoi.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.lbLoi.Location = new System.Drawing.Point(403, 300);
             this.lbLoi.Name = "lbLoi";
-            this.lbLoi.Size = new System.Drawing.Size(41, 13);
+            this.lbLoi.Size = new System.Drawing.Size(59, 16);
             this.lbLoi.TabIndex = 122;
             this.lbLoi.Text = "label19";
             // 

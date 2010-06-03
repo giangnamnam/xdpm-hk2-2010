@@ -15,5 +15,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan1.Bai4
         {
             InitializeComponent();
         }
+
+        private void btThoat_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

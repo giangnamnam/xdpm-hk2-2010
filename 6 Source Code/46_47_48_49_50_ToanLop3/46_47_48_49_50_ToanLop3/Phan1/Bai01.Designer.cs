@@ -121,6 +121,7 @@
             // 
             // pnBai1
             // 
+            this.pnBai1.BackColor = System.Drawing.Color.Transparent;
             this.pnBai1.Location = new System.Drawing.Point(83, 102);
             this.pnBai1.Name = "pnBai1";
             this.pnBai1.Size = new System.Drawing.Size(757, 407);

@@ -47,7 +47,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-          
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
@@ -239,15 +238,6 @@
             this.label9.TabIndex = 80;
             this.label9.Text = "3. Số ?";
             // 
-            // shapeContainer1
-            // 
-           
-            // 
-            // lineShape6
-            // 
-         
-            // 
-         
             // label10
             // 
             this.label10.AutoSize = true;
@@ -577,6 +567,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btLamlai);
             this.Controls.Add(this.btKiemtra);
@@ -617,7 +608,7 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1); 
+            this.Controls.Add(this.label1);
             this.Name = "LuyenTap";
             this.Size = new System.Drawing.Size(757, 407);
             this.Load += new System.EventHandler(this.LuyenTap_Load);

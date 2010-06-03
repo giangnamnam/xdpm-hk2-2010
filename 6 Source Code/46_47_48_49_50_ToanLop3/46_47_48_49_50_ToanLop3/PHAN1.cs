@@ -65,10 +65,14 @@ namespace _46_47_48_49_50_ToanLop3
             {
                 myUserControls[i].Hide();
             }
+            label1.Hide();
+            groupBox1.Hide();
             switch (currentState)
             {
                 case ScreenState.MucLuc1:
                     myUserControls[11].Show();
+                    label1.Show();
+                    groupBox1.Show();
                     break;
                 case ScreenState.Bai1:
                     myUserControls[0].Show();
@@ -192,6 +196,168 @@ namespace _46_47_48_49_50_ToanLop3
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
-        }  
+        }
+
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ListView1_DoubleClick(object sender, EventArgs e)
+        {
+            try
+            {
+                string pathName = ListView1.SelectedItems[0].Tag.ToString();
+                if (pathName == "bai1")
+                {
+                    currentState = ScreenState.Bai1;
+                    UpdateSreen();
+                }
+                if (pathName == "bai2")
+                {
+                    currentState = ScreenState.Bai2;
+                    UpdateSreen();
+                }
+                if (pathName == "bai3")
+                {
+                    currentState = ScreenState.Bai3;
+                    UpdateSreen();
+                }
+                if (pathName == "bai4")
+                {
+                    currentState = ScreenState.Bai4;
+                    UpdateSreen();
+                }
+                if (pathName == "bai5")
+                {
+                    currentState = ScreenState.Bai5;
+                    UpdateSreen();
+                }
+                if (pathName == "bai6")
+                {
+                    currentState = ScreenState.Bai6;
+                    UpdateSreen();
+                }
+                if (pathName == "bai7")
+                {
+                    currentState = ScreenState.Bai7;
+                    UpdateSreen();
+                }
+                if (pathName == "bai8")
+                {
+                    currentState = ScreenState.Bai8;
+                    UpdateSreen();
+                }
+                if (pathName == "bai9")
+                {
+                    currentState = ScreenState.Bai9;
+                    UpdateSreen();
+                }
+                if (pathName == "bai10")
+                {
+                    currentState = ScreenState.Bai10;
+                    UpdateSreen();
+                }
+                if (pathName == "bai11")
+                {
+                    currentState = ScreenState.Bai11;
+                    UpdateSreen();
+                }
+                
+            }
+            catch
+            {
+                MessageBox.Show("Bạn hãy chọn bài học cho mình!!");
+            }
+        }
+
+        private void bntBatDau_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string pathName = ListView1.SelectedItems[0].Tag.ToString();
+                if (pathName == "bai1")
+                {
+                    currentState = ScreenState.Bai1;
+                    UpdateSreen();
+                }
+                if (pathName == "bai2")
+                {
+                    currentState = ScreenState.Bai2;
+                    UpdateSreen();
+                }
+                if (pathName == "bai3")
+                {
+                    currentState = ScreenState.Bai3;
+                    UpdateSreen();
+                }
+                if (pathName == "bai4")
+                {
+                    currentState = ScreenState.Bai4;
+                    UpdateSreen();
+                }
+                if (pathName == "bai5")
+                {
+                    currentState = ScreenState.Bai5;
+                    UpdateSreen();
+                }
+                if (pathName == "bai6")
+                {
+                    currentState = ScreenState.Bai6;
+                    UpdateSreen();
+                }
+                if (pathName == "bai7")
+                {
+                    currentState = ScreenState.Bai7;
+                    UpdateSreen();
+                }
+                if (pathName == "bai8")
+                {
+                    currentState = ScreenState.Bai8;
+                    UpdateSreen();
+                }
+                if (pathName == "bai9")
+                {
+                    currentState = ScreenState.Bai9;
+                    UpdateSreen();
+                }
+                if (pathName == "bai10")
+                {
+                    currentState = ScreenState.Bai10;
+                    UpdateSreen();
+                }
+                if (pathName == "bai11")
+                {
+                    currentState = ScreenState.Bai11;
+                    UpdateSreen();
+                }
+
+            }
+            catch
+            {
+                MessageBox.Show("Bạn hãy chọn bài học cho mình!!");
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void btMucLuc_Click(object sender, EventArgs e)
+        {
+            currentState = ScreenState.MucLuc1;
+            UpdateSreen();
+        }
+
     }
 }

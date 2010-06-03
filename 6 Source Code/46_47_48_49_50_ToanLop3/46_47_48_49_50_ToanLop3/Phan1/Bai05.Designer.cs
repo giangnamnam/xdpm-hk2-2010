@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bai05));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@
             this.tbvl14 = new System.Windows.Forms.TextBox();
             this.tbvl13 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.tbvl22 = new System.Windows.Forms.TextBox();
@@ -77,9 +77,6 @@
             this.chb225 = new System.Windows.Forms.CheckBox();
             this.chb277 = new System.Windows.Forms.CheckBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.chb5a = new System.Windows.Forms.CheckBox();
             this.chb5c = new System.Windows.Forms.CheckBox();
@@ -93,8 +90,10 @@
             this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -262,22 +261,8 @@
             this.label5.TabIndex = 41;
             this.label5.Text = "b) Tính nhẩm";
             // 
-            // shapeContainer1
+            // label6
             // 
-          
-            // lineShape3
-           
-            // lineShape2
-            // 
-            
-            // 
-            // lineShape1
-            // 
-           
-            // 
-            // rectangleShape2
-            // 
-         
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(98, 223);
             this.label6.Name = "label6";
@@ -521,33 +506,6 @@
             this.label15.TabIndex = 118;
             this.label15.Text = "4. Tính chu vi hình tam giác ABC\r\n     có kích thước ghi trên hình vẽ :";
             // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(703, 411);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(42, 13);
-            this.label16.TabIndex = 119;
-            this.label16.Text = "100 cm";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(749, 469);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(42, 13);
-            this.label17.TabIndex = 120;
-            this.label17.Text = "100 cm";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(794, 411);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(42, 13);
-            this.label18.TabIndex = 121;
-            this.label18.Text = "100 cm";
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.chb5a);
@@ -695,11 +653,22 @@
             this.label22.TabIndex = 130;
             this.label22.Text = "2 x 6 = \r\n\r\n2 x 8 = \r\n\r\n2 x 4 =\r\n\r\n2 x 9 = ";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(725, 372);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(172, 145);
+            this.pictureBox1.TabIndex = 131;
+            this.pictureBox1.TabStop = false;
+            // 
             // Bai05
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label21);
             this.Controls.Add(this.label20);
@@ -709,9 +678,6 @@
             this.Controls.Add(this.btKiemtra);
             this.Controls.Add(this.btLamxong);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.label12);
@@ -756,7 +722,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-          
             this.Name = "Bai05";
             this.Size = new System.Drawing.Size(900, 600);
             this.Load += new System.EventHandler(this.Bai05_Load);
@@ -764,6 +729,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -818,10 +784,7 @@ private System.Windows.Forms.Label label9;
         private System.Windows.Forms.CheckBox chbckb213;
         private System.Windows.Forms.CheckBox chb225;
         private System.Windows.Forms.CheckBox chb277;
-         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label label15;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.CheckBox chb5a;
         private System.Windows.Forms.CheckBox chb5c;
@@ -835,5 +798,6 @@ private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

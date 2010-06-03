@@ -56,10 +56,10 @@ namespace _46_47_48_49_50_ToanLop3.Phan1
             nUsct = 4;
             myUsercontrol = new UserControl[5];
 
-            myUsercontrol[0] = new Phan1.Bai8.BaiTap1();
-            myUsercontrol[1] = new Phan1.Bai8.BaiTap2();
-            myUsercontrol[2] = new Phan1.Bai8.BaiTap3();
-            myUsercontrol[3] = new Phan1.Bai8.BaiTap4();
+            myUsercontrol[0] = new Phan1.Bai9.BaiTap1();
+            myUsercontrol[1] = new Phan1.Bai9.BaiTap2();
+            myUsercontrol[2] = new Phan1.Bai9.BaiTap3();
+            myUsercontrol[3] = new Phan1.Bai9.BaiTap4();
 
 
             for (int i = 0; i < nUsct; i++)

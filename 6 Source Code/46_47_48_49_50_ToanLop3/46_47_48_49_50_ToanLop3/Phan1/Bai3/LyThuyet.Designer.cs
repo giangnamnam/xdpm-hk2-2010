@@ -40,28 +40,30 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label1.Location = new System.Drawing.Point(32, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 13);
+            this.label1.Size = new System.Drawing.Size(114, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "&a) 435 + 127 = ?";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label2.Location = new System.Drawing.Point(57, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(76, 104);
+            this.label2.Size = new System.Drawing.Size(85, 128);
             this.label2.TabIndex = 1;
             this.label2.Text = "     435\r\n  +\r\n     127\r\n    _____\r\n\r\n     562\r\n\r\n435 + 127 = ...";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.Location = new System.Drawing.Point(207, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(198, 78);
+            this.label3.Size = new System.Drawing.Size(236, 96);
             this.label3.TabIndex = 2;
             this.label3.Text = "* 5 cộng 7 bằng 12,viết 2 nhớ 1\r\n\r\n* 3 cộng 2 bằng 5 ,thêm 1 bằng 6, viết 6\r\n\r\n\r\n" +
                 "* 4 cộng 1 bằng 5 , viết 5";
@@ -69,28 +71,30 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(32, 177);
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.Location = new System.Drawing.Point(32, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 13);
+            this.label4.Size = new System.Drawing.Size(114, 16);
             this.label4.TabIndex = 3;
             this.label4.Text = "&b) 256 + 162 = ?";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(57, 207);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.Location = new System.Drawing.Point(54, 245);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 104);
+            this.label5.Size = new System.Drawing.Size(85, 128);
             this.label5.TabIndex = 4;
             this.label5.Text = "     256\r\n  +\r\n     162\r\n    _____\r\n\r\n     418\r\n\r\n256 + 162 = ...";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(207, 207);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label6.Location = new System.Drawing.Point(204, 245);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(201, 78);
+            this.label6.Size = new System.Drawing.Size(239, 96);
             this.label6.TabIndex = 5;
             this.label6.Text = "* 6 công 2 bằng 8, viết 8\r\n\r\n* 5 cộng 6 bằng 11 , viết 1, nhớ 1\r\n\r\n\r\n* 2 cộng 1 b" +
                 "ằng 3 , thêm 1 bằng 4, viết 4";
@@ -99,7 +103,7 @@
             // 
             this.btThoat.BackColor = System.Drawing.Color.White;
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btThoat.Location = new System.Drawing.Point(487, 305);
+            this.btThoat.Location = new System.Drawing.Point(606, 336);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(82, 29);
             this.btThoat.TabIndex = 30;

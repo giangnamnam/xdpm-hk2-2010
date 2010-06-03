@@ -195,12 +195,6 @@ namespace _46_47_48_49_50_ToanLop3
             this.Close();
         }
 
-        private void btnGiaiTri_Click(object sender, EventArgs e)
-        {
-            Phan2.GiaiTri frm = new Phan2.GiaiTri();
-            frm.ShowDialog();
-        }
-
         private void PHAN2_FormClosing(object sender, FormClosingEventArgs e)
         {
 

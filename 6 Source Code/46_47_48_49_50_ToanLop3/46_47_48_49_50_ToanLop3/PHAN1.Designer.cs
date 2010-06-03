@@ -49,7 +49,7 @@
             // 
             // btThoat
             // 
-            this.btThoat.Location = new System.Drawing.Point(959, 706);
+            this.btThoat.Location = new System.Drawing.Point(1047, 601);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(78, 34);
             this.btThoat.TabIndex = 0;
@@ -63,7 +63,7 @@
             this.mucLucToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1197, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1362, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -168,7 +168,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(875, 706);
+            this.button1.Location = new System.Drawing.Point(963, 601);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 34);
             this.button1.TabIndex = 2;
@@ -182,7 +182,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1197, 768);
+            this.ClientSize = new System.Drawing.Size(1362, 706);
             this.ControlBox = false;
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btThoat);

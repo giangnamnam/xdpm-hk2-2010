@@ -974,6 +974,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="BAITAPTHEM.resx">
+      <DependentUpon>BAITAPTHEM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DangNhap.resx">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </EmbeddedResource>

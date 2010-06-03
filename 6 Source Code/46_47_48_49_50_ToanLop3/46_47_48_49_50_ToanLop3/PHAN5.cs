@@ -87,5 +87,25 @@ namespace _46_47_48_49_50_ToanLop3
             Phan5.BonPhepTinhtt fr = new Phan5.BonPhepTinhtt();
             fr.Show();
         }
+
+        private void PHAN5_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
     }
 }

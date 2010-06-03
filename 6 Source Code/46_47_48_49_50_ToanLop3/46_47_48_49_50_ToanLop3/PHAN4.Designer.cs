@@ -66,10 +66,12 @@
             // 
             // listView1
             // 
+            this.listView1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
-            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listView1.ForeColor = System.Drawing.Color.Blue;
             listViewItem1.Tag = "bai1";
             listViewItem2.Tag = "bai1lt";
             listViewItem3.Tag = "bai2";
@@ -89,32 +91,34 @@
             listViewItem7,
             listViewItem8,
             listViewItem9});
-            this.listView1.Location = new System.Drawing.Point(15, 36);
+            this.listView1.Location = new System.Drawing.Point(81, 77);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(965, 295);
+            this.listView1.Size = new System.Drawing.Size(965, 351);
             this.listView1.TabIndex = 0;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
-            this.listView1.SelectedIndexChanged += new System.EventHandler(this.listView1_SelectedIndexChanged);
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
             // 
             this.columnHeader1.Text = "Chọn bài học";
-            this.columnHeader1.Width = 185;
+            this.columnHeader1.Width = 250;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Tựa đề";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 476;
+            this.columnHeader2.Width = 775;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 20);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.label1.Location = new System.Drawing.Point(542, 19);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.Size = new System.Drawing.Size(115, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "MỤC LỤC";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -123,7 +127,7 @@
             // 
             this.btBatDau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btBatDau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btBatDau.Location = new System.Drawing.Point(225, 337);
+            this.btBatDau.Location = new System.Drawing.Point(287, 458);
             this.btBatDau.Name = "btBatDau";
             this.btBatDau.Size = new System.Drawing.Size(140, 45);
             this.btBatDau.TabIndex = 2;
@@ -135,7 +139,7 @@
             // 
             this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btQuayLai.Location = new System.Drawing.Point(450, 337);
+            this.btQuayLai.Location = new System.Drawing.Point(517, 458);
             this.btQuayLai.Name = "btQuayLai";
             this.btQuayLai.Size = new System.Drawing.Size(140, 45);
             this.btQuayLai.TabIndex = 3;
@@ -147,7 +151,7 @@
             // 
             this.btThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThoat.Location = new System.Drawing.Point(686, 337);
+            this.btThoat.Location = new System.Drawing.Point(748, 458);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(140, 45);
             this.btThoat.TabIndex = 4;
@@ -159,7 +163,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(992, 428);
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(1346, 515);
+            this.ControlBox = false;
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btQuayLai);
             this.Controls.Add(this.btBatDau);
@@ -168,8 +175,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PHAN4";
-            this.Text = "PHAN4";
-            this.Load += new System.EventHandler(this.PHAN4_Load);
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
             this.PerformLayout();
 

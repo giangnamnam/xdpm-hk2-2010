@@ -37,6 +37,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnThoat = new System.Windows.Forms.Button();
+            this.btnLTChung = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -144,6 +145,19 @@
             this.btnThoat.UseVisualStyleBackColor = false;
             this.btnThoat.Click += new System.EventHandler(this.btnThoat_Click);
             // 
+            // btnLTChung
+            // 
+            this.btnLTChung.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnLTChung.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLTChung.ForeColor = System.Drawing.Color.Blue;
+            this.btnLTChung.Location = new System.Drawing.Point(818, 140);
+            this.btnLTChung.Name = "btnLTChung";
+            this.btnLTChung.Size = new System.Drawing.Size(225, 57);
+            this.btnLTChung.TabIndex = 32;
+            this.btnLTChung.Text = "Luyên Tập Chung\r\n";
+            this.btnLTChung.UseVisualStyleBackColor = false;
+            this.btnLTChung.Click += new System.EventHandler(this.btnLTChung_Click_1);
+            // 
             // PHAN5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -152,6 +166,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1247, 549);
             this.ControlBox = false;
+            this.Controls.Add(this.btnLTChung);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnThoat);
             this.Controls.Add(this.button1);
@@ -178,5 +193,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnThoat;
+        private System.Windows.Forms.Button btnLTChung;
     }
 }

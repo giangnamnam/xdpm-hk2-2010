@@ -107,5 +107,20 @@ namespace _46_47_48_49_50_ToanLop3
             }
         }
 
+        private void btnLTChung_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnLTChung_Click_1(object sender, EventArgs e)
+        {
+            Phan5.LTChung fr = new Phan5.LTChung();
+            fr.Show();
+        }
+
+        
+
+       
+
     }
 }

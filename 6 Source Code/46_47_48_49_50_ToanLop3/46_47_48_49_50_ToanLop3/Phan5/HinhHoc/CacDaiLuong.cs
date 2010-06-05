@@ -130,5 +130,15 @@ namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
             }
 
         }
+
+        private void CacDaiLuong_Load(object sender, EventArgs e)
+        {
+            Bai1Dapan.Text = "";
+            bai2dapana.Text = "";
+            bai2dapanb.Text = "";
+            bai2dapanc.Text = "";
+            bai3dapan.Text = "";
+            bai4dapan.Text = "";
+        }
     }
 }

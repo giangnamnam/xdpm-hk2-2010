@@ -948,11 +948,11 @@
     <Compile Include="Phan5\HinhHoc\Bai2.designer.cs">
       <DependentUpon>Bai2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Phan5\HinhHoc\Bai3.cs">
+    <Compile Include="Phan5\HinhHoc\OnTapHinhHoc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Phan5\HinhHoc\Bai3.designer.cs">
-      <DependentUpon>Bai3.cs</DependentUpon>
+    <Compile Include="Phan5\HinhHoc\OnTapHinhHoc.designer.cs">
+      <DependentUpon>OnTapHinhHoc.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan5\HinhHoc\Bai4.cs">
       <SubType>Form</SubType>
@@ -1007,12 +1007,6 @@
     </Compile>
     <Compile Include="Phan5\LuyenTapChung\Bai05.Designer.cs">
       <DependentUpon>Bai05.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Phan5\OnTapHinhHoc\Bai1_174.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Phan5\OnTapHinhHoc\Bai1_174.Designer.cs">
-      <DependentUpon>Bai1_174.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -1599,8 +1593,8 @@
       <DependentUpon>Bai2.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Phan5\HinhHoc\Bai3.resx">
-      <DependentUpon>Bai3.cs</DependentUpon>
+    <EmbeddedResource Include="Phan5\HinhHoc\OnTapHinhHoc.resx">
+      <DependentUpon>OnTapHinhHoc.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\HinhHoc\Bai4.resx">

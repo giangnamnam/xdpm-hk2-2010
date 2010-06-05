@@ -165,7 +165,11 @@ namespace _46_47_48_49_50_ToanLop3
                     Phan5.HinhHoc.OnTapHinhHoctt fr6 = new Phan5.HinhHoc.OnTapHinhHoctt();
                     fr6.ShowDialog(this);
                     break;
-                case 9:
+                case 7:
+                    Phan5.HinhHoc.OnTapVeGiaToan fr7 = new Phan5.HinhHoc.OnTapVeGiaToan();
+                    fr7.ShowDialog(this);
+                    break;
+                case 8:
                     Phan5.LTChung fr9 = new Phan5.LTChung();
                     fr9.ShowDialog(this);
                     break;

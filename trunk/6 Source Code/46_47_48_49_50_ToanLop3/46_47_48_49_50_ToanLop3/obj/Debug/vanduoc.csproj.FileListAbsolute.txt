@@ -982,7 +982,6 @@ D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.CacSoDen100000.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.Bai1.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.Bai2.resources
-D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.Bai4.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.HinhHoc.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.LTChung.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.LuyenTapChung.Bai01.resources
@@ -995,3 +994,5 @@ D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\vanduoc.cspr
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.CacDaiLuong.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.OnTapHinhHoc.resources
 D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.OnTapHinhHoctt.resources
+D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.Bai3.resources
+D:\Hoctap\HK6\XDpm\New folder (4)\46_47_48_49_50_ToanLop3\obj\Debug\_46_47_48_49_50_ToanLop3.Phan5.HinhHoc.OnTapVeGiaToan.resources

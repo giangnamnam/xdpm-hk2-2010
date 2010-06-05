@@ -36,7 +36,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Phan5.HinhHoc.Bai4 fr = new Phan5.HinhHoc.Bai4();
+            Phan5.HinhHoc.Bai3 fr = new Phan5.HinhHoc.Bai3();
             fr.Show();
         }
     }

@@ -972,6 +972,12 @@
     <Compile Include="Phan5\HinhHoc\HinhHoc.designer.cs">
       <DependentUpon>HinhHoc.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\HinhHoc\OnTapHinhHoctt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\HinhHoc\OnTapHinhHoctt.Designer.cs">
+      <DependentUpon>OnTapHinhHoctt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\LTChung.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1607,6 +1613,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\HinhHoc\HinhHoc.resx">
       <DependentUpon>HinhHoc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\HinhHoc\OnTapHinhHoctt.resx">
+      <DependentUpon>OnTapHinhHoctt.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\LTChung.resx">

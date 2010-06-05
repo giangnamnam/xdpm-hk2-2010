@@ -24,7 +24,23 @@ namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
             labelD.Text = "";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        
+
+        
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            labelA.ForeColor = Color.Red;
+            labelA.Text = "8";
+            labelB.ForeColor = Color.Red;
+            labelB.Text = "10";
+            labelC.ForeColor = Color.Red;
+            labelC.Text = "18";
+            labelD.ForeColor = Color.Red;
+            labelD.Text = "8";
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
         {
             if (textBoxA.Text == "8")
             {
@@ -69,33 +85,20 @@ namespace _46_47_48_49_50_ToanLop3.Phan5.HinhHoc
                 labelD.ForeColor = Color.Red;
                 labelD.Text = "Sai";
             }
-
         }
 
-        private void Thoat_Click(object sender, EventArgs e)
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
         {
             DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.OK)
             {
                 Application.Exit();
             }
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            labelA.ForeColor = Color.Red;
-            labelA.Text = "8";
-            labelB.ForeColor = Color.Red;
-            labelB.Text = "10";
-            labelC.ForeColor = Color.Red;
-            labelC.Text = "18";
-            labelD.ForeColor = Color.Red;
-            labelD.Text = "8";
         }
     }
 }

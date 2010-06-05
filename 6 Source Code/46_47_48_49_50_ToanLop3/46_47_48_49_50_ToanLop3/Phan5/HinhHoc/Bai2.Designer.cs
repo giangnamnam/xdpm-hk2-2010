@@ -35,9 +35,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
             this.Thoat = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -105,50 +105,46 @@
             this.Thoat.Text = "Thoát";
             this.Thoat.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // button1
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button3.Location = new System.Drawing.Point(348, 490);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 38);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "Quay Lại";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button1.Location = new System.Drawing.Point(42, 478);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(113, 41);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "Đáp án";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button2.Location = new System.Drawing.Point(188, 490);
+            this.button2.Location = new System.Drawing.Point(192, 478);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 38);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "Làm Xong";
+            this.button2.Size = new System.Drawing.Size(113, 41);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "Làm xong";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
-            // button1
+            // button3
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button1.Location = new System.Drawing.Point(31, 490);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(102, 38);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Đáp Án";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.button3.Location = new System.Drawing.Point(351, 478);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(113, 41);
+            this.button3.TabIndex = 31;
+            this.button3.Text = "Quay lại";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.button4.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button4.Location = new System.Drawing.Point(500, 490);
+            this.button4.Location = new System.Drawing.Point(518, 478);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(85, 38);
-            this.button4.TabIndex = 29;
+            this.button4.Size = new System.Drawing.Size(65, 41);
+            this.button4.TabIndex = 32;
             this.button4.Text = "Thoát";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
@@ -160,10 +156,10 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(627, 551);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.Thoat);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.Thoat);
             this.Controls.Add(this.label);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -186,9 +182,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Button Thoat;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
     }
 }

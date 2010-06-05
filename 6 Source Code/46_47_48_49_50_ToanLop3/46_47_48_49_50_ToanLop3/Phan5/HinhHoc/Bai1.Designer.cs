@@ -53,7 +53,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.Thoat = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -301,66 +301,62 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button1.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button1.Location = new System.Drawing.Point(25, 668);
+            this.button1.BackColor = System.Drawing.Color.Lime;
+            this.button1.Location = new System.Drawing.Point(51, 673);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(163, 38);
+            this.button1.Size = new System.Drawing.Size(124, 38);
             this.button1.TabIndex = 21;
-            this.button1.Text = "Đáp Án";
+            this.button1.Text = "Đáp án";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button2.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button2.Location = new System.Drawing.Point(246, 668);
+            this.button2.BackColor = System.Drawing.Color.Lime;
+            this.button2.Location = new System.Drawing.Point(261, 673);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(163, 38);
+            this.button2.Size = new System.Drawing.Size(124, 38);
             this.button2.TabIndex = 22;
-            this.button2.Text = "Làm Xong";
+            this.button2.Text = "Làm xong";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.button2_Click_1);
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.button3.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.button3.Location = new System.Drawing.Point(465, 668);
+            this.button3.BackColor = System.Drawing.Color.Lime;
+            this.button3.Location = new System.Drawing.Point(467, 673);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(163, 38);
+            this.button3.Size = new System.Drawing.Size(124, 38);
             this.button3.TabIndex = 23;
-            this.button3.Text = "Quay Lại";
+            this.button3.Text = "Quay lại";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
-            // Thoat
+            // button4
             // 
-            this.Thoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.Thoat.DialogResult = System.Windows.Forms.DialogResult.No;
-            this.Thoat.Location = new System.Drawing.Point(683, 668);
-            this.Thoat.Name = "Thoat";
-            this.Thoat.Size = new System.Drawing.Size(85, 38);
-            this.Thoat.TabIndex = 24;
-            this.Thoat.Text = "Thoát";
-            this.Thoat.UseVisualStyleBackColor = false;
-            this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button4.Location = new System.Drawing.Point(691, 673);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(77, 38);
+            this.button4.TabIndex = 24;
+            this.button4.Text = "Thoát";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // Bai1_174
+            // Bai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(817, 727);
-            this.Controls.Add(this.Thoat);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
             this.MaximizeBox = false;
-            this.Name = "Bai1_174";
+            this.Name = "Bai1";
             this.Text = "Bai1_174";
             this.Load += new System.EventHandler(this.Bai1_174_Load);
             this.groupBox1.ResumeLayout(false);
@@ -395,7 +391,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button Thoat;
+        private System.Windows.Forms.Button button4;
 
     }
 }

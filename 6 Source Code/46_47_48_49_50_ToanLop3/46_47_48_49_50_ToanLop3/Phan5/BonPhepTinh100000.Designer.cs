@@ -89,17 +89,17 @@
             this.label1.ForeColor = System.Drawing.Color.Blue;
             this.label1.Location = new System.Drawing.Point(21, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(582, 26);
+            this.label1.Size = new System.Drawing.Size(448, 26);
             this.label1.TabIndex = 3;
-            this.label1.Text = "BỐN PHÉP TÍNH TRONG PHẠM VI 100 000 (TIẾP THEO)";
+            this.label1.Text = "BỐN PHÉP TÍNH TRONG PHẠM VI 100 000";
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(45, 43);
+            this.groupBox1.Location = new System.Drawing.Point(105, 43);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(609, 51);
+            this.groupBox1.Size = new System.Drawing.Size(497, 51);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 

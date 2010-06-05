@@ -118,6 +118,61 @@ namespace _46_47_48_49_50_ToanLop3
             fr.Show();
         }
 
+        private void ListView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+              
+        }
+
+        private void bntBatDau_Click(object sender, EventArgs e)
+        {
+            switch (listBox1.SelectedIndex)
+            {
+                case 0:
+                    Phan5.CacSoDen100000 fr0 = new Phan5.CacSoDen100000();
+                    fr0.ShowDialog(this);
+                    break;
+                case 1:
+                    Phan5.CacSoDen100ktt fr1 = new Phan5.CacSoDen100ktt();
+                    fr1.ShowDialog(this);
+                    break;
+                case 2:
+                    Phan5.BonPhepTinh100000 fr2 = new Phan5.BonPhepTinh100000();
+                    fr2.ShowDialog(this);
+                    break;
+                case 3:
+                    Phan5.BonPhepTinhtt fr3 = new Phan5.BonPhepTinhtt();
+                    fr3.ShowDialog(this);
+                    break;
+                case 4:
+                    Phan5.HinhHoc.CacDaiLuong fr4 = new Phan5.HinhHoc.CacDaiLuong();
+                    fr4.ShowDialog(this);
+                    break;
+                case 9:
+                    Phan5.LTChung fr9 = new Phan5.LTChung();
+                    fr9.ShowDialog(this);
+                    break;
+            }
+        }
+
+        private void btnThoat_Click_1(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
         
 
        

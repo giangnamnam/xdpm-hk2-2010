@@ -990,6 +990,48 @@
     <Compile Include="Phan5\LTChung.Designer.cs">
       <DependentUpon>LTChung.cs</DependentUpon>
     </Compile>
+    <Compile Include="Phan5\LTChungtt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LTChungtt.Designer.cs">
+      <DependentUpon>LTChungtt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai02.Designer.cs">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai03.Designer.cs">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai04.Designer.cs">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai4b.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\Bai4b.Designer.cs">
+      <DependentUpon>Bai4b.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\BDLam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5\LuyenTapChungtt\BDLam.Designer.cs">
+      <DependentUpon>BDLam.cs</DependentUpon>
+    </Compile>
     <Compile Include="Phan5\LuyenTapChung\Bai01.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -1631,6 +1673,34 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\LTChung.resx">
       <DependentUpon>LTChung.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LTChungtt.resx">
+      <DependentUpon>LTChungtt.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\Bai03.resx">
+      <DependentUpon>Bai03.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\Bai4b.resx">
+      <DependentUpon>Bai4b.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5\LuyenTapChungtt\BDLam.resx">
+      <DependentUpon>BDLam.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Phan5\LuyenTapChung\Bai01.resx">

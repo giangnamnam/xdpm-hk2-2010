@@ -62,7 +62,8 @@
             "Ôn tập về hình học",
             "Ôn tập về hình học (tt)",
             "Ôn tập về giải toán",
-            "Luyện tập chung"});
+            "Luyện tập chung",
+            "Luyện tập chung(tt)"});
             this.listBox1.Location = new System.Drawing.Point(6, 28);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(550, 292);

@@ -173,6 +173,11 @@ namespace _46_47_48_49_50_ToanLop3
                     Phan5.LTChung fr9 = new Phan5.LTChung();
                     fr9.ShowDialog(this);
                     break;
+                case 10:
+                    Phan5.LTChungtt fr10 = new Phan5.LTChungtt();
+                    fr10.ShowDialog(this);
+                    break;
+
             }
         }
 

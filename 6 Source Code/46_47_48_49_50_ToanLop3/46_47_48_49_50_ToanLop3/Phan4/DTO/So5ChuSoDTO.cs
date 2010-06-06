@@ -5,7 +5,7 @@ using System.Text;
 
 namespace _46_47_48_49_50_ToanLop3.Phan4.DTO
 {
-    class So5ChuSoDTO
+    public class So5ChuSoDTO
     {
         private string text;
 
@@ -27,6 +27,8 @@ namespace _46_47_48_49_50_ToanLop3.Phan4.DTO
             this.number = number;
             this.text = text;
         }
+
+        public So5ChuSoDTO() { }
 
     }
 }

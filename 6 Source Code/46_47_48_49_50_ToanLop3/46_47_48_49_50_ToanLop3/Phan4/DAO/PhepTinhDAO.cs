@@ -4,7 +4,6 @@ using System.Collections;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Collections;
 using _46_47_48_49_50_ToanLop3.Phan4.DTO;
 using System.Data;
 namespace _46_47_48_49_50_ToanLop3.Phan4.DAO

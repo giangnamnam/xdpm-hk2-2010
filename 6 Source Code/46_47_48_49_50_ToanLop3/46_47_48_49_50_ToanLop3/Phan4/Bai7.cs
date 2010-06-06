@@ -382,5 +382,19 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
             //frmTT.ShowDialog();
             //this.Close();
         }
+
+        private void btQuayLai_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
+        }
     }
 }

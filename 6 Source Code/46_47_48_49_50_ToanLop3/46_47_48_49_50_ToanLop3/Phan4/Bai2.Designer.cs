@@ -40,9 +40,9 @@
             this.bt3 = new System.Windows.Forms.Button();
             this.bt2 = new System.Windows.Forms.Button();
             this.bt1 = new System.Windows.Forms.Button();
-            this.tbR = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.tbR = new System.Windows.Forms.TextBox();
             this.tbTempR = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.lbKetQua = new System.Windows.Forms.Label();
@@ -57,6 +57,7 @@
             this.btThoat = new System.Windows.Forms.Button();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.txtLyThuyet = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -200,17 +201,9 @@
             this.bt1.UseVisualStyleBackColor = true;
             this.bt1.Click += new System.EventHandler(this.bt1_Click_1);
             // 
-            // tbR
-            // 
-            this.tbR.BackColor = System.Drawing.SystemColors.Control;
-            this.tbR.Location = new System.Drawing.Point(137, 167);
-            this.tbR.Name = "tbR";
-            this.tbR.ReadOnly = true;
-            this.tbR.Size = new System.Drawing.Size(120, 20);
-            this.tbR.TabIndex = 26;
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.tbR);
             this.groupBox2.Controls.Add(this.tbTempR);
@@ -237,6 +230,16 @@
             this.label8.Size = new System.Drawing.Size(86, 24);
             this.label8.TabIndex = 27;
             this.label8.Text = "Số hạng:";
+            // 
+            // tbR
+            // 
+            this.tbR.BackColor = System.Drawing.SystemColors.Control;
+            this.tbR.Location = new System.Drawing.Point(137, 167);
+            this.tbR.Name = "tbR";
+            this.tbR.ReadOnly = true;
+            this.tbR.Size = new System.Drawing.Size(120, 20);
+            this.tbR.TabIndex = 26;
+            this.tbR.Visible = false;
             // 
             // tbTempR
             // 
@@ -383,6 +386,16 @@
             this.txtLyThuyet.TabIndex = 0;
             this.txtLyThuyet.Text = "";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(264, 58);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(21, 20);
+            this.label3.TabIndex = 28;
+            this.label3.Text = "X";
+            // 
             // Bai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -440,5 +453,6 @@
         private System.Windows.Forms.Button bt1;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.RichTextBox txtLyThuyet;
+        private System.Windows.Forms.Label label3;
     }
 }

@@ -16,12 +16,16 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
     public partial class Bai1 : Form
     {
         public int currentIndex;
-        private int sizeOfXML;
-        private int currentResult;
-        private int tempNumber =0;
+        public int sizeOfXML;
+        public int currentResult;
+        public int tempNumber =0;
         ArrayList arrSo5ChuSo = null;
         public Bai1()
         {
+            currentIndex = 0;
+            sizeOfXML = 0;
+            currentResult = 0;
+            tempNumber = 0;
             InitializeComponent();
         }
 

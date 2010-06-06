@@ -48,7 +48,7 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "bai4")
                 {
-                    Phan4.Bai6_PhepChia frm = new Phan4.Bai6_PhepChia();
+                    Phan4.PHAN4_12 frm = new Phan4.PHAN4_12();
                     frm.ShowDialog();
                 }
                 if (pathName == "bai5")
@@ -133,7 +133,7 @@ namespace _46_47_48_49_50_ToanLop3
                 }
                 if (pathName == "bai4")
                 {
-                    Phan4.Bai6_PhepChia frm = new Phan4.Bai6_PhepChia();
+                    Phan4.PHAN4_12 frm = new Phan4.PHAN4_12();
                     frm.ShowDialog();
                 }
                 if (pathName == "bai5")

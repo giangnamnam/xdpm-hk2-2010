@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lbKetQua = new System.Windows.Forms.Label();
             this.tbKetQua = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.tbVietSo = new System.Windows.Forms.TextBox();
@@ -52,16 +53,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btQuayLai = new System.Windows.Forms.Button();
             this.btThoat = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.lbKetQua = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtLyThuyet = new System.Windows.Forms.RichTextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.lbKetQua);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.tbKetQua);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.tbVietSo);
@@ -74,18 +76,27 @@
             this.groupBox1.Controls.Add(this.btLamLai);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Location = new System.Drawing.Point(506, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(968, 341);
+            this.groupBox1.Size = new System.Drawing.Size(474, 341);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Bài 1: Làm quen với số 5 chữ số";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // lbKetQua
+            // 
+            this.lbKetQua.AutoSize = true;
+            this.lbKetQua.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.lbKetQua.Location = new System.Drawing.Point(343, 86);
+            this.lbKetQua.Name = "lbKetQua";
+            this.lbKetQua.Size = new System.Drawing.Size(0, 24);
+            this.lbKetQua.TabIndex = 15;
+            // 
             // tbKetQua
             // 
             this.tbKetQua.BackColor = System.Drawing.SystemColors.Control;
-            this.tbKetQua.Location = new System.Drawing.Point(132, 152);
+            this.tbKetQua.Location = new System.Drawing.Point(132, 128);
             this.tbKetQua.Name = "tbKetQua";
             this.tbKetQua.ReadOnly = true;
             this.tbKetQua.Size = new System.Drawing.Size(179, 29);
@@ -95,7 +106,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(25, 155);
+            this.label1.Location = new System.Drawing.Point(25, 131);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 24);
             this.label1.TabIndex = 12;
@@ -104,7 +115,7 @@
             // tbVietSo
             // 
             this.tbVietSo.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.tbVietSo.Location = new System.Drawing.Point(132, 105);
+            this.tbVietSo.Location = new System.Drawing.Point(132, 81);
             this.tbVietSo.Name = "tbVietSo";
             this.tbVietSo.ReadOnly = true;
             this.tbVietSo.Size = new System.Drawing.Size(179, 29);
@@ -123,9 +134,9 @@
             this.groupBox2.Controls.Add(this.bt2);
             this.groupBox2.Controls.Add(this.bt1);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(27, 217);
+            this.groupBox2.Location = new System.Drawing.Point(132, 182);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(185, 76);
+            this.groupBox2.Size = new System.Drawing.Size(179, 76);
             this.groupBox2.TabIndex = 10;
             this.groupBox2.TabStop = false;
             // 
@@ -232,7 +243,7 @@
             // lbDocSo
             // 
             this.lbDocSo.AutoSize = true;
-            this.lbDocSo.Location = new System.Drawing.Point(128, 57);
+            this.lbDocSo.Location = new System.Drawing.Point(128, 33);
             this.lbDocSo.Name = "lbDocSo";
             this.lbDocSo.Size = new System.Drawing.Size(0, 24);
             this.lbDocSo.TabIndex = 9;
@@ -241,7 +252,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(128, 58);
+            this.label5.Location = new System.Drawing.Point(128, 34);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(0, 24);
             this.label5.TabIndex = 8;
@@ -250,7 +261,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(860, 262);
+            this.button1.Location = new System.Drawing.Point(231, 305);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(80, 30);
             this.button1.TabIndex = 7;
@@ -262,7 +273,7 @@
             // 
             this.btKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btKiemTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btKiemTra.Location = new System.Drawing.Point(678, 262);
+            this.btKiemTra.Location = new System.Drawing.Point(29, 305);
             this.btKiemTra.Name = "btKiemTra";
             this.btKiemTra.Size = new System.Drawing.Size(80, 30);
             this.btKiemTra.TabIndex = 6;
@@ -274,7 +285,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(24, 108);
+            this.label4.Location = new System.Drawing.Point(25, 84);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(77, 24);
             this.label4.TabIndex = 1;
@@ -285,7 +296,7 @@
             // 
             this.btLamLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btLamLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btLamLai.Location = new System.Drawing.Point(769, 262);
+            this.btLamLai.Location = new System.Drawing.Point(132, 305);
             this.btLamLai.Name = "btLamLai";
             this.btLamLai.Size = new System.Drawing.Size(80, 30);
             this.btLamLai.TabIndex = 3;
@@ -297,7 +308,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(29, 57);
+            this.label3.Location = new System.Drawing.Point(24, 33);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 24);
             this.label3.TabIndex = 0;
@@ -307,7 +318,7 @@
             // 
             this.btQuayLai.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btQuayLai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btQuayLai.Location = new System.Drawing.Point(690, 389);
+            this.btQuayLai.Location = new System.Drawing.Point(720, 389);
             this.btQuayLai.Name = "btQuayLai";
             this.btQuayLai.Size = new System.Drawing.Size(113, 45);
             this.btQuayLai.TabIndex = 4;
@@ -319,7 +330,7 @@
             // 
             this.btThoat.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btThoat.Location = new System.Drawing.Point(839, 389);
+            this.btThoat.Location = new System.Drawing.Point(849, 389);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(113, 45);
             this.btThoat.TabIndex = 5;
@@ -327,29 +338,33 @@
             this.btThoat.UseVisualStyleBackColor = false;
             this.btThoat.Click += new System.EventHandler(this.btThoat_Click);
             // 
-            // label2
+            // groupBox3
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(3, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 24);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "label2";
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox3.Controls.Add(this.txtLyThuyet);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(2, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(485, 341);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Lý thuyết :  CÁC SỐ CÓ 5 CHỮ SỐ";
             // 
-            // lbKetQua
+            // txtLyThuyet
             // 
-            this.lbKetQua.AutoSize = true;
-            this.lbKetQua.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.lbKetQua.Location = new System.Drawing.Point(343, 110);
-            this.lbKetQua.Name = "lbKetQua";
-            this.lbKetQua.Size = new System.Drawing.Size(0, 24);
-            this.lbKetQua.TabIndex = 15;
+            this.txtLyThuyet.Location = new System.Drawing.Point(11, 26);
+            this.txtLyThuyet.Name = "txtLyThuyet";
+            this.txtLyThuyet.Size = new System.Drawing.Size(468, 309);
+            this.txtLyThuyet.TabIndex = 0;
+            this.txtLyThuyet.Text = "";
             // 
             // Bai1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::_46_47_48_49_50_ToanLop3.Properties.Resources.hinh2;
             this.ClientSize = new System.Drawing.Size(992, 466);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.btThoat);
             this.Controls.Add(this.btQuayLai);
             this.Controls.Add(this.groupBox1);
@@ -357,10 +372,12 @@
             this.MinimizeBox = false;
             this.Name = "Bai1";
             this.Text = "Bai1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Bai1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -392,6 +409,7 @@
         private System.Windows.Forms.TextBox tbKetQua;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lbKetQua;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RichTextBox txtLyThuyet;
     }
 }

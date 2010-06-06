@@ -7,9 +7,10 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Microsoft.Office.Interop.Word;
 using _46_47_48_49_50_ToanLop3.Phan4.DAO;
 using _46_47_48_49_50_ToanLop3.Phan4.DTO;
-
+using System.Reflection;
 namespace _46_47_48_49_50_ToanLop3.Phan4
 {
     public partial class Bai1 : Form
@@ -48,7 +49,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
 
         private void Bai1_Load(object sender, EventArgs e)
         {
-            currentIndex=1;
+            currentIndex=0;
             So5ChuSoDAO so5ChuSoDAO = new So5ChuSoDAO();
             So5ChuSoDTO so5ChuSoDTO = null;
             
@@ -57,6 +58,30 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
             so5ChuSoDTO = (So5ChuSoDTO)arrSo5ChuSo[0];
             lbDocSo.Text = so5ChuSoDTO.Text;
             currentResult = so5ChuSoDTO.Number;
+
+            Microsoft.Office.Interop.Word.ApplicationClass wordApplication = new ApplicationClass();
+            object o_nullobject = System.Reflection.Missing.Value;
+            object o_filePath = System.IO.Directory.GetCurrentDirectory() + "\\Resources\\CacSoCo5ChuSo.doc";
+            object o_format = Microsoft.Office.Interop.Word.WdSaveFormat.wdFormatHTML;
+            object o_encoding = Microsoft.Office.Core.MsoEncoding.msoEncodingUTF8;
+            object o_endings = Microsoft.Office.Interop.Word.WdLineEndingType.wdCRLF;
+            object o_Readonly = true;
+            Microsoft.Office.Interop.Word.Document doc = wordApplication.Documents.Open(ref o_filePath,
+            ref o_nullobject, ref o_Readonly, ref o_nullobject, ref o_nullobject, ref o_nullobject,
+            ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject,
+            ref o_nullobject, ref o_nullobject);
+
+            
+            doc.ActiveWindow.Selection.WholeStory();
+
+            doc.ActiveWindow.Selection.Copy();
+
+            IDataObject data = Clipboard.GetDataObject();
+
+            txtLyThuyet.Text = data.GetData(DataFormats.UnicodeText).ToString();
+
+            doc.Close(ref o_nullobject, ref o_nullobject, ref o_nullobject);
+            wordApplication.Quit(ref o_nullobject, ref o_nullobject, ref o_nullobject);
         }
 
         private void label6_Click(object sender, EventArgs e)
@@ -145,19 +170,21 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
             DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.OK)
             {
-                Application.Exit();
+                System.Windows.Forms.Application.Exit();
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (currentIndex < sizeOfXML)
-                currentIndex++;
-            else currentIndex = 0;
+            
             So5ChuSoDTO so5ChuSoDTO = null;
-            so5ChuSoDTO = (So5ChuSoDTO)arrSo5ChuSo[currentIndex-1];
+            so5ChuSoDTO = (So5ChuSoDTO)arrSo5ChuSo[currentIndex];
             lbDocSo.Text = so5ChuSoDTO.Text;
             currentResult = so5ChuSoDTO.Number;
+
+            if (currentIndex < sizeOfXML - 1)
+                currentIndex++;
+            else currentIndex = 0;
         }
 
     }

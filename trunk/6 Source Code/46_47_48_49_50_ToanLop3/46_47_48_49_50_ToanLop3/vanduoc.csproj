@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.21022</ProductVersion>
+    <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{2504D51C-E490-4099-A5E3-BA6F26A07124}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -751,6 +751,12 @@
     </Compile>
     <Compile Include="Phan4\Bai2.Designer.cs">
       <DependentUpon>Bai2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan4\Bai6_PhepChia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4\Bai6_PhepChia.Designer.cs">
+      <DependentUpon>Bai6_PhepChia.cs</DependentUpon>
     </Compile>
     <Compile Include="Phan4\DAO\PhepTinhDAO.cs" />
     <Compile Include="Phan4\DAO\So5ChuSoDAO.cs" />

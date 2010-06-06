@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Microsoft.Office.Interop.Word;
+using System.Reflection;
 
 namespace _46_47_48_49_50_ToanLop3.Phan4
 {
@@ -17,7 +19,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
         }
         Random random;
         int m_ChucNghin, m_Nghin, m_Tram, m_Chuc, m_DonVi, m_SoVietRa;
-        String m_ChuoiSo;
+        //String m_ChuoiSo;
         string ChuoiCuoicung = "";
 
         void DoRandomNumber()
@@ -317,6 +319,52 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void PHAN4_5ChuSo_Load(object sender, EventArgs e)
+        {
+            Microsoft.Office.Interop.Word.ApplicationClass wordApplication = new ApplicationClass();
+            object o_nullobject = System.Reflection.Missing.Value;
+            object o_filePath = System.IO.Directory.GetCurrentDirectory() + "\\Resources\\CacSoCo5ChuSo.doc";
+            object o_format = Microsoft.Office.Interop.Word.WdSaveFormat.wdFormatHTML;
+            object o_encoding = Microsoft.Office.Core.MsoEncoding.msoEncodingUTF8;
+            object o_endings = Microsoft.Office.Interop.Word.WdLineEndingType.wdCRLF;
+            object o_Readonly = true;
+            Microsoft.Office.Interop.Word.Document doc = wordApplication.Documents.Open(ref o_filePath,
+            ref o_nullobject, ref o_Readonly, ref o_nullobject, ref o_nullobject, ref o_nullobject,
+            ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject,
+            ref o_nullobject, ref o_nullobject);
+
+
+            doc.ActiveWindow.Selection.WholeStory();
+
+            doc.ActiveWindow.Selection.Copy();
+
+            IDataObject data = Clipboard.GetDataObject();
+
+            txtLyThuyet.Text = data.GetData(DataFormats.UnicodeText).ToString();
+
+            doc.Close(ref o_nullobject, ref o_nullobject, ref o_nullobject);
+            wordApplication.Quit(ref o_nullobject, ref o_nullobject, ref o_nullobject);
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btQuayLai_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (dialogResult == DialogResult.OK)
+            {
+                System.Windows.Forms.Application.Exit();
+            }
         }
     }
 }

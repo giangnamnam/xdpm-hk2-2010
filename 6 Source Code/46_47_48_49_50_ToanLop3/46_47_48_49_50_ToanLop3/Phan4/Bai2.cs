@@ -9,6 +9,8 @@ using System.Text;
 using System.Windows.Forms;
 using _46_47_48_49_50_ToanLop3.Phan4.DAO;
 using _46_47_48_49_50_ToanLop3.Phan4.DTO;
+using Microsoft.Office.Interop.Word;
+using System.Reflection;
 
 namespace _46_47_48_49_50_ToanLop3.Phan4
 {
@@ -26,40 +28,36 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
         private void btKiemTra_Click(object sender, EventArgs e)
         {
             PhepTinhDTO phepTinhDTO = (PhepTinhDTO)arrPhepTinh[currentIndex];
-            if(tbTempR.Text.Equals(phepTinhDTO.KetQua.ToString())){ 
-                labelKetQua.Text = "Kết quả đúng!";
-                gbR.Visible = true;
-                tbRsh1.Text = phepTinhDTO.SoThuNhat.ToString();
-                tbRsh2.Text = phepTinhDTO.SoThuHai.ToString();
+            tbR.Visible = true;
+            if(tbTempR.Text.Equals(phepTinhDTO.KetQua.ToString())){
+                tbR.BackColor = Color.Blue;
                 tbR.Text = phepTinhDTO.KetQua.ToString();
             }
             else {
-                labelKetQua.Text = "Kết quả sai!";
-                gbR.Visible = true;
-                tbRsh1.Text = phepTinhDTO.SoThuNhat.ToString();
-                tbRsh2.Text = phepTinhDTO.SoThuHai.ToString();
+                //labelKetQua.Text = "Kết quả sai!";
                 tbR.Text = phepTinhDTO.KetQua.ToString();
+                tbR.BackColor = Color.Red;
             }
         }
 
         private void btLamLai_Click(object sender, EventArgs e)
         {
             tempNumber = 0;
-            gbR.Visible = false;
             tbTempR.Text = "";
-            labelKetQua.Text = "";
+            tbR.Visible = false;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             PhepTinhDTO phepTinhDTO = null;
-            if (currentIndex < sizeOfXML)
-                currentIndex++;
-            else currentIndex = 0;
+            
 
             phepTinhDTO = (PhepTinhDTO)arrPhepTinh[currentIndex];
             tbTemp1.Text = phepTinhDTO.SoThuNhat.ToString();
             tbTemp2.Text = phepTinhDTO.SoThuHai.ToString();
+            if (currentIndex < sizeOfXML-1)
+                currentIndex++;
+            else currentIndex = 0;
         }
 
         private void btQuayLai_Click(object sender, EventArgs e)
@@ -73,7 +71,7 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
             DialogResult dialogResult = MessageBox.Show("Bạn muốn thoát chương trình", "Thoát", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (dialogResult == DialogResult.OK)
             {
-                Application.Exit();
+                System.Windows.Forms.Application.Exit();
             }
         }
 
@@ -84,6 +82,31 @@ namespace _46_47_48_49_50_ToanLop3.Phan4
 
         private void Bai2_Load(object sender, EventArgs e)
         {
+            Microsoft.Office.Interop.Word.ApplicationClass wordApplication = new ApplicationClass();
+            object o_nullobject = System.Reflection.Missing.Value;
+            object o_filePath = System.IO.Directory.GetCurrentDirectory() + "\\Resources\\PhepNhan.doc";
+            object o_format = Microsoft.Office.Interop.Word.WdSaveFormat.wdFormatHTML;
+            object o_encoding = Microsoft.Office.Core.MsoEncoding.msoEncodingUTF8;
+            object o_endings = Microsoft.Office.Interop.Word.WdLineEndingType.wdCRLF;
+            object o_Readonly = true;
+            Microsoft.Office.Interop.Word.Document doc = wordApplication.Documents.Open(ref o_filePath,
+            ref o_nullobject, ref o_Readonly, ref o_nullobject, ref o_nullobject, ref o_nullobject,
+            ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject, ref o_nullobject,
+            ref o_nullobject, ref o_nullobject);
+
+
+            doc.ActiveWindow.Selection.WholeStory();
+
+            doc.ActiveWindow.Selection.Copy();
+
+            IDataObject data = Clipboard.GetDataObject();
+
+            txtLyThuyet.Text = data.GetData(DataFormats.UnicodeText).ToString();
+
+            doc.Close(ref o_nullobject, ref o_nullobject, ref o_nullobject);
+            wordApplication.Quit(ref o_nullobject, ref o_nullobject, ref o_nullobject);
+
+
             PhepTinhDAO phepTinhDAO = new PhepTinhDAO();
             PhepTinhDTO phepTinhDTO = new PhepTinhDTO();
 

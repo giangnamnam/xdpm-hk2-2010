@@ -1,0 +1,97 @@
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Form1.resources
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+D:\Cac Mon hoc\hoc ky 8\0612161\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Form1.resources
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+C:\Documents and Settings\Admin\Desktop\XDPM HK2 2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Form1.resources
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+C:\Users\Q60\Desktop\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Form1.resources
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+D:\Do An XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+G:\software manage\soft build\XDPM_PROJ\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+G:\software manage\soft build\XDPM_PROJ\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan1.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan2.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan3.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.DangNhap.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan5.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+C:\Documents and Settings\Admin\Desktop\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+<<<<<<< .mine
+D:\study\software construction\doan\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+E:\HOC TAP\HOCKI_VI\XD PM\xdpm-hk2-2010\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.exe
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\bin\Debug\46-50-ToanLop3.pdb
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan1.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai01.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai02.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai03.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai04.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap1.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap2.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap3.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap4.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap5.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.MucLuc1.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan2.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan3.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.DangNhap.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan5.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+D:\XDPM\Project\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.exe
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.pdb
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan1.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai01.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai02.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai03.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai04.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap1.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap2.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap3.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap4.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.Bai1.BaiTap5.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.PHAN1.MucLuc1.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan3.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.DangNhap.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.MucLuc.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Phan5.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\_46_50_ToanLop3.Properties.Resources.resources
+C:\Documents and Settings\Admin\Desktop\Save\46-50-ToanLop3\46-50-ToanLop3\obj\Debug\46-50-ToanLop3.csproj.GenerateResource.Cache

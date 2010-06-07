@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1010]C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\46_47_48_49_50_ToanLop3Test.dll</TopNode>
+  <SelectedNode>[0-1007]_46_47_48_49_50_ToanLop3Test.Phan4.DTO.PhepTinhDTOTest.PhepTinhDTOSoThuHai</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1010]C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\46_47_48_49_50_ToanLop3Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1011]_46_47_48_49_50_ToanLop3Test" Expanded="true" />
+    <Node UniqueName="[0-1012]_46_47_48_49_50_ToanLop3Test.Phan4" Expanded="true" />
+    <Node UniqueName="[0-1013]_46_47_48_49_50_ToanLop3Test.Phan4.DTO" Expanded="true" />
+    <Node UniqueName="[0-1004]_46_47_48_49_50_ToanLop3Test.Phan4.DTO.PhepTinhDTOTest" Expanded="true" />
+    <Node UniqueName="[0-1000]_46_47_48_49_50_ToanLop3Test.Phan4.DTO.So5ChuSoDTOTest" Expanded="true" />
+  </Nodes>
+</VisualState>

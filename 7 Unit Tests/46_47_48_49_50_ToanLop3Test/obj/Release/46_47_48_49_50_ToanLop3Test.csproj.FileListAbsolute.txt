@@ -1,0 +1,16 @@
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\1235157360_1235069775_veselii-zajaz.jpg
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\16.jpg
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\a_dreamy_world05.jpg
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\f3hv2pir4.png
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\f3hvf7yr3.png
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\khunghinh2.jpg
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\Resources\13102.jpg
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\46_47_48_49_50_ToanLop3Test.dll
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\46_47_48_49_50_ToanLop3Test.pdb
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\46_47_48_49_50_ToanLop3.exe
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\nunit.framework.dll
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\46_47_48_49_50_ToanLop3.pdb
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\bin\Release\nunit.framework.xml
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\obj\Release\ResolveAssemblyReference.cache
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\obj\Release\46_47_48_49_50_ToanLop3Test.dll
+C:\LEARN\HKII-2010\XDPM\fixed\46_47_48_49_50_ToanLop3\46_47_48_49_50_ToanLop3Test\obj\Release\46_47_48_49_50_ToanLop3Test.pdb

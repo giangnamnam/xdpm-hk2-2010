@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PhepTinh>
+  <Number Ma = "1" SH1 ="21526" SH2="3"  KQ = "64578" />
+  <Number Ma = "2" SH1 ="40729" SH2="2"  KQ = "81458" />
+  <Number Ma = "3" SH1 ="17092" SH2="4"  KQ = "68368" />
+  <Number Ma = "4" SH1 ="15180" SH2="5"  KQ = "75900" />
+  <Number Ma = "5" SH1 ="19091" SH2="5"  KQ = "95455" />
+  <Number Ma = "6" SH1 ="13070" SH2="6"  KQ = "78420" />
+  <Number Ma = "7" SH1 ="10709" SH2="7"  KQ = "74963" />
+</PhepTinh>

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B35E5AA-AAA0-4D16-9BA4-A392ECBB2E43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_46_50_ToanLop3</RootNamespace>
+    <AssemblyName>46-50-ToanLop3</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaiTapThem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaiTapThem.Designer.cs">
+      <DependentUpon>BaiTapThem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan1.Designer.cs">
+      <DependentUpon>Phan1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai01.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai01.Designer.cs">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai02.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai02.Designer.cs">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai03.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai03.Designer.cs">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai04.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai04.Designer.cs">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai05.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai05.Designer.cs">
+      <DependentUpon>Bai05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai06.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai06.Designer.cs">
+      <DependentUpon>Bai06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai07.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai07.Designer.cs">
+      <DependentUpon>Bai07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai08.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai08.Designer.cs">
+      <DependentUpon>Bai08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai09.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai09.Designer.cs">
+      <DependentUpon>Bai09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai10.Designer.cs">
+      <DependentUpon>Bai10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai11.Designer.cs">
+      <DependentUpon>Bai11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai12.Designer.cs">
+      <DependentUpon>Bai12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai13.Designer.cs">
+      <DependentUpon>Bai13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai14.Designer.cs">
+      <DependentUpon>Bai14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai15.Designer.cs">
+      <DependentUpon>Bai15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai16.Designer.cs">
+      <DependentUpon>Bai16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap1.Designer.cs">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap2.Designer.cs">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap3.Designer.cs">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap4.Designer.cs">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\Bai1\BaiTap5.Designer.cs">
+      <DependentUpon>BaiTap5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PHAN1\MucLuc1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PHAN1\MucLuc1.Designer.cs">
+      <DependentUpon>MucLuc1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="phan2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="phan2.Designer.cs">
+      <DependentUpon>phan2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan3.Designer.cs">
+      <DependentUpon>Phan3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Images\Chuong4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Images\Chuong4.Designer.cs">
+      <DependentUpon>Chuong4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan4.Designer.cs">
+      <DependentUpon>Phan4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phan5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phan5.Designer.cs">
+      <DependentUpon>Phan5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MucLuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MucLuc.Designer.cs">
+      <DependentUpon>MucLuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Phan1.resx">
+      <DependentUpon>Phan1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai01.resx">
+      <DependentUpon>Bai01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai02.resx">
+      <DependentUpon>Bai02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai03.resx">
+      <DependentUpon>Bai03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai04.resx">
+      <DependentUpon>Bai04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap1.resx">
+      <DependentUpon>BaiTap1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap2.resx">
+      <DependentUpon>BaiTap2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap3.resx">
+      <DependentUpon>BaiTap3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap4.resx">
+      <DependentUpon>BaiTap4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\Bai1\BaiTap5.resx">
+      <DependentUpon>BaiTap5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PHAN1\MucLuc1.resx">
+      <DependentUpon>MucLuc1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan3.resx">
+      <DependentUpon>Phan3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MucLuc.resx">
+      <DependentUpon>MucLuc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phan5.resx">
+      <DependentUpon>Phan5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\flower10.jpg" />
+    <None Include="Resources\C91.jpg" />
+    <None Include="Resources\thien-nga1.jpg" />
+    <None Include="Resources\C9.jpg" />
+    <None Include="Resources\thien-nga.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

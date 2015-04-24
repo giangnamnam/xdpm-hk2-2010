@@ -1,0 +1,1 @@
+Nhằm đáp ứng yêu cầu bài làm nhóm của thầy Ngô Huy Biên. Nhóm chúng tôi tạo trang web code google này nhằm tập hợp bài làm của các thành viên trong nhóm để giúp cho hoàn thành đồ án tốt hơn.
